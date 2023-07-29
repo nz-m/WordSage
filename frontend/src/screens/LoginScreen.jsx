@@ -20,8 +20,9 @@ const LoginScreen = () => {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    console.log("Email:", email);
-    console.log("Password:", password);
+    // console.log("Email:", email);
+    // console.log("Password:", password);
+    navigation.navigate("ProficiencyTestMessage");
   };
 
   return (
