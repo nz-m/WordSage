@@ -119,6 +119,15 @@ const styles = StyleSheet.create({
     color: colors.primaryText,
     marginBottom: 20,
   },
+  optionText: {
+    fontSize: 18,
+    color: colors.primaryText,
+    width: "100%",
+    height: 50,
+    borderRadius: 8,
+    textAlign: "center",
+    padding: 10,
+  },
   optionButton: {
     width: "100%",
     height: 50,
@@ -128,10 +137,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginVertical: 5,
   },
-  optionText: {
-    fontSize: 18,
-    color: colors.primaryText,
-  },
+
   nextButton: {
     width: "50%",
     height: 50,
