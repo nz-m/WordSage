@@ -5,6 +5,7 @@ import SkillTestMessage from "../screens/SkillTestMessage";
 import QuizScreen from "../screens/QuizScreen";
 import TestResult from "../screens/TestResult";
 import HomeScreen from "../screens/HomeScreen";
+import ProfileScreen from "../screens/ProfileScreen";
 
 const Stack = createStackNavigator();
 
@@ -31,6 +32,7 @@ const AppNavigator = () => {
       <Stack.Screen name="SkillTestMessage" component={SkillTestMessage} />
       <Stack.Screen name="Quiz" component={QuizScreen} />
       <Stack.Screen name="Result" component={TestResult} />
+      <Stack.Screen name="Profile" component={ProfileScreen} />
     </Stack.Navigator>
   );
 };

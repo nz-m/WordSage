@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 5,
   },
-  rankText: {
+  levelText: {
     fontSize: 16,
     color: "#888",
   },

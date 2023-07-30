@@ -5,18 +5,18 @@ import colors from "../themes/colors";
 const TestResult = ({ navigation, route }) => {
   const { score } = route.params;
 
-  const [userRank, setUserRank] = useState("");
+  const [userlevel, setUserlevel] = useState("");
 
   useEffect(() => {
-    let rank = "";
+    let level = "";
     if (score >= 3) {
-      rank = "Advanced";
+      level = "Advanced";
     } else if (score >= 2) {
-      rank = "Intermediate";
+      level = "Intermediate";
     } else {
-      rank = "Beginner";
+      level = "Beginner";
     }
-    setUserRank(rank);
+    setUserlevel(level);
   }, [score]);
 
   const handleFinish = () => {
@@ -27,8 +27,8 @@ const TestResult = ({ navigation, route }) => {
     <View style={styles.container}>
       <Text style={styles.title}>Quiz Completed!</Text>
       <Text style={styles.resultText}>Your Score: {score}/3</Text>
-      <Text style={styles.rankText}>
-        Based on your score, your English vocabulary level is: {userRank}
+      <Text style={styles.levelText}>
+        Based on your score, your English vocabulary level is: {userlevel}
       </Text>
       <TouchableOpacity style={styles.finishButton} onPress={handleFinish}>
         <Text style={styles.finishButtonText}>Finish</Text>
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     color: colors.primaryText,
     marginBottom: 20,
   },
-  rankText: {
+  levelText: {
     fontSize: 18,
     color: colors.primaryText,
     marginBottom: 40,
