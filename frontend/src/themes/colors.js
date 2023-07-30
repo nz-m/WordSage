@@ -6,8 +6,6 @@ const colors = {
   primaryText: "#333333",
   secondaryText: "#666666",
   accentColor: "#FF6347",
-
-  //  Will be update later
 };
 
 export default colors;
