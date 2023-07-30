@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "frontend",
+    "name": "Word Sage",
     "slug": "frontend",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/icon.png",
+    "icon": "./src/assets/icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./src/assets/splash2.png",
+      "image": "./src/assets/splash3.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3988FF"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
