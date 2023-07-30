@@ -92,43 +92,48 @@ const QuizScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      {!isQuizCompleted ? (
-        <>
-          <Text style={styles.timer}>
-            Remaining Time: {Math.floor(remainingTime / 60)}:
-            {remainingTime % 60}
-          </Text>
+      <View style={styles.container2}>
+        {!isQuizCompleted ? (
+          <>
+            <Text style={styles.timer}>
+              Remaining Time: {Math.floor(remainingTime / 60)}:
+              {remainingTime % 60}
+            </Text>
 
-          <Text style={styles.subtitle}>
-            Question {currentQuestion + 1} of {questions.length}
-          </Text>
+            <Text style={styles.questionNumber}>
+              Question {currentQuestion + 1} of {questions.length}
+            </Text>
 
-          <Question
-            question={questions[currentQuestion]}
-            selectedAnswer={selectedAnswer}
-            setSelectedAnswer={setSelectedAnswer}
-          />
-          {selectedAnswer !== null && (
+            <Question
+              question={questions[currentQuestion]}
+              selectedAnswer={selectedAnswer}
+              setSelectedAnswer={setSelectedAnswer}
+            />
+            {selectedAnswer !== null && (
+              <TouchableOpacity
+                style={styles.nextButton}
+                onPress={handleNextQuestion}
+                disabled={remainingTime === 0}
+              >
+                <Text style={styles.nextButtonText}>
+                  {currentQuestion === questions.length - 1 ? "Done" : "Next"}
+                </Text>
+              </TouchableOpacity>
+            )}
+          </>
+        ) : (
+          <>
+            <FinishMessage />
+
             <TouchableOpacity
-              style={styles.nextButton}
-              onPress={handleNextQuestion}
-              disabled={remainingTime === 0}
+              style={styles.finishButton}
+              onPress={handleResult}
             >
-              <Text style={styles.nextButtonText}>
-                {currentQuestion === questions.length - 1 ? "Done" : "Next"}
-              </Text>
+              <Text style={styles.finishButtonText}>Go to result</Text>
             </TouchableOpacity>
-          )}
-        </>
-      ) : (
-        <>
-          <FinishMessage />
-
-          <TouchableOpacity style={styles.finishButton} onPress={handleResult}>
-            <Text style={styles.finishButtonText}>Go to result</Text>
-          </TouchableOpacity>
-        </>
-      )}
+          </>
+        )}
+      </View>
     </View>
   );
 };
@@ -139,7 +144,16 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
-    backgroundColor: colors.primaryBackground,
+    backgroundColor: "#3988FF",
+  },
+  container2: {
+    //flex: 2,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingHorizontal: 30,
+    paddingVertical: 50,
+    backgroundColor: "white",
+    borderRadius: 30,
   },
   timer: {
     fontSize: 18,
@@ -147,11 +161,15 @@ const styles = StyleSheet.create({
     color: colors.primaryText,
     marginBottom: 20,
   },
+  questionNumber: {
+    color: "gray",
+    marginBottom: 10,
+  },
 
   nextButton: {
-    width: "50%",
+    width: 150,
     height: 50,
-    backgroundColor: colors.accentColor,
+    backgroundColor: "#3988FF",
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 8,
@@ -163,9 +181,9 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   finishButton: {
-    width: "50%",
+    width: 150,
     height: 50,
-    backgroundColor: colors.accentColor,
+    backgroundColor: "#3988FF",
     justifyContent: "center",
     alignItems: "center",
 
