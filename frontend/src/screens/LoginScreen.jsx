@@ -29,6 +29,10 @@ const LoginScreen = () => {
     navigation.navigate("SkillTestMessage");
   };
 
+  const handleHome = () => {
+    navigation.navigate("Home");
+  };
+
   return (
     <View style={styles.container}>
       <Image
@@ -79,24 +83,65 @@ const LoginScreen = () => {
         <Text style={styles.signupText}>Don't have an account? </Text>
         <Text style={styles.signupLinkText}>Sign Up</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.subTitle} onPress={handleHome}>
+        <Text
+          style={{
+            color: "#3988FF",
+            marginTop: 15,
+          }}
+        >
+          Home
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  tinyLogo: {
-    marginTop: 10,
-    alignSelf: "center",
-    width: 300,
-    height: 200,
-    borderRadius: 7,
-  },
   container: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
     backgroundColor: colors.White,
+  },
+  topSection: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  userProfile: {
+    alignItems: "center",
+    paddingVertical: 20,
+  },
+  profileImage: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    marginBottom: 10,
+  },
+  welcomeText: {
+    fontSize: 18,
+    fontWeight: "bold",
+    marginBottom: 5,
+  },
+  rankText: {
+    fontSize: 16,
+    color: "#888",
+  },
+  midSection: {
+    flex: 2,
+    justifyContent: "space-between",
+    paddingHorizontal: 20,
+    paddingBottom: 20,
+  },
+  tinyLogo: {
+    marginTop: 10,
+    alignSelf: "center",
+    width: 300,
+    height: 200,
+    borderRadius: 7,
   },
   subTitle: {
     marginTop: -10,

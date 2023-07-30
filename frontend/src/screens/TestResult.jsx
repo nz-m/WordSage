@@ -26,8 +26,10 @@ const TestResult = ({ navigation, route }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Quiz Completed!</Text>
-      <Text style={styles.resultText}>Your Score: {score}/15</Text>
-      <Text style={styles.rankText}>Your Current Rank: {userRank}</Text>
+      <Text style={styles.resultText}>Your Score: {score}/3</Text>
+      <Text style={styles.rankText}>
+        Based on your score, your English vocabulary level is: {userRank}
+      </Text>
       <TouchableOpacity style={styles.finishButton} onPress={handleFinish}>
         <Text style={styles.finishButtonText}>Finish</Text>
       </TouchableOpacity>

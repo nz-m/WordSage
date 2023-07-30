@@ -4,6 +4,7 @@ import SignupScreen from "../screens/SignupScreen";
 import SkillTestMessage from "../screens/SkillTestMessage";
 import QuizScreen from "../screens/QuizScreen";
 import TestResult from "../screens/TestResult";
+import HomeScreen from "../screens/HomeScreen";
 
 const Stack = createStackNavigator();
 
@@ -20,6 +21,13 @@ const AppNavigator = () => {
         component={SignupScreen}
         options={{ headerShown: false }}
       />
+
+      <Stack.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{ headerShown: false }}
+      />
+
       <Stack.Screen name="SkillTestMessage" component={SkillTestMessage} />
       <Stack.Screen name="Quiz" component={QuizScreen} />
       <Stack.Screen name="Result" component={TestResult} />

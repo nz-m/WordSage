@@ -8,8 +8,11 @@ import {
   Image,
 } from "react-native";
 import colors from "../themes/colors";
+import { useNavigation } from "@react-navigation/native";
 
-const SignupScreen = ({ navigation }) => {
+const SignupScreen = () => {
+  const navigation = useNavigation();
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -85,7 +88,10 @@ const SignupScreen = ({ navigation }) => {
       <TouchableOpacity style={styles.signupButton} onPress={handleSignup}>
         <Text style={styles.signupButtonText}>Sign Up</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.signupLink}>
+      <TouchableOpacity
+        style={styles.signupLink}
+        onPress={() => navigation.navigate("Login")}
+      >
         <Text style={styles.signupText}>Already a member? </Text>
         <Text style={styles.signupLinkText}>Login</Text>
       </TouchableOpacity>
@@ -99,6 +105,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
+    backgroundColor: colors.White,
   },
   tinyLogo: {
     marginTop: 10,
