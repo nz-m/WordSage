@@ -21,7 +21,7 @@ const AppNavigator = () => {
         options={{ headerShown: false }}
       />
       <Stack.Screen
-        name="Proficiency Test Message"
+        name="ProficiencyTestMessage"
         component={ProficiencyTestMessage}
       />
       <Stack.Screen name="Quiz" component={QuizScreen} />
