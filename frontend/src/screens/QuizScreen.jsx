@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import colors from "../themes/colors";
 import Question from "../components/Question";
 import FinishMessage from "../components/FinishMessage";
+import { testQuestions as questions } from "../data/questions";
 
 const QuizScreen = ({ navigation }) => {
   const [isQuizCompleted, setIsQuizCompleted] = useState(false);
@@ -39,42 +40,6 @@ const QuizScreen = ({ navigation }) => {
       setSelectedAnswer(null);
     }
   };
-
-  const questions = [
-    {
-      id: 1,
-      questionText: "What is the capital of France?",
-      options: [
-        { id: 1, optionText: "London" },
-        { id: 2, optionText: "Paris" },
-        { id: 3, optionText: "Berlin" },
-        { id: 4, optionText: "Rome" },
-      ],
-      correctAnswer: 2,
-    },
-    {
-      id: 2,
-      questionText: "Who is CEO of Tesla?",
-      options: [
-        { id: 1, optionText: "Jeff Bezos" },
-        { id: 2, optionText: "Elon Musk" },
-        { id: 3, optionText: "Bill Gates" },
-        { id: 4, optionText: "Tony Stark" },
-      ],
-      correctAnswer: 2,
-    },
-    {
-      id: 3,
-      questionText: "The iPhone was created by which company?",
-      options: [
-        { id: 1, optionText: "Apple" },
-        { id: 2, optionText: "Intel" },
-        { id: 3, optionText: "Amazon" },
-        { id: 4, optionText: "Microsoft" },
-      ],
-      correctAnswer: 1,
-    },
-  ];
 
   useEffect(() => {
     const interval = setInterval(() => {

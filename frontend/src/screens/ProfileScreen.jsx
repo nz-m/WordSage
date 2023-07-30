@@ -68,7 +68,7 @@ const ProfileScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.White,
+    backgroundColor: colors.white,
     padding: 20,
   },
   headerContainer: {

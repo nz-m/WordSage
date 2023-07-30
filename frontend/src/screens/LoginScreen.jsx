@@ -44,7 +44,6 @@ const LoginScreen = () => {
 
       <View style={styles.SectionStyle}>
         <TextInput
-          //style={styles.input}
           placeholder="Email"
           value={email}
           onChangeText={(text) => setEmail(text)}
@@ -59,7 +58,6 @@ const LoginScreen = () => {
 
       <View style={styles.SectionStyle}>
         <TextInput
-          //style={styles.input}
           placeholder="Password"
           value={password}
           onChangeText={(text) => setPassword(text)}
@@ -104,7 +102,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
-    backgroundColor: colors.White,
+    backgroundColor: colors.white,
   },
   topSection: {
     flex: 1,
@@ -185,7 +183,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   signupText: {
-    color: colors.Gray,
+    color: colors.gray,
   },
 
   signupLinkText: {

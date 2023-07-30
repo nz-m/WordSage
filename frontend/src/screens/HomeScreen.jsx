@@ -12,11 +12,17 @@ const HomeScreen = () => {
     dailyStreak: 3,
   };
 
-  const handleLearningResourcePress = () => {};
+  const handleLearningResourcePress = () => {
+    navigation.navigate("LessonList");
+  };
 
-  const handleWordOfTheDayPress = () => {};
+  const handleWordOfTheDayPress = () => {
+    navigation.navigate("WordOfTheDay");
+  };
 
-  const handleLevelUpAssessmentPress = () => {};
+  const handleLevelUpAssessmentPress = () => {
+    navigation.navigate("LevelUpAssessment");
+  };
 
   return (
     <Screen>

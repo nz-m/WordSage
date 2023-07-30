@@ -6,6 +6,11 @@ import QuizScreen from "../screens/QuizScreen";
 import TestResult from "../screens/TestResult";
 import HomeScreen from "../screens/HomeScreen";
 import ProfileScreen from "../screens/ProfileScreen";
+import LessonListScreen from "../screens/LessonListScreen";
+import LessonDetailsScreen from "../screens/LessonDetailsScreen";
+import WordScreen from "../screens/WordScreen";
+import WordOfTheDayScreen from "../screens/WordOfTheDayScreen";
+import LevelUpAssessmentScreen from "../screens/LevelUpAssessmentScreen";
 
 const Stack = createStackNavigator();
 
@@ -33,6 +38,14 @@ const AppNavigator = () => {
       <Stack.Screen name="Quiz" component={QuizScreen} />
       <Stack.Screen name="Result" component={TestResult} />
       <Stack.Screen name="Profile" component={ProfileScreen} />
+      <Stack.Screen name="LessonList" component={LessonListScreen} />
+      <Stack.Screen name="LessonScreen" component={LessonDetailsScreen} />
+      <Stack.Screen name="WordScreen" component={WordScreen} />
+      <Stack.Screen name="WordOfTheDay" component={WordOfTheDayScreen} />
+      <Stack.Screen
+        name="LevelUpAssessment"
+        component={LevelUpAssessmentScreen}
+      />
     </Stack.Navigator>
   );
 };
