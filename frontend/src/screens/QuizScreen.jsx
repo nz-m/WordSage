@@ -4,38 +4,95 @@ import colors from "../themes/colors";
 
 const QuizScreen = ({ navigation }) => {
   const [score, setScore] = useState(0);
+  const [selectedAnswers, setSelectedAnswers] = useState({});
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [remainingTime, setRemainingTime] = useState(600); // 10 minutes
+
+  useEffect(() => {
+    // Timer logic
+    const interval = setInterval(() => {
+      setRemainingTime((prevTime) => prevTime - 1);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    // Listen for changes in selectedAnswers
+    handleCalculateScore();
+  }, [selectedAnswers]);
+
+  const handleCalculateScore = () => {
+    let calculatedScore = 0;
+    questions.forEach((question) => {
+      if (selectedAnswers[question.id] === question.correctAnswer) {
+        calculatedScore++;
+      }
+    });
+    setScore(calculatedScore);
+  };
+
   const handleFinishQuiz = () => {
+    // Calculate the score one more time before navigating to the finish screen
+    handleCalculateScore();
     navigation.navigate("Finish", { score });
   };
 
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [remainingTime, setRemainingTime] = useState(900); // 900 seconds (15 minutes)
+  const handleNextQuestion = () => {
+    // Save the selected answer for the current question
+    setSelectedAnswers((prevAnswers) => ({
+      ...prevAnswers,
+      [questions[currentQuestion].id]: selectedAnswer,
+    }));
 
+    // Move to the next question or finish the quiz
+    if (currentQuestion === questions.length - 1) {
+      handleFinishQuiz();
+    } else {
+      setCurrentQuestion((prevQuestion) => prevQuestion + 1);
+      setSelectedAnswer(null);
+    }
+  };
+
+  useEffect(() => {
+    if (remainingTime === 0) {
+      handleFinishQuiz();
+    }
+  }, [remainingTime]);
   const questions = [
     {
       id: 1,
       questionText: "What is the capital of France?",
-      options: ["London", "Paris", "Berlin", "Rome"],
-      correctAnswer: "Paris",
+      options: [
+        { id: 1, optionText: "London" },
+        { id: 2, optionText: "Paris" },
+        { id: 3, optionText: "Berlin" },
+        { id: 4, optionText: "Rome" },
+      ],
+      correctAnswer: 2,
     },
     {
       id: 2,
       questionText: "Who is CEO of Tesla?",
-      options: ["Jeff Bezos", "Elon Musk", "Bill Gates", "Tony Stark"],
-      correctAnswer: "Elon Musk",
+      options: [
+        { id: 1, optionText: "Jeff Bezos" },
+        { id: 2, optionText: "Elon Musk" },
+        { id: 3, optionText: "Bill Gates" },
+        { id: 4, optionText: "Tony Stark" },
+      ],
+      correctAnswer: 2,
     },
     {
       id: 3,
       questionText: "The iPhone was created by which company?",
-      options: ["Apple", "Intel", "Amazon", "Microsoft"],
-      correctAnswer: "Apple",
-    },
-    {
-      id: 4,
-      questionText: "How many Harry Potter books are there?",
-      options: ["1", "4", "6", "7"],
-      correctAnswer: "7",
+      options: [
+        { id: 1, optionText: "Apple" },
+        { id: 2, optionText: "Intel" },
+        { id: 3, optionText: "Amazon" },
+        { id: 4, optionText: "Microsoft" },
+      ],
+      correctAnswer: 1,
     },
   ];
 
@@ -48,10 +105,11 @@ const QuizScreen = ({ navigation }) => {
     return () => clearInterval(interval);
   }, []);
 
-  const handleNextQuestion = () => {
-    setCurrentQuestion((prevQuestion) => prevQuestion + 1);
-    setSelectedAnswer(null);
-  };
+  useEffect(() => {
+    if (remainingTime === 0) {
+      handleFinishQuiz();
+    }
+  }, [remainingTime]);
 
   return (
     <View style={styles.container}>
@@ -66,35 +124,34 @@ const QuizScreen = ({ navigation }) => {
       </Text>
 
       {/* Options */}
-      {questions[currentQuestion].options.map((option, index) => (
+      {questions[currentQuestion].options.map((option) => (
         <TouchableOpacity
-          key={index}
+          key={option.id}
           style={[
             styles.optionButton,
-            selectedAnswer === option
+            selectedAnswer === option.id
               ? { backgroundColor: colors.accentColor }
               : {},
           ]}
-          onPress={() => setSelectedAnswer(option)}
-          disabled={selectedAnswer !== null}
+          onPress={() => {
+            setSelectedAnswer(option.id);
+          }}
         >
-          <Text style={styles.optionText}>{option}</Text>
+          <Text style={styles.optionText}>{option.optionText}</Text>
         </TouchableOpacity>
       ))}
 
-      {/* Next Button */}
+      {/* Next/Finish Quiz Button */}
       {selectedAnswer !== null && (
         <TouchableOpacity
           style={styles.nextButton}
           onPress={handleNextQuestion}
         >
-          <Text style={styles.nextButtonText}>Next</Text>
+          <Text style={styles.nextButtonText}>
+            {currentQuestion === questions.length - 1 ? "Finish Quiz" : "Next"}
+          </Text>
         </TouchableOpacity>
       )}
-
-      <TouchableOpacity style={styles.finishButton} onPress={handleFinishQuiz}>
-        <Text style={styles.finishButtonText}>Finish Quiz</Text>
-      </TouchableOpacity>
     </View>
   );
 };

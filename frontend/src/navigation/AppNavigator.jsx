@@ -11,13 +11,21 @@ const AppNavigator = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen
+        name="Login"
+        component={LoginScreen}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="Signup"
+        component={SignupScreen}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
         name="ProficiencyTestMessage"
         component={ProficiencyTestMessage}
       />
       <Stack.Screen name="Quiz" component={QuizScreen} />
       <Stack.Screen name="Finish" component={FinishScreen} />
-      <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }}/>
-      <Stack.Screen name="Signup" component={SignupScreen} options={{ headerShown: false }}/>
     </Stack.Navigator>
   );
 };

@@ -96,6 +96,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
+    backgroundColor: colors.White,
   },
   subTitle: {
     marginTop: -10,

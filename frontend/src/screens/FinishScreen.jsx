@@ -1,24 +1,23 @@
-// FinishScreen.js
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import colors from "../themes/colors";
 
 const FinishScreen = ({ navigation, route }) => {
   const { score } = route.params; // Get the score from the quiz result
 
+  const [userRank, setUserRank] = useState("");
+
   useEffect(() => {
     // Logic to set the user's current rank based on the score
     let rank = "";
-    if (score >= 13) {
+    if (score >= 3) {
       rank = "Advanced";
-    } else if (score >= 9) {
+    } else if (score >= 2) {
       rank = "Intermediate";
     } else {
       rank = "Beginner";
     }
-    // Here, you can update the user's current rank in the state or store of your app
-    // For this example, we'll just log the rank
-    console.log("User Rank:", rank);
+    setUserRank(rank);
   }, [score]);
 
   const handleFinish = () => {
@@ -33,7 +32,7 @@ const FinishScreen = ({ navigation, route }) => {
       <Text style={styles.title}>Quiz Completed!</Text>
       <Text style={styles.resultText}>Your Score: {score}/15</Text>
       {/* Add any additional message or information about the result here */}
-      <Text style={styles.rankText}>Your Current Rank: Intermediate</Text>
+      <Text style={styles.rankText}>Your Current Rank: {userRank}</Text>
       <TouchableOpacity style={styles.finishButton} onPress={handleFinish}>
         <Text style={styles.finishButtonText}>Finish</Text>
       </TouchableOpacity>
