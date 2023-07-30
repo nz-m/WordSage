@@ -1,9 +1,9 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import LoginScreen from "../screens/LoginScreen";
 import SignupScreen from "../screens/SignupScreen";
-import ProficiencyTestMessage from "../screens/ProficiencyTestMessage";
+import SkillTestMessage from "../screens/SkillTestMessage";
 import QuizScreen from "../screens/QuizScreen";
-import FinishScreen from "../screens/FinishScreen";
+import TestResult from "../screens/TestResult";
 
 const Stack = createStackNavigator();
 
@@ -20,12 +20,9 @@ const AppNavigator = () => {
         component={SignupScreen}
         options={{ headerShown: false }}
       />
-      <Stack.Screen
-        name="ProficiencyTestMessage"
-        component={ProficiencyTestMessage}
-      />
+      <Stack.Screen name="SkillTestMessage" component={SkillTestMessage} />
       <Stack.Screen name="Quiz" component={QuizScreen} />
-      <Stack.Screen name="Finish" component={FinishScreen} />
+      <Stack.Screen name="Result" component={TestResult} />
     </Stack.Navigator>
   );
 };

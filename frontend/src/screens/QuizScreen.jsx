@@ -1,52 +1,37 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import colors from "../themes/colors";
+import Question from "../components/Question";
+import FinishMessage from "../components/FinishMessage";
 
 const QuizScreen = ({ navigation }) => {
-  const [score, setScore] = useState(0);
-  const [selectedAnswers, setSelectedAnswers] = useState({});
+  const [isQuizCompleted, setIsQuizCompleted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [remainingTime, setRemainingTime] = useState(600); // 10 minutes
-
-  useEffect(() => {
-    // Timer logic
-    const interval = setInterval(() => {
-      setRemainingTime((prevTime) => prevTime - 1);
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    // Listen for changes in selectedAnswers
-    handleCalculateScore();
-  }, [selectedAnswers]);
-
-  const handleCalculateScore = () => {
-    let calculatedScore = 0;
-    questions.forEach((question) => {
-      if (selectedAnswers[question.id] === question.correctAnswer) {
-        calculatedScore++;
-      }
-    });
-    setScore(calculatedScore);
-  };
+  const [calculatedScore, setCalculatedScore] = useState(0);
 
   const handleFinishQuiz = () => {
-    // Calculate the score one more time before navigating to the finish screen
-    handleCalculateScore();
-    navigation.navigate("Finish", { score });
+    calculateScore();
+    setIsQuizCompleted(true);
+  };
+
+  const handleResult = () => {
+    navigation.navigate("Result", { score: calculatedScore });
+  };
+
+  const calculateScore = () => {
+    let score = calculatedScore;
+    const currentQuestionData = questions[currentQuestion];
+    if (selectedAnswer === currentQuestionData.correctAnswer) {
+      score++;
+    }
+    setCalculatedScore(score);
   };
 
   const handleNextQuestion = () => {
-    // Save the selected answer for the current question
-    setSelectedAnswers((prevAnswers) => ({
-      ...prevAnswers,
-      [questions[currentQuestion].id]: selectedAnswer,
-    }));
+    calculateScore();
 
-    // Move to the next question or finish the quiz
     if (currentQuestion === questions.length - 1) {
       handleFinishQuiz();
     } else {
@@ -55,11 +40,6 @@ const QuizScreen = ({ navigation }) => {
     }
   };
 
-  useEffect(() => {
-    if (remainingTime === 0) {
-      handleFinishQuiz();
-    }
-  }, [remainingTime]);
   const questions = [
     {
       id: 1,
@@ -97,7 +77,6 @@ const QuizScreen = ({ navigation }) => {
   ];
 
   useEffect(() => {
-    // Timer logic
     const interval = setInterval(() => {
       setRemainingTime((prevTime) => prevTime - 1);
     }, 1000);
@@ -113,44 +92,42 @@ const QuizScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      {/* Timer */}
-      <Text style={styles.timer}>
-        Remaining Time: {Math.floor(remainingTime / 60)}:{remainingTime % 60}
-      </Text>
-
-      {/* Question */}
-      <Text style={styles.question}>
-        {questions[currentQuestion].questionText}
-      </Text>
-
-      {/* Options */}
-      {questions[currentQuestion].options.map((option) => (
-        <TouchableOpacity
-          key={option.id}
-          style={[
-            styles.optionButton,
-            selectedAnswer === option.id
-              ? { backgroundColor: colors.accentColor }
-              : {},
-          ]}
-          onPress={() => {
-            setSelectedAnswer(option.id);
-          }}
-        >
-          <Text style={styles.optionText}>{option.optionText}</Text>
-        </TouchableOpacity>
-      ))}
-
-      {/* Next/Finish Quiz Button */}
-      {selectedAnswer !== null && (
-        <TouchableOpacity
-          style={styles.nextButton}
-          onPress={handleNextQuestion}
-        >
-          <Text style={styles.nextButtonText}>
-            {currentQuestion === questions.length - 1 ? "Finish Quiz" : "Next"}
+      {!isQuizCompleted ? (
+        <>
+          <Text style={styles.timer}>
+            Remaining Time: {Math.floor(remainingTime / 60)}:
+            {remainingTime % 60}
           </Text>
-        </TouchableOpacity>
+
+          <Text style={styles.subtitle}>
+            Question {currentQuestion + 1} of {questions.length}
+          </Text>
+
+          <Question
+            question={questions[currentQuestion]}
+            selectedAnswer={selectedAnswer}
+            setSelectedAnswer={setSelectedAnswer}
+          />
+          {selectedAnswer !== null && (
+            <TouchableOpacity
+              style={styles.nextButton}
+              onPress={handleNextQuestion}
+              disabled={remainingTime === 0}
+            >
+              <Text style={styles.nextButtonText}>
+                {currentQuestion === questions.length - 1 ? "Done" : "Next"}
+              </Text>
+            </TouchableOpacity>
+          )}
+        </>
+      ) : (
+        <>
+          <FinishMessage />
+
+          <TouchableOpacity style={styles.finishButton} onPress={handleResult}>
+            <Text style={styles.finishButtonText}>Go to result</Text>
+          </TouchableOpacity>
+        </>
       )}
     </View>
   );
@@ -169,30 +146,6 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: colors.primaryText,
     marginBottom: 20,
-  },
-  question: {
-    fontSize: 24,
-    fontWeight: "bold",
-    color: colors.primaryText,
-    marginBottom: 20,
-  },
-  optionText: {
-    fontSize: 18,
-    color: colors.primaryText,
-    width: "100%",
-    height: 50,
-    borderRadius: 8,
-    textAlign: "center",
-    padding: 10,
-  },
-  optionButton: {
-    width: "100%",
-    height: 50,
-    backgroundColor: colors.secondaryBackground,
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: 8,
-    marginVertical: 5,
   },
 
   nextButton: {

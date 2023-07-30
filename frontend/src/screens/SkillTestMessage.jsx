@@ -2,7 +2,7 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import colors from "../themes/colors";
 import { useNavigation } from "@react-navigation/native";
 
-const ProficiencyTestMessage = () => {
+const SkillTestMessage = () => {
   const navigation = useNavigation();
 
   const handleStartTest = () => {
@@ -72,4 +72,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ProficiencyTestMessage;
+export default SkillTestMessage;

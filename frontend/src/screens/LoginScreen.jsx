@@ -26,7 +26,7 @@ const LoginScreen = () => {
   const handleLogin = () => {
     // console.log("Email:", email);
     // console.log("Password:", password);
-    navigation.navigate("ProficiencyTestMessage");
+    navigation.navigate("SkillTestMessage");
   };
 
   return (
