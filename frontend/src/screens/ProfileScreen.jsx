@@ -6,7 +6,7 @@ import { Feather } from "@expo/vector-icons";
 const ProfileScreen = () => {
   const userData = {
     name: "Neaz Mahmud",
-    profilePicture: require("../assets/user.png"),
+    profilePicture: require("../assets/profile.png"),
     level: "Intermediate",
     streak: 10,
     lessonsCompleted: "25/50",
@@ -31,7 +31,7 @@ const ProfileScreen = () => {
           <Text style={styles.statValue}>{userData.lessonsCompleted}</Text>
         </View>
 
-        <View style={styles.statCard}>
+        <View style={styles.statCard2}>
           <Feather name="bar-chart-2" size={24} color={colors.primaryColor} />
           <Text style={styles.statTitle}>Practice Quiz</Text>
           <Text style={styles.statValue}>
@@ -45,12 +45,12 @@ const ProfileScreen = () => {
 
       {/* Additional Statistics */}
       <View style={styles.statContainer}>
-        <View style={styles.statCard}>
+        <View style={styles.statCard3}>
           <Feather name="check-circle" size={24} color={colors.primaryColor} />
           <Text style={styles.statTitle}>Words Learnt</Text>
           <Text style={styles.statValue}>100</Text>
         </View>
-        <View style={styles.statCard}>
+        <View style={styles.statCard4}>
           <Feather name="clock" size={24} color={colors.primaryColor} />
           <Text style={styles.statTitle}>Longest Streak (Days)</Text>
           <Text style={styles.statValue}>{userData.streak}</Text>
@@ -59,6 +59,10 @@ const ProfileScreen = () => {
 
       {/* Logout Button */}
       <TouchableOpacity style={styles.logoutButton}>
+        <Image
+          source={require("../assets/logout.png")}
+          style={styles.logoutImage}
+        />
         <Text style={styles.logoutButtonText}>Logout</Text>
       </TouchableOpacity>
     </View>
@@ -98,32 +102,67 @@ const styles = StyleSheet.create({
   },
   statCard: {
     flex: 1,
-    backgroundColor: "#f2f2f2",
+    backgroundColor: "#8ac926",
     padding: 20,
     borderRadius: 8,
     alignItems: "center",
+    marginRight: 5,
+  },
+  statCard2: {
+    flex: 1,
+    backgroundColor: "#ffca3a",
+    padding: 20,
+    borderRadius: 8,
+    alignItems: "center",
+    marginLeft: 5,
+  },
+  statCard3: {
+    flex: 1,
+    backgroundColor: "#73d2de",
+    padding: 20,
+    borderRadius: 8,
+    alignItems: "center",
+    marginRight: 5,
+  },
+  statCard4: {
+    flex: 1,
+    backgroundColor: "#ff595e",
+    padding: 20,
+    borderRadius: 8,
+    alignItems: "center",
+    marginLeft: 5,
   },
   statTitle: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: "bold",
     marginBottom: 5,
     color: colors.primaryColor,
+    textDecorationLine: "underline",
   },
   statValue: {
-    fontSize: 16,
-    color: colors.darkGray,
+    fontSize: 14,
+    color: "gray",
   },
   logoutButton: {
-    backgroundColor: colors.accentColor,
+    marginTop: 40,
+    backgroundColor: "#E3E3E3",
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 8,
+    flexDirection: "row",
     alignSelf: "center",
+    height: 45,
+    width: 120,
   },
   logoutButtonText: {
     fontSize: 16,
-    color: colors.White,
     fontWeight: "bold",
+    marginLeft: 7,
+    color: "#E04F5F",
+  },
+  logoutImage: {
+    width: 25,
+    height: 25,
   },
 });
 

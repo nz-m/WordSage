@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
   quizButton: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: colors.accentColor,
+    backgroundColor: "#3988FF",
     paddingVertical: 15,
     paddingHorizontal: 20,
     borderRadius: 8,
