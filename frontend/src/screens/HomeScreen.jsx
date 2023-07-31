@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import Screen from "../components/Screen";
 import { Ionicons } from "@expo/vector-icons";
+import colors from "../themes/colors";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -45,26 +46,26 @@ const HomeScreen = () => {
         {/* Middle Section - Learning Resource, Word of the Day, Level-up Assessment */}
         <View style={styles.midSection}>
           <TouchableOpacity
-            style={styles.card}
+            style={[styles.card, styles.continueLearningCard]}
             onPress={handleLearningResourcePress}
           >
-            <Ionicons name="book" size={32} color="#147EFB" />
+            <Ionicons name="book" size={32} color="#FFF" />
             <Text style={styles.cardTitle}>Continue Learning</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={styles.card2}
+            style={[styles.card, styles.wordOfTheDayCard]}
             onPress={handleWordOfTheDayPress}
           >
-            <Ionicons name="calendar" size={32} color="#FF6A00" />
+            <Ionicons name="calendar" size={32} color="#FFF" />
             <Text style={styles.cardTitle}>Word of the Day</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={styles.card3}
+            style={[styles.card, styles.levelUpAssessmentCard]}
             onPress={handleLevelUpAssessmentPress}
           >
-            <Ionicons name="trophy" size={32} color="#FFC400" />
+            <Ionicons name="trophy" size={32} color="#FFF" />
             <Text style={styles.cardTitle}>Level-up Assessment</Text>
           </TouchableOpacity>
         </View>
@@ -72,34 +73,24 @@ const HomeScreen = () => {
     </Screen>
   );
 };
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#FFF",
+    backgroundColor: colors.primary,
   },
   topSection: {
     flex: 2,
     justifyContent: "center",
     alignItems: "center",
-  
   },
   userProfile: {
     alignItems: "center",
-    paddingTop: 20,
-    paddingBottom: 10,
-    backgroundColor: "#FFF",
+    padding: 20,
     borderRadius: 10,
     marginBottom: 20,
-    shadowColor: "#000",
-    // shadowOffset: {
-    //   width: 0,
-    //   height: 1,
-    // },
-    // shadowOpacity: 0.2,
-    // shadowRadius: 1.41,
-    // elevation: 2,
+    width: "100%",
+    backgroundColor: colors.almond,
   },
   profileImage: {
     width: 80,
@@ -110,16 +101,12 @@ const styles = StyleSheet.create({
   welcomeText: {
     fontSize: 18,
     fontWeight: "bold",
-    marginTop: 10,
-    height: 50,
-    width: 280,
+    color: colors.black,
     textAlign: "center",
   },
   levelText: {
     fontSize: 16,
-    color: "#888",
-    marginTop: -20,
-    marginBottom: 10,
+    color: colors.black,
   },
   midSection: {
     flex: 3,
@@ -128,67 +115,28 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   card: {
-    flex: 1,
+    width: "100%",
     padding: 20,
-    backgroundColor: "#8ab8ff",
     borderRadius: 10,
-    marginHorizontal: 10,
-    marginBottom: 20,
     justifyContent: "center",
     alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 1.41,
-    elevation: 2,
-  },
-  card2: {
-    flex: 1,
-    padding: 20,
-    backgroundColor: "#ffca8a",
-    borderRadius: 10,
-    marginHorizontal: 10,
-    marginBottom: 20,
-    justifyContent: "center",
-    alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 1.41,
-    elevation: 2,
-  },
-  card3: {
-    flex: 1,
-    padding: 20,
-    backgroundColor: "#fae76e",
-    borderRadius: 10,
-    marginHorizontal: 10,
-    marginBottom: 20,
-    justifyContent: "center",
-    alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 1.41,
-    elevation: 2,
   },
   cardTitle: {
     textAlign: "center",
     fontSize: 16,
     fontWeight: "bold",
     marginTop: 10,
-    height: 50,
-    width: 250,
-    marginBottom: -20,
+    color: "#FFF",
+  },
+
+  continueLearningCard: {
+    backgroundColor: "#69C9FF",
+  },
+  wordOfTheDayCard: {
+    backgroundColor: "#FF6A88",
+  },
+  levelUpAssessmentCard: {
+    backgroundColor: "#FFB56A",
   },
 });
 
