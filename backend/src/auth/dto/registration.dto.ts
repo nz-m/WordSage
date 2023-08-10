@@ -13,4 +13,8 @@ export class RegistrationDto {
   @IsString()
   @IsNotEmpty()
   fullName: string;
+
+  @IsString()
+  @IsNotEmpty()
+  level: string;
 }
