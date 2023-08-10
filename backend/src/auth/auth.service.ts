@@ -23,7 +23,7 @@ export class AuthService {
   async register(
     registrationDto: RegistrationDto,
   ): Promise<{ message: string }> {
-    const { email, password, fullName } = registrationDto;
+    const { email, password, name } = registrationDto;
 
     const existingUser = await this.userModel.findOne({ email });
     if (existingUser) {
@@ -38,7 +38,7 @@ export class AuthService {
       await this.userModel.create({
         email,
         password: hashedPassword,
-        fullName,
+        name,
       });
 
       return { message: 'User successfully registered' };
@@ -72,7 +72,7 @@ export class AuthService {
     const userToSend: UserToSend = {
       _id: user._id.toString(),
       email: user.email,
-      fullName: user.fullName,
+      name: user.name,
       level: user.level,
     };
 

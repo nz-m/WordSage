@@ -9,23 +9,29 @@ import {
   Image,
   Pressable,
   ScrollView,
+  ActivityIndicator,
 } from "react-native";
 import colors from "../themes/colors";
 import { useNavigation } from "@react-navigation/native";
+import { useDispatch, useSelector } from "react-redux";
+import { loginUser } from "../features/auth/authThunks";
 
 const LoginScreen = () => {
+  const dispatch = useDispatch();
   const navigation = useNavigation();
-  const handleSignupPress = () => {
+  const handleRegistrationPress = () => {
     navigation.navigate("Registration");
   };
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const { error, loading } = useSelector((state) => state.auth);
+
   const handleLogin = () => {
-    // console.log("Email:", email);
-    // console.log("Password:", password);
-    navigation.navigate("SkillTestMessage");
+    if (email === "" || password === "") {
+      dispatch(loginUser({ email, password }));
+    }
   };
 
   const handleHome = () => {
@@ -39,7 +45,9 @@ const LoginScreen = () => {
         source={require("../assets/undraw-adventure-map-hnin-21.png")}
       />
       <Text style={styles.title}>Welcome to WordSage</Text>
-      <Text style={styles.subTitle}>Sign in to access your account</Text>
+      <Text style={styles.subTitle}>
+        Please login to your account to continue
+      </Text>
 
       <View style={styles.SectionStyle}>
         <TextInput
@@ -68,17 +76,23 @@ const LoginScreen = () => {
         />
       </View>
 
-      <Pressable>
-        <Text style={styles.forget}> Forget password?</Text>
+      <Pressable style={styles.loginButton} onPress={handleLogin}>
+        <Text style={styles.loginButtonText}>Login</Text>
       </Pressable>
 
-      <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
-        <Text style={styles.loginButtonText}>Login</Text>
-      </TouchableOpacity>
+      {loading || error ? (
+        <View style={styles.messageContainer}>
+          {loading && <ActivityIndicator size="large" color={colors.primary} />}
+          {error &&
+            error.map((err) => <Text style={styles.message}>{err}</Text>)}
+        </View>
+      ) : null}
 
-      <TouchableOpacity style={styles.signupLink} onPress={handleSignupPress}>
-        <Text style={styles.signupText}>Don't have an account? </Text>
-        <Text style={styles.signupLinkText}>Sign Up</Text>
+      <TouchableOpacity
+        style={styles.signupLink}
+        onPress={handleRegistrationPress}
+      >
+        <Text style={styles.signupLinkText}>Create a new account</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.subTitle} onPress={handleHome}>
@@ -208,6 +222,16 @@ const styles = StyleSheet.create({
     width: 25,
     resizeMode: "stretch",
     alignItems: "center",
+  },
+  messageContainer: {
+    marginTop: 20,
+    alignItems: "center",
+  },
+  errorMessage: {
+    color: "red",
+    fontSize: 16,
+    fontWeight: "bold",
+    marginTop: 10,
   },
 });
 

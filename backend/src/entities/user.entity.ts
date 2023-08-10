@@ -10,7 +10,7 @@ export class User extends Document {
   password: string;
 
   @Prop({ required: true })
-  fullName: string;
+  name: string;
 
   @Prop({ enum: ['beginner', 'intermediate', 'advanced'], default: 'beginner' })
   level: string;

@@ -1,6 +1,6 @@
 export interface UserToSend {
   _id: string;
   email: string;
-  fullName: string;
+  name: string;
   level: string;
 }
