@@ -10,7 +10,7 @@ import {
 import colors from "../themes/colors";
 import { useNavigation } from "@react-navigation/native";
 
-const SignupScreen = () => {
+const RegistrationScreen = () => {
   const navigation = useNavigation();
 
   const [name, setName] = useState("");
@@ -181,4 +181,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SignupScreen;
+export default RegistrationScreen;

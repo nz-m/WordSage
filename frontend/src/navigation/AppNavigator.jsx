@@ -1,6 +1,4 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import LoginScreen from "../screens/LoginScreen";
-import SignupScreen from "../screens/SignupScreen";
 import SkillTestMessage from "../screens/SkillTestMessage";
 import QuizScreen from "../screens/QuizScreen";
 import TestResult from "../screens/TestResult";
@@ -11,6 +9,9 @@ import LessonDetailsScreen from "../screens/LessonDetailsScreen";
 import WordScreen from "../screens/WordScreen";
 import WordOfTheDayScreen from "../screens/WordOfTheDayScreen";
 import LevelUpAssessmentScreen from "../screens/LevelUpAssessmentScreen";
+import LoginScreen from "../screens/LoginScreen";
+import RegistrationScreen from "../screens/RegistrationScreen";
+import React from "react";
 
 const Stack = createStackNavigator();
 
@@ -23,8 +24,8 @@ const AppNavigator = () => {
         options={{ headerShown: false }}
       />
       <Stack.Screen
-        name="Signup"
-        component={SignupScreen}
+        name="Registration"
+        component={RegistrationScreen}
         options={{ headerShown: false }}
       />
 
@@ -33,7 +34,6 @@ const AppNavigator = () => {
         component={HomeScreen}
         options={{ headerShown: false }}
       />
-
       <Stack.Screen name="SkillTestMessage" component={SkillTestMessage} />
       <Stack.Screen name="Quiz" component={QuizScreen} />
       <Stack.Screen name="Result" component={TestResult} />

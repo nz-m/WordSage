@@ -10,14 +10,13 @@ import {
   Pressable,
   ScrollView,
 } from "react-native";
-import { useNavigation } from "@react-navigation/native";
 import colors from "../themes/colors";
+import { useNavigation } from "@react-navigation/native";
 
 const LoginScreen = () => {
   const navigation = useNavigation();
-
   const handleSignupPress = () => {
-    navigation.navigate("Signup");
+    navigation.navigate("Registration");
   };
 
   const [email, setEmail] = useState("");
