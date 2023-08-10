@@ -10,7 +10,6 @@ const colors = {
   white: "#FFFFFF",
   primaryText: "#333333",
   secondaryText: "#666666",
-  accentColor: "#FF6347",
 };
 
 export default colors;
