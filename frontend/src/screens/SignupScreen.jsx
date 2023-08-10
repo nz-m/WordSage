@@ -26,7 +26,15 @@ const SignupScreen = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <View
+      style={{
+        backgroundColor: "#ffffff",
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        paddingHorizontal: 20,
+      }}
+    >
       <Image
         style={styles.tinyLogo}
         source={require("../assets/undraw-adventure-map-hnin-21.png")}
@@ -75,12 +83,12 @@ const SignupScreen = () => {
 
       <View style={styles.SectionStyle}>
         <TextInput
-          placeholder="Phone"
+          placeholder="Confirm Password"
           value={phone}
           onChangeText={(text) => setPhone(text)}
         />
         <Image
-          source={require("../assets/phone.png")}
+          source={require("../assets/confirmPassword.png")}
           style={styles.ImageStyle}
         />
       </View>
@@ -100,13 +108,6 @@ const SignupScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    paddingHorizontal: 20,
-    backgroundColor: colors.White,
-  },
   tinyLogo: {
     marginTop: 10,
     alignSelf: "center",
