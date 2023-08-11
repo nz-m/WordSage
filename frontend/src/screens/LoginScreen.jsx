@@ -5,10 +5,7 @@ import {
   TextInput,
   TouchableOpacity,
   StyleSheet,
-  SafeAreaView,
   Image,
-  Pressable,
-  ScrollView,
   ActivityIndicator,
   KeyboardAvoidingView,
 } from "react-native";

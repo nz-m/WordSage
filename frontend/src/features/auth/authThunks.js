@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { removeAuthToken, storeAuthToken } from "../../helpers/tokenStorage";
 import { storeUserInfo, removeUserInfo } from "../../helpers/userInfoStorage";
+import { removeAuthToken, storeAuthToken } from "../../helpers/tokenStorage";
 
 const API_BASE_URL = "http://192.168.31.72:4000";
 const LOGIN_URL = `${API_BASE_URL}/auth/login`;
@@ -37,7 +37,10 @@ export const registerUser = createAsyncThunk(
 );
 
 export const logoutUser = createAsyncThunk("auth/logoutUser", async () => {
-  await removeAuthToken();
-  await removeUserInfo();
-  return null;
+  try {
+    await removeAuthToken();
+    await removeUserInfo();
+  } catch (error) {
+    console.log(error);
+  }
 });

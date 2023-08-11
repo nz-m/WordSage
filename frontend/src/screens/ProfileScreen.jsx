@@ -4,11 +4,9 @@ import colors from "../themes/colors";
 import { Feather } from "@expo/vector-icons";
 import { logoutUser } from "../features/auth/authThunks";
 import { useDispatch } from "react-redux";
-import { useNavigation } from "@react-navigation/native";
 
 const ProfileScreen = () => {
   const dispatch = useDispatch();
-  const navigation = useNavigation();
 
   const userData = {
     name: "Neaz Mahmud",
@@ -24,7 +22,6 @@ const ProfileScreen = () => {
 
   const handleLogout = async () => {
     await dispatch(logoutUser());
-    navigation.navigate("Login");
   };
 
   return (
@@ -68,7 +65,6 @@ const ProfileScreen = () => {
         </View>
       </View>
 
-      {/* Logout Button */}
       <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
         <Image
           source={require("../assets/logout.png")}

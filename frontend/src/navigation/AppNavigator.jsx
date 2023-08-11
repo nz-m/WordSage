@@ -1,6 +1,5 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import { useSelector } from "react-redux"; // Import the useSelector hook
 import LoginScreen from "../screens/LoginScreen";
 import RegistrationScreen from "../screens/RegistrationScreen";
 import HomeScreen from "../screens/HomeScreen";
@@ -13,6 +12,7 @@ import LevelUpAssessmentScreen from "../screens/LevelUpAssessmentScreen";
 import SkillTestMessage from "../screens/SkillTestMessage";
 import QuizScreen from "../screens/QuizScreen";
 import TestResult from "../screens/TestResult";
+import { useSelector } from "react-redux";
 
 const Stack = createStackNavigator();
 
@@ -21,24 +21,7 @@ const AppNavigator = () => {
 
   return (
     <Stack.Navigator>
-      {token ? (
-        <>
-          <Stack.Screen
-            name="Home"
-            component={HomeScreen}
-            options={{ headerShown: false }}
-          />
-          <Stack.Screen name="Profile" component={ProfileScreen} />
-          <Stack.Screen name="LessonList" component={LessonListScreen} />
-          <Stack.Screen name="LessonScreen" component={LessonDetailsScreen} />
-          <Stack.Screen name="WordScreen" component={WordScreen} />
-          <Stack.Screen name="WordOfTheDay" component={WordOfTheDayScreen} />
-          <Stack.Screen
-            name="LevelUpAssessment"
-            component={LevelUpAssessmentScreen}
-          />
-        </>
-      ) : (
+      {!token ? (
         <>
           <Stack.Screen
             name="Login"
@@ -51,10 +34,48 @@ const AppNavigator = () => {
             options={{ headerShown: false }}
           />
         </>
+      ) : (
+        <>
+          <Stack.Screen
+            name="Home"
+            component={HomeScreen}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen name="Profile" component={ProfileScreen} />
+          <Stack.Screen name="LessonList" component={LessonListScreen} />
+          <Stack.Screen
+            name="LessonDetails"
+            component={LessonDetailsScreen}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen name="Word" component={WordScreen} />
+          <Stack.Screen
+            name="WordOfTheDay"
+            component={WordOfTheDayScreen}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="LevelUpAssessment"
+            component={LevelUpAssessmentScreen}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="SkillTestMessage"
+            component={SkillTestMessage}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Quiz"
+            component={QuizScreen}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="TestResult"
+            component={TestResult}
+            options={{ headerShown: false }}
+          />
+        </>
       )}
-      <Stack.Screen name="SkillTestMessage" component={SkillTestMessage} />
-      <Stack.Screen name="Quiz" component={QuizScreen} />
-      <Stack.Screen name="Result" component={TestResult} />
     </Stack.Navigator>
   );
 };
