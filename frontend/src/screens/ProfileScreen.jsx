@@ -2,8 +2,14 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import colors from "../themes/colors";
 import { Feather } from "@expo/vector-icons";
+import { logoutUser } from "../features/auth/authThunks";
+import { useDispatch } from "react-redux";
+import { useNavigation } from "@react-navigation/native";
 
 const ProfileScreen = () => {
+  const dispatch = useDispatch();
+  const navigation = useNavigation();
+
   const userData = {
     name: "Neaz Mahmud",
     profilePicture: require("../assets/profile.png"),
@@ -14,6 +20,11 @@ const ProfileScreen = () => {
       highestScore: 90,
       averageScore: 75,
     },
+  };
+
+  const handleLogout = async () => {
+    await dispatch(logoutUser());
+    navigation.navigate("Login");
   };
 
   return (
@@ -58,7 +69,7 @@ const ProfileScreen = () => {
       </View>
 
       {/* Logout Button */}
-      <TouchableOpacity style={styles.logoutButton}>
+      <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
         <Image
           source={require("../assets/logout.png")}
           style={styles.logoutImage}

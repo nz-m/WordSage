@@ -10,6 +10,7 @@ import {
   Pressable,
   ScrollView,
   ActivityIndicator,
+  KeyboardAvoidingView,
 } from "react-native";
 import colors from "../themes/colors";
 import { useNavigation } from "@react-navigation/native";
@@ -26,20 +27,13 @@ const LoginScreen = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const { error, loading } = useSelector((state) => state.auth);
+  const { loginError, loading } = useSelector((state) => state.auth);
 
-  const handleLogin = () => {
-    if (email === "" || password === "") {
-      dispatch(loginUser({ email, password }));
-    }
+  const handleLogin = async () => {
+    await dispatch(loginUser({ email, password }));
   };
-
-  const handleHome = () => {
-    navigation.navigate("Home");
-  };
-
   return (
-    <View style={styles.container}>
+    <KeyboardAvoidingView style={styles.container}>
       <Image
         style={styles.tinyLogo}
         source={require("../assets/undraw-adventure-map-hnin-21.png")}
@@ -56,6 +50,7 @@ const LoginScreen = () => {
           onChangeText={(text) => setEmail(text)}
           keyboardType="email-address"
           autoCapitalize="none"
+          required
         />
         <Image
           source={require("../assets/mail.png")}
@@ -76,15 +71,16 @@ const LoginScreen = () => {
         />
       </View>
 
-      <Pressable style={styles.loginButton} onPress={handleLogin}>
+      <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
         <Text style={styles.loginButtonText}>Login</Text>
-      </Pressable>
+      </TouchableOpacity>
 
-      {loading || error ? (
+      {loading || loginError ? (
         <View style={styles.messageContainer}>
           {loading && <ActivityIndicator size="large" color={colors.primary} />}
-          {error &&
-            error.map((err) => <Text style={styles.message}>{err}</Text>)}
+          {loginError && !loading && (
+            <Text style={styles.message}>{loginError}</Text>
+          )}
         </View>
       ) : null}
 
@@ -94,18 +90,7 @@ const LoginScreen = () => {
       >
         <Text style={styles.signupLinkText}>Create a new account</Text>
       </TouchableOpacity>
-
-      <TouchableOpacity style={styles.subTitle} onPress={handleHome}>
-        <Text
-          style={{
-            color: "#3988FF",
-            marginTop: 15,
-          }}
-        >
-          Home
-        </Text>
-      </TouchableOpacity>
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 

@@ -21,7 +21,7 @@ const RegistrationScreen = () => {
 
   const navigation = useNavigation();
 
-  const { loading, error, registrationSuccess } = useSelector(
+  const { loading, regError, registrationSuccess } = useSelector(
     (state) => state.auth
   );
 
@@ -119,12 +119,15 @@ const RegistrationScreen = () => {
             color={colors.primary}
           />
         )}
-        {error?.length > 0 &&
-          error.map((errorMessage, index) => (
-            <Text key={index} style={styles.errorText}>
-              {errorMessage}
-            </Text>
-          ))}
+        {regError && Array.isArray(regError) && regError.length > 0 && (
+          <View style={styles.errorContainer}>
+            {regError.map((errorMessage, index) => (
+              <Text key={index} style={styles.errorText}>
+                {errorMessage}
+              </Text>
+            ))}
+          </View>
+        )}
       </KeyboardAvoidingView>
       <Modal
         animationType="slide"

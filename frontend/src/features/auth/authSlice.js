@@ -1,11 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { loginUser, registerUser } from "./authThunks";
+import { loginUser, registerUser, logoutUser } from "./authThunks";
 
 const initialState = {
   token: null,
   user: null,
   loading: false,
-  error: [],
+  regError: [],
+  loginError: null,
   registrationSuccess: false,
 };
 
@@ -13,17 +14,18 @@ const authSlice = createSlice({
   name: "auth",
   initialState,
   reducers: {
-    logoutUser: (state) => {
-      state.token = null;
-      state.user = null;
-    },
-
     clearError: (state) => {
-      state.error = [];
+      state.regError = [];
+      state.loginError = null;
     },
 
     clearSuccess: (state) => {
       state.registrationSuccess = false;
+    },
+
+    setCredentials: (state, action) => {
+      state.token = action.payload.token;
+      state.user = action.payload.user;
     },
   },
   extraReducers: (builder) => {
@@ -32,30 +34,43 @@ const authSlice = createSlice({
         state.token = action.payload.token;
         state.user = action.payload.user;
         state.loading = false;
-        state.error = [];
+        state.loginError = null;
       })
       .addCase(registerUser.fulfilled, (state, action) => {
         state.token = action.payload.token;
         state.user = action.payload.user;
         state.loading = false;
-        state.error = [];
+        state.regError = [];
         state.registrationSuccess = true;
       })
-      .addMatcher(
-        (action) => action.type.endsWith("/pending"),
-        (state) => {
-          state.loading = true;
+      .addCase(loginUser.pending, (state) => {
+        state.loading = true;
+      })
+      .addCase(registerUser.pending, (state) => {
+        state.loading = true;
+      })
+      .addCase(loginUser.rejected, (state, action) => {
+        state.loading = false;
+        state.loginError = action.payload.message;
+      })
+      .addCase(registerUser.rejected, (state, action) => {
+        state.loading = false;
+        if (action.payload.statusCode === 409) {
+          state.regError.push(action.payload.message);
+        } else {
+          state.regError = action.payload.message;
         }
-      )
-      .addMatcher(
-        (action) => action.type.endsWith("/rejected"),
-        (state, action) => {
-          state.loading = false;
-          state.error = action.payload.message;
-        }
-      );
+      })
+      .addCase(logoutUser.fulfilled, (state) => {
+        state.token = null;
+        state.user = null;
+        state.loading = false;
+        state.regError = [];
+        state.loginError = null;
+        state.registrationSuccess = false;
+      });
   },
 });
 
-export const { logoutUser, clearError, clearSuccess } = authSlice.actions;
+export const { clearError, clearSuccess, setCredentials } = authSlice.actions;
 export default authSlice.reducer;
