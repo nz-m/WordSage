@@ -48,7 +48,7 @@ const LessonDetailsScreen = ({ route }) => {
           if (lesson.status === "complete") {
             navigation.navigate("Quiz", { lesson });
           } else {
-            navigation.navigate("WordScreen");
+            navigation.navigate("Word");
           }
         }}
       >

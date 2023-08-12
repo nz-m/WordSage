@@ -67,7 +67,7 @@ const LessonListScreen = ({ navigation }) => {
   const handleLessonPress = (lesson) => {
     if (lesson.status === "not started" || lesson.status === "complete") {
       // Navigate to the lesson screen for completed/ongoing lessons
-      navigation.navigate("LessonScreen", { lesson });
+      navigation.navigate("LessonDetails", { lesson });
     } else if (lesson.status === "ongoing") {
       navigation.navigate("Quiz", { lesson });
     } else if (lesson.status === "locked") {

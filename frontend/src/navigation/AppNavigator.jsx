@@ -43,21 +43,12 @@ const AppNavigator = () => {
           />
           <Stack.Screen name="Profile" component={ProfileScreen} />
           <Stack.Screen name="LessonList" component={LessonListScreen} />
-          <Stack.Screen
-            name="LessonDetails"
-            component={LessonDetailsScreen}
-            options={{ headerShown: false }}
-          />
+          <Stack.Screen name="LessonDetails" component={LessonDetailsScreen} />
           <Stack.Screen name="Word" component={WordScreen} />
-          <Stack.Screen
-            name="WordOfTheDay"
-            component={WordOfTheDayScreen}
-            options={{ headerShown: false }}
-          />
+          <Stack.Screen name="WordOfTheDay" component={WordOfTheDayScreen} />
           <Stack.Screen
             name="LevelUpAssessment"
             component={LevelUpAssessmentScreen}
-            options={{ headerShown: false }}
           />
           <Stack.Screen
             name="SkillTestMessage"

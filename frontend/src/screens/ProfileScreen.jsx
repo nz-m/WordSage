@@ -3,15 +3,16 @@ import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import colors from "../themes/colors";
 import { Feather } from "@expo/vector-icons";
 import { logoutUser } from "../features/auth/authThunks";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const ProfileScreen = () => {
   const dispatch = useDispatch();
+  const { user } = useSelector((state) => state.auth);
 
   const userData = {
-    name: "Neaz Mahmud",
+    name: user.name,
     profilePicture: require("../assets/profile.png"),
-    level: "Intermediate",
+    level: user.level,
     streak: 10,
     lessonsCompleted: "25/50",
     practiceQuizResults: {

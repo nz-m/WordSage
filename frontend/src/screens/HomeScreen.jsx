@@ -4,14 +4,12 @@ import { useNavigation } from "@react-navigation/native";
 import Screen from "../components/Screen";
 import { Ionicons } from "@expo/vector-icons";
 import colors from "../themes/colors";
+import { useSelector } from "react-redux";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
-  const user = {
-    name: "Neaz",
-    level: "Intermediate",
-    dailyStreak: 3,
-  };
+
+  const { user } = useSelector((state) => state.auth);
 
   const handleLearningResourcePress = () => {
     navigation.navigate("LessonList");
