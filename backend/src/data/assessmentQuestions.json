@@ -1,6 +1,5 @@
 [
   {
-    "sl": 1,
     "questionText": "What is the capital of France?",
     "options": [
       { "id": 1, "optionText": "London" },
@@ -9,10 +8,9 @@
       { "id": 4, "optionText": "Rome" }
     ],
     "correctAnswer": 2,
-    "level": "beginner"
+    "level": "Beginner"
   },
   {
-    "sl": 2,
     "questionText": "Which famous scientist developed the theory of relativity?",
     "options": [
       { "id": 1, "optionText": "Isaac Newton" },
@@ -21,10 +19,9 @@
       { "id": 4, "optionText": "Nikola Tesla" }
     ],
     "correctAnswer": 2,
-    "level": "intermediate"
+    "level": "Intermediate"
   },
   {
-    "sl": 3,
     "questionText": "What is the largest mammal on Earth?",
     "options": [
       { "id": 1, "optionText": "African Elephant" },
@@ -33,10 +30,9 @@
       { "id": 4, "optionText": "Hippopotamus" }
     ],
     "correctAnswer": 2,
-    "level": "advanced"
+    "level": "Advanced"
   },
   {
-    "sl": 4,
     "questionText": "Which gas is most abundant in Earth's atmosphere?",
     "options": [
       { "id": 1, "optionText": "Oxygen" },
@@ -45,10 +41,9 @@
       { "id": 4, "optionText": "Helium" }
     ],
     "correctAnswer": 3,
-    "level": "beginner"
+    "level": "Beginner"
   },
   {
-    "sl": 5,
     "questionText": "In which year did the Titanic sink after hitting an iceberg?",
     "options": [
       { "id": 1, "optionText": "1912" },
@@ -57,10 +52,9 @@
       { "id": 4, "optionText": "1931" }
     ],
     "correctAnswer": 1,
-    "level": "intermediate"
+    "level": "Intermediate"
   },
   {
-    "sl": 6,
     "questionText": "Which planet is known as the 'Red Planet'?",
     "options": [
       { "id": 1, "optionText": "Earth" },
@@ -69,10 +63,9 @@
       { "id": 4, "optionText": "Venus" }
     ],
     "correctAnswer": 2,
-    "level": "advanced"
+    "level": "Advanced"
   },
   {
-    "sl": 7,
     "questionText": "What is the chemical symbol for gold?",
     "options": [
       { "id": 1, "optionText": "Au" },
@@ -81,10 +74,9 @@
       { "id": 4, "optionText": "Cu" }
     ],
     "correctAnswer": 1,
-    "level": "beginner"
+    "level": "Beginner"
   },
   {
-    "sl": 8,
     "questionText": "Which novel by George Orwell is known for its concept of 'Big Brother'?",
     "options": [
       { "id": 1, "optionText": "1984" },
@@ -93,10 +85,9 @@
       { "id": 4, "optionText": "Animal Farm" }
     ],
     "correctAnswer": 1,
-    "level": "intermediate"
+    "level": "Intermediate"
   },
   {
-    "sl": 9,
     "questionText": "What is the world's largest ocean?",
     "options": [
       { "id": 1, "optionText": "Indian Ocean" },
@@ -105,10 +96,9 @@
       { "id": 4, "optionText": "Pacific Ocean" }
     ],
     "correctAnswer": 4,
-    "level": "advanced"
+    "level": "Advanced"
   },
   {
-    "sl": 10,
     "questionText": "Who wrote the play 'Romeo and Juliet'?",
     "options": [
       { "id": 1, "optionText": "William Shakespeare" },
@@ -117,6 +107,6 @@
       { "id": 4, "optionText": "Mark Twain" }
     ],
     "correctAnswer": 1,
-    "level": "beginner"
+    "level": "Beginner"
   }
 ]

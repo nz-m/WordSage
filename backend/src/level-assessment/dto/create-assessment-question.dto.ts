@@ -1,11 +1,7 @@
 import { QuestionLevel } from '../entities/assessment-question.entity';
 import { IsEnum, IsNotEmpty, IsNumber, IsString } from 'class-validator';
 
-export class AssessmentQuestionDto {
-  @IsNotEmpty()
-  @IsString()
-  _id: string;
-
+export class CreateAssessmentQuestionDto {
   @IsNotEmpty()
   @IsString()
   questionText: string;

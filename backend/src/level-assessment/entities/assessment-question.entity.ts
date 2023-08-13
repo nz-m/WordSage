@@ -2,16 +2,13 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 
 export enum QuestionLevel {
-  BEGINNER = 'beginner',
-  INTERMEDIATE = 'intermediate',
-  ADVANCED = 'advanced',
+  BEGINNER = 'Beginner',
+  INTERMEDIATE = 'Intermediate',
+  ADVANCED = 'Advanced',
 }
 
 @Schema()
 export class AssessmentQuestion extends Document {
-  @Prop({ required: true, unique: true })
-  sl: number;
-
   @Prop({ required: true, unique: true })
   questionText: string;
 

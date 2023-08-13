@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import AdminHome from "./pages/AdminHome.jsx";
 import AllQuestions from "./pages/AllQuestions.jsx";
+import AddQuestion from "./pages/AddQuestion.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/questions",
     element: <AllQuestions />,
+  },
+  {
+    path: "/add-question",
+    element: <AddQuestion />,
   },
 ]);
 

@@ -1,6 +1,6 @@
 import { Controller, Post, Body, Get, Delete, Param } from '@nestjs/common';
 import { LevelAssessmentService } from './level-assessment.service';
-import { AssessmentQuestionDto } from './dto/assessment-question.dto';
+import { CreateAssessmentQuestionDto, AssessmentQuestionDto } from './dto';
 
 @Controller('level-assessment')
 export class LevelAssessmentController {
@@ -12,20 +12,23 @@ export class LevelAssessmentController {
   }
   @Post('add-question')
   addQuestion(
-    @Body() assessmentQuestionDto: AssessmentQuestionDto,
+    @Body() assessmentQuestionDto: CreateAssessmentQuestionDto,
   ): Promise<{ message: string }> {
     return this.levelAssessmentService.addQuestion(assessmentQuestionDto);
   }
 
   @Post('add-questions')
   addQuestions(
-    @Body() assessmentQuestionDto: AssessmentQuestionDto[],
+    @Body() assessmentQuestionDto: CreateAssessmentQuestionDto[],
   ): Promise<{ message: string }> {
     return this.levelAssessmentService.addQuestions(assessmentQuestionDto);
   }
 
-  @Delete('delete-question/:sl')
-  deleteQuestion(@Param('sl') sl: number): Promise<{ message: string }> {
-    return this.levelAssessmentService.deleteQuestion(sl);
+  @Delete('delete-question/:id')
+  deleteQuestion(
+    @Param('id')
+    id: string,
+  ): Promise<{ message: string }> {
+    return this.levelAssessmentService.deleteQuestion(id);
   }
 }

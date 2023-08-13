@@ -6,7 +6,7 @@ import {
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { AssessmentQuestion } from './entities/assessment-question.entity';
-import { AssessmentQuestionDto } from './dto/assessment-question.dto';
+import { CreateAssessmentQuestionDto, AssessmentQuestionDto } from './dto';
 
 @Injectable()
 export class LevelAssessmentService {
@@ -16,10 +16,10 @@ export class LevelAssessmentService {
   ) {}
 
   /**
-   * Retrieves a total of 15 questions, with 5 questions from each level (beginner, intermediate, advanced)
+   * Retrieves a total of 15 questions, with 5 questions from each level (Beginner, Intermediate, Advanced)
    */
   async getQuestions(): Promise<AssessmentQuestionDto[]> {
-    const questionCounts = { beginner: 5, intermediate: 5, advanced: 5 };
+    const questionCounts = { Beginner: 5, Intermediate: 5, Advanced: 5 };
     const selectedQuestions: AssessmentQuestion[] = [];
 
     for (const level in questionCounts) {
@@ -34,23 +34,21 @@ export class LevelAssessmentService {
     }
 
     return selectedQuestions.map((question) => ({
-      sl: question.sl,
+      _id: question._id,
       questionText: question.questionText,
       options: question.options,
       correctAnswer: question.correctAnswer,
       level: question.level,
     }));
   }
-
   async addQuestion(
-    assessmentQuestionDto: AssessmentQuestionDto,
+    assessmentQuestionDto: CreateAssessmentQuestionDto,
   ): Promise<{ message: string }> {
-    const { sl, questionText, options, correctAnswer, level } =
+    const { questionText, options, correctAnswer, level } =
       assessmentQuestionDto;
 
     try {
       await this.assessmentQuestionModel.create({
-        sl,
         questionText,
         options,
         correctAnswer,
@@ -66,6 +64,7 @@ export class LevelAssessmentService {
           'A question with the same content already exists',
         );
       }
+      console.error('An error occurred:', error.message);
       throw new InternalServerErrorException(
         'Failed to create the question due to an internal error',
       );
@@ -73,7 +72,7 @@ export class LevelAssessmentService {
   }
 
   async addQuestions(
-    assessmentQuestionDto: AssessmentQuestionDto[],
+    assessmentQuestionDto: CreateAssessmentQuestionDto[],
   ): Promise<{ message: string }> {
     try {
       await this.assessmentQuestionModel.insertMany(assessmentQuestionDto);
@@ -92,9 +91,11 @@ export class LevelAssessmentService {
     }
   }
 
-  async deleteQuestion(sl: number): Promise<{ message: string }> {
+  async deleteQuestion(id: string): Promise<{ message: string }> {
     try {
-      await this.assessmentQuestionModel.deleteOne({ sl });
+      await this.assessmentQuestionModel.deleteOne({
+        _id: id,
+      });
       return { message: 'Question deleted successfully' };
     } catch (error) {
       throw new InternalServerErrorException(
