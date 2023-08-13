@@ -42,6 +42,17 @@ const AddQuestion = () => {
         questionData
       );
       setIsSuccess(true);
+
+      setQuestionText("");
+
+      setOptions([
+        { id: 1, optionText: "" },
+        { id: 2, optionText: "" },
+        { id: 3, optionText: "" },
+        { id: 4, optionText: "" },
+      ]);
+      setCorrectAnswer(null);
+      setLevel("Beginner");
     } catch (error) {
       console.error(error);
       setError(
