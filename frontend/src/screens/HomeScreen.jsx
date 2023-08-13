@@ -5,11 +5,16 @@ import Screen from "../components/Screen";
 import { Ionicons } from "@expo/vector-icons";
 import colors from "../themes/colors";
 import { useSelector } from "react-redux";
+import LoadingScreen from "./LoadingScreen";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
 
   const { user } = useSelector((state) => state.auth);
+
+  if (!user) {
+    return <LoadingScreen />;
+  }
 
   const handleLearningResourcePress = () => {
     navigation.navigate("LessonList");

@@ -36,11 +36,17 @@ export const registerUser = createAsyncThunk(
   }
 );
 
-export const logoutUser = createAsyncThunk("auth/logoutUser", async () => {
-  try {
-    await removeAuthToken();
-    await removeUserInfo();
-  } catch (error) {
-    console.log(error);
+export const updateLevelAssessmentStatus = createAsyncThunk(
+  "auth/updateLevelAssessmentStatus",
+  async ({ userId, levelAssessmentStatus }, thunkAPI) => {
+    try {
+      const response = await axios.patch(
+        `${API_BASE_URL}/auth/level-assessment/${userId}`,
+        { isLevelAssessmentTaken: levelAssessmentStatus }
+      );
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.response.data);
+    }
   }
-});
+);

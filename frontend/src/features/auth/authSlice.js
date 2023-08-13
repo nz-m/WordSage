@@ -1,5 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { loginUser, registerUser, logoutUser } from "./authThunks";
+import {
+  loginUser,
+  registerUser,
+  updateLevelAssessmentStatus,
+} from "./authThunks";
 
 const initialState = {
   token: null,
@@ -8,6 +12,8 @@ const initialState = {
   regError: [],
   loginError: null,
   registrationSuccess: false,
+  levelAssessmentLoading: false,
+  levelAssessmentError: false,
 };
 
 const authSlice = createSlice({
@@ -23,9 +29,15 @@ const authSlice = createSlice({
       state.registrationSuccess = false;
     },
 
-    setCredentials: (state, action) => {
-      state.token = action.payload.token;
-      state.user = action.payload.user;
+    logout: (state) => {
+      state.token = null;
+      state.user = null;
+      state.loading = false;
+      state.regError = [];
+      state.loginError = null;
+      state.registrationSuccess = false;
+      state.levelAssessmentLoading = false;
+      state.levelAssessmentError = false;
     },
   },
   extraReducers: (builder) => {
@@ -61,16 +73,20 @@ const authSlice = createSlice({
           state.regError = action.payload.message;
         }
       })
-      .addCase(logoutUser.fulfilled, (state) => {
-        state.token = null;
-        state.user = null;
-        state.loading = false;
-        state.regError = [];
-        state.loginError = null;
-        state.registrationSuccess = false;
+      .addCase(updateLevelAssessmentStatus.fulfilled, (state, action) => {
+        state.user = action.payload;
+        state.levelAssessmentLoading = false;
+        state.levelAssessmentError = false;
+      })
+      .addCase(updateLevelAssessmentStatus.rejected, (state, action) => {
+        state.levelAssessmentError = action.payload.message;
+        state.levelAssessmentLoading = false;
+      })
+      .addCase(updateLevelAssessmentStatus.pending, (state) => {
+        state.levelAssessmentLoading = true;
       });
   },
 });
 
-export const { clearError, clearSuccess, setCredentials } = authSlice.actions;
+export const { clearError, clearSuccess, logout } = authSlice.actions;
 export default authSlice.reducer;

@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-const LevelUpAssessmentScreen = () => {
+const LevelUpTestScreen = () => {
   const navigator = useNavigation();
 
   const assessmentDetails = {
@@ -78,4 +78,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LevelUpAssessmentScreen;
+export default LevelUpTestScreen;

@@ -1,6 +1,6 @@
-import { Controller, Post, Body } from '@nestjs/common';
+import { Controller, Post, Body, Patch, Param } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { LoginDto, RegistrationDto } from './dto';
+import { LoginDto, RegistrationDto, UpdateDto } from './dto';
 import { UserToSend } from './user.interface';
 
 @Controller('auth')
@@ -19,5 +19,13 @@ export class AuthController {
     @Body() signInDto: LoginDto,
   ): Promise<{ token: string; user: UserToSend }> {
     return this.authService.login(signInDto);
+  }
+
+  @Patch('level-assessment/:userId')
+  update(
+    @Param('userId') userId: string,
+    @Body() updateDto: UpdateDto,
+  ): Promise<UserToSend> {
+    return this.authService.updateLevelAssessmentStatus(userId, updateDto);
   }
 }

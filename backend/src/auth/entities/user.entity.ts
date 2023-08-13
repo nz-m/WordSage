@@ -12,8 +12,11 @@ export class User extends Document {
   @Prop({ required: true })
   name: string;
 
-  @Prop({ enum: ['beginner', 'intermediate', 'advanced'], default: 'beginner' })
+  @Prop({ enum: ['Beginner', 'Intermediate', 'Advanced'], default: 'Beginner' })
   level: string;
+
+  @Prop({ default: false })
+  isLevelAssessmentTaken: boolean;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);

@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
 
-const SkillTestMessage = () => {
+const LevelAssessmentPrompt = () => {
   const navigation = useNavigation();
 
   const handleStartTest = () => {
@@ -113,4 +113,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SkillTestMessage;
+export default LevelAssessmentPrompt;

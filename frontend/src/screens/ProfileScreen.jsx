@@ -2,12 +2,20 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import colors from "../themes/colors";
 import { Feather } from "@expo/vector-icons";
-import { logoutUser } from "../features/auth/authThunks";
+import { logout } from "../features/auth/authSlice";
 import { useDispatch, useSelector } from "react-redux";
+import LoadingScreen from "./LoadingScreen";
 
 const ProfileScreen = () => {
   const dispatch = useDispatch();
+  const handleLogout = () => {
+    dispatch(logout());
+  };
   const { user } = useSelector((state) => state.auth);
+
+  if (!user) {
+    return <LoadingScreen />;
+  }
 
   const userData = {
     name: user.name,
@@ -19,10 +27,6 @@ const ProfileScreen = () => {
       highestScore: 90,
       averageScore: 75,
     },
-  };
-
-  const handleLogout = async () => {
-    await dispatch(logoutUser());
   };
 
   return (

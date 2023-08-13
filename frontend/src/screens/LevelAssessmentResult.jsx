@@ -1,8 +1,21 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ActivityIndicator,
+} from "react-native";
 import colors from "../themes/colors";
+import { updateLevelAssessmentStatus } from "../features/auth/authThunks";
+import { useDispatch, useSelector } from "react-redux";
 
-const TestResult = ({ navigation, route }) => {
+const LevelAssessmentResult = ({ navigation, route }) => {
+  const dispatch = useDispatch();
+  const { user, levelAssessmentLoading, levelAssessmentError } = useSelector(
+    (state) => state.auth
+  );
+
   const { score } = route.params;
 
   const [userlevel, setUserlevel] = useState("");
@@ -19,8 +32,14 @@ const TestResult = ({ navigation, route }) => {
     setUserlevel(level);
   }, [score]);
 
-  const handleFinish = () => {
-    navigation.navigate("Login");
+  const handleFinish = async () => {
+    await dispatch(
+      updateLevelAssessmentStatus({
+        userId: user._id,
+        levelAssessmentStatus: true,
+      })
+    );
+    navigation.navigate("Home");
   };
 
   return (
@@ -30,9 +49,16 @@ const TestResult = ({ navigation, route }) => {
       <Text style={styles.levelText}>
         Based on your score, your English vocabulary level is: {userlevel}
       </Text>
-      <TouchableOpacity style={styles.finishButton} onPress={handleFinish}>
-        <Text style={styles.finishButtonText}>Finish</Text>
-      </TouchableOpacity>
+      {levelAssessmentLoading ? (
+        <ActivityIndicator size="large" color={colors.primaryText} />
+      ) : (
+        <TouchableOpacity style={styles.finishButton} onPress={handleFinish}>
+          <Text style={styles.finishButtonText}>Finish</Text>
+        </TouchableOpacity>
+      )}
+      {levelAssessmentError && (
+        <Text style={styles.errorText}>Error: {levelAssessmentError}</Text>
+      )}
     </View>
   );
 };
@@ -74,6 +100,11 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
   },
+  errorText: {
+    color: "red",
+    fontSize: 16,
+    marginTop: 20,
+  },
 });
 
-export default TestResult;
+export default LevelAssessmentResult;

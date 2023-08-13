@@ -3,4 +3,5 @@ export interface UserToSend {
   email: string;
   name: string;
   level: string;
+  isLevelAssessmentTaken: boolean;
 }

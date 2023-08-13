@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import colors from "../themes/colors";
 import Question from "../components/Question";
-import FinishMessage from "../components/FinishMessage";
+import FinishMessage from "./FinishMessage";
 import { testQuestions as questions } from "../data/questions";
 
 const QuizScreen = ({ navigation }) => {
@@ -18,7 +18,7 @@ const QuizScreen = ({ navigation }) => {
   };
 
   const handleResult = () => {
-    navigation.navigate("Result", { score: calculatedScore });
+    navigation.navigate("LevelAssessmentResult", { score: calculatedScore });
   };
 
   const calculateScore = () => {

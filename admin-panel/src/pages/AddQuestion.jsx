@@ -25,6 +25,19 @@ const AddQuestion = () => {
     setOptions(updatedOptions);
   };
 
+  const setInitialQuestionState = () => {
+    setQuestionText("");
+
+    setOptions([
+      { id: 1, optionText: "" },
+      { id: 2, optionText: "" },
+      { id: 3, optionText: "" },
+      { id: 4, optionText: "" },
+    ]);
+    setCorrectAnswer(null);
+    setLevel("Beginner");
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
@@ -42,17 +55,7 @@ const AddQuestion = () => {
         questionData
       );
       setIsSuccess(true);
-
-      setQuestionText("");
-
-      setOptions([
-        { id: 1, optionText: "" },
-        { id: 2, optionText: "" },
-        { id: 3, optionText: "" },
-        { id: 4, optionText: "" },
-      ]);
-      setCorrectAnswer(null);
-      setLevel("Beginner");
+      setInitialQuestionState();
     } catch (error) {
       console.error(error);
       setError(
@@ -177,7 +180,7 @@ const AddQuestion = () => {
               className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
               disabled={isLoading}
             >
-              {isLoading ? "Loading..." : "Add Question"}
+              {isLoading ? "Adding..." : "Add Question"}
             </button>
           </div>
         </form>

@@ -1,6 +1,5 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import colors from "../themes/colors";
 
 const FinishMessage = () => {
   return (
@@ -23,12 +22,10 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 10,
-    color: colors.primaryColor,
   },
   messageText: {
     fontSize: 18,
     textAlign: "center",
-    color: colors.secondaryColor,
   },
 });
 
