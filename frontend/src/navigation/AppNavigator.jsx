@@ -23,6 +23,7 @@ const AppNavigator = () => {
   if (token === undefined || user === undefined) {
     return <LoadingScreen />;
   }
+
   return (
     <Stack.Navigator>
       {!token ? (
