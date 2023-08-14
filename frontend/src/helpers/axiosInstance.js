@@ -1,6 +1,4 @@
 import axios from "axios";
-import { logoutUser } from "../features/auth/authThunks";
-import store from "../features/store";
 import { getAuthToken } from "./tokenStorage";
 
 const axiosInstance = axios.create({
@@ -11,9 +9,11 @@ axiosInstance.interceptors.request.use(
   async (config) => {
     try {
       const token = await getAuthToken();
+
       if (token) {
         config.headers["Authorization"] = `Bearer ${token}`;
       }
+
       return config;
     } catch (error) {
       return Promise.reject(error);
@@ -25,11 +25,10 @@ axiosInstance.interceptors.request.use(
 );
 
 axiosInstance.interceptors.response.use(
-  (response) => response,
-  async (error) => {
-    if (error.response && error.response.status === 401) {
-      store.dispatch(logoutUser());
-    }
+  (response) => {
+    return response;
+  },
+  (error) => {
     return Promise.reject(error);
   }
 );

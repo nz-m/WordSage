@@ -7,7 +7,7 @@ import {
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { User } from './entities/user.entity';
-import { LoginDto, RegistrationDto, UpdateDto } from './dto';
+import { LoginDto, RegistrationDto } from './dto';
 import * as bcrypt from 'bcryptjs';
 import { JwtService } from '@nestjs/jwt';
 import { UserToSend } from './user.interface';
@@ -73,7 +73,7 @@ export class AuthService {
       email: user.email,
       name: user.name,
       level: user.level,
-      isLevelAssessmentTaken: user.isLevelAssessmentTaken,
+      isLevelAssessed: user.isLevelAssessed,
     };
 
     return { token, user: userToSend };
@@ -89,35 +89,5 @@ export class AuthService {
   private generateToken(userId: string): string {
     const payload = { _id: userId };
     return this.jwtService.sign(payload);
-  }
-  async updateLevelAssessmentStatus(
-    userId: string,
-    updateDto: UpdateDto,
-  ): Promise<UserToSend> {
-    const { isLevelAssessmentTaken } = updateDto;
-
-    try {
-      const updatedUser = await this.userModel.findByIdAndUpdate(
-        userId,
-        { isLevelAssessmentTaken },
-        { new: true },
-      );
-
-      if (!updatedUser) {
-        throw new InternalServerErrorException('User not found');
-      }
-
-      return {
-        _id: updatedUser._id,
-        email: updatedUser.email,
-        name: updatedUser.name,
-        level: updatedUser.level,
-        isLevelAssessmentTaken: updatedUser.isLevelAssessmentTaken,
-      };
-    } catch (error) {
-      throw new InternalServerErrorException(
-        'Level assessment status update failed',
-      );
-    }
   }
 }

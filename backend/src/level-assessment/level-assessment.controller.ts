@@ -1,4 +1,13 @@
-import { Controller, Post, Body, Get, Delete, Param } from '@nestjs/common';
+import {
+  Controller,
+  Post,
+  Body,
+  Get,
+  Delete,
+  Param,
+  UseGuards,
+  Req,
+} from '@nestjs/common';
 import { LevelAssessmentService } from './level-assessment.service';
 import {
   CreateAssessmentQuestionDto,
@@ -6,6 +15,8 @@ import {
   UserAnswerDto,
 } from './dto';
 import { QuestionLevel } from './entities/assessment-question.entity';
+import { AuthGuard } from '@nestjs/passport';
+import { UserToSend } from '../auth/user.interface';
 
 @Controller('level-assessment')
 export class LevelAssessmentController {
@@ -38,11 +49,16 @@ export class LevelAssessmentController {
   }
 
   @Post('assess-level')
-  assessLevel(@Body() userAnswerDto: UserAnswerDto[]): Promise<{
+  @UseGuards(AuthGuard())
+  assessLevel(
+    @Body() userAnswerDto: UserAnswerDto[],
+    @Req() req,
+  ): Promise<{
     level: string;
     correctCounts: Record<QuestionLevel, number>;
     scorePercentage: number;
+    user: UserToSend;
   }> {
-    return this.levelAssessmentService.assessLevel(userAnswerDto);
+    return this.levelAssessmentService.assessLevel(userAnswerDto, req.user._id);
   }
 }

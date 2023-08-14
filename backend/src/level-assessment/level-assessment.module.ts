@@ -6,12 +6,15 @@ import {
   AssessmentQuestion,
   AssessmentQuestionSchema,
 } from './entities/assessment-question.entity';
-
+import { User, UserSchema } from '../auth/entities/user.entity';
+import { AuthModule } from '../auth/auth.module';
 @Module({
   imports: [
     MongooseModule.forFeature([
       { name: AssessmentQuestion.name, schema: AssessmentQuestionSchema },
+      { name: User.name, schema: UserSchema },
     ]),
+    AuthModule,
   ],
 
   controllers: [LevelAssessmentController],

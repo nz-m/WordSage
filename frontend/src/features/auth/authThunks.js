@@ -1,5 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
+import { removeAuthToken, storeAuthToken } from "../../helpers/tokenStorage";
 
 const API_BASE_URL = "http://192.168.31.72:4000";
 const LOGIN_URL = `${API_BASE_URL}/auth/login`;
@@ -11,6 +12,8 @@ export const loginUser = createAsyncThunk(
     try {
       const response = await axios.post(LOGIN_URL, credentials);
       const { token, user } = response.data;
+
+      await storeAuthToken(token);
 
       return { token, user };
     } catch (error) {
@@ -31,15 +34,11 @@ export const registerUser = createAsyncThunk(
   }
 );
 
-export const updateLevelAssessmentStatus = createAsyncThunk(
-  "auth/updateLevelAssessmentStatus",
-  async ({ userId, levelAssessmentStatus }, thunkAPI) => {
+export const logoutUser = createAsyncThunk(
+  "auth/logout",
+  async (_, thunkAPI) => {
     try {
-      const response = await axios.patch(
-        `${API_BASE_URL}/auth/level-assessment/${userId}`,
-        { isLevelAssessmentTaken: levelAssessmentStatus }
-      );
-      return response.data;
+      await removeAuthToken();
     } catch (error) {
       return thunkAPI.rejectWithValue(error.response.data);
     }

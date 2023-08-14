@@ -3,26 +3,27 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import colors from "../themes/colors";
 import Question from "../components/Question";
 import FinishMessage from "./FinishMessage";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { assessLevel } from "../features/level-assessment/levelAssessmentThunks";
 
 const LevelAssessmentScreen = ({ navigation }) => {
+  const dispatch = useDispatch();
   const questions = useSelector((state) => state.levelAssessment.questions);
 
   const [userAnswers, setUserAnswers] = useState([]);
-
-  console.log("userAnswers", userAnswers);
 
   const [isQuizCompleted, setIsQuizCompleted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [remainingTime, setRemainingTime] = useState(600); // 10 minutes
 
-  const handleFinishQuiz = () => {
+  const handleFinishQuiz = async () => {
+    await dispatch(assessLevel(userAnswers));
     setIsQuizCompleted(true);
   };
 
   const handleResult = () => {
-    navigation.navigate("LevelAssessmentResult", { userAnswers });
+    navigation.navigate("LevelAssessmentResult");
   };
 
   const handleNextQuestion = () => {
@@ -42,19 +43,19 @@ const LevelAssessmentScreen = ({ navigation }) => {
     }
   };
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setRemainingTime((prevTime) => prevTime - 1);
-  //   }, 1000);
-  //
-  //   return () => clearInterval(interval);
-  // }, []);
-  //
-  // useEffect(() => {
-  //   if (remainingTime === 0) {
-  //     handleFinishQuiz();
-  //   }
-  // }, [remainingTime]);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRemainingTime((prevTime) => prevTime - 1);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    if (remainingTime === 0) {
+      handleFinishQuiz();
+    }
+  }, [remainingTime]);
 
   return (
     <View style={styles.container}>

@@ -9,17 +9,22 @@ import {
   AssessmentQuestion,
   QuestionLevel,
 } from './entities/assessment-question.entity';
+
+import { User } from '../auth/entities/user.entity';
 import {
   CreateAssessmentQuestionDto,
   AssessmentQuestionDto,
   UserAnswerDto,
 } from './dto';
+import { UserToSend } from '../auth/user.interface';
 
 @Injectable()
 export class LevelAssessmentService {
   constructor(
     @InjectModel(AssessmentQuestion.name)
     private assessmentQuestionModel: Model<AssessmentQuestion>,
+    @InjectModel(User.name)
+    private userModel: Model<User>,
   ) {}
 
   /**
@@ -71,7 +76,6 @@ export class LevelAssessmentService {
           'A question with the same content already exists',
         );
       }
-      console.error('An error occurred:', error.message);
       throw new InternalServerErrorException(
         'Failed to create the question due to an internal error',
       );
@@ -118,10 +122,14 @@ export class LevelAssessmentService {
    ** If the proficiency ratio is <= 0.66, assign INTERMEDIATE level.
    ** Otherwise, assign ADVANCED level.
    */
-  async assessLevel(userAnswerDto: UserAnswerDto[]): Promise<{
+  async assessLevel(
+    userAnswerDto: UserAnswerDto[],
+    userId: string,
+  ): Promise<{
     level: QuestionLevel;
     correctCounts: Record<QuestionLevel, number>;
     scorePercentage: number;
+    user: UserToSend;
   }> {
     const difficultyWeights = {
       [QuestionLevel.BEGINNER]: 1,
@@ -166,16 +174,39 @@ export class LevelAssessmentService {
     const scorePercentage = parseFloat((userProficiencyRatio * 100).toFixed(2));
 
     const userProficiencyLevel =
-      userProficiencyRatio <= 0.33
+      userProficiencyRatio <= 0.4
         ? QuestionLevel.BEGINNER
-        : userProficiencyRatio <= 0.66
+        : userProficiencyRatio <= 0.7
         ? QuestionLevel.INTERMEDIATE
         : QuestionLevel.ADVANCED;
+
+    let user;
+
+    try {
+      user = await this.userModel.findOneAndUpdate(
+        { _id: userId },
+        { level: userProficiencyLevel, isLevelAssessed: true },
+        { new: true },
+      );
+    } catch (error) {
+      throw new InternalServerErrorException(
+        'Failed to update the user proficiency level due to an internal error',
+      );
+    }
+
+    const userToSend: UserToSend = {
+      _id: user._id.toString(),
+      email: user.email,
+      name: user.name,
+      level: user.level,
+      isLevelAssessed: user.isLevelAssessed,
+    };
 
     return {
       level: userProficiencyLevel,
       correctCounts,
       scorePercentage,
+      user: userToSend,
     };
   }
 }

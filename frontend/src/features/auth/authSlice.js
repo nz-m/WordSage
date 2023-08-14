@@ -1,9 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import {
-  loginUser,
-  registerUser,
-  updateLevelAssessmentStatus,
-} from "./authThunks";
+import { loginUser, registerUser, logoutUser } from "./authThunks";
+import { assessLevel } from "../level-assessment/levelAssessmentThunks";
 
 const initialState = {
   token: null,
@@ -12,8 +9,6 @@ const initialState = {
   regError: [],
   loginError: null,
   registrationSuccess: false,
-  levelAssessmentLoading: false,
-  levelAssessmentError: false,
 };
 
 const authSlice = createSlice({
@@ -27,17 +22,6 @@ const authSlice = createSlice({
 
     clearSuccess: (state) => {
       state.registrationSuccess = false;
-    },
-
-    logout: (state) => {
-      state.token = null;
-      state.user = null;
-      state.loading = false;
-      state.regError = [];
-      state.loginError = null;
-      state.registrationSuccess = false;
-      state.levelAssessmentLoading = false;
-      state.levelAssessmentError = false;
     },
   },
   extraReducers: (builder) => {
@@ -73,17 +57,12 @@ const authSlice = createSlice({
           state.regError = action.payload.message;
         }
       })
-      .addCase(updateLevelAssessmentStatus.fulfilled, (state, action) => {
-        state.user = action.payload;
-        state.levelAssessmentLoading = false;
-        state.levelAssessmentError = false;
+      .addCase(assessLevel.fulfilled, (state, action) => {
+        state.user = action.payload.user;
       })
-      .addCase(updateLevelAssessmentStatus.rejected, (state, action) => {
-        state.levelAssessmentError = action.payload.message;
-        state.levelAssessmentLoading = false;
-      })
-      .addCase(updateLevelAssessmentStatus.pending, (state) => {
-        state.levelAssessmentLoading = true;
+      .addCase(logoutUser.fulfilled, (state) => {
+        state.user = null;
+        state.token = null;
       });
   },
 });

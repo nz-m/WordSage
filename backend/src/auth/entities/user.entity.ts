@@ -16,7 +16,7 @@ export class User extends Document {
   level: string;
 
   @Prop({ default: false })
-  isLevelAssessmentTaken: boolean;
+  isLevelAssessed: boolean;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);

@@ -2,14 +2,14 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import colors from "../themes/colors";
 import { Feather } from "@expo/vector-icons";
-import { logout } from "../features/auth/authSlice";
+import { logoutUser } from "../features/auth/authThunks";
 import { useDispatch, useSelector } from "react-redux";
 import LoadingScreen from "./LoadingScreen";
 
 const ProfileScreen = () => {
   const dispatch = useDispatch();
   const handleLogout = () => {
-    dispatch(logout());
+    dispatch(logoutUser());
   };
   const { user } = useSelector((state) => state.auth);
 

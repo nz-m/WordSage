@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { useSelector } from "react-redux";
 import LoginScreen from "../screens/LoginScreen";
@@ -40,7 +40,7 @@ const AppNavigator = () => {
         </>
       ) : (
         <>
-          {user && !user.isLevelAssessmentTaken ? (
+          {user && !user.isLevelAssessed ? (
             <Stack.Screen
               name="LevelAssessmentPrompt"
               component={LevelAssessmentPrompt}
@@ -61,6 +61,7 @@ const AppNavigator = () => {
           <Stack.Screen
             name="LevelAssessmentResult"
             component={LevelAssessmentResult}
+            options={{ headerShown: false }}
           />
           <Stack.Screen
             name="LevelAssessment"
