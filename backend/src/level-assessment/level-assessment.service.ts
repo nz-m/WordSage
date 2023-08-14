@@ -118,8 +118,8 @@ export class LevelAssessmentService {
   /**
    * Calculate the user's proficiency ratio by dividing their weighted score by the maximum possible weighted score.
    * Determine the user's proficiency level:
-   ** If the proficiency ratio is <= 0.33, assign BEGINNER level.
-   ** If the proficiency ratio is <= 0.66, assign INTERMEDIATE level.
+   ** If the proficiency ratio is <= 0.40, assign BEGINNER level.
+   ** If the proficiency ratio is <= 0.70, assign INTERMEDIATE level.
    ** Otherwise, assign ADVANCED level.
    */
   async assessLevel(
