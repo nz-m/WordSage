@@ -1,7 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { storeUserInfo, removeUserInfo } from "../../helpers/userInfoStorage";
-import { removeAuthToken, storeAuthToken } from "../../helpers/tokenStorage";
 
 const API_BASE_URL = "http://192.168.31.72:4000";
 const LOGIN_URL = `${API_BASE_URL}/auth/login`;
@@ -13,9 +11,6 @@ export const loginUser = createAsyncThunk(
     try {
       const response = await axios.post(LOGIN_URL, credentials);
       const { token, user } = response.data;
-
-      await storeAuthToken(token);
-      await storeUserInfo(user);
 
       return { token, user };
     } catch (error) {

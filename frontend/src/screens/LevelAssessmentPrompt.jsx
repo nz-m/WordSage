@@ -3,12 +3,21 @@ import colors from "../themes/colors";
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
+import { fetchQuestions } from "../features/level-assessment/levelAssessmentThunks";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
 
 const LevelAssessmentPrompt = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchQuestions());
+  }, []);
+
   const navigation = useNavigation();
 
   const handleStartTest = () => {
-    navigation.navigate("Quiz");
+    navigation.navigate("LevelAssessment");
   };
 
   return (

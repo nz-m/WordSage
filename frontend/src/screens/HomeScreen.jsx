@@ -25,7 +25,7 @@ const HomeScreen = () => {
   };
 
   const handleLevelUpAssessmentPress = () => {
-    navigation.navigate("LevelUpAssessment");
+    navigation.navigate("LevelUpTest");
   };
 
   return (

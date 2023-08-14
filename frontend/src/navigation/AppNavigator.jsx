@@ -11,7 +11,7 @@ import WordScreen from "../screens/WordScreen";
 import WordOfTheDayScreen from "../screens/WordOfTheDayScreen";
 import LevelUpTestScreen from "../screens/LevelUpTestScreen";
 import LevelAssessmentPrompt from "../screens/LevelAssessmentPrompt";
-import QuizScreen from "../screens/QuizScreen";
+import LevelAssessmentScreen from "../screens/LevelAssessmentScreen";
 import LevelAssessmentResult from "../screens/LevelAssessmentResult";
 import LoadingScreen from "../screens/LoadingScreen";
 
@@ -42,7 +42,7 @@ const AppNavigator = () => {
         <>
           {user && !user.isLevelAssessmentTaken ? (
             <Stack.Screen
-              name="LevelUpAssessmentPrompt"
+              name="LevelAssessmentPrompt"
               component={LevelAssessmentPrompt}
               options={{ headerShown: false }}
             />
@@ -63,8 +63,8 @@ const AppNavigator = () => {
             component={LevelAssessmentResult}
           />
           <Stack.Screen
-            name="Quiz"
-            component={QuizScreen}
+            name="LevelAssessment"
+            component={LevelAssessmentScreen}
             options={{ headerShown: false }}
           />
           <Stack.Screen

@@ -3,9 +3,11 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import colors from "../themes/colors";
 import Question from "../components/Question";
 import FinishMessage from "./FinishMessage";
-import { testQuestions as questions } from "../data/questions";
+import { useSelector } from "react-redux";
 
-const QuizScreen = ({ navigation }) => {
+const LevelAssessmentScreen = ({ navigation }) => {
+  const questions = useSelector((state) => state.levelAssessment.questions);
+
   const [isQuizCompleted, setIsQuizCompleted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -162,4 +164,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default QuizScreen;
+export default LevelAssessmentScreen;

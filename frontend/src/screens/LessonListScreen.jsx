@@ -69,7 +69,7 @@ const LessonListScreen = ({ navigation }) => {
       // Navigate to the lesson screen for completed/ongoing lessons
       navigation.navigate("LessonDetails", { lesson });
     } else if (lesson.status === "ongoing") {
-      navigation.navigate("Quiz", { lesson });
+      navigation.navigate("LevelAssessment", { lesson });
     } else if (lesson.status === "locked") {
       alert("This lesson is locked. Complete previous lessons to unlock.");
     }

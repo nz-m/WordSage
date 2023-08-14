@@ -46,7 +46,7 @@ const LessonDetailsScreen = ({ route }) => {
         style={styles.quizButton}
         onPress={() => {
           if (lesson.status === "complete") {
-            navigation.navigate("Quiz", { lesson });
+            navigation.navigate("LevelAssessment", { lesson });
           } else {
             navigation.navigate("Word");
           }

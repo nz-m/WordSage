@@ -13,7 +13,7 @@ const LevelUpTestScreen = () => {
   };
 
   const handleStartAssessment = () => {
-    navigator.navigate("Quiz");
+    navigator.navigate("LevelAssessment");
   };
 
   return (
