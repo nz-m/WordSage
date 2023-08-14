@@ -5,8 +5,15 @@ import {
 } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
-import { AssessmentQuestion } from './entities/assessment-question.entity';
-import { CreateAssessmentQuestionDto, AssessmentQuestionDto } from './dto';
+import {
+  AssessmentQuestion,
+  QuestionLevel,
+} from './entities/assessment-question.entity';
+import {
+  CreateAssessmentQuestionDto,
+  AssessmentQuestionDto,
+  UserAnswerDto,
+} from './dto';
 
 @Injectable()
 export class LevelAssessmentService {
@@ -102,5 +109,73 @@ export class LevelAssessmentService {
         'Failed to delete the question due to an internal error',
       );
     }
+  }
+
+  /**
+   * Calculate the user's proficiency ratio by dividing their weighted score by the maximum possible weighted score.
+   * Determine the user's proficiency level:
+   ** If the proficiency ratio is <= 0.33, assign BEGINNER level.
+   ** If the proficiency ratio is <= 0.66, assign INTERMEDIATE level.
+   ** Otherwise, assign ADVANCED level.
+   */
+  async assessLevel(userAnswerDto: UserAnswerDto[]): Promise<{
+    level: QuestionLevel;
+    correctCounts: Record<QuestionLevel, number>;
+    scorePercentage: number;
+  }> {
+    const difficultyWeights = {
+      [QuestionLevel.BEGINNER]: 1,
+      [QuestionLevel.INTERMEDIATE]: 2,
+      [QuestionLevel.ADVANCED]: 3,
+    };
+
+    const questions = await this.assessmentQuestionModel.find().exec();
+
+    const { maxPossibleWeightedScore, userWeightedScore, correctCounts } =
+      userAnswerDto.reduce(
+        (accumulator, userAnswer) => {
+          const question = questions.find((q) =>
+            q._id.equals(userAnswer.questionId),
+          );
+
+          if (
+            question &&
+            userAnswer.selectedAnswer === question.correctAnswer
+          ) {
+            accumulator.userWeightedScore += difficultyWeights[question.level];
+            accumulator.correctCounts[question.level]++;
+          }
+
+          return accumulator;
+        },
+        {
+          maxPossibleWeightedScore:
+            5 * difficultyWeights[QuestionLevel.BEGINNER] +
+            5 * difficultyWeights[QuestionLevel.INTERMEDIATE] +
+            5 * difficultyWeights[QuestionLevel.ADVANCED],
+          userWeightedScore: 0,
+          correctCounts: {
+            [QuestionLevel.BEGINNER]: 0,
+            [QuestionLevel.INTERMEDIATE]: 0,
+            [QuestionLevel.ADVANCED]: 0,
+          },
+        },
+      );
+
+    const userProficiencyRatio = userWeightedScore / maxPossibleWeightedScore;
+    const scorePercentage = parseFloat((userProficiencyRatio * 100).toFixed(2));
+
+    const userProficiencyLevel =
+      userProficiencyRatio <= 0.33
+        ? QuestionLevel.BEGINNER
+        : userProficiencyRatio <= 0.66
+        ? QuestionLevel.INTERMEDIATE
+        : QuestionLevel.ADVANCED;
+
+    return {
+      level: userProficiencyLevel,
+      correctCounts,
+      scorePercentage,
+    };
   }
 }

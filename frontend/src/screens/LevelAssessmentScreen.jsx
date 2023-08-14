@@ -8,32 +8,31 @@ import { useSelector } from "react-redux";
 const LevelAssessmentScreen = ({ navigation }) => {
   const questions = useSelector((state) => state.levelAssessment.questions);
 
+  const [userAnswers, setUserAnswers] = useState([]);
+
+  console.log("userAnswers", userAnswers);
+
   const [isQuizCompleted, setIsQuizCompleted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [remainingTime, setRemainingTime] = useState(600); // 10 minutes
-  const [calculatedScore, setCalculatedScore] = useState(0);
 
   const handleFinishQuiz = () => {
-    calculateScore();
     setIsQuizCompleted(true);
   };
 
   const handleResult = () => {
-    navigation.navigate("LevelAssessmentResult", { score: calculatedScore });
-  };
-
-  const calculateScore = () => {
-    let score = calculatedScore;
-    const currentQuestionData = questions[currentQuestion];
-    if (selectedAnswer === currentQuestionData.correctAnswer) {
-      score++;
-    }
-    setCalculatedScore(score);
+    navigation.navigate("LevelAssessmentResult", { userAnswers });
   };
 
   const handleNextQuestion = () => {
-    calculateScore();
+    const currentQuestionData = questions[currentQuestion];
+    const answerData = {
+      questionId: currentQuestionData._id,
+      selectedAnswer,
+    };
+
+    setUserAnswers((prevAnswers) => [...prevAnswers, answerData]);
 
     if (currentQuestion === questions.length - 1) {
       handleFinishQuiz();
@@ -43,19 +42,19 @@ const LevelAssessmentScreen = ({ navigation }) => {
     }
   };
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setRemainingTime((prevTime) => prevTime - 1);
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    if (remainingTime === 0) {
-      handleFinishQuiz();
-    }
-  }, [remainingTime]);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setRemainingTime((prevTime) => prevTime - 1);
+  //   }, 1000);
+  //
+  //   return () => clearInterval(interval);
+  // }, []);
+  //
+  // useEffect(() => {
+  //   if (remainingTime === 0) {
+  //     handleFinishQuiz();
+  //   }
+  // }, [remainingTime]);
 
   return (
     <View style={styles.container}>
