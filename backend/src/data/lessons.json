@@ -1,0 +1,62 @@
+[
+  {
+    "lessonNumber": 1,
+    "title": "Everyday Conversations",
+    "description": "Learn vocabulary for common everyday conversations.",
+    "icon": "chat"
+  },
+  {
+    "lessonNumber": 2,
+    "title": "Personal Information",
+    "description": "Explore vocabulary related to personal information and introductions.",
+    "icon": "person"
+  },
+  {
+    "lessonNumber": 3,
+    "title": "Home and Living",
+    "description": "Learn vocabulary about home, living spaces, and household items.",
+    "icon": "home"
+  },
+  {
+    "lessonNumber": 4,
+    "title": "Food and Dining",
+    "description": "Discover vocabulary for describing food, dining, and eating out.",
+    "icon": "restaurant"
+  },
+  {
+    "lessonNumber": 5,
+    "title": "Travel and Transportation",
+    "description": "Learn vocabulary related to travel, transportation, and getting around.",
+    "icon": "flight"
+  },
+  {
+    "lessonNumber": 6,
+    "title": "Health and Wellness",
+    "description": "Explore vocabulary for discussing health, wellness, and medical topics.",
+    "icon": "favorite"
+  },
+  {
+    "lessonNumber": 7,
+    "title": "Work and Careers",
+    "description": "Discover vocabulary for work, careers, and professional life.",
+    "icon": "work"
+  },
+  {
+    "lessonNumber": 8,
+    "title": "Education and Learning",
+    "description": "Learn vocabulary related to education, learning, and academic subjects.",
+    "icon": "school"
+  },
+  {
+    "lessonNumber": 9,
+    "title": "Nature and Environment",
+    "description": "Explore vocabulary for describing nature, environment, and natural phenomena.",
+    "icon": "nature"
+  },
+  {
+    "lessonNumber": 10,
+    "title": "Technology and Communication",
+    "description": "Discover vocabulary for technology, communication, and digital tools.",
+    "icon": "devices"
+  }
+]

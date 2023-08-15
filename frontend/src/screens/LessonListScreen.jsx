@@ -1,55 +1,40 @@
-import React, { useState } from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import React, { useEffect } from "react";
+import {
+  ActivityIndicator,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchLessons } from "../features/learn/learnThunks";
 
 const LessonListScreen = ({ navigation }) => {
-  const lessons = [
-    {
-      id: 1,
-      title: "Everyday Conversations",
-      icon: "chat",
-      status: "not started",
-    },
-    {
-      id: 2,
-      title: "Personal Information",
-      icon: "person",
-      status: "complete",
-    },
-    { id: 3, title: "Home and Living", icon: "home", status: "complete" },
-    { id: 4, title: "Food and Dining", icon: "restaurant", status: "complete" },
-    {
-      id: 5,
-      title: "Travel and Transportation",
-      icon: "flight",
-      status: "complete",
-    },
-    {
-      id: 6,
-      title: "Health and Wellness",
-      icon: "favorite",
-      status: "ongoing",
-    },
-    { id: 7, title: "Work and Careers", icon: "work", status: "locked" },
-    {
-      id: 8,
-      title: "Education and Learning",
-      icon: "school",
-      status: "locked",
-    },
-    {
-      id: 9,
-      title: "Nature and Environment",
-      icon: "nature",
-      status: "locked",
-    },
-    {
-      id: 10,
-      title: "Technology and Communication",
-      icon: "devices",
-      status: "locked",
-    },
-  ];
+  const { lessons, isFetching } = useSelector((state) => state.learn);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (!lessons || lessons.length === 0) {
+      dispatch(fetchLessons());
+    }
+  }, []);
+
+  if (isFetching) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <ActivityIndicator size="large" color="blue" />
+      </View>
+    );
+  }
+
+  if (!lessons || lessons.length === 0) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text>No lessons available.</Text>
+      </View>
+    );
+  }
 
   const iconColors = {
     chat: "#2196F3", // Blue
@@ -66,7 +51,6 @@ const LessonListScreen = ({ navigation }) => {
 
   const handleLessonPress = (lesson) => {
     if (lesson.status === "not started" || lesson.status === "complete") {
-      // Navigate to the lesson screen for completed/ongoing lessons
       navigation.navigate("LessonDetails", { lesson });
     } else if (lesson.status === "ongoing") {
       navigation.navigate("LevelAssessment", { lesson });
@@ -80,7 +64,7 @@ const LessonListScreen = ({ navigation }) => {
       <Text style={styles.title}>Vocabulary Lessons</Text>
       {lessons.map((lesson) => (
         <TouchableOpacity
-          key={lesson.id}
+          key={lesson.lessonNumber}
           style={styles.lessonItem}
           onPress={() => handleLessonPress(lesson)}
         >

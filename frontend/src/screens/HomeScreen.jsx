@@ -6,7 +6,6 @@ import { Ionicons } from "@expo/vector-icons";
 import colors from "../themes/colors";
 import { useSelector } from "react-redux";
 import LoadingScreen from "./LoadingScreen";
-
 const HomeScreen = () => {
   const navigation = useNavigation();
 
@@ -17,7 +16,11 @@ const HomeScreen = () => {
   }
 
   const handleLearningResourcePress = () => {
-    navigation.navigate("LessonList");
+    if (user.isLearningStarted) {
+      navigation.navigate("LessonList");
+    } else {
+      navigation.navigate("StartLearningPrompt");
+    }
   };
 
   const handleWordOfTheDayPress = () => {

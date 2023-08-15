@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   View,
   Text,
@@ -13,12 +13,42 @@ import colors from "../themes/colors";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
 import { loginUser } from "../features/auth/authThunks";
+import { getAuthToken } from "../helpers/tokenStorage";
+import { getUserInfo } from "../helpers/userInfoStorage";
 
 const LoginScreen = () => {
+  const [userInfo, setUserInfo] = useState(null);
+  const [token, setToken] = useState(null);
+  const [callhandleLogin, setCallhandleLogin] = useState(false);
+
+  useEffect(() => {
+    if (callhandleLogin) handleLogin();
+  }, [callhandleLogin]);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const token = await getAuthToken();
+        const userInfo = await getUserInfo();
+        setToken(token);
+        setUserInfo(userInfo);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   const dispatch = useDispatch();
   const navigation = useNavigation();
   const handleRegistrationPress = () => {
     navigation.navigate("Registration");
+  };
+
+  const handleExistingLogin = () => {
+    setEmail(userInfo.email);
+    setPassword(userInfo.password);
+    setCallhandleLogin(true);
   };
 
   const [email, setEmail] = useState("");
@@ -29,6 +59,7 @@ const LoginScreen = () => {
   const handleLogin = async () => {
     await dispatch(loginUser({ email, password }));
   };
+
   return (
     <KeyboardAvoidingView style={styles.container}>
       <Image
@@ -79,6 +110,17 @@ const LoginScreen = () => {
             <Text style={styles.message}>{loginError}</Text>
           )}
         </View>
+      ) : null}
+
+      {token && userInfo ? (
+        <TouchableOpacity
+          style={styles.existingLoginButton}
+          onPress={handleExistingLogin}
+        >
+          <Text style={styles.existingLoginButtonText}>
+            Login as {userInfo.name}
+          </Text>
+        </TouchableOpacity>
       ) : null}
 
       <TouchableOpacity
@@ -171,6 +213,20 @@ const styles = StyleSheet.create({
   loginButtonText: {
     color: "#fff",
     fontSize: 18,
+    fontWeight: "bold",
+  },
+  existingLoginButton: {
+    width: "100%",
+    height: 50,
+    backgroundColor: colors.primary,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 8,
+    marginTop: 10,
+  },
+  existingLoginButtonText: {
+    color: "#fff",
+    fontSize: 16,
     fontWeight: "bold",
   },
   signupLink: {

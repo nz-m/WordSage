@@ -10,7 +10,7 @@ import { User } from './entities/user.entity';
 import { LoginDto, RegistrationDto } from './dto';
 import * as bcrypt from 'bcryptjs';
 import { JwtService } from '@nestjs/jwt';
-import { UserToSend } from './user.interface';
+import { UserToSend } from './interface/user.interface';
 
 @Injectable()
 export class AuthService {
@@ -74,6 +74,7 @@ export class AuthService {
       name: user.name,
       level: user.level,
       isLevelAssessed: user.isLevelAssessed,
+      isLearningStarted: user.isLearningStarted,
     };
 
     return { token, user: userToSend };

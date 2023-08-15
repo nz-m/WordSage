@@ -16,7 +16,7 @@ import {
   AssessmentQuestionDto,
   UserAnswerDto,
 } from './dto';
-import { UserToSend } from '../auth/user.interface';
+import { UserToSend } from '../auth/interface/user.interface';
 
 @Injectable()
 export class LevelAssessmentService {
@@ -200,6 +200,7 @@ export class LevelAssessmentService {
       name: user.name,
       level: user.level,
       isLevelAssessed: user.isLevelAssessed,
+      isLearningStarted: user.isLearningStarted,
     };
 
     return {

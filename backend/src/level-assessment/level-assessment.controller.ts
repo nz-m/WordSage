@@ -1,3 +1,4 @@
+import { AuthGuard } from '@nestjs/passport';
 import {
   Controller,
   Post,
@@ -15,8 +16,7 @@ import {
   UserAnswerDto,
 } from './dto';
 import { QuestionLevel } from './entities/assessment-question.entity';
-import { AuthGuard } from '@nestjs/passport';
-import { UserToSend } from '../auth/user.interface';
+import { UserToSend } from '../auth/interface/user.interface';
 
 @Controller('level-assessment')
 export class LevelAssessmentController {

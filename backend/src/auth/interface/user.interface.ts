@@ -4,4 +4,5 @@ export interface UserToSend {
   name: string;
   level: string;
   isLevelAssessed: boolean;
+  isLearningStarted: boolean;
 }

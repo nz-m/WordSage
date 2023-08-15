@@ -14,6 +14,7 @@ import LevelAssessmentPrompt from "../screens/LevelAssessmentPrompt";
 import LevelAssessmentScreen from "../screens/LevelAssessmentScreen";
 import LevelAssessmentResult from "../screens/LevelAssessmentResult";
 import LoadingScreen from "../screens/LoadingScreen";
+import StartLearningPrompt from "../screens/StartLearningPrompt";
 
 const Stack = createStackNavigator();
 
@@ -55,6 +56,10 @@ const AppNavigator = () => {
             />
           )}
           <Stack.Screen name="Profile" component={ProfileScreen} />
+          <Stack.Screen
+            name="StartLearningPrompt"
+            component={StartLearningPrompt}
+          />
           <Stack.Screen name="LessonList" component={LessonListScreen} />
           <Stack.Screen name="LessonDetails" component={LessonDetailsScreen} />
           <Stack.Screen name="Word" component={WordScreen} />

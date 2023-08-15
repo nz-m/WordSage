@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { loginUser, registerUser, logoutUser } from "./authThunks";
 import { assessLevel } from "../level-assessment/levelAssessmentThunks";
+import { startLearning } from "../learn/learnThunks";
 
 const initialState = {
   token: null,
@@ -61,6 +62,9 @@ const authSlice = createSlice({
       .addCase(logoutUser.fulfilled, (state) => {
         state.user = null;
         state.token = null;
+      })
+      .addCase(startLearning.fulfilled, (state, action) => {
+        state.user = action.payload.user;
       });
   },
 });

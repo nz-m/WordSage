@@ -26,11 +26,20 @@ const LevelAssessmentPrompt = () => {
       <Text style={styles.welcomeMessage}>Welcome to WordSage</Text>
       <Text style={styles.subtitle}>Your Personal Vocabulary Tutor</Text>
       <Text style={styles.description}>
-        We're excited to have you on board! Before we begin, let's assess your
-        English vocabulary level. The proficiency test will help us understand
-        your current knowledge and tailor a personalized learning experience
-        just for you.
+        Welcome aboard! Before we begin, let's evaluate your current English
+        vocabulary level. This test is designed to provide us with insights into
+        your strengths. Feel free to{" "}
+        <Text style={styles.emphasized}>
+          focus on the questions you are confident about
+        </Text>
+        , as your responses will help us craft a personalized learning journey
+        that aligns with your skills. Remember, you can also{" "}
+        <Text style={styles.emphasized}>
+          skip any questions that you find challenging
+        </Text>
+        . Your input is valuable in ensuring an accurate assessment.
       </Text>
+
       <View style={styles.detailsContainer}>
         <View style={styles.quizDetails}>
           <Ionicons name="time" size={30} color="#2ba3e3" />
@@ -57,6 +66,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: colors.primaryBackground,
     paddingHorizontal: 20,
+  },
+  emphasized: {
+    fontWeight: "bold",
+    color: colors.primaryText,
   },
   title: {
     fontSize: 30,
