@@ -15,6 +15,7 @@ import { LessonStatus } from './entities/lesson-progress.entity';
 import { CreateLessonsDto } from './dto/create-lessons.dto';
 import { LessonToSend } from './interface/lessonToSend.interface';
 import { UserToSend } from '../auth/interface/user.interface';
+import { AddWordDto } from './dto/add-word.dto';
 
 @Injectable()
 export class LearnService {
@@ -132,6 +133,40 @@ export class LearnService {
       return { user: userToSend };
     } catch (error) {
       return { message: 'Error starting lessons.' };
+    }
+  }
+
+  async addWords(
+    words: AddWordDto[],
+  ): Promise<{ success: boolean; message: string }> {
+    try {
+      await this.wordModel.create(words);
+      return { success: true, message: 'Words created.' };
+    } catch (error) {
+      if (error.code === 11000) {
+        return {
+          success: false,
+          message: 'Duplicate word found. Please check your input.',
+        };
+      }
+      return { success: false, message: 'Error creating words.' };
+    }
+  }
+
+  async addWord(
+    word: AddWordDto,
+  ): Promise<{ success: boolean; message: string }> {
+    try {
+      await this.wordModel.create(word);
+      return { success: true, message: 'Word created.' };
+    } catch (error) {
+      if (error.code === 11000) {
+        return {
+          success: false,
+          message: 'Duplicate word found. Please check your input.',
+        };
+      }
+      return { success: false, message: 'Error creating word.' };
     }
   }
 }

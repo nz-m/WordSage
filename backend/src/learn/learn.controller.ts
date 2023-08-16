@@ -4,6 +4,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { CreateLessonsDto } from './dto/create-lessons.dto';
 import { LessonToSend } from './interface/lessonToSend.interface';
 import { UserToSend } from '../auth/interface/user.interface';
+import { AddWordDto } from './dto/add-word.dto';
 
 @Controller('learn')
 export class LearnController {
@@ -27,5 +28,16 @@ export class LearnController {
     @Req() req,
   ): Promise<{ user: UserToSend } | { message: string }> {
     return this.learnService.startLearning(req.user._id);
+  }
+
+  @Post('add-words')
+  async createWords(
+    @Body() words: AddWordDto | AddWordDto[],
+  ): Promise<{ success: boolean; message: string }> {
+    if (Array.isArray(words)) {
+      return this.learnService.addWords(words);
+    } else {
+      return this.learnService.addWord(words);
+    }
   }
 }

@@ -1,27 +1,30 @@
 const words = [
   {
-    id: 1,
+    _id: 1,
     word: "Serendipity",
+    partOfSpeech: "Noun",
     synonym: "Fortuity",
     meaning:
       "The occurrence and development of events by chance in a happy or beneficial way.",
-    usage:
+    example:
       "She stumbled upon the quaint bookstore while getting lost in the city, and it was serendipity because she found her favorite book there.",
   },
   {
-    id: 2,
+    _id: 2,
     word: "Ephemeral",
+    partOfSpeech: "Adjective",
     synonym: "Transient",
     meaning: "Lasting for a very short time.",
-    usage:
+    example:
       "The beauty of the cherry blossoms is ephemeral, lasting only a few weeks each year.",
   },
   {
-    id: 3,
+    _id: 3,
     word: "Ubiquitous",
+    partOfSpeech: "Adjective",
     synonym: "Omnipresent",
     meaning: "Present, appearing, or found everywhere.",
-    usage:
+    example:
       "In today's world, smartphones have become ubiquitous and are used by people of all ages.",
   },
 ];

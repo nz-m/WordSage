@@ -9,7 +9,7 @@ const WordScreen = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [wordData, setWordData] = useState(words[currentIndex]);
   const [wordStatus, setWordStatus] = useState(
-    words.map((word) => ({ id: word.id, isDone: false }))
+    words.map((word) => ({ _id: word._id, isDone: false }))
   );
 
   const handlePronunciationPress = (word) => {
@@ -28,12 +28,12 @@ const WordScreen = () => {
 
   const handleDonePress = () => {
     const updatedStatus = wordStatus.map((word) =>
-      word.id === wordData.id ? { ...word, isDone: true } : word
+      word._id === wordData._id ? { ...word, isDone: true } : word
     );
     setWordStatus(updatedStatus);
   };
 
-  const isDone = wordStatus.find((word) => word.id === wordData.id)?.isDone;
+  const isDone = wordStatus.find((word) => word._id === wordData._id)?.isDone;
 
   return (
     <View style={styles.container}>
@@ -76,6 +76,12 @@ const WordScreen = () => {
 
       <View style={styles.section}>
         <MaterialCommunityIcons name="book" size={24} color="#888" />
+        <Text style={styles.title}>Part of Speech:</Text>
+        <Text style={styles.description}>{wordData.partOfSpeech}</Text>
+      </View>
+
+      <View style={styles.section}>
+        <MaterialCommunityIcons name="book" size={24} color="#888" />
         <Text style={styles.title}>Meaning:</Text>
         <Text style={styles.description}>{wordData.meaning}</Text>
       </View>
@@ -97,7 +103,7 @@ const WordScreen = () => {
           color="#888"
         />
         <Text style={styles.title}>Usage:</Text>
-        <Text style={styles.description}>{wordData.usage}</Text>
+        <Text style={styles.description}>{wordData.example}</Text>
       </View>
 
       {!isDone ? (
