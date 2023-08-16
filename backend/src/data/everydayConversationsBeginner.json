@@ -1,0 +1,503 @@
+[
+    {
+        "wordNumber": 1,
+        "word": "Introduction",
+        "partOfSpeech": "Noun",
+        "synonym": "Presentation",
+        "meaning": "The action of formally making someone known to others; a way to present oneself to others.",
+        "example": "She gave a brief introduction about her background and interests.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 2,
+        "word": "Address",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Location / Speak to",
+        "meaning": "Noun: The particulars of the place where someone lives or an organization is situated.\nVerb: To speak or write to someone.",
+        "example": "Noun: His address is 123 Main Street.\nVerb: She will address the group during the meeting.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 3,
+        "word": "Apology",
+        "partOfSpeech": "Noun",
+        "synonym": "Sorry",
+        "meaning": "An expression of regret or sorrow for having done or said something that has caused inconvenience or harm to another.",
+        "example": "He offered a sincere apology for his mistake.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 4,
+        "word": "Gestures",
+        "partOfSpeech": "Noun",
+        "synonym": "Signals",
+        "meaning": "Movements or actions of the hands, face, or other parts of the body to communicate thoughts, feelings, or intentions.",
+        "example": "His gestures of thumbs-up and nodding showed his approval.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 5,
+        "word": "Misunderstanding",
+        "partOfSpeech": "Noun",
+        "synonym": "Confusion",
+        "meaning": "A failure to correctly grasp the meaning, intention, or information conveyed by someone else, leading to confusion or disagreements.",
+        "example": "The argument arose from a simple misunderstanding about the schedule.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 6,
+        "word": "Clarification",
+        "partOfSpeech": "Noun",
+        "synonym": "Explanation",
+        "meaning": "The action of making something clearer by explaining or providing additional information.",
+        "example": "She asked for clarification on the instructions before starting the task.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 7,
+        "word": "Vocabulary",
+        "partOfSpeech": "Noun",
+        "synonym": "Word bank",
+        "meaning": "The body of words used in a particular language, field, or subject; a collection of words known to a person.",
+        "example": "Expanding your vocabulary can help you communicate more effectively.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 8,
+        "word": "Accent",
+        "partOfSpeech": "Noun",
+        "synonym": "Pronunciation",
+        "meaning": "A distinctive way of pronouncing words, often influenced by one's regional or cultural background.",
+        "example": "Her French accent added charm to her English speech.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 9,
+        "word": "Fluent",
+        "partOfSpeech": "Adjective",
+        "synonym": "Articulate",
+        "meaning": "Able to speak, write, or express oneself easily and smoothly in a language.",
+        "example": "After years of practice, he became fluent in Spanish.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 10,
+        "word": "Mumble",
+        "partOfSpeech": "Verb",
+        "synonym": "Mutter",
+        "meaning": "To speak or utter in a low, indistinct, or unclear manner, often making it difficult for others to understand.",
+        "example": "He tends to mumble when he's nervous.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 11,
+        "word": "Stammer",
+        "partOfSpeech": "Verb / Noun",
+        "synonym": "Stutter",
+        "meaning": "Verb: To speak with involuntary pauses and often with repetitions of sounds or words.\nNoun: A speech disorder characterized by involuntary pauses and repetitions in speech.",
+        "example": "Verb: He tends to stammer when he's nervous.\nNoun: His stammer became more noticeable when he had to give a speech.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 12,
+        "word": "Manners",
+        "partOfSpeech": "Noun",
+        "synonym": "Etiquette",
+        "meaning": "Social behaviors or customs considered polite or appropriate in a particular culture or society.",
+        "example": "Good manners dictate that you should say 'please' and 'thank you.'",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 13,
+        "word": "Polite",
+        "partOfSpeech": "Adjective",
+        "synonym": "Courteous",
+        "meaning": "Having or showing consideration for others and behaving in a respectful and well-mannered way.",
+        "example": "She always speaks in a polite and friendly manner.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 14,
+        "word": "Impolite",
+        "partOfSpeech": "Adjective",
+        "synonym": "Rude",
+        "meaning": "Not showing consideration or respect for others; lacking good manners.",
+        "example": "It is impolite to interrupt someone while they're speaking.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Pause",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Break / Stop",
+        "meaning": "Noun: A temporary stop or hesitation in an action, speech, or thought.\nVerb: To temporarily stop or hesitate in an action, speech, or thought.",
+        "example": "Noun: There was a brief pause in the conversation.\nVerb: He decided to pause for a moment before continuing.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Tone",
+        "partOfSpeech": "Noun",
+        "synonym": "Manner, Mood",
+        "meaning": "The quality or character of sound in spoken or written language that expresses the speaker's feelings, attitude, or intention.",
+        "example": "Her tone of voice indicated that she was not pleased with the situation.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Gesture",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Motion / Signal",
+        "meaning": "Noun: A movement of the body, especially the hands or head, to express an idea or meaning.\nVerb: To make a gesture.",
+        "example": "Noun: He made a friendly gesture by waving his hand.\nVerb: She gestured for him to come closer.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Formal",
+        "partOfSpeech": "Adjective",
+        "synonym": "Official, Proper",
+        "meaning": "Following established rules, conventions, or procedures; suitable for official or serious occasions.",
+        "example": "The formal attire for the event was a black tie and gown.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Informal",
+        "partOfSpeech": "Adjective",
+        "synonym": "Casual, Relaxed",
+        "meaning": "Lacking formality or strictness; suitable for relaxed or friendly situations.",
+        "example": "They had an informal discussion over coffee.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Slang",
+        "partOfSpeech": "Noun",
+        "synonym": "Colloquial language, Jargon",
+        "meaning": "A type of language that consists of words and phrases that are informal and often specific to a particular group of people or subculture.",
+        "example": "Teenagers often use slang words that older generations might not understand.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Nod",
+        "partOfSpeech": "Verb / Noun",
+        "synonym": "Gesture of agreement / Head movement",
+        "meaning": "Verb: To move one's head up and down as a sign of agreement, understanding, or acknowledgment.\nNoun: The act of moving one's head in such a manner.",
+        "example": "Verb: She nodded in agreement.\nNoun: He gave a slight nod to show he understood.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Shake",
+        "partOfSpeech": "Verb / Noun",
+        "synonym": "Move back and forth / Tremble",
+        "meaning": "Verb: To move rapidly back and forth or up and down.\nNoun: A rapid back-and-forth or up-and-down movement.",
+        "example": "Verb: She shook her head to indicate disagreement.\nNoun: He gave the package a shake to see what was inside.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Conversation",
+        "partOfSpeech": "Noun",
+        "synonym": "Discussion",
+        "meaning": "An informal exchange of ideas, thoughts, or information between two or more people.",
+        "example": "We had an interesting conversation about travel destinations.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Dialogue",
+        "partOfSpeech": "Noun",
+        "synonym": "Conversation / Discourse",
+        "meaning": "A written or spoken conversational exchange between two or more people.",
+        "example": "The movie featured a heartfelt dialogue between the main characters.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Greet",
+        "partOfSpeech": "Verb",
+        "synonym": "Welcome",
+        "meaning": "To address or acknowledge someone with words or gestures upon meeting them.",
+        "example": "She greeted him with a warm smile when he arrived.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Parting",
+        "partOfSpeech": "Noun",
+        "synonym": "Farewell",
+        "meaning": "The act of leaving or saying goodbye to someone.",
+        "example": "Their parting was emotional as they waved goodbye at the airport.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Response",
+        "partOfSpeech": "Noun",
+        "synonym": "Answer",
+        "meaning": "A reaction or reply to something that has been said, done, or asked.",
+        "example": "Her response to the question was thoughtful and well-articulated.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Eye contact",
+        "partOfSpeech": "Noun",
+        "synonym": "Gaze",
+        "meaning": "The act of looking directly into someone's eyes during a conversation, often used to convey interest, attention, or connection.",
+        "example": "Maintaining good eye contact is important when you're speaking to someone.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Body language",
+        "partOfSpeech": "Noun",
+        "synonym": "Nonverbal communication",
+        "meaning": "The use of physical movements, gestures, and postures to convey information, emotions, or intentions without using words.",
+        "example": "Her body language indicated that she was feeling anxious during the presentation.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Pronunciation",
+        "partOfSpeech": "Noun",
+        "synonym": "Articulation",
+        "meaning": "The way in which words are spoken or pronounced, including the sounds and stress patterns used.",
+        "example": "He practiced his pronunciation to improve his spoken English.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Intonation",
+        "partOfSpeech": "Noun",
+        "synonym": "Tone of voice",
+        "meaning": "The rise and fall of the pitch of a person's voice in speech, conveying shades of meaning or emotion.",
+        "example": "Her intonation indicated that she was asking a question rather than making a statement.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Exchange",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Swap / Trade",
+        "meaning": "Noun: The act of giving one thing and receiving another (especially of the same type or value) in return.\nVerb: To give and receive things of the same kind or value.",
+        "example": "Noun: They had an exchange of gifts during the holiday party.\nVerb: They exchanged phone numbers after the meeting.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Compliment",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Praise / Admire",
+        "meaning": "Noun: A polite expression of praise or admiration.\nVerb: To express praise or admiration to someone.",
+        "example": "Noun: She gave him a compliment on his new haircut.\nVerb: He complimented her cooking skills.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Small talk",
+        "partOfSpeech": "Noun",
+        "synonym": "Casual conversation",
+        "meaning": "Light and informal conversation about unimportant or everyday topics, often used to break the ice or maintain social interactions.",
+        "example": "We engaged in some small talk before the meeting started.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Rehearse",
+        "partOfSpeech": "Verb",
+        "synonym": "Practice",
+        "meaning": "To practice or repeat something, such as a speech, performance, or presentation, in preparation for a future event.",
+        "example": "She spent hours rehearsing her lines for the play.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Etiquette",
+        "partOfSpeech": "Noun",
+        "synonym": "Manners",
+        "meaning": "The customary code of polite behavior in a society or among a group, often involving rules and expectations for social interactions.",
+        "example": "Understanding dining etiquette is important when attending formal events.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Cultural norms",
+        "partOfSpeech": "Noun",
+        "synonym": "Social customs",
+        "meaning": "Shared expectations and behaviors that are considered appropriate and acceptable within a particular group or society.",
+        "example": "Understanding cultural norms is important when interacting with people from different backgrounds.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Interpret",
+        "partOfSpeech": "Verb",
+        "synonym": "Understand, Explain",
+        "meaning": "To understand or explain the meaning of something, especially in a particular way.",
+        "example": "She tried to interpret his facial expressions to guess his emotions.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Context",
+        "partOfSpeech": "Noun",
+        "synonym": "Circumstances, Setting",
+        "meaning": "The circumstances or background in which something happens, providing a deeper understanding of the situation.",
+        "example": "To fully understand the message, you need to consider the context in which it was said.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Interactive",
+        "partOfSpeech": "Adjective",
+        "synonym": "Engaging, Participatory",
+        "meaning": "Involving communication, action, or involvement between people or things.",
+        "example": "The workshop was designed to be interactive, encouraging participants to ask questions and share their ideas.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Break the ice",
+        "partOfSpeech": "Idiom",
+        "synonym": "Initiate conversation",
+        "meaning": "To start a conversation in a social situation, often to relieve tension or create a comfortable atmosphere.",
+        "example": "He told a joke to break the ice at the beginning of the party.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Socialize",
+        "partOfSpeech": "Verb",
+        "synonym": "Mingle, Interact",
+        "meaning": "To spend time with others in a social setting, engaging in conversations and activities.",
+        "example": "After work, they often gather to socialize and share stories.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Enunciate",
+        "partOfSpeech": "Verb",
+        "synonym": "Articulate",
+        "meaning": "To pronounce words or parts of words clearly and distinctly.",
+        "example": "She was asked to enunciate her words more clearly so that everyone could understand her.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Pause",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Break / Hesitate",
+        "meaning": "Noun: A temporary stop in speech or action.\nVerb: To momentarily stop speaking or doing something.",
+        "example": "Noun: There was a brief pause in the conversation.\nVerb: He paused for a moment to gather his thoughts before continuing.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Fillers (like, um)",
+        "partOfSpeech": "Phrase",
+        "synonym": "Discourse markers",
+        "meaning": "Words or sounds used in speech to fill gaps, express hesitation, or give the speaker time to think.",
+        "example": "He used fillers like 'uh' and 'you know' while speaking.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Emphasize",
+        "partOfSpeech": "Verb",
+        "synonym": "Highlight",
+        "meaning": "To give special importance or attention to something; to make something stand out.",
+        "example": "She wanted to emphasize the importance of punctuality in the workplace.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Politeness",
+        "partOfSpeech": "Noun",
+        "synonym": "Civility",
+        "meaning": "Behavior that shows respect for others and follows social norms of courtesy.",
+        "example": "His politeness and good manners made a positive impression on everyone he met.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Formality",
+        "partOfSpeech": "Noun",
+        "synonym": "Conformity",
+        "meaning": "Adhering to established customs, rules, or conventions, especially in a social or professional context.",
+        "example": "The meeting was conducted with a certain level of formality, including a formal agenda and protocols.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Active listening",
+        "partOfSpeech": "Phrase",
+        "synonym": "Attentive listening",
+        "meaning": "Giving full attention to the speaker, both verbally and non-verbally, to understand and respond appropriately.",
+        "example": "She engaged in active listening by maintaining eye contact and nodding during the conversation.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Peer pressure",
+        "partOfSpeech": "Noun",
+        "synonym": "Influence from friends",
+        "meaning": "Influence from one's peers or social group that encourages certain behaviors, actions, or decisions.",
+        "example": "He gave in to peer pressure and tried smoking because his friends were doing it.",
+        "level": "Beginner",
+        "lessonTitle": "Everyday Conversations"
+      }
+      
+]
