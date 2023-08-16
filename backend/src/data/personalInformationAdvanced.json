@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 242,
+      "word": "Autobiography",
+      "partOfSpeech": "Noun",
+      "synonym": "Life story",
+      "meaning": "A written account of one's own life, usually in a book or narrative form.",
+      "example": "She published her autobiography, detailing her experiences and journey.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 243,
+      "word": "Lineage",
+      "partOfSpeech": "Noun",
+      "synonym": "Ancestry",
+      "meaning": "Direct descent from an ancestor; ancestry or pedigree.",
+      "example": "He traced his lineage back to a famous historical figure.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 244,
+      "word": "Demographics",
+      "partOfSpeech": "Noun",
+      "synonym": "Population statistics",
+      "meaning": "Statistical data relating to the population and groups within it, such as age, gender, income, education, etc.",
+      "example": "The study analyzed the demographics of the city's residents.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 245,
+      "word": "Expat status",
+      "partOfSpeech": "Noun",
+      "synonym": "Expatriate status",
+      "meaning": "The legal and social classification of being a resident in a foreign country.",
+      "example": "He obtained expat status and moved to a new country for work.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 246,
+      "word": "Domicile",
+      "partOfSpeech": "Noun",
+      "synonym": "Residence",
+      "meaning": "A place where a person lives; a residence.",
+      "example": "His legal domicile was in the city, even though he traveled frequently.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 247,
+      "word": "Linguistic proficiency",
+      "partOfSpeech": "Noun",
+      "synonym": "Language skill",
+      "meaning": "The ability to use one or more languages effectively and proficiently.",
+      "example": "Her linguistic proficiency allowed her to communicate fluently in multiple languages.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 248,
+      "word": "Polyglot",
+      "partOfSpeech": "Noun",
+      "synonym": "Multilingual person",
+      "meaning": "A person who knows and is able to use several languages.",
+      "example": "He was a true polyglot, effortlessly switching between languages in conversation.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 249,
+      "word": "Rhetorical skills",
+      "partOfSpeech": "Noun",
+      "synonym": "Oratory skills",
+      "meaning": "The ability to use language effectively and persuasively in speaking or writing.",
+      "example": "His strong rhetorical skills made his speeches captivating and convincing.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 250,
+      "word": "Curriculum vitae",
+      "partOfSpeech": "Noun",
+      "synonym": "CV, Resume",
+      "meaning": "A detailed document outlining one's educational and professional history, typically used when applying for jobs.",
+      "example": "She submitted her curriculum vitae along with her job application.",
+      "level": "Advanced",
+      "lessonTitle": "Personal Information"
+    },
+    {
+        "wordNumber": 251,
+        "word": "Professional affiliations",
+        "partOfSpeech": "Noun",
+        "synonym": "Professional associations",
+        "meaning": "Organizations or groups that a person is officially connected with due to their profession.",
+        "example": "Her professional affiliations include memberships in several industry-specific associations.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 252,
+        "word": "Specializations",
+        "partOfSpeech": "Noun",
+        "synonym": "Areas of expertise",
+        "meaning": "Specific areas or fields in which a person has focused their knowledge and skills.",
+        "example": "He has specializations in both environmental law and international trade.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 253,
+        "word": "Publications",
+        "partOfSpeech": "Noun",
+        "synonym": "Written works",
+        "meaning": "Books, articles, or other written materials that a person has authored or contributed to.",
+        "example": "Her list of publications includes several research papers and a bestselling novel.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 254,
+        "word": "Innovations",
+        "partOfSpeech": "Noun",
+        "synonym": "Original ideas",
+        "meaning": "New and creative ideas, inventions, or improvements that a person has developed.",
+        "example": "His innovations in renewable energy have revolutionized the industry.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 255,
+        "word": "Entrepreneurial ventures",
+        "partOfSpeech": "Noun",
+        "synonym": "Business undertakings",
+        "meaning": "Business initiatives or projects that a person has undertaken as an entrepreneur.",
+        "example": "She has been involved in multiple entrepreneurial ventures, ranging from tech startups to sustainable fashion brands.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 256,
+        "word": "Public speaking prowess",
+        "partOfSpeech": "Noun",
+        "synonym": "Oratory skills",
+        "meaning": "High level of skill and confidence in delivering speeches or presentations to a large audience.",
+        "example": "His public speaking prowess is evident in his ability to captivate and engage any crowd.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 257,
+        "word": "Intellectual property",
+        "partOfSpeech": "Noun",
+        "synonym": "Creative assets",
+        "meaning": "Creations of the mind, such as inventions, literary and artistic works, designs, and symbols, used in commerce.",
+        "example": "The company invested in protecting its intellectual property through patents and copyrights.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 258,
+        "word": "Ideologies",
+        "partOfSpeech": "Noun",
+        "synonym": "Belief systems",
+        "meaning": "Systematic beliefs, values, and ideals that guide a person's thoughts and actions.",
+        "example": "The political candidate's ideologies resonated with a wide range of voters.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 259,
+        "word": "Philosophical perspectives",
+        "partOfSpeech": "Noun",
+        "synonym": "Worldviews",
+        "meaning": "Individual viewpoints and interpretations about fundamental aspects of existence, knowledge, ethics, and reality.",
+        "example": "Different philosophical perspectives on the nature of consciousness have been debated for centuries.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 260,
+        "word": "Ethical frameworks",
+        "partOfSpeech": "Noun",
+        "synonym": "Moral structures",
+        "meaning": "Structured systems of principles and values that guide a person's decisions and behavior based on ethical beliefs.",
+        "example": "Various ethical frameworks provide guidance on how to approach complex moral dilemmas.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 261,
+        "word": "Cultural nuances",
+        "partOfSpeech": "Noun",
+        "synonym": "Cultural subtleties",
+        "meaning": "Subtle aspects of a culture that influence behavior, communication, and understanding.",
+        "example": "Understanding cultural nuances is essential for effective cross-cultural communication.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 262,
+        "word": "Aesthetic sensibilities",
+        "partOfSpeech": "Noun",
+        "synonym": "Artistic tastes",
+        "meaning": "Personal or cultural preferences for beauty and artistic elements.",
+        "example": "Her aesthetic sensibilities are reflected in the way she decorates her home.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 263,
+        "word": "Literary criticism",
+        "partOfSpeech": "Noun",
+        "synonym": "Textual analysis",
+        "meaning": "The evaluation, interpretation, and analysis of literary works.",
+        "example": "His deep knowledge of literary criticism enhances his understanding of complex texts.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 264,
+        "word": "Socioeconomic strata",
+        "partOfSpeech": "Noun",
+        "synonym": "Social classes",
+        "meaning": "Hierarchical divisions of society based on economic and social factors.",
+        "example": "The study of socioeconomic strata reveals patterns of inequality within a society.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 265,
+        "word": "Geopolitical insights",
+        "partOfSpeech": "Noun",
+        "synonym": "Political perspectives",
+        "meaning": "In-depth understanding of political interactions and relationships between nations.",
+        "example": "Her geopolitical insights allow her to analyze global events from a strategic standpoint.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 266,
+        "word": "Diplomatic relations",
+        "partOfSpeech": "Noun",
+        "synonym": "International diplomacy",
+        "meaning": "Official interactions and negotiations between countries to maintain peaceful relationships.",
+        "example": "The ambassador played a crucial role in improving diplomatic relations between the two nations.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 267,
+        "word": "Global citizenship",
+        "partOfSpeech": "Noun",
+        "synonym": "World citizenship",
+        "meaning": "A sense of belonging and responsibility to the worldwide community.",
+        "example": "Education plays a key role in fostering global citizenship and awareness.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 268,
+        "word": "Technological acumen",
+        "partOfSpeech": "Noun",
+        "synonym": "Technical expertise",
+        "meaning": "Proficiency and skill in understanding and using technology.",
+        "example": "His technological acumen allows him to innovate and adapt to rapid advancements.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 269,
+        "word": "Data privacy",
+        "partOfSpeech": "Noun",
+        "synonym": "Information privacy",
+        "meaning": "The protection of personal and sensitive information from unauthorized access.",
+        "example": "Ensuring data privacy is crucial in today's digital age to prevent breaches and identity theft.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 270,
+        "word": "Cybersecurity",
+        "partOfSpeech": "Noun",
+        "synonym": "Digital security",
+        "meaning": "Measures taken to protect computer systems, networks, and data from cyber threats.",
+        "example": "Companies invest in cybersecurity to safeguard their digital assets from hackers.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 271,
+        "word": "Neurodiversity",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The concept that neurological differences, such as autism and ADHD, are natural variations of the human brain.",
+        "example": "The company promotes neurodiversity by creating an inclusive workplace for employees with different cognitive abilities.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 272,
+        "word": "Metacognition",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The awareness and understanding of one's own thought processes and cognitive abilities.",
+        "example": "Developing metacognition can help students become more effective learners as they monitor and regulate their learning strategies.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 273,
+        "word": "Emotional resilience",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The ability to adapt and bounce back from emotional challenges and difficulties.",
+        "example": "Her emotional resilience helped her cope with the loss of a loved one and navigate through tough times.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 274,
+        "word": "Existential introspection",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Deep self-examination and contemplation about one's existence, purpose, and meaning in life.",
+        "example": "He engaged in existential introspection to explore the philosophical questions about his purpose and the nature of reality.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 275,
+        "word": "Transcendental experiences",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Profound or spiritual moments that go beyond ordinary perception or understanding.",
+        "example": "During meditation, she had transcendental experiences where she felt a deep connection with the universe.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 276,
+        "word": "Epistemological exploration",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The philosophical investigation and study of the nature of knowledge, belief, and justification.",
+        "example": "In his research, he delved into epistemological exploration to understand how different cultures perceive truth and knowledge.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 277,
+        "word": "Interpersonal dynamics",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The complex interactions and relationships between individuals within a group or social context.",
+        "example": "Effective leadership involves understanding and managing interpersonal dynamics to promote collaboration and productivity.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 278,
+        "word": "Sociopolitical activism",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Engagement in advocating for social and political change, often related to issues of justice and equality.",
+        "example": "She dedicated her life to sociopolitical activism, fighting for the rights of marginalized communities and promoting systemic change.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 279,
+        "word": "Environmental stewardship",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Responsible and ethical care and management of the environment and its resources.",
+        "example": "The organization's commitment to environmental stewardship led to initiatives such as tree planting and waste reduction.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 280,
+        "word": "Sustainable living",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Lifestyle choices and practices aimed at minimizing the negative impact on the environment and preserving natural resources for future generations.",
+        "example": "She embraced sustainable living by using renewable energy sources, reducing waste, and supporting eco-friendly products.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 281,
+        "word": "Systems thinking",
+        "partOfSpeech": "Noun",
+        "synonym": "Holistic perspective",
+        "meaning": "An approach to problem-solving that considers the interactions and interdependencies of various components within a larger system.",
+        "example": "In order to address complex societal issues, we need to apply systems thinking.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 282,
+        "word": "Ontological inquiries",
+        "partOfSpeech": "Noun",
+        "synonym": "Philosophical investigations",
+        "meaning": "Studies and examinations about the nature of existence and reality.",
+        "example": "The philosopher engaged in deep ontological inquiries to understand the fundamental aspects of being.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 283,
+        "word": "Synaptic plasticity",
+        "partOfSpeech": "Noun",
+        "synonym": "Neural adaptability",
+        "meaning": "The ability of synapses (connections between neurons) to change and strengthen or weaken over time, forming the basis of learning and memory.",
+        "example": "The phenomenon of synaptic plasticity plays a crucial role in our brain's ability to learn new information.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 284,
+        "word": "Quantum consciousness",
+        "partOfSpeech": "Noun",
+        "synonym": "Quantum mind",
+        "meaning": "A theoretical concept suggesting that quantum phenomena might play a role in the nature of consciousness and cognition.",
+        "example": "Some researchers speculate about the possibility of quantum consciousness, where quantum processes contribute to our understanding of subjective experiences.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 285,
+        "word": "Empirical research",
+        "partOfSpeech": "Noun",
+        "synonym": "Observational study",
+        "meaning": "Research based on direct observation or experience, aiming to gather factual and objective data.",
+        "example": "The scientist conducted empirical research to validate the hypothesis through systematic observation and measurement.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 286,
+        "word": "Phenomenological perception",
+        "partOfSpeech": "Noun",
+        "synonym": "Experiential perspective",
+        "meaning": "The study of how individuals perceive and experience phenomena, focusing on subjective conscious experiences.",
+        "example": "The philosopher explored the depth of phenomenological perception to understand how different individuals interpret the same events.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 287,
+        "word": "Postmodern deconstruction",
+        "partOfSpeech": "Noun",
+        "synonym": "Critical analysis",
+        "meaning": "An approach to analyzing and interpreting texts, art, or cultural phenomena that emphasizes questioning traditional meanings and exploring underlying power structures.",
+        "example": "The literary scholar employed postmodern deconstruction to reveal the hidden ideologies within the narrative.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 288,
+        "word": "Humanitarian endeavors",
+        "partOfSpeech": "Noun",
+        "synonym": "Philanthropic efforts",
+        "meaning": "Activities and initiatives aimed at promoting the well-being of humanity, particularly those in need or facing crises.",
+        "example": "Many volunteers engage in humanitarian endeavors, providing aid and support to communities affected by natural disasters.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 289,
+        "word": "Intercultural empathy",
+        "partOfSpeech": "Noun",
+        "synonym": "Cross-cultural compassion",
+        "meaning": "The ability to understand and share the feelings and perspectives of people from different cultural backgrounds.",
+        "example": "Developing intercultural empathy is essential for effective communication and collaboration in a diverse global society.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 290,
+        "word": "Ethnographic studies",
+        "partOfSpeech": "Noun",
+        "synonym": "Cultural anthropology",
+        "meaning": "Research and analysis of different cultures, typically involving immersive fieldwork and observation.",
+        "example": "The anthropologist conducted ethnographic studies among a remote tribe to document their traditions and way of life.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 291,
+        "word": "Esoteric wisdom",
+        "partOfSpeech": "Noun",
+        "synonym": "Arcane knowledge",
+        "meaning": "Profound and specialized knowledge that is understood by a limited number of people who possess deep insight or expertise.",
+        "example": "The spiritual teacher shared esoteric wisdom about the universe and metaphysical concepts with a select group of dedicated students.",
+        "level": "Advanced",
+        "lessonTitle": "Personal Information"
+      }
+]
+  
