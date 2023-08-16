@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 101,
+      "word": "Articulation",
+      "partOfSpeech": "Noun",
+      "synonym": "Enunciation",
+      "meaning": "The act of clearly and distinctly pronouncing words and sounds.",
+      "example": "Her articulation was so clear that everyone in the audience understood her.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 102,
+      "word": "Eloquence",
+      "partOfSpeech": "Noun",
+      "synonym": "Expressiveness",
+      "meaning": "Fluent or persuasive speaking or writing.",
+      "example": "His eloquence captivated the audience during his speech.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 103,
+      "word": "Rhetoric",
+      "partOfSpeech": "Noun",
+      "synonym": "Oratory",
+      "meaning": "The art of effective or persuasive speaking or writing, often with the use of figures of speech and other techniques.",
+      "example": "The politician's use of rhetoric helped sway public opinion.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 104,
+      "word": "Persuasion",
+      "partOfSpeech": "Noun",
+      "synonym": "Influence",
+      "meaning": "The act of convincing someone to believe or do something through reasoning or argument.",
+      "example": "Her powers of persuasion were evident in her ability to change minds.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 105,
+      "word": "Discourse",
+      "partOfSpeech": "Noun",
+      "synonym": "Conversation",
+      "meaning": "Written or spoken communication or discussion.",
+      "example": "The academic discourse on the topic was quite extensive.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 106,
+      "word": "Verbose",
+      "partOfSpeech": "Adjective",
+      "synonym": "Wordy",
+      "meaning": "Using more words than necessary; long-winded.",
+      "example": "His writing style was overly verbose and difficult to follow.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 107,
+      "word": "Lucid",
+      "partOfSpeech": "Adjective",
+      "synonym": "Clear",
+      "meaning": "Easily understood; clear and coherent.",
+      "example": "Her explanation was so lucid that even beginners could grasp the concept.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 108,
+      "word": "Articulate",
+      "partOfSpeech": "Adjective",
+      "synonym": "Expressive",
+      "meaning": "Expressing oneself clearly and effectively; well-spoken.",
+      "example": "She was known for her articulate speeches on various social issues.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 109,
+      "word": "Ambiguity",
+      "partOfSpeech": "Noun",
+      "synonym": "Uncertainty",
+      "meaning": "The quality of being open to more than one interpretation; having a double meaning.",
+      "example": "The statement was full of ambiguity, leaving people confused about its intended meaning.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+      "wordNumber": 110,
+      "word": "Elocution",
+      "partOfSpeech": "Noun",
+      "synonym": "Delivery",
+      "meaning": "The skill of clear and expressive speech, especially pronunciation and gesture.",
+      "example": "He practiced elocution to improve his public speaking abilities.",
+      "level": "Advanced",
+      "lessonTitle": "Everyday Conversations"
+    },
+    {
+        "wordNumber": 111,
+        "word": "Cogency",
+        "partOfSpeech": "Noun",
+        "synonym": "Compelling",
+        "meaning": "The quality of being clear, logical, and convincing.",
+        "example": "Her arguments were presented with such cogency that they swayed even the skeptics.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 112,
+        "word": "Eloquently",
+        "partOfSpeech": "Adverb",
+        "synonym": "Expressively",
+        "meaning": "In a fluent, persuasive, and emotionally impactful manner.",
+        "example": "She spoke eloquently about the importance of preserving cultural heritage.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 113,
+        "word": "Grandiloquent",
+        "partOfSpeech": "Adjective",
+        "synonym": "Pompous",
+        "meaning": "Using lofty, exaggerated language to impress or show off.",
+        "example": "His grandiloquent speeches were met with mixed reactions from the audience.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 114,
+        "word": "Loquacious",
+        "partOfSpeech": "Adjective",
+        "synonym": "Talkative",
+        "meaning": "Tending to talk a lot or too much.",
+        "example": "The loquacious salesman could turn a five-minute conversation into an hour-long monologue.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 115,
+        "word": "Perspicacious",
+        "partOfSpeech": "Adjective",
+        "synonym": "Insightful",
+        "meaning": "Having a keen understanding of things; perceptive.",
+        "example": "Her perspicacious observations about human behavior often led to innovative solutions.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 116,
+        "word": "Rhetorical",
+        "partOfSpeech": "Adjective",
+        "synonym": "Oratorical",
+        "meaning": "Related to the effective use of language in speech or writing.",
+        "example": "The speaker's rhetorical question engaged the audience and encouraged deep thought.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 117,
+        "word": "Subtext",
+        "partOfSpeech": "Noun",
+        "synonym": "Undertone",
+        "meaning": "An underlying or implicit meaning, often conveyed indirectly.",
+        "example": "The movie's subtext explored themes of loneliness and isolation beneath its cheerful surface.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 118,
+        "word": "Perspicuity",
+        "partOfSpeech": "Noun",
+        "synonym": "Clarity",
+        "meaning": "Clearness in expressing ideas or concepts.",
+        "example": "The perspicuity of the professor's lectures made complex topics easy to understand.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 119,
+        "word": "Vernacular",
+        "partOfSpeech": "Noun",
+        "synonym": "Jargon",
+        "meaning": "The language or dialect spoken by the ordinary people in a particular region or country.",
+        "example": "The author captured the essence of the region by incorporating the local vernacular in the dialogue.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 120,
+        "word": "Rhetorician",
+        "partOfSpeech": "Noun",
+        "synonym": "Orator",
+        "meaning": "A person skilled in the art of rhetoric; a persuasive speaker or writer.",
+        "example": "The renowned rhetorician captivated the audience with her powerful and moving address.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 121,
+        "word": "Prolixity",
+        "partOfSpeech": "Noun",
+        "synonym": "Verbosity",
+        "meaning": "Excessive use of words; long-windedness.",
+        "example": "His prolixity made it difficult to follow his train of thought.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 122,
+        "word": "Facetious",
+        "partOfSpeech": "Adjective",
+        "synonym": "Witty",
+        "meaning": "Treating serious issues with deliberately inappropriate humor.",
+        "example": "She couldn't resist making a facetious comment during the tense meeting.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 123,
+        "word": "Repartee",
+        "partOfSpeech": "Noun",
+        "synonym": "Banter",
+        "meaning": "Quick and witty conversation or retort.",
+        "example": "Their repartee had everyone laughing throughout the evening.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 124,
+        "word": "Circumlocution",
+        "partOfSpeech": "Noun",
+        "synonym": "Verbosity",
+        "meaning": "The use of many words when fewer would suffice, especially in an attempt to be evasive; wordiness.",
+        "example": "His circumlocution frustrated the audience, who wanted a direct answer.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 125,
+        "word": "Paralipsis",
+        "partOfSpeech": "Noun",
+        "synonym": "Omission",
+        "meaning": "The rhetorical device of giving emphasis by professing to say little or nothing about a subject.",
+        "example": "In an act of paralipsis, he pretended to ignore the rumors about his past.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 126,
+        "word": "Voluble",
+        "partOfSpeech": "Adjective",
+        "synonym": "Talkative",
+        "meaning": "Speaking or spoken incessantly and fluently.",
+        "example": "She was so voluble that it was hard to get a word in edgewise.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 127,
+        "word": "Didactic",
+        "partOfSpeech": "Adjective",
+        "synonym": "Instructive",
+        "meaning": "Intended to teach, particularly in having moral instruction as an ulterior motive.",
+        "example": "His didactic approach to storytelling often included valuable life lessons.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 128,
+        "word": "Orotund",
+        "partOfSpeech": "Adjective",
+        "synonym": "Sonorous",
+        "meaning": "Full, round, and imposing in sound.",
+        "example": "His orotund voice commanded attention in the auditorium.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 129,
+        "word": "Discursive",
+        "partOfSpeech": "Adjective",
+        "synonym": "Rambling",
+        "meaning": "Digressing from subject to subject; moving from topic to topic without order; meandering.",
+        "example": "His discursive speech made it challenging to follow his main point.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 130,
+        "word": "Prolix",
+        "partOfSpeech": "Adjective",
+        "synonym": "Verbose",
+        "meaning": "Using or containing too many words; tediously lengthy.",
+        "example": "Her prolix writing style made the article a difficult read.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 131,
+        "word": "Bombastic",
+        "partOfSpeech": "Adjective",
+        "synonym": "Pompous",
+        "meaning": "High-sounding but with little meaning; inflated.",
+        "example": "His bombastic speech impressed some but annoyed others.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 132,
+        "word": "Logomachy",
+        "partOfSpeech": "Noun",
+        "synonym": "Verbal Duel",
+        "meaning": "A dispute about words; an argument or debate marked by the excessive use of words.",
+        "example": "Their logomachy continued late into the night.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 133,
+        "word": "Disputation",
+        "partOfSpeech": "Noun",
+        "synonym": "Debate",
+        "meaning": "A formal debate or argument.",
+        "example": "The disputation between the scholars was intense and thought-provoking.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 134,
+        "word": "Aphorism",
+        "partOfSpeech": "Noun",
+        "synonym": "Saying",
+        "meaning": "A concise statement of a general truth or principle.",
+        "example": "Benjamin Franklin was known for his aphorisms, such as 'Early to bed and early to rise, makes a man healthy, wealthy, and wise.'",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 135,
+        "word": "Eristic",
+        "partOfSpeech": "Adjective",
+        "synonym": "Argumentative",
+        "meaning": "Prone to engaging in arguments or disputes; argumentative.",
+        "example": "His eristic nature often led to heated discussions among his friends.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 136,
+        "word": "Polyloquent",
+        "partOfSpeech": "Adjective",
+        "synonym": "Eloquent",
+        "meaning": "Expressing oneself in an eloquent or articulate manner; speaking with fluency on many subjects.",
+        "example": "Her polyloquent speech captivated the audience and left them in awe.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 137,
+        "word": "Pleonasm",
+        "partOfSpeech": "Noun",
+        "synonym": "Redundancy",
+        "meaning": "The use of more words than necessary to convey meaning; redundancy.",
+        "example": "The phrase 'free gift' is a pleonasm, as gifts are inherently free.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 138,
+        "word": "Ambage",
+        "partOfSpeech": "Noun",
+        "synonym": "Circuitousness",
+        "meaning": "The use of unnecessarily indirect language; circumlocution.",
+        "example": "His ambage made it difficult to understand his true intentions.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 139,
+        "word": "Moot",
+        "partOfSpeech": "Verb",
+        "synonym": "Debate",
+        "meaning": "To raise for discussion; to bring up as a topic of debate or argument.",
+        "example": "They decided to moot the idea of changing the company's policies.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 140,
+        "word": "Quibbling",
+        "partOfSpeech": "Verb",
+        "synonym": "Arguing",
+        "meaning": "Engaging in petty or trivial arguments; finding fault with minor details.",
+        "example": "Instead of addressing the main issue, they spent their time quibbling over minor points.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 141,
+        "word": "Enthymeme",
+        "partOfSpeech": "Noun",
+        "synonym": "Rhetorical Syllogism",
+        "meaning": "A rhetorical device that is an incomplete argument where one or more premises are unstated and taken for granted.",
+        "example": "His enthymeme relied on the assumption that everyone wants to be successful.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 142,
+        "word": "Eristical",
+        "partOfSpeech": "Adjective",
+        "synonym": "Argumentative",
+        "meaning": "Characterized by argument or contention; prone to engaging in arguments or disputes.",
+        "example": "Her eristical nature often led to heated debates during family gatherings.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 143,
+        "word": "Metaphrasis",
+        "partOfSpeech": "Noun",
+        "synonym": "Paraphrase",
+        "meaning": "The act of translating or expressing something in a different or clearer way.",
+        "example": "His metaphrasis of the poem captured the essence of the original text while making it more accessible.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 144,
+        "word": "Tautology",
+        "partOfSpeech": "Noun",
+        "synonym": "Redundancy",
+        "meaning": "The use of unnecessary or repetitive words, phrases, or ideas to emphasize a point.",
+        "example": "Saying 'free gift' is a tautology, as a gift is already something given without cost.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 145,
+        "word": "Dialectic",
+        "partOfSpeech": "Noun",
+        "synonym": "Debate",
+        "meaning": "The art or practice of logical discussion as a means of resolving differences or understanding opposing ideas.",
+        "example": "The dialectic between the two philosophers led to a deeper exploration of their contrasting viewpoints.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 146,
+        "word": "Periphrasis",
+        "partOfSpeech": "Noun",
+        "synonym": "Circumlocution",
+        "meaning": "The use of excessive words or wordy expressions to convey a meaning that could be expressed more directly.",
+        "example": "Instead of saying 'the man who was in charge,' he used periphrasis and said 'the individual overseeing the operations.'",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 147,
+        "word": "Logomachist",
+        "partOfSpeech": "Noun",
+        "synonym": "Word Wrangler",
+        "meaning": "One who engages in disputes or arguments about words or their meanings.",
+        "example": "The two logomachists couldn't agree on the precise definition of 'art,' leading to a lengthy debate.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 148,
+        "word": "Ambages",
+        "partOfSpeech": "Noun",
+        "synonym": "Circumlocution",
+        "meaning": "Circuitous or roundabout ways of speaking or writing; use of excessive words to express a simple idea.",
+        "example": "Her storytelling was rich in ambages, often taking long detours before arriving at the main point.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 149,
+        "word": "Tmesis",
+        "partOfSpeech": "Noun",
+        "synonym": "Infixation",
+        "meaning": "The insertion of one or more words within a compound word, usually for humorous or emphatic effect.",
+        "example": "In 'fan-freakin-tastic,' the tmesis 'freakin' is inserted within the word 'fantastic.'",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      },
+      {
+        "wordNumber": 150,
+        "word": "Delphic",
+        "partOfSpeech": "Adjective",
+        "synonym": "Enigmatic",
+        "meaning": "Unclear, ambiguous, or difficult to understand; often referring to statements with hidden or double meanings.",
+        "example": "Her response to the question was quite delphic, leaving everyone puzzled about her true intentions.",
+        "level": "Advanced",
+        "lessonTitle": "Everyday Conversations"
+      }
+]
+  
