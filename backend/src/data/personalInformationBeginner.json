@@ -1,0 +1,413 @@
+[
+    {
+      "wordNumber": 151,
+      "word": "Name",
+      "partOfSpeech": "Noun",
+      "synonym": "Title",
+      "meaning": "A word or set of words used to identify an individual.",
+      "example": "Please write your full name on the form.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 152,
+      "word": "Age",
+      "partOfSpeech": "Noun",
+      "synonym": "Years",
+      "meaning": "The number of years that a person has lived, usually counted from their birth.",
+      "example": "She is twenty-five years old.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 153,
+      "word": "Gender",
+      "partOfSpeech": "Noun",
+      "synonym": "Sex",
+      "meaning": "The state of being male or female.",
+      "example": "He identifies his gender as male.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 154,
+      "word": "Birthday",
+      "partOfSpeech": "Noun",
+      "synonym": "Birthdate",
+      "meaning": "The date on which a person was born.",
+      "example": "We celebrated her birthday with a surprise party.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 155,
+      "word": "Nationality",
+      "partOfSpeech": "Noun",
+      "synonym": "Citizenship",
+      "meaning": "The legal relationship between a person and a country to which they owe allegiance.",
+      "example": "Her nationality is American.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 156,
+      "word": "Address",
+      "partOfSpeech": "Noun",
+      "synonym": "Location",
+      "meaning": "The details of the place where someone lives or where a business is located.",
+      "example": "Please provide your current address for shipping.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 157,
+      "word": "Phone number",
+      "partOfSpeech": "Noun",
+      "synonym": "Telephone number",
+      "meaning": "A sequence of digits used to uniquely identify a mobile or landline telephone connection.",
+      "example": "You can reach me at this phone number: 123-456-7890.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 158,
+      "word": "Email address",
+      "partOfSpeech": "Noun",
+      "synonym": "Email",
+      "meaning": "A unique identifier for an email inbox, used for sending and receiving electronic messages.",
+      "example": "Please provide your email address for account registration.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 159,
+      "word": "Occupation",
+      "partOfSpeech": "Noun",
+      "synonym": "Job",
+      "meaning": "A person's regular work or profession.",
+      "example": "His occupation is a software engineer.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 160,
+      "word": "Marital status",
+      "partOfSpeech": "Noun",
+      "synonym": "Marriage status",
+      "meaning": "The condition of being married, single, divorced, or widowed.",
+      "example": "She indicated her marital status as 'married' on the form.",
+      "level": "Beginner",
+      "lessonTitle": "Personal Information"
+    },
+    {
+        "wordNumber": 161,
+        "word": "Education",
+        "partOfSpeech": "Noun",
+        "synonym": "Learning",
+        "meaning": "The process of acquiring knowledge, skills, and understanding through study or experience.",
+        "example": "She pursued higher education at a prestigious university.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 162,
+        "word": "Family",
+        "partOfSpeech": "Noun",
+        "synonym": "Relatives",
+        "meaning": "A group of people who are related by blood, marriage, or adoption.",
+        "example": "His family includes his parents, siblings, and grandparents.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 163,
+        "word": "Siblings",
+        "partOfSpeech": "Noun",
+        "synonym": "Brothers and Sisters",
+        "meaning": "Brothers and sisters; individuals who share at least one parent.",
+        "example": "She has two siblings, an older brother, and a younger sister.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 164,
+        "word": "Spouse",
+        "partOfSpeech": "Noun",
+        "synonym": "Partner",
+        "meaning": "A person's husband or wife, considered in relation to their partner's gender.",
+        "example": "He introduced his spouse at the family gathering.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 165,
+        "word": "Children",
+        "partOfSpeech": "Noun",
+        "synonym": "Offspring",
+        "meaning": "Young human beings of either sex, typically under the age of 18 years.",
+        "example": "They have three children, two boys, and a girl.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 166,
+        "word": "Hobbies",
+        "partOfSpeech": "Noun",
+        "synonym": "Pastimes",
+        "meaning": "Activities done for enjoyment and relaxation during one's free time.",
+        "example": "His hobbies include painting, playing the guitar, and gardening.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 167,
+        "word": "Interests",
+        "partOfSpeech": "Noun",
+        "synonym": "Hobbies",
+        "meaning": "Subjects or activities that one enjoys and finds engaging.",
+        "example": "Her interests range from astronomy to cooking.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 168,
+        "word": "Birthplace",
+        "partOfSpeech": "Noun",
+        "synonym": "Place of Birth",
+        "meaning": "The location where a person is born.",
+        "example": "Her birthplace is a small town in the mountains.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 169,
+        "word": "Residence",
+        "partOfSpeech": "Noun",
+        "synonym": "Dwelling",
+        "meaning": "The place where a person lives or stays.",
+        "example": "His residence is a cozy apartment in the city center.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 170,
+        "word": "Language(s) spoken",
+        "partOfSpeech": "Noun",
+        "synonym": "Spoken Languages",
+        "meaning": "The languages that a person can speak and communicate in.",
+        "example": "She is fluent in three languages: English, Spanish, and French.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 171,
+        "word": "Religion",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "A set of beliefs and practices concerning the existence, nature, and worship of a deity or deities, often involving rituals and moral codes.",
+        "example": "She follows the Hindu religion and visits the temple regularly.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 172,
+        "word": "Ethnicity",
+        "partOfSpeech": "Noun",
+        "synonym": "Heritage",
+        "meaning": "A social group that shares a common cultural, ancestral, or historical background.",
+        "example": "His ethnicity is Korean, but he was born and raised in the United States.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 173,
+        "word": "Height",
+        "partOfSpeech": "Noun",
+        "synonym": "Stature",
+        "meaning": "The measurement of how tall a person or object is.",
+        "example": "Her height is 5 feet 8 inches.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 174,
+        "word": "Weight",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The measurement of how heavy a person or object is.",
+        "example": "His weight is around 160 pounds.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 175,
+        "word": "Hair color",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The color of a person's hair, often described using terms like 'blonde,' 'brunette,' 'black,' etc.",
+        "example": "Her natural hair color is brown.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 176,
+        "word": "Eye color",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The color of a person's eyes, such as 'blue,' 'green,' 'brown,' etc.",
+        "example": "His eye color is hazel.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 177,
+        "word": "Complexion",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The natural color, texture, and appearance of a person's skin, especially on the face.",
+        "example": "She has a fair complexion.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 178,
+        "word": "Signature",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "A person's name written in a distinctive way, used as a form of identification or authorization.",
+        "example": "Please sign the document with your signature.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 179,
+        "word": "ID card",
+        "partOfSpeech": "Noun",
+        "synonym": "Identification card",
+        "meaning": "A small card or document that proves a person's identity and often includes personal information like name, photo, and address.",
+        "example": "Make sure to carry your ID card with you at all times.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 180,
+        "word": "Passport",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "An official government document that certifies a person's identity and citizenship and allows them to travel internationally.",
+        "example": "She needed her passport to board the international flight.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 181,
+        "word": "Driver's license",
+        "partOfSpeech": "Noun",
+        "synonym": "Driver's permit",
+        "meaning": "An official document that permits an individual to operate a motor vehicle legally.",
+        "example": "You need to have a valid driver's license to drive a car.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 182,
+        "word": "Emergency contacts",
+        "partOfSpeech": "Noun",
+        "synonym": "Emergency information",
+        "meaning": "People or numbers to be contacted in case of urgent situations or accidents.",
+        "example": "Make sure to update your emergency contacts regularly.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 183,
+        "word": "Personality traits",
+        "partOfSpeech": "Noun",
+        "synonym": "Characteristics",
+        "meaning": "Distinctive qualities and attributes that define an individual's behavior and attitude.",
+        "example": "Her kindness and patience are among her notable personality traits.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 184,
+        "word": "Skills",
+        "partOfSpeech": "Noun",
+        "synonym": "Abilities",
+        "meaning": "Proficiencies or talents that a person has acquired through training or experience.",
+        "example": "His programming skills are highly sought after in the tech industry.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 185,
+        "word": "Achievements",
+        "partOfSpeech": "Noun",
+        "synonym": "Accomplishments",
+        "meaning": "Notable successes or accomplishments in one's life or career.",
+        "example": "Winning the championship was one of the proudest achievements of her life.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 186,
+        "word": "Goals",
+        "partOfSpeech": "Noun",
+        "synonym": "Objectives",
+        "meaning": "Desired outcomes or targets that a person aims to achieve.",
+        "example": "Her goal is to travel to at least ten different countries within the next five years.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 187,
+        "word": "Dreams",
+        "partOfSpeech": "Noun",
+        "synonym": "Aspirations",
+        "meaning": "Deeply desired and often unrealistic or imaginative goals or wishes.",
+        "example": "Becoming a famous actor has been his lifelong dream.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 188,
+        "word": "Strengths",
+        "partOfSpeech": "Noun",
+        "synonym": "Advantages",
+        "meaning": "Positive qualities, abilities, or attributes that contribute to a person's success or effectiveness.",
+        "example": "One of his strengths is his ability to communicate effectively with diverse groups.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 189,
+        "word": "Weaknesses",
+        "partOfSpeech": "Noun",
+        "synonym": "Limitations",
+        "meaning": "Areas where a person lacks skill, knowledge, or capability; vulnerabilities.",
+        "example": "Public speaking is one of her weaknesses, but she's working to overcome it.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 190,
+        "word": "Background",
+        "partOfSpeech": "Noun",
+        "synonym": "History",
+        "meaning": "Personal, familial, educational, and cultural information that forms an individual's identity.",
+        "example": "She comes from a diverse cultural background with roots in multiple countries.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 191,
+        "word": "Medical history",
+        "partOfSpeech": "Noun",
+        "synonym": "Health record",
+        "meaning": "A record of an individual's past health conditions, treatments, and medical events.",
+        "example": "It's important to provide your complete medical history to your healthcare provider.",
+        "level": "Beginner",
+        "lessonTitle": "Personal Information"
+      }
+]
+  
