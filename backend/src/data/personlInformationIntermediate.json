@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 192,
+      "word": "Biography",
+      "partOfSpeech": "Noun",
+      "synonym": "Life story",
+      "meaning": "An account of a person's life written by someone else.",
+      "example": "Her biography chronicled her journey from a small town to international fame.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 193,
+      "word": "Ancestry",
+      "partOfSpeech": "Noun",
+      "synonym": "Descent",
+      "meaning": "One's family or ethnic descent.",
+      "example": "She traced her ancestry back several generations to learn about her roots.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 194,
+      "word": "Genealogy",
+      "partOfSpeech": "Noun",
+      "synonym": "Family history",
+      "meaning": "The study and tracing of a person's family lineage.",
+      "example": "He spent years researching his genealogy to create a comprehensive family tree.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 195,
+      "word": "Citizenship",
+      "partOfSpeech": "Noun",
+      "synonym": "Nationality",
+      "meaning": "The status of belonging to a particular country and enjoying its rights and privileges.",
+      "example": "After living there for years, she finally obtained French citizenship.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 196,
+      "word": "Residence permit",
+      "partOfSpeech": "Noun",
+      "synonym": "Residency visa",
+      "meaning": "An official document allowing a foreign national to reside in a country for a specific period.",
+      "example": "He applied for a residence permit to live and work in the United States.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 197,
+      "word": "Permanent address",
+      "partOfSpeech": "Noun",
+      "synonym": "Domicile",
+      "meaning": "A fixed and lasting residential address.",
+      "example": "Please provide your permanent address for official correspondence.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 198,
+      "word": "Temporary address",
+      "partOfSpeech": "Noun",
+      "synonym": "Transient residence",
+      "meaning": "A short-term residential address that is not permanent.",
+      "example": "While studying abroad, she had a temporary address for the duration of her program.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 199,
+      "word": "Native language",
+      "partOfSpeech": "Noun",
+      "synonym": "Mother tongue",
+      "meaning": "The first language a person learns and speaks.",
+      "example": "Her native language is Spanish, but she is also fluent in English.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 200,
+      "word": "Second language",
+      "partOfSpeech": "Noun",
+      "synonym": "Non-native language",
+      "meaning": "A language learned in addition to one's native language.",
+      "example": "He studied French as a second language in school.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 201,
+      "word": "Multilingual",
+      "partOfSpeech": "Adjective",
+      "synonym": "Polyglot",
+      "meaning": "Able to speak and understand multiple languages.",
+      "example": "She is a multilingual individual, proficient in five different languages.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 202,
+      "word": "Bilingual",
+      "partOfSpeech": "Adjective",
+      "synonym": "Two-language",
+      "meaning": "Able to speak and understand two languages.",
+      "example": "Growing up in a multicultural environment, she became bilingual in English and Mandarin.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 203,
+      "word": "Communication skills",
+      "partOfSpeech": "Noun",
+      "synonym": "Interpersonal skills",
+      "meaning": "The ability to convey information clearly and effectively to others.",
+      "example": "His strong communication skills made him an excellent public speaker.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 204,
+      "word": "Professional background",
+      "partOfSpeech": "Noun",
+      "synonym": "Career history",
+      "meaning": "One's past work experience, training, and qualifications.",
+      "example": "Her diverse professional background includes roles in finance, marketing, and consulting.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 205,
+      "word": "Work experience",
+      "partOfSpeech": "Noun",
+      "synonym": "Job history",
+      "meaning": "The practical knowledge and skills gained from employment.",
+      "example": "He had extensive work experience in various industries before starting his own business.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 206,
+      "word": "Qualifications",
+      "partOfSpeech": "Noun",
+      "synonym": "Credentials",
+      "meaning": "Official recognition of a person's skills, knowledge, and achievements.",
+      "example": "Her impressive qualifications included a master's degree and several industry certifications.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 207,
+      "word": "Academic degrees",
+      "partOfSpeech": "Noun",
+      "synonym": "Educational credentials",
+      "meaning": "Titles awarded by educational institutions to signify the completion of specific programs of study.",
+      "example": "She proudly displayed her academic degrees on the office wall.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 208,
+      "word": "Accomplishments",
+      "partOfSpeech": "Noun",
+      "synonym": "Achievements",
+      "meaning": "Noteworthy successes or achievements in one's personal or professional life.",
+      "example": "His many accomplishments included publishing three books and winning multiple awards.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 209,
+      "word": "Ambitions",
+      "partOfSpeech": "Noun",
+      "synonym": "Aspirations",
+      "meaning": "Strong desires or goals for success and achievement.",
+      "example": "Her ambitions included becoming a respected leader in the tech industry.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+      "wordNumber": 210,
+      "word": "Career path",
+      "partOfSpeech": "Noun",
+      "synonym": "Professional trajectory",
+      "meaning": "The sequence of jobs and positions that make up a person's work history.",
+      "example": "He had a diverse career path that included roles in sales, marketing, and executive leadership.",
+      "level": "Intermediate",
+      "lessonTitle": "Personal Information"
+    },
+    {
+        "wordNumber": 211,
+        "word": "Extracurricular activities",
+        "partOfSpeech": "Noun",
+        "synonym": "Extra activities",
+        "meaning": "Activities pursued outside of regular academic curriculum, often involving interests, hobbies, or personal development.",
+        "example": "She participated in various extracurricular activities such as debate club, art classes, and sports.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 212,
+        "word": "Volunteer work",
+        "partOfSpeech": "Noun",
+        "synonym": "Volunteering",
+        "meaning": "Unpaid activities undertaken willingly to contribute to a cause or organization.",
+        "example": "He dedicated his weekends to volunteer work at a local animal shelter.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 213,
+        "word": "Networking",
+        "partOfSpeech": "Noun",
+        "synonym": "Socializing",
+        "meaning": "The process of building and maintaining relationships for professional or personal purposes.",
+        "example": "Attending conferences and events helped her expand her professional networking circle.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 214,
+        "word": "Social circle",
+        "partOfSpeech": "Noun",
+        "synonym": "Social network",
+        "meaning": "The group of friends, acquaintances, and connections with whom one regularly interacts.",
+        "example": "Her diverse social circle included colleagues, classmates, and fellow hobbyists.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 215,
+        "word": "Personality traits",
+        "partOfSpeech": "Noun",
+        "synonym": "Characteristics",
+        "meaning": "Distinctive qualities and behaviors that contribute to an individual's character and behavior.",
+        "example": "Her positive personality traits, such as empathy and optimism, made her a joy to be around.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 216,
+        "word": "Leadership qualities",
+        "partOfSpeech": "Noun",
+        "synonym": "Leadership skills",
+        "meaning": "Attributes and abilities that enable a person to guide and inspire others effectively.",
+        "example": "His strong communication and decision-making abilities were key leadership qualities in the team.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 217,
+        "word": "Problem-solving skills",
+        "partOfSpeech": "Noun",
+        "synonym": "Analytical skills",
+        "meaning": "The capacity to analyze issues and find effective solutions.",
+        "example": "Her excellent problem-solving skills helped the team overcome complex challenges.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 218,
+        "word": "Critical thinking",
+        "partOfSpeech": "Noun",
+        "synonym": "Cognitive analysis",
+        "meaning": "The ability to objectively analyze and evaluate information to form well-reasoned conclusions.",
+        "example": "The course emphasized critical thinking, enabling students to assess arguments more effectively.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 219,
+        "word": "Decision-making process",
+        "partOfSpeech": "Noun",
+        "synonym": "Choice-making process",
+        "meaning": "The steps involved in selecting a course of action from various alternatives.",
+        "example": "She carefully considered the pros and cons during her decision-making process.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 220,
+        "word": "Cultural identity",
+        "partOfSpeech": "Noun",
+        "synonym": "Ethnic identity",
+        "meaning": "The sense of belonging and connection to a particular cultural or ethnic group.",
+        "example": "Her cultural identity was shaped by her family traditions and heritage.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 221,
+        "word": "Traditions",
+        "partOfSpeech": "Noun",
+        "synonym": "Customs",
+        "meaning": "Long-established beliefs, practices, or customs passed down within a society or family.",
+        "example": "One of our family traditions is to have a big dinner on Thanksgiving.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 222,
+        "word": "Customs",
+        "partOfSpeech": "Noun",
+        "synonym": "Traditions",
+        "meaning": "Traditional practices or behaviors within a particular group or culture.",
+        "example": "The customs of this region include celebrating a unique festival.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 223,
+        "word": "Artistic interests",
+        "partOfSpeech": "Noun",
+        "synonym": "Creative pursuits",
+        "meaning": "Creative or imaginative activities that engage one's artistic inclinations.",
+        "example": "Her artistic interests range from painting to playing musical instruments.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 224,
+        "word": "Literary preferences",
+        "partOfSpeech": "Noun",
+        "synonym": "Reading choices",
+        "meaning": "Personal inclinations towards certain types or genres of literature.",
+        "example": "His literary preferences include classic novels and science fiction.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 225,
+        "word": "Political views",
+        "partOfSpeech": "Noun",
+        "synonym": "Political beliefs",
+        "meaning": "Individual opinions or stances on political matters and issues.",
+        "example": "Their political views are rooted in social equality and environmental sustainability.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 226,
+        "word": "Personal values",
+        "partOfSpeech": "Noun",
+        "synonym": "Core beliefs",
+        "meaning": "Fundamental principles and ethics that guide one's behavior and decisions.",
+        "example": "Honesty and compassion are among her most important personal values.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 227,
+        "word": "Time management",
+        "partOfSpeech": "Noun",
+        "synonym": "Time organization",
+        "meaning": "The ability to plan and use time effectively to accomplish tasks and goals.",
+        "example": "Improving time management can lead to increased productivity and reduced stress.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 228,
+        "word": "Stress management",
+        "partOfSpeech": "Noun",
+        "synonym": "Stress reduction",
+        "meaning": "Strategies and techniques for handling and minimizing the negative effects of stress.",
+        "example": "Regular exercise and mindfulness practices contribute to effective stress management.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 229,
+        "word": "Work-life balance",
+        "partOfSpeech": "Noun",
+        "synonym": "Work-life harmony",
+        "meaning": "The equilibrium between one's professional responsibilities and personal activities.",
+        "example": "Maintaining a healthy work-life balance is essential for overall well-being.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 230,
+        "word": "Life goals",
+        "partOfSpeech": "Noun",
+        "synonym": "Aspirations",
+        "meaning": "Desired achievements or objectives that a person aims to accomplish in their lifetime.",
+        "example": "Her life goals include traveling to every continent and starting a charitable foundation.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 231,
+        "word": "Aspirations",
+        "partOfSpeech": "Noun",
+        "synonym": "Ambitions",
+        "meaning": "Strong desires or goals that one wants to achieve.",
+        "example": "His aspirations include becoming a successful entrepreneur.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 232,
+        "word": "Resilience",
+        "partOfSpeech": "Noun",
+        "synonym": "Toughness",
+        "meaning": "The ability to recover and bounce back from challenges or difficulties.",
+        "example": "Her resilience helped her overcome numerous obstacles in her career.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 233,
+        "word": "Adaptability",
+        "partOfSpeech": "Noun",
+        "synonym": "Flexibility",
+        "meaning": "The capacity to adjust and change in response to new conditions or circumstances.",
+        "example": "His adaptability allows him to thrive in rapidly changing environments.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 234,
+        "word": "Emotional intelligence",
+        "partOfSpeech": "Noun",
+        "synonym": "Emotional quotient",
+        "meaning": "The ability to understand and manage one's own emotions and those of others.",
+        "example": "Emotional intelligence is crucial for effective leadership and interpersonal relationships.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 235,
+        "word": "Introspection",
+        "partOfSpeech": "Noun",
+        "synonym": "Self-examination",
+        "meaning": "The process of examining one's thoughts, feelings, and motives.",
+        "example": "Regular introspection can lead to greater self-awareness and personal growth.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 236,
+        "word": "Self-awareness",
+        "partOfSpeech": "Noun",
+        "synonym": "Self-understanding",
+        "meaning": "Conscious knowledge and understanding of one's own character, emotions, and motives.",
+        "example": "Developing self-awareness is a fundamental step toward personal development.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 237,
+        "word": "Self-improvement",
+        "partOfSpeech": "Noun",
+        "synonym": "Personal development",
+        "meaning": "The process of working on oneself to enhance skills, knowledge, and overall quality of life.",
+        "example": "She is dedicated to a lifelong journey of self-improvement and growth.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 238,
+        "word": "Continuous learning",
+        "partOfSpeech": "Noun",
+        "synonym": "Lifelong learning",
+        "meaning": "The ongoing pursuit of knowledge and skills throughout one's life.",
+        "example": "Engaging in continuous learning is essential to keep up with a rapidly changing world.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 239,
+        "word": "Well-being",
+        "partOfSpeech": "Noun",
+        "synonym": "Health",
+        "meaning": "A state of being comfortable, healthy, and happy.",
+        "example": "Prioritizing well-being is important for maintaining a balanced and fulfilling life.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 240,
+        "word": "Mindfulness",
+        "partOfSpeech": "Noun",
+        "synonym": "Awareness",
+        "meaning": "The practice of being fully present and attentive in the present moment.",
+        "example": "Mindfulness meditation helps reduce stress and enhance overall well-being.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      },
+      {
+        "wordNumber": 241,
+        "word": "Empathy",
+        "partOfSpeech": "Noun",
+        "synonym": "Compassion",
+        "meaning": "The ability to understand and share the feelings of others.",
+        "example": "Her empathy allows her to connect deeply with people and offer meaningful support.",
+        "level": "Intermediate",
+        "lessonTitle": "Personal Information"
+      }
+]
+  
