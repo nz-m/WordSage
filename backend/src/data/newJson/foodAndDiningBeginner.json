@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Food",
+      "partOfSpeech": "Noun",
+      "synonym": "Cuisine",
+      "meaning": "Edible substances that provide nourishment to living organisms.",
+      "example": "Different cultures have unique types of food.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Meal",
+      "partOfSpeech": "Noun",
+      "synonym": "Repast",
+      "meaning": "A regular occasion when food is eaten, such as breakfast, lunch, or dinner.",
+      "example": "We sat down to enjoy a delicious meal together.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Breakfast",
+      "partOfSpeech": "Noun",
+      "synonym": "Morning meal",
+      "meaning": "The first meal of the day, typically eaten in the morning.",
+      "example": "I had a healthy breakfast of cereal and fruit.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Lunch",
+      "partOfSpeech": "Noun",
+      "synonym": "Midday meal",
+      "meaning": "A meal eaten in the middle of the day.",
+      "example": "Let's meet for lunch at the new restaurant downtown.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Dinner",
+      "partOfSpeech": "Noun",
+      "synonym": "Supper",
+      "meaning": "The main meal of the day, often eaten in the evening.",
+      "example": "We had a delicious dinner with friends at the fancy restaurant.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Snack",
+      "partOfSpeech": "Noun",
+      "synonym": "Bite",
+      "meaning": "A small portion of food eaten between regular meals.",
+      "example": "I grabbed a quick snack from the vending machine.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Appetizer",
+      "partOfSpeech": "Noun",
+      "synonym": "Starter",
+      "meaning": "A small dish served before the main meal to stimulate the appetite.",
+      "example": "The restaurant offered a variety of delicious appetizers.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Main course",
+      "partOfSpeech": "Noun",
+      "synonym": "Entree",
+      "meaning": "The primary dish of a meal, typically following the appetizer.",
+      "example": "For the main course, I ordered the steak with vegetables.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Dessert",
+      "partOfSpeech": "Noun",
+      "synonym": "Sweet",
+      "meaning": "A sweet course typically eaten at the end of a meal.",
+      "example": "I can't resist a slice of chocolate cake for dessert.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Beverage",
+      "partOfSpeech": "Noun",
+      "synonym": "Drink",
+      "meaning": "A liquid used for drinking, such as water, tea, or soda.",
+      "example": "She ordered a refreshing cold beverage to quench her thirst.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Water",
+      "partOfSpeech": "Noun",
+      "synonym": "H2O",
+      "meaning": "A transparent, odorless, and tasteless liquid essential for life.",
+      "example": "It's important to drink plenty of water throughout the day.",
+      "level": "Beginner",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+        "wordNumber": 12,
+        "word": "Juice",
+        "partOfSpeech": "Noun",
+        "synonym": "Beverage",
+        "meaning": "A liquid extracted from fruits or vegetables.",
+        "example": "She enjoyed a refreshing glass of orange juice.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 13,
+        "word": "Soda",
+        "partOfSpeech": "Noun",
+        "synonym": "Carbonated drink",
+        "meaning": "A carbonated beverage flavored with syrups.",
+        "example": "He ordered a soda to quench his thirst.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 14,
+        "word": "Coffee",
+        "partOfSpeech": "Noun",
+        "synonym": "Java",
+        "meaning": "A brewed drink made from roasted coffee beans.",
+        "example": "She starts her day with a cup of strong coffee.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Tea",
+        "partOfSpeech": "Noun",
+        "synonym": "Infusion",
+        "meaning": "A hot drink made by steeping tea leaves in water.",
+        "example": "He prefers black tea with a splash of milk.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Milk",
+        "partOfSpeech": "Noun",
+        "synonym": "Dairy",
+        "meaning": "A white liquid produced by mammals, often consumed as a beverage.",
+        "example": "Children are advised to drink milk for strong bones.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Bread",
+        "partOfSpeech": "Noun",
+        "synonym": "Loaf",
+        "meaning": "A staple food made from baked dough.",
+        "example": "She toasted a slice of bread for breakfast.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Rice",
+        "partOfSpeech": "Noun",
+        "synonym": "Grains",
+        "meaning": "Edible starchy grains harvested from a plant.",
+        "example": "They served a delicious curry with steamed rice.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Pasta",
+        "partOfSpeech": "Noun",
+        "synonym": "Noodles",
+        "meaning": "Italian dish made from durum wheat dough.",
+        "example": "She cooked a creamy pasta dish for dinner.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Meat",
+        "partOfSpeech": "Noun",
+        "synonym": "Flesh",
+        "meaning": "Animal flesh consumed as food.",
+        "example": "They grilled various types of meat at the barbecue.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Chicken",
+        "partOfSpeech": "Noun",
+        "synonym": "Poultry",
+        "meaning": "Domestic fowl raised for its meat and eggs.",
+        "example": "They ordered a plate of fried chicken at the restaurant.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Beef",
+        "partOfSpeech": "Noun",
+        "synonym": "Cattle",
+        "meaning": "Meat from cattle, often used in cooking.",
+        "example": "The stew was made with tender chunks of beef.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Pork",
+        "partOfSpeech": "Noun",
+        "synonym": "Pig meat",
+        "meaning": "The meat of a pig, commonly used as a food source.",
+        "example": "Grilled pork chops are a popular dish in many cuisines.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Fish",
+        "partOfSpeech": "Noun",
+        "synonym": "Seafood",
+        "meaning": "A vertebrate aquatic animal, commonly eaten as food.",
+        "example": "Grilled salmon is a delicious and healthy fish dish.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Vegetables",
+        "partOfSpeech": "Noun",
+        "synonym": "Veggies",
+        "meaning": "Edible plants or parts of plants, often consumed as part of a meal.",
+        "example": "Steamed broccoli and carrots are nutritious vegetables.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Fruits",
+        "partOfSpeech": "Noun",
+        "synonym": "Produce",
+        "meaning": "Sweet and fleshy plant products that are often consumed for their flavor.",
+        "example": "Apples, oranges, and bananas are common types of fruits.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Salad",
+        "partOfSpeech": "Noun",
+        "synonym": "Greens",
+        "meaning": "A mixture of raw vegetables, often with dressing, served as a side dish.",
+        "example": "Caesar salad typically includes romaine lettuce, croutons, and parmesan cheese.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Soup",
+        "partOfSpeech": "Noun",
+        "synonym": "Broth",
+        "meaning": "A liquid dish typically made by boiling ingredients like meat and vegetables.",
+        "example": "Chicken noodle soup is a comforting meal, especially during cold weather.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Sandwich",
+        "partOfSpeech": "Noun",
+        "synonym": "Burger",
+        "meaning": "A meal typically consisting of two pieces of bread with fillings in between.",
+        "example": "A turkey and avocado sandwich is a popular lunch choice.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Pizza",
+        "partOfSpeech": "Noun",
+        "synonym": "Pie",
+        "meaning": "A baked dish with a round, flattened base of dough topped with various ingredients.",
+        "example": "Pepperoni and cheese are common toppings on a classic pizza.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Burger",
+        "partOfSpeech": "Noun",
+        "synonym": "Hamburger",
+        "meaning": "A sandwich consisting of a cooked patty of ground meat usually placed inside a sliced bun.",
+        "example": "I ordered a cheeseburger with extra pickles.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Fries",
+        "partOfSpeech": "Noun",
+        "synonym": "French Fries",
+        "meaning": "Thin strips of potato that are usually fried until crispy and served as a side dish.",
+        "example": "I'll have a burger with a side of fries.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Condiments",
+        "partOfSpeech": "Noun",
+        "synonym": "Seasonings",
+        "meaning": "Substances used to add flavor or enhance the taste of food.",
+        "example": "Ketchup, mustard, and mayonnaise are common condiments.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Salt",
+        "partOfSpeech": "Noun",
+        "synonym": "Sodium chloride",
+        "meaning": "A crystalline mineral substance commonly used as a seasoning to add taste to food.",
+        "example": "A pinch of salt can enhance the flavor of your dish.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Pepper",
+        "partOfSpeech": "Noun",
+        "synonym": "Black Pepper",
+        "meaning": "A pungent spice made from ground peppercorns, used to add flavor and heat to dishes.",
+        "example": "I like to sprinkle some pepper on my scrambled eggs.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Ketchup",
+        "partOfSpeech": "Noun",
+        "synonym": "Tomato Ketchup",
+        "meaning": "A thick, tangy sauce made from tomatoes, vinegar, sugar, and spices, often used as a condiment.",
+        "example": "Pass the ketchup, please.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Mustard",
+        "partOfSpeech": "Noun",
+        "synonym": "Yellow Mustard",
+        "meaning": "A pungent and tangy paste made from ground mustard seeds, often used as a condiment.",
+        "example": "I like to spread some mustard on my sandwich.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Mayonnaise",
+        "partOfSpeech": "Noun",
+        "synonym": "Mayo",
+        "meaning": "A creamy, white sauce made from egg yolks, oil, and vinegar or lemon juice, used as a condiment or dressing.",
+        "example": "Would you like some mayonnaise on your salad?",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Olive oil",
+        "partOfSpeech": "Noun",
+        "synonym": "Olive Extract",
+        "meaning": "Oil extracted from olives, commonly used in cooking, dressing, and as a condiment.",
+        "example": "I drizzle some olive oil over my vegetables before roasting them.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Vinegar",
+        "partOfSpeech": "Noun",
+        "synonym": "Acetic Acid",
+        "meaning": "A sour liquid made from fermented alcohol, often used in cooking and as a condiment.",
+        "example": "A dash of vinegar can brighten the flavors of a dish.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Spices",
+        "partOfSpeech": "Noun",
+        "synonym": "Seasonings",
+        "meaning": "Substances used to add flavor, aroma, and sometimes color to food.",
+        "example": "Cinnamon, cumin, and paprika are common spices used in cooking.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Sugar",
+        "partOfSpeech": "Noun",
+        "synonym": "Sweetener",
+        "meaning": "A sweet substance used to enhance the taste of food and beverages.",
+        "example": "She added a teaspoon of sugar to her tea.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Honey",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "A sweet, sticky substance made by bees from nectar collected from flowers.",
+        "example": "He drizzled honey over his oatmeal for breakfast.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Butter",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "A dairy product made from churning cream, commonly used as a spread and in cooking.",
+        "example": "She spread butter on her toast.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Cheese",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "A dairy product made by curdling milk and then processing the curds.",
+        "example": "The pizza was topped with melted cheese.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Yogurt",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "A dairy product made from fermented milk, often consumed as a snack or breakfast.",
+        "example": "She enjoyed a bowl of yogurt with berries.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Eggs",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The oval reproductive body laid by hens, often used as food.",
+        "example": "He scrambled some eggs for breakfast.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Cooking",
+        "partOfSpeech": "Noun",
+        "synonym": "Culinary",
+        "meaning": "The process of preparing food by applying heat.",
+        "example": "She enjoys experimenting with different cooking techniques.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Baking",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The process of preparing food, especially bread and cakes, by using an oven.",
+        "example": "She loves the aroma of fresh baking in the kitchen.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Eating",
+        "partOfSpeech": "Noun",
+        "synonym": "Dining",
+        "meaning": "The act of consuming food through the mouth.",
+        "example": "Eating slowly and savoring the flavors enhances the dining experience.",
+        "level": "Beginner",
+        "lessonTitle": "Food and Dining"
+      }
+]
+  
