@@ -1,0 +1,502 @@
+[
+  {
+    "wordNumber": 1,
+    "word": "Architectural innovation",
+    "partOfSpeech": "Noun",
+    "synonym": "Innovative architecture",
+    "meaning": "The introduction of new and creative ideas in the field of architecture.",
+    "example": "The skyscraper's unique shape and energy-efficient features showcase architectural innovation.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Sustainable design",
+    "partOfSpeech": "Noun",
+    "synonym": "Environmentally friendly design",
+    "meaning": "Creating structures or products that have minimal negative impact on the environment and promote long-term ecological balance.",
+    "example": "The house was built with sustainable design principles, utilizing solar panels and recycled materials.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Eclectic decor",
+    "partOfSpeech": "Noun",
+    "synonym": "Diverse decoration",
+    "meaning": "A style of decorating that combines elements from various design styles, eras, and cultural influences.",
+    "example": "Her living room featured an eclectic decor, with a mix of vintage furniture and modern art pieces.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Artisanal craftsmanship",
+    "partOfSpeech": "Noun",
+    "synonym": "Skilled artistry",
+    "meaning": "The high level of skill and attention to detail displayed by artisans when creating handcrafted goods.",
+    "example": "The dining table was a masterpiece of artisanal craftsmanship, showcasing intricate woodwork.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Spatial aesthetics",
+    "partOfSpeech": "Noun",
+    "synonym": "Visual arrangement of space",
+    "meaning": "The visual and artistic arrangement of elements within a given space, focusing on harmony, balance, and aesthetics.",
+    "example": "The interior designer paid great attention to spatial aesthetics, arranging furniture to maximize the sense of openness.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Ergonomic furnishings",
+    "partOfSpeech": "Noun",
+    "synonym": "Comfortable furniture",
+    "meaning": "Furniture designed with consideration for the user's comfort, efficiency, and health in a given environment.",
+    "example": "The office was equipped with ergonomic furnishings to promote better posture and reduce strain.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Minimalist lifestyle",
+    "partOfSpeech": "Noun",
+    "synonym": "Simplicity-oriented way of life",
+    "meaning": "A lifestyle characterized by the deliberate choice to live with fewer material possessions and to prioritize experiences over belongings.",
+    "example": "Embracing a minimalist lifestyle, she focused on decluttering and finding joy in the essentials.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Feng shui principles",
+    "partOfSpeech": "Noun",
+    "synonym": "Chinese geomancy principles",
+    "meaning": "Ancient Chinese practices and beliefs that aim to harmonize individuals with their environment through spatial arrangement and energy flow.",
+    "example": "The apartment's layout was designed according to feng shui principles to promote positive energy and well-being.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Biophilic design",
+    "partOfSpeech": "Noun",
+    "synonym": "Nature-inspired design",
+    "meaning": "An approach to design that incorporates natural elements and patterns to create a connection between human spaces and the natural world.",
+    "example": "The office's biophilic design included indoor plants, natural light, and wood textures to enhance employee well-being.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Home automation integration",
+    "partOfSpeech": "Noun",
+    "synonym": "Smart home integration",
+    "meaning": "Incorporating technology systems and devices to automate various tasks and functions within a home.",
+    "example": "Home automation integration allows homeowners to control lighting, security, and climate settings remotely.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Smart home ecosystems",
+    "partOfSpeech": "Noun",
+    "synonym": "Intelligent home environments",
+    "meaning": "Interconnected devices and systems that work together to enhance the functionality, efficiency, and convenience of a home.",
+    "example": "Smart home ecosystems include smart thermostats, lighting, and entertainment systems.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Green building practices",
+    "partOfSpeech": "Noun",
+    "synonym": "Sustainable construction methods",
+    "meaning": "Construction techniques and strategies that prioritize environmental sustainability and resource efficiency.",
+    "example": "Using recycled materials and optimizing energy use are important aspects of green building practices.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Energy-efficient appliances",
+    "partOfSpeech": "Noun",
+    "synonym": "Low-energy consumption devices",
+    "meaning": "Appliances designed to minimize energy consumption and reduce the overall environmental impact.",
+    "example": "Replacing old appliances with energy-efficient ones can lead to significant cost savings on utility bills.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Passive solar design",
+    "partOfSpeech": "Noun",
+    "synonym": "Solar-oriented architecture",
+    "meaning": "Architectural design that utilizes the sun's energy for heating and cooling purposes without the need for active mechanical systems.",
+    "example": "A well-designed passive solar home captures and retains solar heat during the winter months.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Universal design",
+    "partOfSpeech": "Noun",
+    "synonym": "Inclusive design",
+    "meaning": "Design philosophy focused on creating products and spaces that are accessible and usable by people of all abilities and ages.",
+    "example": "Universal design principles aim to make homes welcoming and functional for everyone, regardless of physical limitations.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Multi-functional spaces",
+    "partOfSpeech": "Noun",
+    "synonym": "Versatile areas",
+    "meaning": "Areas or rooms that serve multiple purposes and can adapt to different activities and needs.",
+    "example": "Open-concept living areas often incorporate multi-functional spaces for cooking, dining, and entertaining.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Renovation restoration",
+    "partOfSpeech": "Noun",
+    "synonym": "Rehabilitation",
+    "meaning": "The process of improving or repairing a home's structure, features, or appearance to restore its original condition or enhance its value.",
+    "example": "Historic buildings often undergo renovation restoration to preserve their architectural integrity.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Historical preservation",
+    "partOfSpeech": "Noun",
+    "synonym": "Cultural heritage conservation",
+    "meaning": "Efforts to protect and maintain historically significant buildings, sites, and artifacts for future generations.",
+    "example": "Local communities may collaborate on historical preservation projects to ensure the legacy of their region is preserved.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Heritage conservation",
+    "partOfSpeech": "Noun",
+    "synonym": "Legacy safeguarding",
+    "meaning": "The safeguarding and preservation of cultural heritage, including traditions, architecture, and artifacts.",
+    "example": "Heritage conservation involves a commitment to maintaining and passing down cultural identity through architectural and artistic treasures.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Urban planning",
+    "partOfSpeech": "Noun",
+    "synonym": "City planning",
+    "meaning": "The process of designing and organizing the physical layout of cities and towns.",
+    "example": "Effective urban planning can lead to well-organized and sustainable communities.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Cohousing communities",
+    "partOfSpeech": "Noun",
+    "synonym": "Collaborative housing",
+    "meaning": "Residential communities where individuals or families share common spaces and resources while maintaining private living areas.",
+    "example": "Cohousing communities often have shared gardens and communal kitchens.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Intentional neighborhoods",
+    "partOfSpeech": "Noun",
+    "synonym": "Planned communities",
+    "meaning": "Residential areas intentionally designed to foster a sense of community and shared values among residents.",
+    "example": "Intentional neighborhoods often have community centers and regular group activities.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Off-grid living",
+    "partOfSpeech": "Noun",
+    "synonym": "Self-sufficient living",
+    "meaning": "A lifestyle in which individuals or communities operate independently from public utilities and services.",
+    "example": "Off-grid living may involve generating one's own electricity and growing food.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Tiny homes movement",
+    "partOfSpeech": "Noun",
+    "synonym": "Small house movement",
+    "meaning": "A trend advocating for living in smaller, more efficient, and often portable homes.",
+    "example": "The tiny homes movement emphasizes simplicity and reduced environmental impact.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Micro-living concepts",
+    "partOfSpeech": "Noun",
+    "synonym": "Small-scale living ideas",
+    "meaning": "Innovative ideas and designs focused on maximizing functionality and comfort in small living spaces.",
+    "example": "Micro-living concepts often utilize modular furniture and creative storage solutions.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Prefabricated housing",
+    "partOfSpeech": "Noun",
+    "synonym": "Prefab housing",
+    "meaning": "Houses constructed using components manufactured off-site and then assembled on the building site.",
+    "example": "Prefabricated housing can significantly reduce construction time and costs.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Zero-waste initiatives",
+    "partOfSpeech": "Noun",
+    "synonym": "Waste-free efforts",
+    "meaning": "Efforts aimed at minimizing or eliminating waste in order to reduce environmental impact.",
+    "example": "Zero-waste initiatives encourage recycling, composting, and sustainable product choices.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Circular economy in design",
+    "partOfSpeech": "Noun",
+    "synonym": "Closed-loop design economy",
+    "meaning": "An approach to design and production that promotes recycling, reusing, and reducing waste.",
+    "example": "Circular economy in design aims to create products with a longer lifespan and minimal environmental impact.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Permaculture landscaping",
+    "partOfSpeech": "Noun",
+    "synonym": "Sustainable landscaping",
+    "meaning": "A design approach that incorporates sustainable and ecological principles into landscaping and gardening.",
+    "example": "Permaculture landscaping focuses on creating self-sustaining and harmonious ecosystems.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Hydroponics gardening",
+    "partOfSpeech": "Noun",
+    "synonym": "Soilless cultivation",
+    "meaning": "A method of growing plants without soil, using nutrient-rich water.",
+    "example": "Hydroponics gardening is gaining popularity for its efficient use of resources.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Aquaponics systems",
+    "partOfSpeech": "Noun",
+    "synonym": "Aquatic farming",
+    "meaning": "A combination of aquaculture and hydroponics, where fish waste provides nutrients for plants.",
+    "example": "Aquaponics systems create a sustainable and symbiotic ecosystem.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Geothermal heating",
+    "partOfSpeech": "Noun",
+    "synonym": "Geoexchange",
+    "meaning": "Using the Earth's heat to warm buildings or produce energy.",
+    "example": "Geothermal heating systems are energy-efficient and environmentally friendly.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Net-zero energy homes",
+    "partOfSpeech": "Noun",
+    "synonym": "Zero-energy buildings",
+    "meaning": "Homes that produce as much energy as they consume on an annual basis.",
+    "example": "Net-zero energy homes use solar panels and other technologies to achieve balance.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Biomimicry in architecture",
+    "partOfSpeech": "Noun",
+    "synonym": "Nature-inspired design",
+    "meaning": "Designing buildings and structures based on natural elements and processes.",
+    "example": "Biomimicry in architecture can lead to innovative and sustainable designs.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Acoustic engineering",
+    "partOfSpeech": "Noun",
+    "synonym": "Sound engineering",
+    "meaning": "Designing and manipulating sound within architectural spaces.",
+    "example": "Acoustic engineering ensures optimal sound quality in concert halls.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Aesthetics of imperfection (Wabi-sabi)",
+    "partOfSpeech": "Noun",
+    "synonym": "Beauty in imperfection",
+    "meaning": "A Japanese concept valuing the beauty of the imperfect, aged, and naturally worn.",
+    "example": "Wabi-sabi celebrates the rustic and simple charm of handmade items.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Cultural appropriation in decor",
+    "partOfSpeech": "Noun",
+    "synonym": "Misappropriation of culture",
+    "meaning": "Adopting elements of another culture's aesthetics without understanding or respect.",
+    "example": "Cultural appropriation in decor can perpetuate stereotypes and disrespect traditions.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Ethical sourcing of materials",
+    "partOfSpeech": "Noun",
+    "synonym": "Responsible material procurement",
+    "meaning": "Using materials for decor and construction that are obtained ethically and sustainably.",
+    "example": "Ethical sourcing of materials supports fair labor practices and environmental protection.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Biodegradable construction",
+    "partOfSpeech": "Noun",
+    "synonym": "Environmentally friendly building",
+    "meaning": "Constructing buildings using materials that can naturally break down over time.",
+    "example": "Biodegradable construction materials reduce the environmental impact of buildings.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Human-centric lighting",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Biophilic lighting",
+    "meaning": "An approach to lighting design that takes into consideration the biological and emotional well-being of humans, often by mimicking natural lighting conditions.",
+    "example": "The office implemented human-centric lighting to improve employees' mood and productivity.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Neuroarchitecture",
+    "partOfSpeech": "Noun",
+    "synonym": "Mindful architecture",
+    "meaning": "The study of how architecture and design can impact human brain function, emotions, and overall well-being.",
+    "example": "Neuroarchitecture principles were applied in designing the therapeutic spaces of the hospital.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 42,
+    "word": "IoT-enabled appliances",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Smart appliances",
+    "meaning": "Household appliances that are connected to the Internet of Things (IoT), allowing remote control, automation, and data exchange.",
+    "example": "The IoT-enabled appliances in the kitchen can be controlled through a smartphone app.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Voice-controlled home systems",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Voice-activated home systems",
+    "meaning": "Technological systems within a home that can be operated and controlled using voice commands.",
+    "example": "The voice-controlled home systems allow residents to adjust the thermostat and lighting with their voice.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Virtual reality home tours",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "VR home tours",
+    "meaning": "Immersive digital simulations that enable users to explore and experience a home or property remotely using virtual reality technology.",
+    "example": "Potential buyers can take virtual reality home tours to visualize properties without physically visiting them.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Augmented reality interior design",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "AR interior design",
+    "meaning": "Enhancing the perception of interior spaces by overlaying digital elements, such as furniture and decor, onto real-time views using augmented reality technology.",
+    "example": "The app allows users to try out different furniture arrangements through augmented reality interior design.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Regenerative design principles",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Sustainable design principles",
+    "meaning": "Design concepts and strategies that aim to restore, renew, and improve the environment and human well-being through the built environment.",
+    "example": "The architect integrated regenerative design principles to create a building that generates its own energy and supports local ecosystems.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Conscious consumerism in decor",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Mindful consumerism in decoration",
+    "meaning": "Making intentional and ethical choices when selecting decor items, considering factors like sustainability, craftsmanship, and social impact.",
+    "example": "The trend of conscious consumerism in decor focuses on choosing eco-friendly and locally sourced furnishings.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Co-living arrangements",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Shared living arrangements",
+    "meaning": "Housing setups where individuals or small groups share living spaces, amenities, and responsibilities, often promoting community and cost-sharing.",
+    "example": "The co-living arrangements in the urban apartment complex include communal kitchens and shared social spaces.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Futuristic housing concepts",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Advanced housing ideas",
+    "meaning": "Innovative and imaginative ideas for future housing models that incorporate advanced technology, sustainable practices, and modern design.",
+    "example": "Architects and designers gathered to discuss and showcase their futuristic housing concepts at the conference.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Transhumanist living environments",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Enhanced living environments",
+    "meaning": "Living spaces that are enhanced or augmented using technological advancements and transhumanist principles, potentially integrating human augmentation technologies.",
+    "example": "Transhumanist living environments may feature technologies that enhance cognitive abilities and physical capabilities of residents.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  }
+]

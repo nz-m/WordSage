@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import {
@@ -50,6 +50,39 @@ export class LearnService {
   }
 
   async getLessons(userId: string): Promise<LessonToSend[]> {
+    return await this.fetchLessonsWithProgress(userId);
+  }
+
+  async startLesson(
+    userId: string,
+    lessonId: string,
+  ): Promise<LessonToSend[] | { success: boolean; message: string }> {
+    try {
+      const lessonProgress = await this.lessonProgressModel
+        .findOne({ user: userId, lesson: lessonId })
+        .exec();
+
+      if (!lessonProgress) {
+        return { success: false, message: 'Lesson progress not found.' };
+      }
+
+      if (lessonProgress.status === LessonStatus.COMPLETED) {
+        return { success: false, message: 'Lesson already completed.' };
+      }
+
+      lessonProgress.status = LessonStatus.IN_PROGRESS;
+      await lessonProgress.save();
+
+      const lessons = await this.fetchLessonsWithProgress(userId);
+      return lessons;
+    } catch (error) {
+      return { success: false, message: 'Error starting lesson.' };
+    }
+  }
+
+  private async fetchLessonsWithProgress(
+    userId: string,
+  ): Promise<LessonToSend[]> {
     const lessons = await this.lessonModel
       .find()
       .sort({ lessonNumber: 1 })
@@ -60,13 +93,11 @@ export class LearnService {
       .populate('lesson')
       .exec();
 
-    // Create a mapping of lesson IDs to progress status
     const lessonProgressMap = new Map();
     lessonProgress.forEach((progress) => {
       lessonProgressMap.set(progress.lesson.toString(), progress.status);
     });
 
-    // Combine lesson data with progress status
     return lessons.map((lesson) => ({
       _id: lesson._id,
       title: lesson.title,
@@ -168,5 +199,23 @@ export class LearnService {
       }
       return { success: false, message: 'Error creating word.' };
     }
+  }
+
+  async getWordsByLessonTitle(
+    lessonTitle: string,
+    userId: string,
+  ): Promise<any> {
+    const user = await this.userModel.findById(userId);
+
+    if (!user) {
+      throw new NotFoundException(`User with ID ${userId} not found`);
+    }
+
+    return this.wordModel
+      .find({
+        lessonTitle: lessonTitle,
+        level: user.level,
+      })
+      .sort({ wordNumber: 1 });
   }
 }

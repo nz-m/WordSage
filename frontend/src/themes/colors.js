@@ -11,6 +11,7 @@ const colors = {
   primaryText: "#333333",
   secondaryText: "#666666",
   primaryBackground: "#F2F2F2",
+  darkGray: "#5A5A5A",
 };
 
 export default colors;

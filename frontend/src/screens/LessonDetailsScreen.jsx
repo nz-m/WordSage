@@ -1,12 +1,55 @@
-import React from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import React, { useEffect, useState } from "react";
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  ActivityIndicator,
+} from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import colors from "../themes/colors";
 import { useNavigation } from "@react-navigation/native";
+import { useDispatch, useSelector } from "react-redux";
+import { startLesson, getWords } from "../features/learn/learnThunks";
 
 const LessonDetailsScreen = ({ route }) => {
+  const dispatch = useDispatch();
   const navigation = useNavigation();
   const { lesson } = route.params;
+
+  const [isContinuePressed, setIsContinuePressed] = useState(false);
+  const [isStartPressed, setIsStartPressed] = useState(false);
+
+  const {
+    isStartingLesson,
+    startingLessonError,
+    isWordsFetching,
+    wordsfetchingError,
+    words,
+  } = useSelector((state) => state.learn);
+
+  const handleStartLesson = async (lessonId) => {
+    await dispatch(startLesson(lessonId));
+    setIsStartPressed(true);
+  };
+
+  const handleNavigation = () => {
+    if (lesson.status === "in progress") {
+      setIsContinuePressed(true);
+    } else if (lesson.status === "not started") {
+      handleStartLesson(lesson._id);
+    }
+  };
+
+  useEffect(() => {
+    if (isContinuePressed || isStartPressed) {
+      if (words && words.length > 0 && words[0].lessonTitle === lesson.title) {
+        navigation.replace("Word", { words });
+      } else {
+        dispatch(getWords(lesson.title));
+      }
+    }
+  }, [isContinuePressed, isStartPressed, words]);
 
   return (
     <View style={styles.container}>
@@ -19,6 +62,14 @@ const LessonDetailsScreen = ({ route }) => {
         </Text>
       </View>
 
+      {/* Display error message */}
+      {startingLessonError ||
+        (wordsfetchingError && (
+          <Text style={styles.errorMessage}>
+            {startingLessonError || wordsfetchingError}
+          </Text>
+        ))}
+
       {lesson.status === "not started" && (
         <Text style={styles.lessonDescription}>
           This lesson covers various vocabulary words and phrases related to{" "}
@@ -26,14 +77,22 @@ const LessonDetailsScreen = ({ route }) => {
           the quiz to test your knowledge on this topic.
         </Text>
       )}
-
       {lesson.status === "complete" ? (
         <View>
           <Text style={{ fontWeight: "bold", marginBottom: 10 }}>
             Congratulations on completing this lesson!
           </Text>
-          <Text style={{ marginBottom: 20 }}>
+          <Text style={{ marginBottom: 10 }}>
             Take the quiz to test your knowledge on this topic.
+          </Text>
+        </View>
+      ) : lesson.status === "in progress" ? (
+        <View>
+          <Text style={{ fontWeight: "bold", marginBottom: 10 }}>
+            Continue learning this lesson.
+          </Text>
+          <Text style={{ marginBottom: 20 }}>
+            So far, you have learned 34/50 vocabulary in this lesson.
           </Text>
         </View>
       ) : (
@@ -42,21 +101,19 @@ const LessonDetailsScreen = ({ route }) => {
         </Text>
       )}
 
-      <TouchableOpacity
-        style={styles.quizButton}
-        onPress={() => {
-          if (lesson.status === "complete") {
-            navigation.navigate("LevelAssessment", { lesson });
-          } else {
-            navigation.navigate("Word");
-          }
-        }}
-      >
-        <Text style={styles.quizButtonText}>
-          {lesson.status === "complete" ? "Start Quiz" : "Start Lesson"}
-        </Text>
-        <MaterialIcons name="arrow-forward" size={24} color={colors.white} />
-      </TouchableOpacity>
+      {/* Display loading indicator while starting lesson */}
+      {isStartingLesson || isWordsFetching ? (
+        <ActivityIndicator color={colors.primary} size="large" />
+      ) : (
+        <TouchableOpacity style={styles.quizButton} onPress={handleNavigation}>
+          <Text style={styles.quizButtonText}>
+            {lesson.status === "in progress"
+              ? "Continue learning"
+              : "Start Lesson"}
+          </Text>
+          <MaterialIcons name="arrow-forward" size={24} color={colors.white} />
+        </TouchableOpacity>
+      )}
     </View>
   );
 };
@@ -101,6 +158,10 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     color: colors.white,
+  },
+  errorMessage: {
+    color: colors.error,
+    marginBottom: 10,
   },
 });
 

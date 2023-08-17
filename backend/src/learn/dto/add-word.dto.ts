@@ -1,8 +1,12 @@
-import { IsString, IsEnum, IsNotEmpty } from 'class-validator';
+import { IsString, IsEnum, IsNotEmpty, IsNumber } from 'class-validator';
 import { LessonTitle } from '../entities/word.entity';
 import { Level } from '../../auth/entities/user.entity';
 
 export class AddWordDto {
+  @IsNotEmpty()
+  @IsNumber()
+  wordNumber: number;
+
   @IsNotEmpty()
   @IsString()
   word: string;

@@ -3,9 +3,9 @@ import { Document } from 'mongoose';
 
 export enum LessonStatus {
   NOT_STARTED = 'not started',
-  ONGOING = 'ongoing',
+  IN_PROGRESS = 'in progress',
   LOCKED = 'locked',
-  COMPLETE = 'complete',
+  COMPLETED = 'completed',
 }
 
 @Schema()

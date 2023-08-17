@@ -17,7 +17,7 @@ export enum LessonTitle {
 
 @Schema()
 export class Word extends Document {
-  @Prop({ required: true, unique: true })
+  @Prop({ required: true })
   wordNumber: number;
 
   @Prop({ required: true, unique: true, trim: true, lowercase: true })
@@ -43,3 +43,4 @@ export class Word extends Document {
 }
 
 export const WordSchema = SchemaFactory.createForClass(Word);
+WordSchema.index({ wordNumber: 1, lessonTitle: 1, level: 1 }, { unique: true });

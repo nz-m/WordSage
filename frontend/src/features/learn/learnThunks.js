@@ -24,3 +24,31 @@ export const fetchLessons = createAsyncThunk(
     }
   }
 );
+
+export const startLesson = createAsyncThunk(
+  "learn/startLesson",
+  async (lessonId, thunkAPI) => {
+    try {
+      const response = await axiosInstance.post("/learn/start-lesson", {
+        lessonId,
+      });
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.response.data);
+    }
+  }
+);
+
+export const getWords = createAsyncThunk(
+  "learn/getWords",
+  async (lessonTopic, thunkAPI) => {
+    try {
+      const response = await axiosInstance.get(
+        `/learn/get-words/${lessonTopic}`
+      );
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.response.data);
+    }
+  }
+);

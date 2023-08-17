@@ -50,12 +50,17 @@ const LessonListScreen = ({ navigation }) => {
   };
 
   const handleLessonPress = (lesson) => {
-    if (lesson.status === "not started" || lesson.status === "complete") {
-      navigation.navigate("LessonDetails", { lesson });
-    } else if (lesson.status === "ongoing") {
-      navigation.navigate("LevelAssessment", { lesson });
-    } else if (lesson.status === "locked") {
-      alert("This lesson is locked. Complete previous lessons to unlock.");
+    switch (lesson.status) {
+      case "not started":
+      case "completed":
+      case "in progress":
+        navigation.navigate("LessonDetails", { lesson });
+        break;
+      case "locked":
+        alert("This lesson is locked. Complete previous lessons to unlock.");
+        break;
+      default:
+        break;
     }
   };
 
@@ -75,9 +80,9 @@ const LessonListScreen = ({ navigation }) => {
             style={styles.lessonIcon}
           />
           <Text style={styles.lessonTitle}>{lesson.title}</Text>
-          {lesson.status === "complete" ? (
+          {lesson.status === "completed" ? (
             <MaterialIcons name="check" size={24} color="green" />
-          ) : lesson.status === "ongoing" ? (
+          ) : lesson.status === "in progress" ? (
             <MaterialIcons name="timer" size={24} color="orange" />
           ) : lesson.status === "locked" ? (
             <MaterialIcons name="lock" size={24} color="black" />

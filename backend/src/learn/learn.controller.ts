@@ -40,4 +40,22 @@ export class LearnController {
       return this.learnService.addWord(words);
     }
   }
+
+  @UseGuards(AuthGuard())
+  @Post('start-lesson')
+  async startLesson(
+    @Req() req,
+    @Body() body: { lessonId: string },
+  ): Promise<LessonToSend[] | { success: boolean; message: string }> {
+    return this.learnService.startLesson(req.user._id, body.lessonId);
+  }
+
+  @UseGuards(AuthGuard())
+  @Get('get-words/:lessonTitle')
+  async getWordsByLessonTitle(@Req() req): Promise<any> {
+    return this.learnService.getWordsByLessonTitle(
+      req.params.lessonTitle,
+      req.user._id,
+    );
+  }
 }

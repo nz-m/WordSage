@@ -3,9 +3,11 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import * as Speech from "expo-speech";
 import colors from "../themes/colors";
-import words from "../data/words";
+// import words from "../data/words";
 
-const WordScreen = () => {
+const WordScreen = ({ route }) => {
+  const { words } = route.params;
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [wordData, setWordData] = useState(words[currentIndex]);
   const [wordStatus, setWordStatus] = useState(
@@ -65,7 +67,10 @@ const WordScreen = () => {
         </TouchableOpacity>
       </View>
 
-      <Text style={styles.word}>{wordData.word}</Text>
+      <Text style={styles.word}>
+        {wordData.word.charAt(0).toUpperCase() + wordData.word.slice(1)}
+      </Text>
+
       <TouchableOpacity onPress={() => handlePronunciationPress(wordData.word)}>
         <MaterialCommunityIcons
           name="volume-high"

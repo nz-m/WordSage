@@ -6,7 +6,12 @@ const initialState = {
   isFetching: false,
   startingError: null,
   fetchingError: null,
+  isStartingLesson: false,
+  startingLessonError: null,
+  isWordsfetching: false,
+  wordsfetchingError: null,
   lessons: [],
+  words: [],
 };
 
 const learnSlice = createSlice({
@@ -40,6 +45,32 @@ const learnSlice = createSlice({
       .addCase("learn/fetchLessons/rejected", (state, action) => {
         state.isFetching = false;
         state.fetchingError = action.payload.message;
+      })
+      .addCase("learn/startLesson/pending", (state, action) => {
+        state.isStartingLesson = true;
+        state.startingLessonError = null;
+      })
+      .addCase("learn/startLesson/fulfilled", (state, action) => {
+        state.isStartingLesson = false;
+        state.startingLessonError = null;
+        state.lessons = action.payload;
+      })
+      .addCase("learn/startLesson/rejected", (state, action) => {
+        state.isStartingLesson = false;
+        state.startingLessonError = action.payload.message;
+      })
+      .addCase("learn/getWords/pending", (state, action) => {
+        state.isWordsfetching = true;
+        state.wordsfetchingError = null;
+      })
+      .addCase("learn/getWords/fulfilled", (state, action) => {
+        state.isWordsfetching = false;
+        state.wordsfetchingError = null;
+        state.words = action.payload;
+      })
+      .addCase("learn/getWords/rejected", (state, action) => {
+        state.isWordsfetching = false;
+        state.wordsfetchingError = action.payload.message;
       });
   },
 });

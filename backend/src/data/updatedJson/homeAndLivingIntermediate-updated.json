@@ -1,0 +1,502 @@
+[
+  {
+    "wordNumber": 1,
+    "word": "Architecture",
+    "partOfSpeech": "Noun",
+    "synonym": "Building design",
+    "meaning": "The art and science of designing and constructing buildings.",
+    "example": "The modern architecture of the skyscrapers is impressive.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Interior design",
+    "partOfSpeech": "Noun",
+    "synonym": "Decorating",
+    "meaning": "The art of enhancing the interior of a space to create a more aesthetically pleasing and functional environment.",
+    "example": "She specializes in interior design, creating beautiful living spaces.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Renovation",
+    "partOfSpeech": "Noun",
+    "synonym": "Remodeling",
+    "meaning": "The process of improving a building or space by repairing, upgrading, or redecorating it.",
+    "example": "They decided to undertake a renovation of their old house to modernize it.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Furnishings",
+    "partOfSpeech": "Noun",
+    "synonym": "Furniture",
+    "meaning": "The movable articles that are used to make a room or space suitable for living or working.",
+    "example": "The elegant furnishings in the room gave it a luxurious feel.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Decor",
+    "partOfSpeech": "Noun",
+    "synonym": "Decoration",
+    "meaning": "The arrangement and selection of objects and elements to enhance the appearance of a room or space.",
+    "example": "Her unique decor choices reflected her artistic personality.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Appliance",
+    "partOfSpeech": "Noun",
+    "synonym": "Device",
+    "meaning": "A device or machine designed to perform a specific household function, such as cooking, cleaning, or heating.",
+    "example": "The new kitchen appliances made cooking much more efficient.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Counter",
+    "partOfSpeech": "Noun",
+    "synonym": "Surface",
+    "meaning": "A flat, horizontal work surface in a kitchen or other area, often used for food preparation.",
+    "example": "She cleared the clutter from the counter before starting to cook.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Island (kitchen)",
+    "partOfSpeech": "Noun",
+    "synonym": "Kitchen isle",
+    "meaning": "A freestanding counter or cabinet in the middle of a kitchen, providing extra workspace and storage.",
+    "example": "The kitchen island is a great place to gather while cooking.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Pantry",
+    "partOfSpeech": "Noun",
+    "synonym": "Cupboard",
+    "meaning": "A small room or closet used for storing food, dishes, or other household items.",
+    "example": "She organized the pantry to make it easier to find ingredients.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Utensil",
+    "partOfSpeech": "Noun",
+    "synonym": "Implement",
+    "meaning": "A tool used for practical purposes, especially in a kitchen or household setting.",
+    "example": "A spatula is a versatile utensil used for flipping and lifting food.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Cutlery",
+    "partOfSpeech": "Noun",
+    "synonym": "Silverware",
+    "meaning": "Utensils used for eating, such as knives, forks, and spoons.",
+    "example": "She set the table with elegant cutlery for the formal dinner.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Glassware",
+    "partOfSpeech": "Noun",
+    "synonym": "Drinking vessels",
+    "meaning": "Items made of glass and used for drinking, such as glasses and cups.",
+    "example": "The cabinet was filled with a variety of glassware for different beverages.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Crockery",
+    "partOfSpeech": "Noun",
+    "synonym": "Tableware",
+    "meaning": "Dishes, plates, and other eating or serving items made of ceramic materials.",
+    "example": "The shelves were adorned with colorful crockery to add a touch of charm to the kitchen.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Linens",
+    "partOfSpeech": "Noun",
+    "synonym": "Textiles",
+    "meaning": "Textile items used in a household, such as bed sheets, tablecloths, and towels.",
+    "example": "She carefully folded the freshly laundered linens and placed them in the linen closet.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Decorative accents",
+    "partOfSpeech": "Noun",
+    "synonym": "Ornaments",
+    "meaning": "Small items or objects used to enhance the visual appeal of a room or space.",
+    "example": "The shelves were adorned with various decorative accents, including sculptures and vases.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Wallpaper",
+    "partOfSpeech": "Noun",
+    "synonym": "Wall covering",
+    "meaning": "A material used to decorate and cover the interior walls of a room.",
+    "example": "The vintage floral wallpaper added a nostalgic charm to the cozy living room.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Flooring",
+    "partOfSpeech": "Noun",
+    "synonym": "Floor covering",
+    "meaning": "The material used to cover the floor of a room, such as wood, tile, or carpet.",
+    "example": "The hardwood flooring gave the room an elegant and timeless appearance.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Skylight",
+    "partOfSpeech": "Noun",
+    "synonym": "Roof window",
+    "meaning": "A window set into a roof or ceiling, designed to allow natural light to enter a building.",
+    "example": "The artist's studio was bathed in soft, diffused light from the skylight above.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Fireplace",
+    "partOfSpeech": "Noun",
+    "synonym": "Hearth",
+    "meaning": "A structure made of brick, stone, or metal that contains a fire for heating or decorative purposes.",
+    "example": "During cold winter evenings, they gathered around the fireplace for warmth and companionship.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Attic",
+    "partOfSpeech": "Noun",
+    "synonym": "Loft",
+    "meaning": "The space or room at the top of a house, often used for storage.",
+    "example": "She found old books and furniture stored in the attic.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Basement",
+    "partOfSpeech": "Noun",
+    "synonym": "Cellar",
+    "meaning": "The lowest floor of a building, often used for storage or as a living area.",
+    "example": "The basement was converted into a cozy home theater.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Patio",
+    "partOfSpeech": "Noun",
+    "synonym": "Terrace",
+    "meaning": "An outdoor area adjoining a house, used for dining or recreation.",
+    "example": "We enjoyed our meals on the patio during the warm summer evenings.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Deck",
+    "partOfSpeech": "Noun",
+    "synonym": "Balcony",
+    "meaning": "A flat, elevated surface outside a building, often used for relaxation or socializing.",
+    "example": "They had a barbecue party on their spacious deck.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Porch",
+    "partOfSpeech": "Noun",
+    "synonym": "Veranda",
+    "meaning": "A covered entrance to a building, usually at the front, often used as a sitting area.",
+    "example": "She sat on the porch and watched the rain.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Conservatory",
+    "partOfSpeech": "Noun",
+    "synonym": "Sunroom",
+    "meaning": "A room with glass walls and a roof, designed for growing plants or for relaxation.",
+    "example": "The conservatory is filled with exotic plants from different regions.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Studio (living space)",
+    "partOfSpeech": "Noun",
+    "synonym": "Efficiency Apartment",
+    "meaning": "A compact living space that typically combines living, sleeping, and kitchen areas without separate rooms.",
+    "example": "He turned the studio into a comfortable and functional living space.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Duplex",
+    "partOfSpeech": "Noun",
+    "synonym": "Two-Family House",
+    "meaning": "A house divided into two separate living units, often side by side or on different floors.",
+    "example": "She lives in the upper unit of a duplex.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Townhouse",
+    "partOfSpeech": "Noun",
+    "synonym": "Row House",
+    "meaning": "A multi-level house attached to other houses in a row, sharing side walls.",
+    "example": "The townhouse has a charming brick exterior.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Condo",
+    "partOfSpeech": "Noun",
+    "synonym": "Condominium",
+    "meaning": "A privately owned living unit within a larger building or complex.",
+    "example": "They purchased a beachfront condo with stunning ocean views.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Loft",
+    "partOfSpeech": "Noun",
+    "synonym": "Attic",
+    "meaning": "An open space at the top of a building, often just below the roof, used for various purposes.",
+    "example": "She converted the loft into a cozy reading nook.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Suburb",
+    "partOfSpeech": "Noun",
+    "synonym": "Outskirts",
+    "meaning": "A residential area on the outskirts of a city or town.",
+    "example": "They moved to the suburbs to have a quieter life.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Urban living",
+    "partOfSpeech": "Noun",
+    "synonym": "City life",
+    "meaning": "The lifestyle and activities associated with living in a city.",
+    "example": "She enjoys the hustle and bustle of urban living.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Rural retreat",
+    "partOfSpeech": "Noun",
+    "synonym": "Countryside getaway",
+    "meaning": "A place in the countryside where one can relax and escape from the city.",
+    "example": "They built a small rural retreat for weekend getaways.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Gated community",
+    "partOfSpeech": "Noun",
+    "synonym": "Secured neighborhood",
+    "meaning": "A residential area with controlled access, often surrounded by walls or fences.",
+    "example": "They live in a gated community with 24/7 security.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Home office",
+    "partOfSpeech": "Noun",
+    "synonym": "Workspace",
+    "meaning": "A designated area in one's home used for work or business.",
+    "example": "He set up a comfortable home office to work remotely.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Study room",
+    "partOfSpeech": "Noun",
+    "synonym": "Study area",
+    "meaning": "A room where one can focus on academic or intellectual activities.",
+    "example": "The study room is equipped with bookshelves and a desk.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Utility room",
+    "partOfSpeech": "Noun",
+    "synonym": "Service room",
+    "meaning": "A room in a house used for storing equipment, doing laundry, or other practical purposes.",
+    "example": "The utility room houses the washer, dryer, and cleaning supplies.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Pantry",
+    "partOfSpeech": "Noun",
+    "synonym": "Larder",
+    "meaning": "A small room or cupboard used for storing food, dishes, or kitchen supplies.",
+    "example": "She organized the pantry with shelves for canned goods and spices.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Walk-in closet",
+    "partOfSpeech": "Noun",
+    "synonym": "Dressing room",
+    "meaning": "A spacious closet that one can enter, often used for storing clothes and getting dressed.",
+    "example": "The master bedroom has a luxurious walk-in closet with plenty of storage space.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Ensuite bathroom",
+    "partOfSpeech": "Noun",
+    "synonym": "Private bathroom",
+    "meaning": "A bathroom connected to and directly accessible from a bedroom.",
+    "example": "The master bedroom has an ensuite bathroom with a luxurious bathtub.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Guest room",
+    "partOfSpeech": "Noun",
+    "synonym": "Visitor's room",
+    "meaning": "A bedroom designated for visitors or guests to stay in.",
+    "example": "We prepared the guest room with fresh linens and welcoming decorations.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Attic",
+    "partOfSpeech": "Noun",
+    "synonym": "Loft",
+    "meaning": "The space in a house located directly under the roof, often used for storage.",
+    "example": "She found old family heirlooms while cleaning out the dusty attic.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Laundry room",
+    "partOfSpeech": "Noun",
+    "synonym": "Utility room",
+    "meaning": "A designated room in a house for washing, drying, and folding laundry.",
+    "example": "The laundry room is equipped with a washing machine, dryer, and laundry supplies.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Wine cellar",
+    "partOfSpeech": "Noun",
+    "synonym": "Wine room",
+    "meaning": "A storage space specifically designed to store and age wine bottles.",
+    "example": "He proudly showed off his collection of vintage wines in his underground wine cellar.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Home automation",
+    "partOfSpeech": "Noun",
+    "synonym": "Smart home technology",
+    "meaning": "The use of technology to control and automate various household functions and tasks.",
+    "example": "Home automation allows you to remotely control lights, thermostats, and security systems.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Energy-efficient",
+    "partOfSpeech": "Adjective",
+    "synonym": "Energy-saving",
+    "meaning": "Using less energy to perform the same tasks, often resulting in lower energy consumption.",
+    "example": "The new appliances are highly energy-efficient and will help reduce electricity bills.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Smart thermostat",
+    "partOfSpeech": "Noun",
+    "synonym": "Intelligent thermostat",
+    "meaning": "A thermostat that can be programmed and controlled remotely, often via a smartphone.",
+    "example": "With a smart thermostat, you can adjust the temperature in your home even when you're away.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Solar panels",
+    "partOfSpeech": "Noun",
+    "synonym": "Photovoltaic panels",
+    "meaning": "Devices that convert sunlight into electricity, often used to power homes.",
+    "example": "The installation of solar panels on the roof significantly reduced the household's energy costs.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Water filtration",
+    "partOfSpeech": "Noun",
+    "synonym": "Water purification",
+    "meaning": "The process of removing impurities from water to make it safe and clean for consumption.",
+    "example": "The water filtration system ensures that the tap water is free from contaminants.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Security system",
+    "partOfSpeech": "Noun",
+    "synonym": "Safety system",
+    "meaning": "A network of devices and measures designed to protect a home from unauthorized access and potential threats.",
+    "example": "The security system includes cameras, motion sensors, and an alarm to deter burglars.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  }
+]

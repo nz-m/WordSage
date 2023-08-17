@@ -1,0 +1,502 @@
+[
+  {
+    "wordNumber": 1,
+    "word": "House",
+    "partOfSpeech": "Noun",
+    "synonym": "Home",
+    "meaning": "A building where people live, usually with rooms, for a family or group of people.",
+    "example": "They have a beautiful house with a big garden.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Apartment",
+    "partOfSpeech": "Noun",
+    "synonym": "Flat",
+    "meaning": "A set of rooms for living in, usually on one floor of a building.",
+    "example": "She lives in a cozy apartment downtown.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Bedroom",
+    "partOfSpeech": "Noun",
+    "synonym": "Chamber",
+    "meaning": "A room used for sleeping.",
+    "example": "The bedroom is nicely decorated in soothing colors.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Living room",
+    "partOfSpeech": "Noun",
+    "synonym": "Sitting room",
+    "meaning": "A room in a house for general family use, usually for relaxing, watching TV, etc.",
+    "example": "The living room has a comfortable couch and a TV.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Kitchen",
+    "partOfSpeech": "Noun",
+    "synonym": "Cookhouse",
+    "meaning": "A room where food is cooked and prepared.",
+    "example": "She enjoys spending time in the kitchen, trying out new recipes.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Bathroom",
+    "partOfSpeech": "Noun",
+    "synonym": "Restroom",
+    "meaning": "A room with a toilet and a sink; used for personal hygiene.",
+    "example": "The bathroom is clean and well-maintained.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Dining room",
+    "partOfSpeech": "Noun",
+    "synonym": "Dining area",
+    "meaning": "A room in a house where meals are eaten.",
+    "example": "They gather in the dining room for family dinners.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Furniture",
+    "partOfSpeech": "Noun",
+    "synonym": "Furnishings",
+    "meaning": "Items such as chairs, tables, and beds that are used to make a room ready for use.",
+    "example": "The furniture in the living room is elegant and comfortable.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Sofa",
+    "partOfSpeech": "Noun",
+    "synonym": "Couch",
+    "meaning": "A long, upholstered seat with a back and arms, for two or more people.",
+    "example": "They all sat on the sofa and chatted.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Bed",
+    "partOfSpeech": "Noun",
+    "synonym": "Mattress",
+    "meaning": "A piece of furniture for sleeping or resting on.",
+    "example": "After a long day, I can't wait to lie down on my comfortable bed.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Table",
+    "partOfSpeech": "Noun",
+    "synonym": "Furniture",
+    "meaning": "A flat surface, usually supported by legs, used for various purposes such as eating, working, or placing things.",
+    "example": "We gathered around the table for a delicious meal.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Chair",
+    "partOfSpeech": "Noun",
+    "synonym": "Seat",
+    "meaning": "A piece of furniture with a back and legs for one person to sit on.",
+    "example": "She pulled up a chair and joined the conversation.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Lamp",
+    "partOfSpeech": "Noun",
+    "synonym": "Light",
+    "meaning": "A device that produces light, typically for illumination in a room.",
+    "example": "He turned on the lamp to read a book in the evening.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Closet",
+    "partOfSpeech": "Noun",
+    "synonym": "Wardrobe",
+    "meaning": "A small room or cupboard used for storing clothes, shoes, or other items.",
+    "example": "She organized her shoes neatly in the closet.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Shelf",
+    "partOfSpeech": "Noun",
+    "synonym": "Ledge",
+    "meaning": "A flat, horizontal surface used for storing or displaying items.",
+    "example": "He placed his books on the shelf for easy access.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Window",
+    "partOfSpeech": "Noun",
+    "synonym": "Opening",
+    "meaning": "An opening in a wall with glass allowing light and air to enter and providing a view to the outside.",
+    "example": "She looked out of the window and enjoyed the view.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Door",
+    "partOfSpeech": "Noun",
+    "synonym": "Entrance",
+    "meaning": "A movable barrier that opens and closes to allow access to a room, building, or vehicle.",
+    "example": "Please close the door behind you when you leave.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Floor",
+    "partOfSpeech": "Noun",
+    "synonym": "Ground",
+    "meaning": "The lower surface of a room on which people walk.",
+    "example": "The cat sat on the floor, playing with a ball of yarn.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Ceiling",
+    "partOfSpeech": "Noun",
+    "synonym": "Overhead",
+    "meaning": "The upper interior surface of a room, often referred to as the 'top' of the room.",
+    "example": "He painted the ceiling a light blue color to create a sense of sky.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Wall",
+    "partOfSpeech": "Noun",
+    "synonym": "Barrier",
+    "meaning": "A vertical structure that encloses, divides, or protects an area.",
+    "example": "The painting hung on the living room wall.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Roof",
+    "partOfSpeech": "Noun",
+    "synonym": "Overhead",
+    "meaning": "The top covering of a building that provides shelter from weather.",
+    "example": "The raindrops fell on the roof during the storm.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Garden",
+    "partOfSpeech": "Noun",
+    "synonym": "Yard",
+    "meaning": "An area of land where plants, flowers, or vegetables are grown.",
+    "example": "She spends her weekends working in the garden.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Yard",
+    "partOfSpeech": "Noun",
+    "synonym": "Garden",
+    "meaning": "An area of land surrounding a house, often used for recreation or landscaping.",
+    "example": "The children played soccer in the yard.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Garage",
+    "partOfSpeech": "Noun",
+    "synonym": "Carport",
+    "meaning": "A building or enclosed space used for parking vehicles or storing belongings.",
+    "example": "He parked his car in the garage to keep it safe from the snow.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Balcony",
+    "partOfSpeech": "Noun",
+    "synonym": "Patio",
+    "meaning": "An elevated platform extending from a building, often used for relaxation or enjoyment of the outdoors.",
+    "example": "They had breakfast on the balcony, enjoying the view.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Stairs",
+    "partOfSpeech": "Noun",
+    "synonym": "Steps",
+    "meaning": "A series of steps or a staircase connecting different levels of a building.",
+    "example": "She tripped and fell down the stairs.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Rug",
+    "partOfSpeech": "Noun",
+    "synonym": "Carpet",
+    "meaning": "A piece of thick fabric used to cover and decorate a floor.",
+    "example": "The living room had a cozy rug that matched the furniture.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Pillow",
+    "partOfSpeech": "Noun",
+    "synonym": "Cushion",
+    "meaning": "A soft object used to support the head while sleeping or resting.",
+    "example": "He fluffed up the pillow before lying down.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Blanket",
+    "partOfSpeech": "Noun",
+    "synonym": "Cover",
+    "meaning": "A large piece of fabric used to keep warm or provide comfort.",
+    "example": "She wrapped herself in a warm blanket on the cold winter night.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Curtain",
+    "partOfSpeech": "Noun",
+    "synonym": "Drapery",
+    "meaning": "A piece of cloth hung to cover or decorate a window.",
+    "example": "She pulled the curtain shut to block out the sunlight.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Mirror",
+    "partOfSpeech": "Noun",
+    "synonym": "Reflecting surface",
+    "meaning": "A reflective surface that shows the appearance of things.",
+    "example": "She looked at herself in the mirror before leaving the house.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Clock",
+    "partOfSpeech": "Noun",
+    "synonym": "Timepiece",
+    "meaning": "A device used to measure and display time.",
+    "example": "The clock on the wall struck midnight.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Sink",
+    "partOfSpeech": "Noun",
+    "synonym": "Basin",
+    "meaning": "A bowl-shaped fixture used for washing hands, dishes, or other objects.",
+    "example": "She filled the sink with soapy water to wash the dishes.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Fridge",
+    "partOfSpeech": "Noun",
+    "synonym": "Refrigerator",
+    "meaning": "An appliance used for keeping food and drinks cold.",
+    "example": "He placed the leftovers in the fridge to keep them fresh.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Oven",
+    "partOfSpeech": "Noun",
+    "synonym": "Cooker",
+    "meaning": "A kitchen appliance used for baking or roasting food.",
+    "example": "She preheated the oven before putting in the cake batter.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Microwave",
+    "partOfSpeech": "Noun",
+    "synonym": "Microwave oven",
+    "meaning": "An appliance that cooks or heats food using microwaves.",
+    "example": "He heated the soup quickly in the microwave.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Dishwasher",
+    "partOfSpeech": "Noun",
+    "synonym": "Dish cleaning machine",
+    "meaning": "An appliance that cleans dishes automatically.",
+    "example": "She loaded the dirty dishes into the dishwasher after dinner.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Television",
+    "partOfSpeech": "Noun",
+    "synonym": "TV",
+    "meaning": "An electronic device used for watching programs and shows.",
+    "example": "They gathered around the television to watch their favorite movie.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Remote control",
+    "partOfSpeech": "Noun",
+    "synonym": "Remote",
+    "meaning": "A handheld device used to operate electronic devices from a distance.",
+    "example": "He used the remote control to change the TV channel.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Remote control",
+    "partOfSpeech": "Noun",
+    "synonym": "Remote",
+    "meaning": "A handheld device used to operate electronic devices from a distance.",
+    "example": "She misplaced the remote control and couldn't change the volume.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Heater",
+    "partOfSpeech": "Noun",
+    "synonym": "Heating unit",
+    "meaning": "A device that generates heat to warm a room or space.",
+    "example": "They turned on the heater to stay warm during the winter.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Air conditioner",
+    "partOfSpeech": "Noun",
+    "synonym": "Cooling system",
+    "meaning": "An electronic device used to regulate the temperature and humidity of indoor air.",
+    "example": "She turned on the air conditioner to cool down the room.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Washer",
+    "partOfSpeech": "Noun",
+    "synonym": "Washing machine",
+    "meaning": "A machine used for washing clothes, linens, etc.",
+    "example": "She put the dirty clothes in the washer and started the cycle.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Dryer",
+    "partOfSpeech": "Noun",
+    "synonym": "Drying machine",
+    "meaning": "An appliance used to dry clothes, towels, and other fabrics.",
+    "example": "After washing, she placed the wet clothes in the dryer.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Trash can",
+    "partOfSpeech": "Noun",
+    "synonym": "Garbage bin",
+    "meaning": "A container for holding waste materials until they can be discarded.",
+    "example": "Please throw the wrappers in the trash can.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Broom",
+    "partOfSpeech": "Noun",
+    "synonym": "Sweeper",
+    "meaning": "A cleaning tool with a handle and bristles used for sweeping floors.",
+    "example": "She swept the kitchen floor with a broom.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Vacuum cleaner",
+    "partOfSpeech": "Noun",
+    "synonym": "Hoover",
+    "meaning": "An electric device used to clean floors and carpets by suction.",
+    "example": "He used the vacuum cleaner to clean the living room carpet.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Mop",
+    "partOfSpeech": "Noun",
+    "synonym": "Floor cleaner",
+    "meaning": "A tool with a handle and absorbent material used for cleaning floors.",
+    "example": "She mopped the kitchen floor to remove spills.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Detergent",
+    "partOfSpeech": "Noun",
+    "synonym": "Soap",
+    "meaning": "A cleaning substance used for washing clothes, dishes, etc.",
+    "example": "She added detergent to the washing machine before starting the cycle.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Cleaning supplies",
+    "partOfSpeech": "Noun",
+    "synonym": "Household cleaners",
+    "meaning": "Items and products used for cleaning tasks in a household.",
+    "example": "She bought a variety of cleaning supplies to keep the house tidy.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  }
+]

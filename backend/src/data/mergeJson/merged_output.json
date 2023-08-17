@@ -1,0 +1,4412 @@
+[
+  {
+    "wordNumber": 1,
+    "word": "Articulation",
+    "partOfSpeech": "Noun",
+    "synonym": "Enunciation",
+    "meaning": "The act of clearly and distinctly pronouncing words and sounds.",
+    "example": "Her articulation was so clear that everyone in the audience understood her.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Eloquence",
+    "partOfSpeech": "Noun",
+    "synonym": "Expressiveness",
+    "meaning": "Fluent or persuasive speaking or writing.",
+    "example": "His eloquence captivated the audience during his speech.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Rhetoric",
+    "partOfSpeech": "Noun",
+    "synonym": "Oratory",
+    "meaning": "The art of effective or persuasive speaking or writing, often with the use of figures of speech and other techniques.",
+    "example": "The politician's use of rhetoric helped sway public opinion.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Persuasion",
+    "partOfSpeech": "Noun",
+    "synonym": "Influence",
+    "meaning": "The act of convincing someone to believe or do something through reasoning or argument.",
+    "example": "Her powers of persuasion were evident in her ability to change minds.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Discourse",
+    "partOfSpeech": "Noun",
+    "synonym": "Conversation",
+    "meaning": "Written or spoken communication or discussion.",
+    "example": "The academic discourse on the topic was quite extensive.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Verbose",
+    "partOfSpeech": "Adjective",
+    "synonym": "Wordy",
+    "meaning": "Using more words than necessary; long-winded.",
+    "example": "His writing style was overly verbose and difficult to follow.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Lucid",
+    "partOfSpeech": "Adjective",
+    "synonym": "Clear",
+    "meaning": "Easily understood; clear and coherent.",
+    "example": "Her explanation was so lucid that even beginners could grasp the concept.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Articulate",
+    "partOfSpeech": "Adjective",
+    "synonym": "Expressive",
+    "meaning": "Expressing oneself clearly and effectively; well-spoken.",
+    "example": "She was known for her articulate speeches on various social issues.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Ambiguity",
+    "partOfSpeech": "Noun",
+    "synonym": "Uncertainty",
+    "meaning": "The quality of being open to more than one interpretation; having a double meaning.",
+    "example": "The statement was full of ambiguity, leaving people confused about its intended meaning.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Elocution",
+    "partOfSpeech": "Noun",
+    "synonym": "Delivery",
+    "meaning": "The skill of clear and expressive speech, especially pronunciation and gesture.",
+    "example": "He practiced elocution to improve his public speaking abilities.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Cogency",
+    "partOfSpeech": "Noun",
+    "synonym": "Compelling",
+    "meaning": "The quality of being clear, logical, and convincing.",
+    "example": "Her arguments were presented with such cogency that they swayed even the skeptics.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Eloquently",
+    "partOfSpeech": "Adverb",
+    "synonym": "Expressively",
+    "meaning": "In a fluent, persuasive, and emotionally impactful manner.",
+    "example": "She spoke eloquently about the importance of preserving cultural heritage.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Grandiloquent",
+    "partOfSpeech": "Adjective",
+    "synonym": "Pompous",
+    "meaning": "Using lofty, exaggerated language to impress or show off.",
+    "example": "His grandiloquent speeches were met with mixed reactions from the audience.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Loquacious",
+    "partOfSpeech": "Adjective",
+    "synonym": "Talkative",
+    "meaning": "Tending to talk a lot or too much.",
+    "example": "The loquacious salesman could turn a five-minute conversation into an hour-long monologue.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Perspicacious",
+    "partOfSpeech": "Adjective",
+    "synonym": "Insightful",
+    "meaning": "Having a keen understanding of things; perceptive.",
+    "example": "Her perspicacious observations about human behavior often led to innovative solutions.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Rhetorical",
+    "partOfSpeech": "Adjective",
+    "synonym": "Oratorical",
+    "meaning": "Related to the effective use of language in speech or writing.",
+    "example": "The speaker's rhetorical question engaged the audience and encouraged deep thought.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Subtext",
+    "partOfSpeech": "Noun",
+    "synonym": "Undertone",
+    "meaning": "An underlying or implicit meaning, often conveyed indirectly.",
+    "example": "The movie's subtext explored themes of loneliness and isolation beneath its cheerful surface.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Perspicuity",
+    "partOfSpeech": "Noun",
+    "synonym": "Clarity",
+    "meaning": "Clearness in expressing ideas or concepts.",
+    "example": "The perspicuity of the professor's lectures made complex topics easy to understand.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Vernacular",
+    "partOfSpeech": "Noun",
+    "synonym": "Jargon",
+    "meaning": "The language or dialect spoken by the ordinary people in a particular region or country.",
+    "example": "The author captured the essence of the region by incorporating the local vernacular in the dialogue.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Rhetorician",
+    "partOfSpeech": "Noun",
+    "synonym": "Orator",
+    "meaning": "A person skilled in the art of rhetoric; a persuasive speaker or writer.",
+    "example": "The renowned rhetorician captivated the audience with her powerful and moving address.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Prolixity",
+    "partOfSpeech": "Noun",
+    "synonym": "Verbosity",
+    "meaning": "Excessive use of words; long-windedness.",
+    "example": "His prolixity made it difficult to follow his train of thought.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Facetious",
+    "partOfSpeech": "Adjective",
+    "synonym": "Witty",
+    "meaning": "Treating serious issues with deliberately inappropriate humor.",
+    "example": "She couldn't resist making a facetious comment during the tense meeting.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Repartee",
+    "partOfSpeech": "Noun",
+    "synonym": "Banter",
+    "meaning": "Quick and witty conversation or retort.",
+    "example": "Their repartee had everyone laughing throughout the evening.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Circumlocution",
+    "partOfSpeech": "Noun",
+    "synonym": "Verbosity",
+    "meaning": "The use of many words when fewer would suffice, especially in an attempt to be evasive; wordiness.",
+    "example": "His circumlocution frustrated the audience, who wanted a direct answer.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Paralipsis",
+    "partOfSpeech": "Noun",
+    "synonym": "Omission",
+    "meaning": "The rhetorical device of giving emphasis by professing to say little or nothing about a subject.",
+    "example": "In an act of paralipsis, he pretended to ignore the rumors about his past.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Voluble",
+    "partOfSpeech": "Adjective",
+    "synonym": "Talkative",
+    "meaning": "Speaking or spoken incessantly and fluently.",
+    "example": "She was so voluble that it was hard to get a word in edgewise.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Didactic",
+    "partOfSpeech": "Adjective",
+    "synonym": "Instructive",
+    "meaning": "Intended to teach, particularly in having moral instruction as an ulterior motive.",
+    "example": "His didactic approach to storytelling often included valuable life lessons.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Orotund",
+    "partOfSpeech": "Adjective",
+    "synonym": "Sonorous",
+    "meaning": "Full, round, and imposing in sound.",
+    "example": "His orotund voice commanded attention in the auditorium.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Discursive",
+    "partOfSpeech": "Adjective",
+    "synonym": "Rambling",
+    "meaning": "Digressing from subject to subject; moving from topic to topic without order; meandering.",
+    "example": "His discursive speech made it challenging to follow his main point.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Prolix",
+    "partOfSpeech": "Adjective",
+    "synonym": "Verbose",
+    "meaning": "Using or containing too many words; tediously lengthy.",
+    "example": "Her prolix writing style made the article a difficult read.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Bombastic",
+    "partOfSpeech": "Adjective",
+    "synonym": "Pompous",
+    "meaning": "High-sounding but with little meaning; inflated.",
+    "example": "His bombastic speech impressed some but annoyed others.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Logomachy",
+    "partOfSpeech": "Noun",
+    "synonym": "Verbal Duel",
+    "meaning": "A dispute about words; an argument or debate marked by the excessive use of words.",
+    "example": "Their logomachy continued late into the night.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Disputation",
+    "partOfSpeech": "Noun",
+    "synonym": "Debate",
+    "meaning": "A formal debate or argument.",
+    "example": "The disputation between the scholars was intense and thought-provoking.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Aphorism",
+    "partOfSpeech": "Noun",
+    "synonym": "Saying",
+    "meaning": "A concise statement of a general truth or principle.",
+    "example": "Benjamin Franklin was known for his aphorisms, such as 'Early to bed and early to rise, makes a man healthy, wealthy, and wise.'",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Eristic",
+    "partOfSpeech": "Adjective",
+    "synonym": "Argumentative",
+    "meaning": "Prone to engaging in arguments or disputes; argumentative.",
+    "example": "His eristic nature often led to heated discussions among his friends.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Polyloquent",
+    "partOfSpeech": "Adjective",
+    "synonym": "Eloquent",
+    "meaning": "Expressing oneself in an eloquent or articulate manner; speaking with fluency on many subjects.",
+    "example": "Her polyloquent speech captivated the audience and left them in awe.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Pleonasm",
+    "partOfSpeech": "Noun",
+    "synonym": "Redundancy",
+    "meaning": "The use of more words than necessary to convey meaning; redundancy.",
+    "example": "The phrase 'free gift' is a pleonasm, as gifts are inherently free.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Ambage",
+    "partOfSpeech": "Noun",
+    "synonym": "Circuitousness",
+    "meaning": "The use of unnecessarily indirect language; circumlocution.",
+    "example": "His ambage made it difficult to understand his true intentions.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Moot",
+    "partOfSpeech": "Verb",
+    "synonym": "Debate",
+    "meaning": "To raise for discussion; to bring up as a topic of debate or argument.",
+    "example": "They decided to moot the idea of changing the company's policies.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Quibbling",
+    "partOfSpeech": "Verb",
+    "synonym": "Arguing",
+    "meaning": "Engaging in petty or trivial arguments; finding fault with minor details.",
+    "example": "Instead of addressing the main issue, they spent their time quibbling over minor points.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Enthymeme",
+    "partOfSpeech": "Noun",
+    "synonym": "Rhetorical Syllogism",
+    "meaning": "A rhetorical device that is an incomplete argument where one or more premises are unstated and taken for granted.",
+    "example": "His enthymeme relied on the assumption that everyone wants to be successful.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Eristical",
+    "partOfSpeech": "Adjective",
+    "synonym": "Argumentative",
+    "meaning": "Characterized by argument or contention; prone to engaging in arguments or disputes.",
+    "example": "Her eristical nature often led to heated debates during family gatherings.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Metaphrasis",
+    "partOfSpeech": "Noun",
+    "synonym": "Paraphrase",
+    "meaning": "The act of translating or expressing something in a different or clearer way.",
+    "example": "His metaphrasis of the poem captured the essence of the original text while making it more accessible.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Tautology",
+    "partOfSpeech": "Noun",
+    "synonym": "Redundancy",
+    "meaning": "The use of unnecessary or repetitive words, phrases, or ideas to emphasize a point.",
+    "example": "Saying 'free gift' is a tautology, as a gift is already something given without cost.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Dialectic",
+    "partOfSpeech": "Noun",
+    "synonym": "Debate",
+    "meaning": "The art or practice of logical discussion as a means of resolving differences or understanding opposing ideas.",
+    "example": "The dialectic between the two philosophers led to a deeper exploration of their contrasting viewpoints.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Periphrasis",
+    "partOfSpeech": "Noun",
+    "synonym": "Circumlocution",
+    "meaning": "The use of excessive words or wordy expressions to convey a meaning that could be expressed more directly.",
+    "example": "Instead of saying 'the man who was in charge,' he used periphrasis and said 'the individual overseeing the operations.'",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Logomachist",
+    "partOfSpeech": "Noun",
+    "synonym": "Word Wrangler",
+    "meaning": "One who engages in disputes or arguments about words or their meanings.",
+    "example": "The two logomachists couldn't agree on the precise definition of 'art,' leading to a lengthy debate.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Ambages",
+    "partOfSpeech": "Noun",
+    "synonym": "Circumlocution",
+    "meaning": "Circuitous or roundabout ways of speaking or writing; use of excessive words to express a simple idea.",
+    "example": "Her storytelling was rich in ambages, often taking long detours before arriving at the main point.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Tmesis",
+    "partOfSpeech": "Noun",
+    "synonym": "Infixation",
+    "meaning": "The insertion of one or more words within a compound word, usually for humorous or emphatic effect.",
+    "example": "In 'fan-freakin-tastic,' the tmesis 'freakin' is inserted within the word 'fantastic.'",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Delphic",
+    "partOfSpeech": "Adjective",
+    "synonym": "Enigmatic",
+    "meaning": "Unclear, ambiguous, or difficult to understand; often referring to statements with hidden or double meanings.",
+    "example": "Her response to the question was quite delphic, leaving everyone puzzled about her true intentions.",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 1,
+    "word": "Introduction",
+    "partOfSpeech": "Noun",
+    "synonym": "Presentation",
+    "meaning": "The action of formally making someone known to others; a way to present oneself to others.",
+    "example": "She gave a brief introduction about her background and interests.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Address",
+    "partOfSpeech": "Noun / Verb",
+    "synonym": "Location / Speak to",
+    "meaning": "Noun: The particulars of the place where someone lives or an organization is situated.\nVerb: To speak or write to someone.",
+    "example": "Noun: His address is 123 Main Street.\nVerb: She will address the group during the meeting.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Apology",
+    "partOfSpeech": "Noun",
+    "synonym": "Sorry",
+    "meaning": "An expression of regret or sorrow for having done or said something that has caused inconvenience or harm to another.",
+    "example": "He offered a sincere apology for his mistake.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Gestures",
+    "partOfSpeech": "Noun",
+    "synonym": "Signals",
+    "meaning": "Movements or actions of the hands, face, or other parts of the body to communicate thoughts, feelings, or intentions.",
+    "example": "His gestures of thumbs-up and nodding showed his approval.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Misunderstanding",
+    "partOfSpeech": "Noun",
+    "synonym": "Confusion",
+    "meaning": "A failure to correctly grasp the meaning, intention, or information conveyed by someone else, leading to confusion or disagreements.",
+    "example": "The argument arose from a simple misunderstanding about the schedule.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Clarification",
+    "partOfSpeech": "Noun",
+    "synonym": "Explanation",
+    "meaning": "The action of making something clearer by explaining or providing additional information.",
+    "example": "She asked for clarification on the instructions before starting the task.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Vocabulary",
+    "partOfSpeech": "Noun",
+    "synonym": "Word bank",
+    "meaning": "The body of words used in a particular language, field, or subject; a collection of words known to a person.",
+    "example": "Expanding your vocabulary can help you communicate more effectively.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Accent",
+    "partOfSpeech": "Noun",
+    "synonym": "Pronunciation",
+    "meaning": "A distinctive way of pronouncing words, often influenced by one's regional or cultural background.",
+    "example": "Her French accent added charm to her English speech.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Fluent",
+    "partOfSpeech": "Adjective",
+    "synonym": "Articulate",
+    "meaning": "Able to speak, write, or express oneself easily and smoothly in a language.",
+    "example": "After years of practice, he became fluent in Spanish.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Mumble",
+    "partOfSpeech": "Verb",
+    "synonym": "Mutter",
+    "meaning": "To speak or utter in a low, indistinct, or unclear manner, often making it difficult for others to understand.",
+    "example": "He tends to mumble when he's nervous.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Stammer",
+    "partOfSpeech": "Verb / Noun",
+    "synonym": "Stutter",
+    "meaning": "Verb: To speak with involuntary pauses and often with repetitions of sounds or words.\nNoun: A speech disorder characterized by involuntary pauses and repetitions in speech.",
+    "example": "Verb: He tends to stammer when he's nervous.\nNoun: His stammer became more noticeable when he had to give a speech.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Manners",
+    "partOfSpeech": "Noun",
+    "synonym": "Etiquette",
+    "meaning": "Social behaviors or customs considered polite or appropriate in a particular culture or society.",
+    "example": "Good manners dictate that you should say 'please' and 'thank you.'",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Polite",
+    "partOfSpeech": "Adjective",
+    "synonym": "Courteous",
+    "meaning": "Having or showing consideration for others and behaving in a respectful and well-mannered way.",
+    "example": "She always speaks in a polite and friendly manner.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Impolite",
+    "partOfSpeech": "Adjective",
+    "synonym": "Rude",
+    "meaning": "Not showing consideration or respect for others; lacking good manners.",
+    "example": "It is impolite to interrupt someone while they're speaking.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Pause",
+    "partOfSpeech": "Noun / Verb",
+    "synonym": "Break / Stop",
+    "meaning": "Noun: A temporary stop or hesitation in an action, speech, or thought.\nVerb: To temporarily stop or hesitate in an action, speech, or thought.",
+    "example": "Noun: There was a brief pause in the conversation.\nVerb: He decided to pause for a moment before continuing.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Tone",
+    "partOfSpeech": "Noun",
+    "synonym": "Manner, Mood",
+    "meaning": "The quality or character of sound in spoken or written language that expresses the speaker's feelings, attitude, or intention.",
+    "example": "Her tone of voice indicated that she was not pleased with the situation.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Gesture",
+    "partOfSpeech": "Noun / Verb",
+    "synonym": "Motion / Signal",
+    "meaning": "Noun: A movement of the body, especially the hands or head, to express an idea or meaning.\nVerb: To make a gesture.",
+    "example": "Noun: He made a friendly gesture by waving his hand.\nVerb: She gestured for him to come closer.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Formal",
+    "partOfSpeech": "Adjective",
+    "synonym": "Official, Proper",
+    "meaning": "Following established rules, conventions, or procedures; suitable for official or serious occasions.",
+    "example": "The formal attire for the event was a black tie and gown.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Informal",
+    "partOfSpeech": "Adjective",
+    "synonym": "Casual, Relaxed",
+    "meaning": "Lacking formality or strictness; suitable for relaxed or friendly situations.",
+    "example": "They had an informal discussion over coffee.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Slang",
+    "partOfSpeech": "Noun",
+    "synonym": "Colloquial language, Jargon",
+    "meaning": "A type of language that consists of words and phrases that are informal and often specific to a particular group of people or subculture.",
+    "example": "Teenagers often use slang words that older generations might not understand.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Nod",
+    "partOfSpeech": "Verb / Noun",
+    "synonym": "Gesture of agreement / Head movement",
+    "meaning": "Verb: To move one's head up and down as a sign of agreement, understanding, or acknowledgment.\nNoun: The act of moving one's head in such a manner.",
+    "example": "Verb: She nodded in agreement.\nNoun: He gave a slight nod to show he understood.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Shake",
+    "partOfSpeech": "Verb / Noun",
+    "synonym": "Move back and forth / Tremble",
+    "meaning": "Verb: To move rapidly back and forth or up and down.\nNoun: A rapid back-and-forth or up-and-down movement.",
+    "example": "Verb: She shook her head to indicate disagreement.\nNoun: He gave the package a shake to see what was inside.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Conversation",
+    "partOfSpeech": "Noun",
+    "synonym": "Discussion",
+    "meaning": "An informal exchange of ideas, thoughts, or information between two or more people.",
+    "example": "We had an interesting conversation about travel destinations.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Dialogue",
+    "partOfSpeech": "Noun",
+    "synonym": "Conversation / Discourse",
+    "meaning": "A written or spoken conversational exchange between two or more people.",
+    "example": "The movie featured a heartfelt dialogue between the main characters.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Greet",
+    "partOfSpeech": "Verb",
+    "synonym": "Welcome",
+    "meaning": "To address or acknowledge someone with words or gestures upon meeting them.",
+    "example": "She greeted him with a warm smile when he arrived.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Parting",
+    "partOfSpeech": "Noun",
+    "synonym": "Farewell",
+    "meaning": "The act of leaving or saying goodbye to someone.",
+    "example": "Their parting was emotional as they waved goodbye at the airport.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Response",
+    "partOfSpeech": "Noun",
+    "synonym": "Answer",
+    "meaning": "A reaction or reply to something that has been said, done, or asked.",
+    "example": "Her response to the question was thoughtful and well-articulated.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Eye contact",
+    "partOfSpeech": "Noun",
+    "synonym": "Gaze",
+    "meaning": "The act of looking directly into someone's eyes during a conversation, often used to convey interest, attention, or connection.",
+    "example": "Maintaining good eye contact is important when you're speaking to someone.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Body language",
+    "partOfSpeech": "Noun",
+    "synonym": "Nonverbal communication",
+    "meaning": "The use of physical movements, gestures, and postures to convey information, emotions, or intentions without using words.",
+    "example": "Her body language indicated that she was feeling anxious during the presentation.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Pronunciation",
+    "partOfSpeech": "Noun",
+    "synonym": "Articulation",
+    "meaning": "The way in which words are spoken or pronounced, including the sounds and stress patterns used.",
+    "example": "He practiced his pronunciation to improve his spoken English.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Intonation",
+    "partOfSpeech": "Noun",
+    "synonym": "Tone of voice",
+    "meaning": "The rise and fall of the pitch of a person's voice in speech, conveying shades of meaning or emotion.",
+    "example": "Her intonation indicated that she was asking a question rather than making a statement.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Exchange",
+    "partOfSpeech": "Noun / Verb",
+    "synonym": "Swap / Trade",
+    "meaning": "Noun: The act of giving one thing and receiving another (especially of the same type or value) in return.\nVerb: To give and receive things of the same kind or value.",
+    "example": "Noun: They had an exchange of gifts during the holiday party.\nVerb: They exchanged phone numbers after the meeting.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Compliment",
+    "partOfSpeech": "Noun / Verb",
+    "synonym": "Praise / Admire",
+    "meaning": "Noun: A polite expression of praise or admiration.\nVerb: To express praise or admiration to someone.",
+    "example": "Noun: She gave him a compliment on his new haircut.\nVerb: He complimented her cooking skills.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Small talk",
+    "partOfSpeech": "Noun",
+    "synonym": "Casual conversation",
+    "meaning": "Light and informal conversation about unimportant or everyday topics, often used to break the ice or maintain social interactions.",
+    "example": "We engaged in some small talk before the meeting started.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Rehearse",
+    "partOfSpeech": "Verb",
+    "synonym": "Practice",
+    "meaning": "To practice or repeat something, such as a speech, performance, or presentation, in preparation for a future event.",
+    "example": "She spent hours rehearsing her lines for the play.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Etiquette",
+    "partOfSpeech": "Noun",
+    "synonym": "Manners",
+    "meaning": "The customary code of polite behavior in a society or among a group, often involving rules and expectations for social interactions.",
+    "example": "Understanding dining etiquette is important when attending formal events.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Cultural norms",
+    "partOfSpeech": "Noun",
+    "synonym": "Social customs",
+    "meaning": "Shared expectations and behaviors that are considered appropriate and acceptable within a particular group or society.",
+    "example": "Understanding cultural norms is important when interacting with people from different backgrounds.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Interpret",
+    "partOfSpeech": "Verb",
+    "synonym": "Understand, Explain",
+    "meaning": "To understand or explain the meaning of something, especially in a particular way.",
+    "example": "She tried to interpret his facial expressions to guess his emotions.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Context",
+    "partOfSpeech": "Noun",
+    "synonym": "Circumstances, Setting",
+    "meaning": "The circumstances or background in which something happens, providing a deeper understanding of the situation.",
+    "example": "To fully understand the message, you need to consider the context in which it was said.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Interactive",
+    "partOfSpeech": "Adjective",
+    "synonym": "Engaging, Participatory",
+    "meaning": "Involving communication, action, or involvement between people or things.",
+    "example": "The workshop was designed to be interactive, encouraging participants to ask questions and share their ideas.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Break the ice",
+    "partOfSpeech": "Idiom",
+    "synonym": "Initiate conversation",
+    "meaning": "To start a conversation in a social situation, often to relieve tension or create a comfortable atmosphere.",
+    "example": "He told a joke to break the ice at the beginning of the party.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Socialize",
+    "partOfSpeech": "Verb",
+    "synonym": "Mingle, Interact",
+    "meaning": "To spend time with others in a social setting, engaging in conversations and activities.",
+    "example": "After work, they often gather to socialize and share stories.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Enunciate",
+    "partOfSpeech": "Verb",
+    "synonym": "Articulate",
+    "meaning": "To pronounce words or parts of words clearly and distinctly.",
+    "example": "She was asked to enunciate her words more clearly so that everyone could understand her.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Pause",
+    "partOfSpeech": "Noun / Verb",
+    "synonym": "Break / Hesitate",
+    "meaning": "Noun: A temporary stop in speech or action.\nVerb: To momentarily stop speaking or doing something.",
+    "example": "Noun: There was a brief pause in the conversation.\nVerb: He paused for a moment to gather his thoughts before continuing.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Fillers (like, um)",
+    "partOfSpeech": "Phrase",
+    "synonym": "Discourse markers",
+    "meaning": "Words or sounds used in speech to fill gaps, express hesitation, or give the speaker time to think.",
+    "example": "He used fillers like 'uh' and 'you know' while speaking.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Emphasize",
+    "partOfSpeech": "Verb",
+    "synonym": "Highlight",
+    "meaning": "To give special importance or attention to something; to make something stand out.",
+    "example": "She wanted to emphasize the importance of punctuality in the workplace.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Politeness",
+    "partOfSpeech": "Noun",
+    "synonym": "Civility",
+    "meaning": "Behavior that shows respect for others and follows social norms of courtesy.",
+    "example": "His politeness and good manners made a positive impression on everyone he met.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Formality",
+    "partOfSpeech": "Noun",
+    "synonym": "Conformity",
+    "meaning": "Adhering to established customs, rules, or conventions, especially in a social or professional context.",
+    "example": "The meeting was conducted with a certain level of formality, including a formal agenda and protocols.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Active listening",
+    "partOfSpeech": "Phrase",
+    "synonym": "Attentive listening",
+    "meaning": "Giving full attention to the speaker, both verbally and non-verbally, to understand and respond appropriately.",
+    "example": "She engaged in active listening by maintaining eye contact and nodding during the conversation.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Peer pressure",
+    "partOfSpeech": "Noun",
+    "synonym": "Influence from friends",
+    "meaning": "Influence from one's peers or social group that encourages certain behaviors, actions, or decisions.",
+    "example": "He gave in to peer pressure and tried smoking because his friends were doing it.",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 1,
+    "word": "Eloquent",
+    "partOfSpeech": "Adjective",
+    "synonym": "Expressive",
+    "meaning": "Fluent and persuasive in speaking or writing; having the ability to communicate effectively and eloquently.",
+    "example": "His eloquent speech captivated the audience and left a lasting impression.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Articulate",
+    "partOfSpeech": "Adjective / Verb",
+    "synonym": "Clear / Express",
+    "meaning": "Adjective: Expressing oneself clearly and effectively in speech or writing.\nVerb: To pronounce words or express ideas clearly and coherently.",
+    "example": "Adjective: She is known for her articulate explanations.\nVerb: He was able to articulate his thoughts during the interview.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Eloquence",
+    "partOfSpeech": "Noun",
+    "synonym": "Expressiveness",
+    "meaning": "The ability to speak or write with fluency, persuasiveness, and grace; expressive and effective communication.",
+    "example": "Her eloquence in addressing the crowd moved many to tears.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Diction",
+    "partOfSpeech": "Noun",
+    "synonym": "Word choice",
+    "meaning": "The choice and arrangement of words in speech or writing; the style of enunciation in speaking or singing.",
+    "example": "His precise diction contributed to the clarity of his message.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Inflection",
+    "partOfSpeech": "Noun",
+    "synonym": "Tone variation",
+    "meaning": "A change in pitch or tone of the voice while speaking to convey meaning or emotion.",
+    "example": "Her voice inflection indicated that she was asking a question rather than making a statement.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Empathy",
+    "partOfSpeech": "Noun",
+    "synonym": "Understanding",
+    "meaning": "The ability to understand and share the feelings and perspectives of others; showing compassion and sensitivity.",
+    "example": "His empathy towards her situation helped her feel supported and cared for.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Paraphrase",
+    "partOfSpeech": "Verb / Noun",
+    "synonym": "Rephrase",
+    "meaning": "Verb: To express the meaning of something using different words, usually to clarify or simplify.\nNoun: A restatement of a text or passage in one's own words.",
+    "example": "Verb: She asked him to paraphrase the complex idea in simpler terms.\nNoun: The student provided a helpful paraphrase of the difficult paragraph.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Assertive",
+    "partOfSpeech": "Adjective",
+    "synonym": "Confident",
+    "meaning": "Having a confident and self-assured manner of communication; expressing one's opinions and needs in a clear and respectful way.",
+    "example": "She was assertive in expressing her viewpoint during the team discussion.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Persuade",
+    "partOfSpeech": "Verb",
+    "synonym": "Convince",
+    "meaning": "To influence someone's beliefs, opinions, or decisions through reasoning, argument, or appeal.",
+    "example": "He tried to persuade his colleagues to support his proposal with compelling evidence.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Negotiate",
+    "partOfSpeech": "Verb",
+    "synonym": "Bargain",
+    "meaning": "To discuss or confer with others in order to reach an agreement, settlement, or compromise.",
+    "example": "They were able to negotiate the terms of the contract after several rounds of discussion.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Assertiveness",
+    "partOfSpeech": "Noun",
+    "synonym": "Confidence",
+    "meaning": "The quality of expressing one's needs, opinions, and feelings in a clear, direct, and respectful manner.",
+    "example": "Her assertiveness helped her communicate her ideas effectively during team discussions.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Initiative",
+    "partOfSpeech": "Noun",
+    "synonym": "Drive",
+    "meaning": "The ability to take action and make decisions without waiting for someone else to do so.",
+    "example": "He showed great initiative by proposing a new project idea to the team.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Assert",
+    "partOfSpeech": "Verb",
+    "synonym": "State firmly",
+    "meaning": "To express or declare something in a confident and forceful manner.",
+    "example": "She needed to assert her rights and speak up about the unfair treatment.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Consensus",
+    "partOfSpeech": "Noun",
+    "synonym": "Agreement",
+    "meaning": "A general agreement or shared opinion among a group of people.",
+    "example": "After a long debate, the team reached a consensus on the best approach to the project.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Debate",
+    "partOfSpeech": "Noun / Verb",
+    "synonym": "Discussion / Argue",
+    "meaning": "Noun: A formal discussion of a topic in which opposing arguments are put forward.\nVerb: To discuss a topic by presenting and discussing opposing arguments.",
+    "example": "Noun: The debate about climate change was insightful.\nVerb: They debated the pros and cons of the new policy.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Convey",
+    "partOfSpeech": "Verb",
+    "synonym": "Express",
+    "meaning": "To communicate or make known a message, idea, or feeling through words, actions, or symbols.",
+    "example": "She used body language to convey her excitement and happiness.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Imply",
+    "partOfSpeech": "Verb",
+    "synonym": "Suggest",
+    "meaning": "To indicate or suggest something indirectly or without explicitly stating it.",
+    "example": "His tone of voice implied that he was not pleased with the decision.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Inquire",
+    "partOfSpeech": "Verb",
+    "synonym": "Ask",
+    "meaning": "To seek information or ask a question in a formal or polite manner.",
+    "example": "He inquired about the availability of the product at the store.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Enquire",
+    "partOfSpeech": "Verb",
+    "synonym": "Ask",
+    "meaning": "To seek information or ask a question, often in a formal or official context.",
+    "example": "He enquired about the details of the upcoming event.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Reiterate",
+    "partOfSpeech": "Verb",
+    "synonym": "Repeat",
+    "meaning": "To state or do something again, often for emphasis or clarity.",
+    "example": "She wanted to reiterate her commitment to the project during the meeting.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Retort",
+    "partOfSpeech": "Verb / Noun",
+    "synonym": "Counter / Response",
+    "meaning": "Verb: To reply to a remark in a sharp, witty, or critical manner.\nNoun: A sharp, witty, or quick reply.",
+    "example": "Verb: She retorted, 'I can handle it myself, thank you.'\nNoun: His retort caught everyone off guard.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Impromptu",
+    "partOfSpeech": "Adjective / Adverb",
+    "synonym": "Unrehearsed / Spontaneous",
+    "meaning": "Adjective: Done or said without prior preparation or planning.\nAdverb: In an impromptu manner.",
+    "example": "Adjective: They made an impromptu decision to go on a road trip.\nAdverb: She gave an impromptu speech at the event.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Connotation",
+    "partOfSpeech": "Noun",
+    "synonym": "Meaning / Implication",
+    "meaning": "The emotional or cultural associations and meanings that a word carries beyond its literal definition.",
+    "example": "The word 'home' has positive connotations of comfort and safety.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Deft",
+    "partOfSpeech": "Adjective",
+    "synonym": "Skillful / Dexterous",
+    "meaning": "Skillful, clever, and quick in one's movements or actions.",
+    "example": "He displayed a deft touch in handling delicate materials.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Evoke",
+    "partOfSpeech": "Verb",
+    "synonym": "Elicit / Prompt",
+    "meaning": "To bring forth or elicit a particular feeling, response, or memory.",
+    "example": "The painting evoked a sense of nostalgia in those who viewed it.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Extrovert",
+    "partOfSpeech": "Noun",
+    "synonym": "Outgoing / Sociable",
+    "meaning": "A person who is outgoing, sociable, and gains energy from interacting with others.",
+    "example": "As an extrovert, she enjoys attending social gatherings and meeting new people.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Introvert",
+    "partOfSpeech": "Noun",
+    "synonym": "Reserved / Shy",
+    "meaning": "A person who is reserved, shy, and often prefers solitary activities to social interactions.",
+    "example": "Being an introvert, he finds solace in reading and spending time alone.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Eloquently",
+    "partOfSpeech": "Adverb",
+    "synonym": "Expressively / Fluently",
+    "meaning": "In a fluent, expressive, and persuasive manner, especially in speech or writing.",
+    "example": "She spoke eloquently about the importance of environmental conservation.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Innuendo",
+    "partOfSpeech": "Noun",
+    "synonym": "Hint / Insinuation",
+    "meaning": "An indirect or subtle comment, remark, or suggestion, often with negative or suggestive connotations.",
+    "example": "His innuendos during the conversation made everyone uncomfortable.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Innuendos",
+    "partOfSpeech": "Noun",
+    "synonym": "Hints / Insinuations",
+    "meaning": "Plural form of innuendo; indirect or subtle comments, remarks, or suggestions, often with negative or suggestive connotations.",
+    "example": "Her innuendos about his personal life were uncalled for and inappropriate.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Taciturn",
+    "partOfSpeech": "Adjective",
+    "synonym": "Reserved",
+    "meaning": "Inclined to be silent or uncommunicative in speech; saying little.",
+    "example": "Despite his friendly demeanor, he was often quite taciturn in social settings.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Gesticulate",
+    "partOfSpeech": "Verb",
+    "synonym": "Gesture",
+    "meaning": "To use gestures, especially dramatic or emphatic ones, instead of speaking or to help emphasize one's words.",
+    "example": "She gesticulated wildly to express her excitement about the news.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Enthralling",
+    "partOfSpeech": "Adjective",
+    "synonym": "Captivating",
+    "meaning": "Holding the attention or interest of someone in a compelling or fascinating way.",
+    "example": "The speaker delivered an enthralling presentation that kept the audience engaged from start to finish.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Interject",
+    "partOfSpeech": "Verb",
+    "synonym": "Interrupt",
+    "meaning": "To say something abruptly or in between other people's statements, often to contribute a comment or opinion.",
+    "example": "She interjected with a question during the discussion to clarify a point.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Pensive",
+    "partOfSpeech": "Adjective",
+    "synonym": "Thoughtful",
+    "meaning": "Engaged in deep or serious thought, often with a slightly sad or reflective expression.",
+    "example": "He sat in a pensive mood, contemplating his future plans.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Rhetoric",
+    "partOfSpeech": "Noun",
+    "synonym": "Oratory",
+    "meaning": "The art of effective or persuasive speaking or writing, often with the use of figures of speech and techniques.",
+    "example": "Her use of rhetoric in the speech inspired the audience and garnered their support.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Extempore",
+    "partOfSpeech": "Adverb",
+    "synonym": "Impromptu",
+    "meaning": "Spoken or done without preparation; impromptu.",
+    "example": "He delivered an extempore speech that impressed everyone with his ability to speak on the spot.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Facetious",
+    "partOfSpeech": "Adjective",
+    "synonym": "Playful",
+    "meaning": "Treating serious issues with deliberately inappropriate humor; flippant.",
+    "example": "His facetious remarks lightened the mood of the conversation.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Candid",
+    "partOfSpeech": "Adjective",
+    "synonym": "Frank",
+    "meaning": "Open and honest in speech or expression; straightforward.",
+    "example": "She appreciated his candid feedback on her performance.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Ponder",
+    "partOfSpeech": "Verb",
+    "synonym": "Contemplate",
+    "meaning": "To think deeply and carefully about something; to consider or weigh in one's mind.",
+    "example": "She sat by the window, pondering the meaning of life.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Reticent",
+    "partOfSpeech": "Adjective",
+    "synonym": "Reserved",
+    "meaning": "Not inclined to speak freely; reserved or reluctant in communication.",
+    "example": "She was reticent about sharing her personal thoughts with others.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Cogent",
+    "partOfSpeech": "Adjective",
+    "synonym": "Compelling",
+    "meaning": "Clear, logical, and convincing in argument or presentation.",
+    "example": "His cogent explanation helped everyone understand the complex issue.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Idiosyncrasy",
+    "partOfSpeech": "Noun",
+    "synonym": "Quirk",
+    "meaning": "A peculiar or distinctive behavior, habit, or mannerism that is unique to an individual.",
+    "example": "One of his idiosyncrasies is his habit of humming while working.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Incisive",
+    "partOfSpeech": "Adjective",
+    "synonym": "Sharp",
+    "meaning": "Having or demonstrating keen insight, clarity, and depth of thought.",
+    "example": "Her incisive analysis of the situation provided valuable insights.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Subtle",
+    "partOfSpeech": "Adjective",
+    "synonym": "Slight",
+    "meaning": "Not obvious or easily noticeable; delicate or understated.",
+    "example": "The artist used subtle shades of color to create a sense of depth in the painting.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Nuance",
+    "partOfSpeech": "Noun",
+    "synonym": "Subtlety",
+    "meaning": "A subtle or slight difference in meaning, expression, or feeling.",
+    "example": "She appreciated the nuances in his writing that added depth to the story.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Empathetic",
+    "partOfSpeech": "Adjective",
+    "synonym": "Understanding",
+    "meaning": "Showing an ability to understand and share the feelings of others.",
+    "example": "Her empathetic response made her friends feel understood and supported.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Fluent",
+    "partOfSpeech": "Adjective",
+    "synonym": "Articulate",
+    "meaning": "Able to express oneself easily and coherently in a language.",
+    "example": "She is fluent in three languages and can carry on conversations with native speakers.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Intuitive",
+    "partOfSpeech": "Adjective",
+    "synonym": "Instinctive",
+    "meaning": "Understanding or knowing something without the need for conscious reasoning; based on instinct.",
+    "example": "His intuitive understanding of people's emotions helped him connect with others.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Sarcasm",
+    "partOfSpeech": "Noun",
+    "synonym": "Irony",
+    "meaning": "The use of irony to mock or convey contempt; saying one thing while meaning the opposite.",
+    "example": "His comment was dripping with sarcasm, making it clear he didn't believe the statement.",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "wordNumber": 1,
+    "word": "Architectural innovation",
+    "partOfSpeech": "Noun",
+    "synonym": "Innovative architecture",
+    "meaning": "The introduction of new and creative ideas in the field of architecture.",
+    "example": "The skyscraper's unique shape and energy-efficient features showcase architectural innovation.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Sustainable design",
+    "partOfSpeech": "Noun",
+    "synonym": "Environmentally friendly design",
+    "meaning": "Creating structures or products that have minimal negative impact on the environment and promote long-term ecological balance.",
+    "example": "The house was built with sustainable design principles, utilizing solar panels and recycled materials.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Eclectic decor",
+    "partOfSpeech": "Noun",
+    "synonym": "Diverse decoration",
+    "meaning": "A style of decorating that combines elements from various design styles, eras, and cultural influences.",
+    "example": "Her living room featured an eclectic decor, with a mix of vintage furniture and modern art pieces.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Artisanal craftsmanship",
+    "partOfSpeech": "Noun",
+    "synonym": "Skilled artistry",
+    "meaning": "The high level of skill and attention to detail displayed by artisans when creating handcrafted goods.",
+    "example": "The dining table was a masterpiece of artisanal craftsmanship, showcasing intricate woodwork.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Spatial aesthetics",
+    "partOfSpeech": "Noun",
+    "synonym": "Visual arrangement of space",
+    "meaning": "The visual and artistic arrangement of elements within a given space, focusing on harmony, balance, and aesthetics.",
+    "example": "The interior designer paid great attention to spatial aesthetics, arranging furniture to maximize the sense of openness.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Ergonomic furnishings",
+    "partOfSpeech": "Noun",
+    "synonym": "Comfortable furniture",
+    "meaning": "Furniture designed with consideration for the user's comfort, efficiency, and health in a given environment.",
+    "example": "The office was equipped with ergonomic furnishings to promote better posture and reduce strain.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Minimalist lifestyle",
+    "partOfSpeech": "Noun",
+    "synonym": "Simplicity-oriented way of life",
+    "meaning": "A lifestyle characterized by the deliberate choice to live with fewer material possessions and to prioritize experiences over belongings.",
+    "example": "Embracing a minimalist lifestyle, she focused on decluttering and finding joy in the essentials.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Feng shui principles",
+    "partOfSpeech": "Noun",
+    "synonym": "Chinese geomancy principles",
+    "meaning": "Ancient Chinese practices and beliefs that aim to harmonize individuals with their environment through spatial arrangement and energy flow.",
+    "example": "The apartment's layout was designed according to feng shui principles to promote positive energy and well-being.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Biophilic design",
+    "partOfSpeech": "Noun",
+    "synonym": "Nature-inspired design",
+    "meaning": "An approach to design that incorporates natural elements and patterns to create a connection between human spaces and the natural world.",
+    "example": "The office's biophilic design included indoor plants, natural light, and wood textures to enhance employee well-being.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Home automation integration",
+    "partOfSpeech": "Noun",
+    "synonym": "Smart home integration",
+    "meaning": "Incorporating technology systems and devices to automate various tasks and functions within a home.",
+    "example": "Home automation integration allows homeowners to control lighting, security, and climate settings remotely.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Smart home ecosystems",
+    "partOfSpeech": "Noun",
+    "synonym": "Intelligent home environments",
+    "meaning": "Interconnected devices and systems that work together to enhance the functionality, efficiency, and convenience of a home.",
+    "example": "Smart home ecosystems include smart thermostats, lighting, and entertainment systems.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Green building practices",
+    "partOfSpeech": "Noun",
+    "synonym": "Sustainable construction methods",
+    "meaning": "Construction techniques and strategies that prioritize environmental sustainability and resource efficiency.",
+    "example": "Using recycled materials and optimizing energy use are important aspects of green building practices.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Energy-efficient appliances",
+    "partOfSpeech": "Noun",
+    "synonym": "Low-energy consumption devices",
+    "meaning": "Appliances designed to minimize energy consumption and reduce the overall environmental impact.",
+    "example": "Replacing old appliances with energy-efficient ones can lead to significant cost savings on utility bills.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Passive solar design",
+    "partOfSpeech": "Noun",
+    "synonym": "Solar-oriented architecture",
+    "meaning": "Architectural design that utilizes the sun's energy for heating and cooling purposes without the need for active mechanical systems.",
+    "example": "A well-designed passive solar home captures and retains solar heat during the winter months.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Universal design",
+    "partOfSpeech": "Noun",
+    "synonym": "Inclusive design",
+    "meaning": "Design philosophy focused on creating products and spaces that are accessible and usable by people of all abilities and ages.",
+    "example": "Universal design principles aim to make homes welcoming and functional for everyone, regardless of physical limitations.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Multi-functional spaces",
+    "partOfSpeech": "Noun",
+    "synonym": "Versatile areas",
+    "meaning": "Areas or rooms that serve multiple purposes and can adapt to different activities and needs.",
+    "example": "Open-concept living areas often incorporate multi-functional spaces for cooking, dining, and entertaining.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Renovation restoration",
+    "partOfSpeech": "Noun",
+    "synonym": "Rehabilitation",
+    "meaning": "The process of improving or repairing a home's structure, features, or appearance to restore its original condition or enhance its value.",
+    "example": "Historic buildings often undergo renovation restoration to preserve their architectural integrity.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Historical preservation",
+    "partOfSpeech": "Noun",
+    "synonym": "Cultural heritage conservation",
+    "meaning": "Efforts to protect and maintain historically significant buildings, sites, and artifacts for future generations.",
+    "example": "Local communities may collaborate on historical preservation projects to ensure the legacy of their region is preserved.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Heritage conservation",
+    "partOfSpeech": "Noun",
+    "synonym": "Legacy safeguarding",
+    "meaning": "The safeguarding and preservation of cultural heritage, including traditions, architecture, and artifacts.",
+    "example": "Heritage conservation involves a commitment to maintaining and passing down cultural identity through architectural and artistic treasures.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Urban planning",
+    "partOfSpeech": "Noun",
+    "synonym": "City planning",
+    "meaning": "The process of designing and organizing the physical layout of cities and towns.",
+    "example": "Effective urban planning can lead to well-organized and sustainable communities.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Cohousing communities",
+    "partOfSpeech": "Noun",
+    "synonym": "Collaborative housing",
+    "meaning": "Residential communities where individuals or families share common spaces and resources while maintaining private living areas.",
+    "example": "Cohousing communities often have shared gardens and communal kitchens.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Intentional neighborhoods",
+    "partOfSpeech": "Noun",
+    "synonym": "Planned communities",
+    "meaning": "Residential areas intentionally designed to foster a sense of community and shared values among residents.",
+    "example": "Intentional neighborhoods often have community centers and regular group activities.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Off-grid living",
+    "partOfSpeech": "Noun",
+    "synonym": "Self-sufficient living",
+    "meaning": "A lifestyle in which individuals or communities operate independently from public utilities and services.",
+    "example": "Off-grid living may involve generating one's own electricity and growing food.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Tiny homes movement",
+    "partOfSpeech": "Noun",
+    "synonym": "Small house movement",
+    "meaning": "A trend advocating for living in smaller, more efficient, and often portable homes.",
+    "example": "The tiny homes movement emphasizes simplicity and reduced environmental impact.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Micro-living concepts",
+    "partOfSpeech": "Noun",
+    "synonym": "Small-scale living ideas",
+    "meaning": "Innovative ideas and designs focused on maximizing functionality and comfort in small living spaces.",
+    "example": "Micro-living concepts often utilize modular furniture and creative storage solutions.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Prefabricated housing",
+    "partOfSpeech": "Noun",
+    "synonym": "Prefab housing",
+    "meaning": "Houses constructed using components manufactured off-site and then assembled on the building site.",
+    "example": "Prefabricated housing can significantly reduce construction time and costs.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Zero-waste initiatives",
+    "partOfSpeech": "Noun",
+    "synonym": "Waste-free efforts",
+    "meaning": "Efforts aimed at minimizing or eliminating waste in order to reduce environmental impact.",
+    "example": "Zero-waste initiatives encourage recycling, composting, and sustainable product choices.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Circular economy in design",
+    "partOfSpeech": "Noun",
+    "synonym": "Closed-loop design economy",
+    "meaning": "An approach to design and production that promotes recycling, reusing, and reducing waste.",
+    "example": "Circular economy in design aims to create products with a longer lifespan and minimal environmental impact.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Permaculture landscaping",
+    "partOfSpeech": "Noun",
+    "synonym": "Sustainable landscaping",
+    "meaning": "A design approach that incorporates sustainable and ecological principles into landscaping and gardening.",
+    "example": "Permaculture landscaping focuses on creating self-sustaining and harmonious ecosystems.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Hydroponics gardening",
+    "partOfSpeech": "Noun",
+    "synonym": "Soilless cultivation",
+    "meaning": "A method of growing plants without soil, using nutrient-rich water.",
+    "example": "Hydroponics gardening is gaining popularity for its efficient use of resources.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Aquaponics systems",
+    "partOfSpeech": "Noun",
+    "synonym": "Aquatic farming",
+    "meaning": "A combination of aquaculture and hydroponics, where fish waste provides nutrients for plants.",
+    "example": "Aquaponics systems create a sustainable and symbiotic ecosystem.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Geothermal heating",
+    "partOfSpeech": "Noun",
+    "synonym": "Geoexchange",
+    "meaning": "Using the Earth's heat to warm buildings or produce energy.",
+    "example": "Geothermal heating systems are energy-efficient and environmentally friendly.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Net-zero energy homes",
+    "partOfSpeech": "Noun",
+    "synonym": "Zero-energy buildings",
+    "meaning": "Homes that produce as much energy as they consume on an annual basis.",
+    "example": "Net-zero energy homes use solar panels and other technologies to achieve balance.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Biomimicry in architecture",
+    "partOfSpeech": "Noun",
+    "synonym": "Nature-inspired design",
+    "meaning": "Designing buildings and structures based on natural elements and processes.",
+    "example": "Biomimicry in architecture can lead to innovative and sustainable designs.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Acoustic engineering",
+    "partOfSpeech": "Noun",
+    "synonym": "Sound engineering",
+    "meaning": "Designing and manipulating sound within architectural spaces.",
+    "example": "Acoustic engineering ensures optimal sound quality in concert halls.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Aesthetics of imperfection (Wabi-sabi)",
+    "partOfSpeech": "Noun",
+    "synonym": "Beauty in imperfection",
+    "meaning": "A Japanese concept valuing the beauty of the imperfect, aged, and naturally worn.",
+    "example": "Wabi-sabi celebrates the rustic and simple charm of handmade items.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Cultural appropriation in decor",
+    "partOfSpeech": "Noun",
+    "synonym": "Misappropriation of culture",
+    "meaning": "Adopting elements of another culture's aesthetics without understanding or respect.",
+    "example": "Cultural appropriation in decor can perpetuate stereotypes and disrespect traditions.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Ethical sourcing of materials",
+    "partOfSpeech": "Noun",
+    "synonym": "Responsible material procurement",
+    "meaning": "Using materials for decor and construction that are obtained ethically and sustainably.",
+    "example": "Ethical sourcing of materials supports fair labor practices and environmental protection.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Biodegradable construction",
+    "partOfSpeech": "Noun",
+    "synonym": "Environmentally friendly building",
+    "meaning": "Constructing buildings using materials that can naturally break down over time.",
+    "example": "Biodegradable construction materials reduce the environmental impact of buildings.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Human-centric lighting",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Biophilic lighting",
+    "meaning": "An approach to lighting design that takes into consideration the biological and emotional well-being of humans, often by mimicking natural lighting conditions.",
+    "example": "The office implemented human-centric lighting to improve employees' mood and productivity.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Neuroarchitecture",
+    "partOfSpeech": "Noun",
+    "synonym": "Mindful architecture",
+    "meaning": "The study of how architecture and design can impact human brain function, emotions, and overall well-being.",
+    "example": "Neuroarchitecture principles were applied in designing the therapeutic spaces of the hospital.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 42,
+    "word": "IoT-enabled appliances",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Smart appliances",
+    "meaning": "Household appliances that are connected to the Internet of Things (IoT), allowing remote control, automation, and data exchange.",
+    "example": "The IoT-enabled appliances in the kitchen can be controlled through a smartphone app.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Voice-controlled home systems",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Voice-activated home systems",
+    "meaning": "Technological systems within a home that can be operated and controlled using voice commands.",
+    "example": "The voice-controlled home systems allow residents to adjust the thermostat and lighting with their voice.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Virtual reality home tours",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "VR home tours",
+    "meaning": "Immersive digital simulations that enable users to explore and experience a home or property remotely using virtual reality technology.",
+    "example": "Potential buyers can take virtual reality home tours to visualize properties without physically visiting them.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Augmented reality interior design",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "AR interior design",
+    "meaning": "Enhancing the perception of interior spaces by overlaying digital elements, such as furniture and decor, onto real-time views using augmented reality technology.",
+    "example": "The app allows users to try out different furniture arrangements through augmented reality interior design.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Regenerative design principles",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Sustainable design principles",
+    "meaning": "Design concepts and strategies that aim to restore, renew, and improve the environment and human well-being through the built environment.",
+    "example": "The architect integrated regenerative design principles to create a building that generates its own energy and supports local ecosystems.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Conscious consumerism in decor",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Mindful consumerism in decoration",
+    "meaning": "Making intentional and ethical choices when selecting decor items, considering factors like sustainability, craftsmanship, and social impact.",
+    "example": "The trend of conscious consumerism in decor focuses on choosing eco-friendly and locally sourced furnishings.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Co-living arrangements",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Shared living arrangements",
+    "meaning": "Housing setups where individuals or small groups share living spaces, amenities, and responsibilities, often promoting community and cost-sharing.",
+    "example": "The co-living arrangements in the urban apartment complex include communal kitchens and shared social spaces.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Futuristic housing concepts",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Advanced housing ideas",
+    "meaning": "Innovative and imaginative ideas for future housing models that incorporate advanced technology, sustainable practices, and modern design.",
+    "example": "Architects and designers gathered to discuss and showcase their futuristic housing concepts at the conference.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Transhumanist living environments",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Enhanced living environments",
+    "meaning": "Living spaces that are enhanced or augmented using technological advancements and transhumanist principles, potentially integrating human augmentation technologies.",
+    "example": "Transhumanist living environments may feature technologies that enhance cognitive abilities and physical capabilities of residents.",
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 1,
+    "word": "House",
+    "partOfSpeech": "Noun",
+    "synonym": "Home",
+    "meaning": "A building where people live, usually with rooms, for a family or group of people.",
+    "example": "They have a beautiful house with a big garden.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Apartment",
+    "partOfSpeech": "Noun",
+    "synonym": "Flat",
+    "meaning": "A set of rooms for living in, usually on one floor of a building.",
+    "example": "She lives in a cozy apartment downtown.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Bedroom",
+    "partOfSpeech": "Noun",
+    "synonym": "Chamber",
+    "meaning": "A room used for sleeping.",
+    "example": "The bedroom is nicely decorated in soothing colors.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Living room",
+    "partOfSpeech": "Noun",
+    "synonym": "Sitting room",
+    "meaning": "A room in a house for general family use, usually for relaxing, watching TV, etc.",
+    "example": "The living room has a comfortable couch and a TV.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Kitchen",
+    "partOfSpeech": "Noun",
+    "synonym": "Cookhouse",
+    "meaning": "A room where food is cooked and prepared.",
+    "example": "She enjoys spending time in the kitchen, trying out new recipes.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Bathroom",
+    "partOfSpeech": "Noun",
+    "synonym": "Restroom",
+    "meaning": "A room with a toilet and a sink; used for personal hygiene.",
+    "example": "The bathroom is clean and well-maintained.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Dining room",
+    "partOfSpeech": "Noun",
+    "synonym": "Dining area",
+    "meaning": "A room in a house where meals are eaten.",
+    "example": "They gather in the dining room for family dinners.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Furniture",
+    "partOfSpeech": "Noun",
+    "synonym": "Furnishings",
+    "meaning": "Items such as chairs, tables, and beds that are used to make a room ready for use.",
+    "example": "The furniture in the living room is elegant and comfortable.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Sofa",
+    "partOfSpeech": "Noun",
+    "synonym": "Couch",
+    "meaning": "A long, upholstered seat with a back and arms, for two or more people.",
+    "example": "They all sat on the sofa and chatted.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Bed",
+    "partOfSpeech": "Noun",
+    "synonym": "Mattress",
+    "meaning": "A piece of furniture for sleeping or resting on.",
+    "example": "After a long day, I can't wait to lie down on my comfortable bed.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Table",
+    "partOfSpeech": "Noun",
+    "synonym": "Furniture",
+    "meaning": "A flat surface, usually supported by legs, used for various purposes such as eating, working, or placing things.",
+    "example": "We gathered around the table for a delicious meal.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Chair",
+    "partOfSpeech": "Noun",
+    "synonym": "Seat",
+    "meaning": "A piece of furniture with a back and legs for one person to sit on.",
+    "example": "She pulled up a chair and joined the conversation.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Lamp",
+    "partOfSpeech": "Noun",
+    "synonym": "Light",
+    "meaning": "A device that produces light, typically for illumination in a room.",
+    "example": "He turned on the lamp to read a book in the evening.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Closet",
+    "partOfSpeech": "Noun",
+    "synonym": "Wardrobe",
+    "meaning": "A small room or cupboard used for storing clothes, shoes, or other items.",
+    "example": "She organized her shoes neatly in the closet.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Shelf",
+    "partOfSpeech": "Noun",
+    "synonym": "Ledge",
+    "meaning": "A flat, horizontal surface used for storing or displaying items.",
+    "example": "He placed his books on the shelf for easy access.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Window",
+    "partOfSpeech": "Noun",
+    "synonym": "Opening",
+    "meaning": "An opening in a wall with glass allowing light and air to enter and providing a view to the outside.",
+    "example": "She looked out of the window and enjoyed the view.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Door",
+    "partOfSpeech": "Noun",
+    "synonym": "Entrance",
+    "meaning": "A movable barrier that opens and closes to allow access to a room, building, or vehicle.",
+    "example": "Please close the door behind you when you leave.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Floor",
+    "partOfSpeech": "Noun",
+    "synonym": "Ground",
+    "meaning": "The lower surface of a room on which people walk.",
+    "example": "The cat sat on the floor, playing with a ball of yarn.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Ceiling",
+    "partOfSpeech": "Noun",
+    "synonym": "Overhead",
+    "meaning": "The upper interior surface of a room, often referred to as the 'top' of the room.",
+    "example": "He painted the ceiling a light blue color to create a sense of sky.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Wall",
+    "partOfSpeech": "Noun",
+    "synonym": "Barrier",
+    "meaning": "A vertical structure that encloses, divides, or protects an area.",
+    "example": "The painting hung on the living room wall.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Roof",
+    "partOfSpeech": "Noun",
+    "synonym": "Overhead",
+    "meaning": "The top covering of a building that provides shelter from weather.",
+    "example": "The raindrops fell on the roof during the storm.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Garden",
+    "partOfSpeech": "Noun",
+    "synonym": "Yard",
+    "meaning": "An area of land where plants, flowers, or vegetables are grown.",
+    "example": "She spends her weekends working in the garden.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Yard",
+    "partOfSpeech": "Noun",
+    "synonym": "Garden",
+    "meaning": "An area of land surrounding a house, often used for recreation or landscaping.",
+    "example": "The children played soccer in the yard.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Garage",
+    "partOfSpeech": "Noun",
+    "synonym": "Carport",
+    "meaning": "A building or enclosed space used for parking vehicles or storing belongings.",
+    "example": "He parked his car in the garage to keep it safe from the snow.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Balcony",
+    "partOfSpeech": "Noun",
+    "synonym": "Patio",
+    "meaning": "An elevated platform extending from a building, often used for relaxation or enjoyment of the outdoors.",
+    "example": "They had breakfast on the balcony, enjoying the view.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Stairs",
+    "partOfSpeech": "Noun",
+    "synonym": "Steps",
+    "meaning": "A series of steps or a staircase connecting different levels of a building.",
+    "example": "She tripped and fell down the stairs.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Rug",
+    "partOfSpeech": "Noun",
+    "synonym": "Carpet",
+    "meaning": "A piece of thick fabric used to cover and decorate a floor.",
+    "example": "The living room had a cozy rug that matched the furniture.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Pillow",
+    "partOfSpeech": "Noun",
+    "synonym": "Cushion",
+    "meaning": "A soft object used to support the head while sleeping or resting.",
+    "example": "He fluffed up the pillow before lying down.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Blanket",
+    "partOfSpeech": "Noun",
+    "synonym": "Cover",
+    "meaning": "A large piece of fabric used to keep warm or provide comfort.",
+    "example": "She wrapped herself in a warm blanket on the cold winter night.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Curtain",
+    "partOfSpeech": "Noun",
+    "synonym": "Drapery",
+    "meaning": "A piece of cloth hung to cover or decorate a window.",
+    "example": "She pulled the curtain shut to block out the sunlight.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Mirror",
+    "partOfSpeech": "Noun",
+    "synonym": "Reflecting surface",
+    "meaning": "A reflective surface that shows the appearance of things.",
+    "example": "She looked at herself in the mirror before leaving the house.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Clock",
+    "partOfSpeech": "Noun",
+    "synonym": "Timepiece",
+    "meaning": "A device used to measure and display time.",
+    "example": "The clock on the wall struck midnight.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Sink",
+    "partOfSpeech": "Noun",
+    "synonym": "Basin",
+    "meaning": "A bowl-shaped fixture used for washing hands, dishes, or other objects.",
+    "example": "She filled the sink with soapy water to wash the dishes.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Fridge",
+    "partOfSpeech": "Noun",
+    "synonym": "Refrigerator",
+    "meaning": "An appliance used for keeping food and drinks cold.",
+    "example": "He placed the leftovers in the fridge to keep them fresh.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Oven",
+    "partOfSpeech": "Noun",
+    "synonym": "Cooker",
+    "meaning": "A kitchen appliance used for baking or roasting food.",
+    "example": "She preheated the oven before putting in the cake batter.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Microwave",
+    "partOfSpeech": "Noun",
+    "synonym": "Microwave oven",
+    "meaning": "An appliance that cooks or heats food using microwaves.",
+    "example": "He heated the soup quickly in the microwave.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Dishwasher",
+    "partOfSpeech": "Noun",
+    "synonym": "Dish cleaning machine",
+    "meaning": "An appliance that cleans dishes automatically.",
+    "example": "She loaded the dirty dishes into the dishwasher after dinner.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Television",
+    "partOfSpeech": "Noun",
+    "synonym": "TV",
+    "meaning": "An electronic device used for watching programs and shows.",
+    "example": "They gathered around the television to watch their favorite movie.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Remote control",
+    "partOfSpeech": "Noun",
+    "synonym": "Remote",
+    "meaning": "A handheld device used to operate electronic devices from a distance.",
+    "example": "He used the remote control to change the TV channel.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Remote control",
+    "partOfSpeech": "Noun",
+    "synonym": "Remote",
+    "meaning": "A handheld device used to operate electronic devices from a distance.",
+    "example": "She misplaced the remote control and couldn't change the volume.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Heater",
+    "partOfSpeech": "Noun",
+    "synonym": "Heating unit",
+    "meaning": "A device that generates heat to warm a room or space.",
+    "example": "They turned on the heater to stay warm during the winter.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Air conditioner",
+    "partOfSpeech": "Noun",
+    "synonym": "Cooling system",
+    "meaning": "An electronic device used to regulate the temperature and humidity of indoor air.",
+    "example": "She turned on the air conditioner to cool down the room.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Washer",
+    "partOfSpeech": "Noun",
+    "synonym": "Washing machine",
+    "meaning": "A machine used for washing clothes, linens, etc.",
+    "example": "She put the dirty clothes in the washer and started the cycle.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Dryer",
+    "partOfSpeech": "Noun",
+    "synonym": "Drying machine",
+    "meaning": "An appliance used to dry clothes, towels, and other fabrics.",
+    "example": "After washing, she placed the wet clothes in the dryer.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Trash can",
+    "partOfSpeech": "Noun",
+    "synonym": "Garbage bin",
+    "meaning": "A container for holding waste materials until they can be discarded.",
+    "example": "Please throw the wrappers in the trash can.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Broom",
+    "partOfSpeech": "Noun",
+    "synonym": "Sweeper",
+    "meaning": "A cleaning tool with a handle and bristles used for sweeping floors.",
+    "example": "She swept the kitchen floor with a broom.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Vacuum cleaner",
+    "partOfSpeech": "Noun",
+    "synonym": "Hoover",
+    "meaning": "An electric device used to clean floors and carpets by suction.",
+    "example": "He used the vacuum cleaner to clean the living room carpet.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Mop",
+    "partOfSpeech": "Noun",
+    "synonym": "Floor cleaner",
+    "meaning": "A tool with a handle and absorbent material used for cleaning floors.",
+    "example": "She mopped the kitchen floor to remove spills.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Detergent",
+    "partOfSpeech": "Noun",
+    "synonym": "Soap",
+    "meaning": "A cleaning substance used for washing clothes, dishes, etc.",
+    "example": "She added detergent to the washing machine before starting the cycle.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Cleaning supplies",
+    "partOfSpeech": "Noun",
+    "synonym": "Household cleaners",
+    "meaning": "Items and products used for cleaning tasks in a household.",
+    "example": "She bought a variety of cleaning supplies to keep the house tidy.",
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 1,
+    "word": "Architecture",
+    "partOfSpeech": "Noun",
+    "synonym": "Building design",
+    "meaning": "The art and science of designing and constructing buildings.",
+    "example": "The modern architecture of the skyscrapers is impressive.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Interior design",
+    "partOfSpeech": "Noun",
+    "synonym": "Decorating",
+    "meaning": "The art of enhancing the interior of a space to create a more aesthetically pleasing and functional environment.",
+    "example": "She specializes in interior design, creating beautiful living spaces.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Renovation",
+    "partOfSpeech": "Noun",
+    "synonym": "Remodeling",
+    "meaning": "The process of improving a building or space by repairing, upgrading, or redecorating it.",
+    "example": "They decided to undertake a renovation of their old house to modernize it.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Furnishings",
+    "partOfSpeech": "Noun",
+    "synonym": "Furniture",
+    "meaning": "The movable articles that are used to make a room or space suitable for living or working.",
+    "example": "The elegant furnishings in the room gave it a luxurious feel.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Decor",
+    "partOfSpeech": "Noun",
+    "synonym": "Decoration",
+    "meaning": "The arrangement and selection of objects and elements to enhance the appearance of a room or space.",
+    "example": "Her unique decor choices reflected her artistic personality.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Appliance",
+    "partOfSpeech": "Noun",
+    "synonym": "Device",
+    "meaning": "A device or machine designed to perform a specific household function, such as cooking, cleaning, or heating.",
+    "example": "The new kitchen appliances made cooking much more efficient.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Counter",
+    "partOfSpeech": "Noun",
+    "synonym": "Surface",
+    "meaning": "A flat, horizontal work surface in a kitchen or other area, often used for food preparation.",
+    "example": "She cleared the clutter from the counter before starting to cook.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Island (kitchen)",
+    "partOfSpeech": "Noun",
+    "synonym": "Kitchen isle",
+    "meaning": "A freestanding counter or cabinet in the middle of a kitchen, providing extra workspace and storage.",
+    "example": "The kitchen island is a great place to gather while cooking.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Pantry",
+    "partOfSpeech": "Noun",
+    "synonym": "Cupboard",
+    "meaning": "A small room or closet used for storing food, dishes, or other household items.",
+    "example": "She organized the pantry to make it easier to find ingredients.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Utensil",
+    "partOfSpeech": "Noun",
+    "synonym": "Implement",
+    "meaning": "A tool used for practical purposes, especially in a kitchen or household setting.",
+    "example": "A spatula is a versatile utensil used for flipping and lifting food.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Cutlery",
+    "partOfSpeech": "Noun",
+    "synonym": "Silverware",
+    "meaning": "Utensils used for eating, such as knives, forks, and spoons.",
+    "example": "She set the table with elegant cutlery for the formal dinner.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Glassware",
+    "partOfSpeech": "Noun",
+    "synonym": "Drinking vessels",
+    "meaning": "Items made of glass and used for drinking, such as glasses and cups.",
+    "example": "The cabinet was filled with a variety of glassware for different beverages.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Crockery",
+    "partOfSpeech": "Noun",
+    "synonym": "Tableware",
+    "meaning": "Dishes, plates, and other eating or serving items made of ceramic materials.",
+    "example": "The shelves were adorned with colorful crockery to add a touch of charm to the kitchen.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Linens",
+    "partOfSpeech": "Noun",
+    "synonym": "Textiles",
+    "meaning": "Textile items used in a household, such as bed sheets, tablecloths, and towels.",
+    "example": "She carefully folded the freshly laundered linens and placed them in the linen closet.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Decorative accents",
+    "partOfSpeech": "Noun",
+    "synonym": "Ornaments",
+    "meaning": "Small items or objects used to enhance the visual appeal of a room or space.",
+    "example": "The shelves were adorned with various decorative accents, including sculptures and vases.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Wallpaper",
+    "partOfSpeech": "Noun",
+    "synonym": "Wall covering",
+    "meaning": "A material used to decorate and cover the interior walls of a room.",
+    "example": "The vintage floral wallpaper added a nostalgic charm to the cozy living room.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Flooring",
+    "partOfSpeech": "Noun",
+    "synonym": "Floor covering",
+    "meaning": "The material used to cover the floor of a room, such as wood, tile, or carpet.",
+    "example": "The hardwood flooring gave the room an elegant and timeless appearance.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Skylight",
+    "partOfSpeech": "Noun",
+    "synonym": "Roof window",
+    "meaning": "A window set into a roof or ceiling, designed to allow natural light to enter a building.",
+    "example": "The artist's studio was bathed in soft, diffused light from the skylight above.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Fireplace",
+    "partOfSpeech": "Noun",
+    "synonym": "Hearth",
+    "meaning": "A structure made of brick, stone, or metal that contains a fire for heating or decorative purposes.",
+    "example": "During cold winter evenings, they gathered around the fireplace for warmth and companionship.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Attic",
+    "partOfSpeech": "Noun",
+    "synonym": "Loft",
+    "meaning": "The space or room at the top of a house, often used for storage.",
+    "example": "She found old books and furniture stored in the attic.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Basement",
+    "partOfSpeech": "Noun",
+    "synonym": "Cellar",
+    "meaning": "The lowest floor of a building, often used for storage or as a living area.",
+    "example": "The basement was converted into a cozy home theater.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Patio",
+    "partOfSpeech": "Noun",
+    "synonym": "Terrace",
+    "meaning": "An outdoor area adjoining a house, used for dining or recreation.",
+    "example": "We enjoyed our meals on the patio during the warm summer evenings.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Deck",
+    "partOfSpeech": "Noun",
+    "synonym": "Balcony",
+    "meaning": "A flat, elevated surface outside a building, often used for relaxation or socializing.",
+    "example": "They had a barbecue party on their spacious deck.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Porch",
+    "partOfSpeech": "Noun",
+    "synonym": "Veranda",
+    "meaning": "A covered entrance to a building, usually at the front, often used as a sitting area.",
+    "example": "She sat on the porch and watched the rain.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Conservatory",
+    "partOfSpeech": "Noun",
+    "synonym": "Sunroom",
+    "meaning": "A room with glass walls and a roof, designed for growing plants or for relaxation.",
+    "example": "The conservatory is filled with exotic plants from different regions.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Studio (living space)",
+    "partOfSpeech": "Noun",
+    "synonym": "Efficiency Apartment",
+    "meaning": "A compact living space that typically combines living, sleeping, and kitchen areas without separate rooms.",
+    "example": "He turned the studio into a comfortable and functional living space.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Duplex",
+    "partOfSpeech": "Noun",
+    "synonym": "Two-Family House",
+    "meaning": "A house divided into two separate living units, often side by side or on different floors.",
+    "example": "She lives in the upper unit of a duplex.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Townhouse",
+    "partOfSpeech": "Noun",
+    "synonym": "Row House",
+    "meaning": "A multi-level house attached to other houses in a row, sharing side walls.",
+    "example": "The townhouse has a charming brick exterior.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Condo",
+    "partOfSpeech": "Noun",
+    "synonym": "Condominium",
+    "meaning": "A privately owned living unit within a larger building or complex.",
+    "example": "They purchased a beachfront condo with stunning ocean views.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Loft",
+    "partOfSpeech": "Noun",
+    "synonym": "Attic",
+    "meaning": "An open space at the top of a building, often just below the roof, used for various purposes.",
+    "example": "She converted the loft into a cozy reading nook.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Suburb",
+    "partOfSpeech": "Noun",
+    "synonym": "Outskirts",
+    "meaning": "A residential area on the outskirts of a city or town.",
+    "example": "They moved to the suburbs to have a quieter life.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Urban living",
+    "partOfSpeech": "Noun",
+    "synonym": "City life",
+    "meaning": "The lifestyle and activities associated with living in a city.",
+    "example": "She enjoys the hustle and bustle of urban living.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Rural retreat",
+    "partOfSpeech": "Noun",
+    "synonym": "Countryside getaway",
+    "meaning": "A place in the countryside where one can relax and escape from the city.",
+    "example": "They built a small rural retreat for weekend getaways.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Gated community",
+    "partOfSpeech": "Noun",
+    "synonym": "Secured neighborhood",
+    "meaning": "A residential area with controlled access, often surrounded by walls or fences.",
+    "example": "They live in a gated community with 24/7 security.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Home office",
+    "partOfSpeech": "Noun",
+    "synonym": "Workspace",
+    "meaning": "A designated area in one's home used for work or business.",
+    "example": "He set up a comfortable home office to work remotely.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Study room",
+    "partOfSpeech": "Noun",
+    "synonym": "Study area",
+    "meaning": "A room where one can focus on academic or intellectual activities.",
+    "example": "The study room is equipped with bookshelves and a desk.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Utility room",
+    "partOfSpeech": "Noun",
+    "synonym": "Service room",
+    "meaning": "A room in a house used for storing equipment, doing laundry, or other practical purposes.",
+    "example": "The utility room houses the washer, dryer, and cleaning supplies.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Pantry",
+    "partOfSpeech": "Noun",
+    "synonym": "Larder",
+    "meaning": "A small room or cupboard used for storing food, dishes, or kitchen supplies.",
+    "example": "She organized the pantry with shelves for canned goods and spices.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Walk-in closet",
+    "partOfSpeech": "Noun",
+    "synonym": "Dressing room",
+    "meaning": "A spacious closet that one can enter, often used for storing clothes and getting dressed.",
+    "example": "The master bedroom has a luxurious walk-in closet with plenty of storage space.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Ensuite bathroom",
+    "partOfSpeech": "Noun",
+    "synonym": "Private bathroom",
+    "meaning": "A bathroom connected to and directly accessible from a bedroom.",
+    "example": "The master bedroom has an ensuite bathroom with a luxurious bathtub.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Guest room",
+    "partOfSpeech": "Noun",
+    "synonym": "Visitor's room",
+    "meaning": "A bedroom designated for visitors or guests to stay in.",
+    "example": "We prepared the guest room with fresh linens and welcoming decorations.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Attic",
+    "partOfSpeech": "Noun",
+    "synonym": "Loft",
+    "meaning": "The space in a house located directly under the roof, often used for storage.",
+    "example": "She found old family heirlooms while cleaning out the dusty attic.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Laundry room",
+    "partOfSpeech": "Noun",
+    "synonym": "Utility room",
+    "meaning": "A designated room in a house for washing, drying, and folding laundry.",
+    "example": "The laundry room is equipped with a washing machine, dryer, and laundry supplies.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Wine cellar",
+    "partOfSpeech": "Noun",
+    "synonym": "Wine room",
+    "meaning": "A storage space specifically designed to store and age wine bottles.",
+    "example": "He proudly showed off his collection of vintage wines in his underground wine cellar.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Home automation",
+    "partOfSpeech": "Noun",
+    "synonym": "Smart home technology",
+    "meaning": "The use of technology to control and automate various household functions and tasks.",
+    "example": "Home automation allows you to remotely control lights, thermostats, and security systems.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Energy-efficient",
+    "partOfSpeech": "Adjective",
+    "synonym": "Energy-saving",
+    "meaning": "Using less energy to perform the same tasks, often resulting in lower energy consumption.",
+    "example": "The new appliances are highly energy-efficient and will help reduce electricity bills.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Smart thermostat",
+    "partOfSpeech": "Noun",
+    "synonym": "Intelligent thermostat",
+    "meaning": "A thermostat that can be programmed and controlled remotely, often via a smartphone.",
+    "example": "With a smart thermostat, you can adjust the temperature in your home even when you're away.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Solar panels",
+    "partOfSpeech": "Noun",
+    "synonym": "Photovoltaic panels",
+    "meaning": "Devices that convert sunlight into electricity, often used to power homes.",
+    "example": "The installation of solar panels on the roof significantly reduced the household's energy costs.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Water filtration",
+    "partOfSpeech": "Noun",
+    "synonym": "Water purification",
+    "meaning": "The process of removing impurities from water to make it safe and clean for consumption.",
+    "example": "The water filtration system ensures that the tap water is free from contaminants.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Security system",
+    "partOfSpeech": "Noun",
+    "synonym": "Safety system",
+    "meaning": "A network of devices and measures designed to protect a home from unauthorized access and potential threats.",
+    "example": "The security system includes cameras, motion sensors, and an alarm to deter burglars.",
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "wordNumber": 1,
+    "word": "Autobiography",
+    "partOfSpeech": "Noun",
+    "synonym": "Life story",
+    "meaning": "A written account of one's own life, usually in a book or narrative form.",
+    "example": "She published her autobiography, detailing her experiences and journey.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Lineage",
+    "partOfSpeech": "Noun",
+    "synonym": "Ancestry",
+    "meaning": "Direct descent from an ancestor; ancestry or pedigree.",
+    "example": "He traced his lineage back to a famous historical figure.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Demographics",
+    "partOfSpeech": "Noun",
+    "synonym": "Population statistics",
+    "meaning": "Statistical data relating to the population and groups within it, such as age, gender, income, education, etc.",
+    "example": "The study analyzed the demographics of the city's residents.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Expat status",
+    "partOfSpeech": "Noun",
+    "synonym": "Expatriate status",
+    "meaning": "The legal and social classification of being a resident in a foreign country.",
+    "example": "He obtained expat status and moved to a new country for work.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Domicile",
+    "partOfSpeech": "Noun",
+    "synonym": "Residence",
+    "meaning": "A place where a person lives; a residence.",
+    "example": "His legal domicile was in the city, even though he traveled frequently.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Linguistic proficiency",
+    "partOfSpeech": "Noun",
+    "synonym": "Language skill",
+    "meaning": "The ability to use one or more languages effectively and proficiently.",
+    "example": "Her linguistic proficiency allowed her to communicate fluently in multiple languages.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Polyglot",
+    "partOfSpeech": "Noun",
+    "synonym": "Multilingual person",
+    "meaning": "A person who knows and is able to use several languages.",
+    "example": "He was a true polyglot, effortlessly switching between languages in conversation.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Rhetorical skills",
+    "partOfSpeech": "Noun",
+    "synonym": "Oratory skills",
+    "meaning": "The ability to use language effectively and persuasively in speaking or writing.",
+    "example": "His strong rhetorical skills made his speeches captivating and convincing.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Curriculum vitae",
+    "partOfSpeech": "Noun",
+    "synonym": "CV, Resume",
+    "meaning": "A detailed document outlining one's educational and professional history, typically used when applying for jobs.",
+    "example": "She submitted her curriculum vitae along with her job application.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Professional affiliations",
+    "partOfSpeech": "Noun",
+    "synonym": "Professional associations",
+    "meaning": "Organizations or groups that a person is officially connected with due to their profession.",
+    "example": "Her professional affiliations include memberships in several industry-specific associations.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Specializations",
+    "partOfSpeech": "Noun",
+    "synonym": "Areas of expertise",
+    "meaning": "Specific areas or fields in which a person has focused their knowledge and skills.",
+    "example": "He has specializations in both environmental law and international trade.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Publications",
+    "partOfSpeech": "Noun",
+    "synonym": "Written works",
+    "meaning": "Books, articles, or other written materials that a person has authored or contributed to.",
+    "example": "Her list of publications includes several research papers and a bestselling novel.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Innovations",
+    "partOfSpeech": "Noun",
+    "synonym": "Original ideas",
+    "meaning": "New and creative ideas, inventions, or improvements that a person has developed.",
+    "example": "His innovations in renewable energy have revolutionized the industry.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Entrepreneurial ventures",
+    "partOfSpeech": "Noun",
+    "synonym": "Business undertakings",
+    "meaning": "Business initiatives or projects that a person has undertaken as an entrepreneur.",
+    "example": "She has been involved in multiple entrepreneurial ventures, ranging from tech startups to sustainable fashion brands.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Public speaking prowess",
+    "partOfSpeech": "Noun",
+    "synonym": "Oratory skills",
+    "meaning": "High level of skill and confidence in delivering speeches or presentations to a large audience.",
+    "example": "His public speaking prowess is evident in his ability to captivate and engage any crowd.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Intellectual property",
+    "partOfSpeech": "Noun",
+    "synonym": "Creative assets",
+    "meaning": "Creations of the mind, such as inventions, literary and artistic works, designs, and symbols, used in commerce.",
+    "example": "The company invested in protecting its intellectual property through patents and copyrights.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Ideologies",
+    "partOfSpeech": "Noun",
+    "synonym": "Belief systems",
+    "meaning": "Systematic beliefs, values, and ideals that guide a person's thoughts and actions.",
+    "example": "The political candidate's ideologies resonated with a wide range of voters.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Philosophical perspectives",
+    "partOfSpeech": "Noun",
+    "synonym": "Worldviews",
+    "meaning": "Individual viewpoints and interpretations about fundamental aspects of existence, knowledge, ethics, and reality.",
+    "example": "Different philosophical perspectives on the nature of consciousness have been debated for centuries.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Ethical frameworks",
+    "partOfSpeech": "Noun",
+    "synonym": "Moral structures",
+    "meaning": "Structured systems of principles and values that guide a person's decisions and behavior based on ethical beliefs.",
+    "example": "Various ethical frameworks provide guidance on how to approach complex moral dilemmas.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Cultural nuances",
+    "partOfSpeech": "Noun",
+    "synonym": "Cultural subtleties",
+    "meaning": "Subtle aspects of a culture that influence behavior, communication, and understanding.",
+    "example": "Understanding cultural nuances is essential for effective cross-cultural communication.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Aesthetic sensibilities",
+    "partOfSpeech": "Noun",
+    "synonym": "Artistic tastes",
+    "meaning": "Personal or cultural preferences for beauty and artistic elements.",
+    "example": "Her aesthetic sensibilities are reflected in the way she decorates her home.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Literary criticism",
+    "partOfSpeech": "Noun",
+    "synonym": "Textual analysis",
+    "meaning": "The evaluation, interpretation, and analysis of literary works.",
+    "example": "His deep knowledge of literary criticism enhances his understanding of complex texts.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Socioeconomic strata",
+    "partOfSpeech": "Noun",
+    "synonym": "Social classes",
+    "meaning": "Hierarchical divisions of society based on economic and social factors.",
+    "example": "The study of socioeconomic strata reveals patterns of inequality within a society.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Geopolitical insights",
+    "partOfSpeech": "Noun",
+    "synonym": "Political perspectives",
+    "meaning": "In-depth understanding of political interactions and relationships between nations.",
+    "example": "Her geopolitical insights allow her to analyze global events from a strategic standpoint.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Diplomatic relations",
+    "partOfSpeech": "Noun",
+    "synonym": "International diplomacy",
+    "meaning": "Official interactions and negotiations between countries to maintain peaceful relationships.",
+    "example": "The ambassador played a crucial role in improving diplomatic relations between the two nations.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Global citizenship",
+    "partOfSpeech": "Noun",
+    "synonym": "World citizenship",
+    "meaning": "A sense of belonging and responsibility to the worldwide community.",
+    "example": "Education plays a key role in fostering global citizenship and awareness.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Technological acumen",
+    "partOfSpeech": "Noun",
+    "synonym": "Technical expertise",
+    "meaning": "Proficiency and skill in understanding and using technology.",
+    "example": "His technological acumen allows him to innovate and adapt to rapid advancements.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Data privacy",
+    "partOfSpeech": "Noun",
+    "synonym": "Information privacy",
+    "meaning": "The protection of personal and sensitive information from unauthorized access.",
+    "example": "Ensuring data privacy is crucial in today's digital age to prevent breaches and identity theft.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Cybersecurity",
+    "partOfSpeech": "Noun",
+    "synonym": "Digital security",
+    "meaning": "Measures taken to protect computer systems, networks, and data from cyber threats.",
+    "example": "Companies invest in cybersecurity to safeguard their digital assets from hackers.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Neurodiversity",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The concept that neurological differences, such as autism and ADHD, are natural variations of the human brain.",
+    "example": "The company promotes neurodiversity by creating an inclusive workplace for employees with different cognitive abilities.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Metacognition",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The awareness and understanding of one's own thought processes and cognitive abilities.",
+    "example": "Developing metacognition can help students become more effective learners as they monitor and regulate their learning strategies.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Emotional resilience",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The ability to adapt and bounce back from emotional challenges and difficulties.",
+    "example": "Her emotional resilience helped her cope with the loss of a loved one and navigate through tough times.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Existential introspection",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "Deep self-examination and contemplation about one's existence, purpose, and meaning in life.",
+    "example": "He engaged in existential introspection to explore the philosophical questions about his purpose and the nature of reality.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Transcendental experiences",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "Profound or spiritual moments that go beyond ordinary perception or understanding.",
+    "example": "During meditation, she had transcendental experiences where she felt a deep connection with the universe.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Epistemological exploration",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The philosophical investigation and study of the nature of knowledge, belief, and justification.",
+    "example": "In his research, he delved into epistemological exploration to understand how different cultures perceive truth and knowledge.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Interpersonal dynamics",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The complex interactions and relationships between individuals within a group or social context.",
+    "example": "Effective leadership involves understanding and managing interpersonal dynamics to promote collaboration and productivity.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Sociopolitical activism",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "Engagement in advocating for social and political change, often related to issues of justice and equality.",
+    "example": "She dedicated her life to sociopolitical activism, fighting for the rights of marginalized communities and promoting systemic change.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Environmental stewardship",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "Responsible and ethical care and management of the environment and its resources.",
+    "example": "The organization's commitment to environmental stewardship led to initiatives such as tree planting and waste reduction.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Sustainable living",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "Lifestyle choices and practices aimed at minimizing the negative impact on the environment and preserving natural resources for future generations.",
+    "example": "She embraced sustainable living by using renewable energy sources, reducing waste, and supporting eco-friendly products.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Systems thinking",
+    "partOfSpeech": "Noun",
+    "synonym": "Holistic perspective",
+    "meaning": "An approach to problem-solving that considers the interactions and interdependencies of various components within a larger system.",
+    "example": "In order to address complex societal issues, we need to apply systems thinking.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Ontological inquiries",
+    "partOfSpeech": "Noun",
+    "synonym": "Philosophical investigations",
+    "meaning": "Studies and examinations about the nature of existence and reality.",
+    "example": "The philosopher engaged in deep ontological inquiries to understand the fundamental aspects of being.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Synaptic plasticity",
+    "partOfSpeech": "Noun",
+    "synonym": "Neural adaptability",
+    "meaning": "The ability of synapses (connections between neurons) to change and strengthen or weaken over time, forming the basis of learning and memory.",
+    "example": "The phenomenon of synaptic plasticity plays a crucial role in our brain's ability to learn new information.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Quantum consciousness",
+    "partOfSpeech": "Noun",
+    "synonym": "Quantum mind",
+    "meaning": "A theoretical concept suggesting that quantum phenomena might play a role in the nature of consciousness and cognition.",
+    "example": "Some researchers speculate about the possibility of quantum consciousness, where quantum processes contribute to our understanding of subjective experiences.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Empirical research",
+    "partOfSpeech": "Noun",
+    "synonym": "Observational study",
+    "meaning": "Research based on direct observation or experience, aiming to gather factual and objective data.",
+    "example": "The scientist conducted empirical research to validate the hypothesis through systematic observation and measurement.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Phenomenological perception",
+    "partOfSpeech": "Noun",
+    "synonym": "Experiential perspective",
+    "meaning": "The study of how individuals perceive and experience phenomena, focusing on subjective conscious experiences.",
+    "example": "The philosopher explored the depth of phenomenological perception to understand how different individuals interpret the same events.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Postmodern deconstruction",
+    "partOfSpeech": "Noun",
+    "synonym": "Critical analysis",
+    "meaning": "An approach to analyzing and interpreting texts, art, or cultural phenomena that emphasizes questioning traditional meanings and exploring underlying power structures.",
+    "example": "The literary scholar employed postmodern deconstruction to reveal the hidden ideologies within the narrative.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Humanitarian endeavors",
+    "partOfSpeech": "Noun",
+    "synonym": "Philanthropic efforts",
+    "meaning": "Activities and initiatives aimed at promoting the well-being of humanity, particularly those in need or facing crises.",
+    "example": "Many volunteers engage in humanitarian endeavors, providing aid and support to communities affected by natural disasters.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Intercultural empathy",
+    "partOfSpeech": "Noun",
+    "synonym": "Cross-cultural compassion",
+    "meaning": "The ability to understand and share the feelings and perspectives of people from different cultural backgrounds.",
+    "example": "Developing intercultural empathy is essential for effective communication and collaboration in a diverse global society.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Ethnographic studies",
+    "partOfSpeech": "Noun",
+    "synonym": "Cultural anthropology",
+    "meaning": "Research and analysis of different cultures, typically involving immersive fieldwork and observation.",
+    "example": "The anthropologist conducted ethnographic studies among a remote tribe to document their traditions and way of life.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Esoteric wisdom",
+    "partOfSpeech": "Noun",
+    "synonym": "Arcane knowledge",
+    "meaning": "Profound and specialized knowledge that is understood by a limited number of people who possess deep insight or expertise.",
+    "example": "The spiritual teacher shared esoteric wisdom about the universe and metaphysical concepts with a select group of dedicated students.",
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 1,
+    "word": "Name",
+    "partOfSpeech": "Noun",
+    "synonym": "Title",
+    "meaning": "A word or set of words used to identify an individual.",
+    "example": "Please write your full name on the form.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Age",
+    "partOfSpeech": "Noun",
+    "synonym": "Years",
+    "meaning": "The number of years that a person has lived, usually counted from their birth.",
+    "example": "She is twenty-five years old.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Gender",
+    "partOfSpeech": "Noun",
+    "synonym": "Sex",
+    "meaning": "The state of being male or female.",
+    "example": "He identifies his gender as male.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Birthday",
+    "partOfSpeech": "Noun",
+    "synonym": "Birthdate",
+    "meaning": "The date on which a person was born.",
+    "example": "We celebrated her birthday with a surprise party.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Nationality",
+    "partOfSpeech": "Noun",
+    "synonym": "Citizenship",
+    "meaning": "The legal relationship between a person and a country to which they owe allegiance.",
+    "example": "Her nationality is American.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Address",
+    "partOfSpeech": "Noun",
+    "synonym": "Location",
+    "meaning": "The details of the place where someone lives or where a business is located.",
+    "example": "Please provide your current address for shipping.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Phone number",
+    "partOfSpeech": "Noun",
+    "synonym": "Telephone number",
+    "meaning": "A sequence of digits used to uniquely identify a mobile or landline telephone connection.",
+    "example": "You can reach me at this phone number: 123-456-7890.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Email address",
+    "partOfSpeech": "Noun",
+    "synonym": "Email",
+    "meaning": "A unique identifier for an email inbox, used for sending and receiving electronic messages.",
+    "example": "Please provide your email address for account registration.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Occupation",
+    "partOfSpeech": "Noun",
+    "synonym": "Job",
+    "meaning": "A person's regular work or profession.",
+    "example": "His occupation is a software engineer.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Marital status",
+    "partOfSpeech": "Noun",
+    "synonym": "Marriage status",
+    "meaning": "The condition of being married, single, divorced, or widowed.",
+    "example": "She indicated her marital status as 'married' on the form.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Education",
+    "partOfSpeech": "Noun",
+    "synonym": "Learning",
+    "meaning": "The process of acquiring knowledge, skills, and understanding through study or experience.",
+    "example": "She pursued higher education at a prestigious university.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Family",
+    "partOfSpeech": "Noun",
+    "synonym": "Relatives",
+    "meaning": "A group of people who are related by blood, marriage, or adoption.",
+    "example": "His family includes his parents, siblings, and grandparents.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Siblings",
+    "partOfSpeech": "Noun",
+    "synonym": "Brothers and Sisters",
+    "meaning": "Brothers and sisters; individuals who share at least one parent.",
+    "example": "She has two siblings, an older brother, and a younger sister.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Spouse",
+    "partOfSpeech": "Noun",
+    "synonym": "Partner",
+    "meaning": "A person's husband or wife, considered in relation to their partner's gender.",
+    "example": "He introduced his spouse at the family gathering.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Children",
+    "partOfSpeech": "Noun",
+    "synonym": "Offspring",
+    "meaning": "Young human beings of either sex, typically under the age of 18 years.",
+    "example": "They have three children, two boys, and a girl.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Hobbies",
+    "partOfSpeech": "Noun",
+    "synonym": "Pastimes",
+    "meaning": "Activities done for enjoyment and relaxation during one's free time.",
+    "example": "His hobbies include painting, playing the guitar, and gardening.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Interests",
+    "partOfSpeech": "Noun",
+    "synonym": "Hobbies",
+    "meaning": "Subjects or activities that one enjoys and finds engaging.",
+    "example": "Her interests range from astronomy to cooking.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Birthplace",
+    "partOfSpeech": "Noun",
+    "synonym": "Place of Birth",
+    "meaning": "The location where a person is born.",
+    "example": "Her birthplace is a small town in the mountains.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Residence",
+    "partOfSpeech": "Noun",
+    "synonym": "Dwelling",
+    "meaning": "The place where a person lives or stays.",
+    "example": "His residence is a cozy apartment in the city center.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Language(s) spoken",
+    "partOfSpeech": "Noun",
+    "synonym": "Spoken Languages",
+    "meaning": "The languages that a person can speak and communicate in.",
+    "example": "She is fluent in three languages: English, Spanish, and French.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Religion",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "A set of beliefs and practices concerning the existence, nature, and worship of a deity or deities, often involving rituals and moral codes.",
+    "example": "She follows the Hindu religion and visits the temple regularly.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Ethnicity",
+    "partOfSpeech": "Noun",
+    "synonym": "Heritage",
+    "meaning": "A social group that shares a common cultural, ancestral, or historical background.",
+    "example": "His ethnicity is Korean, but he was born and raised in the United States.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Height",
+    "partOfSpeech": "Noun",
+    "synonym": "Stature",
+    "meaning": "The measurement of how tall a person or object is.",
+    "example": "Her height is 5 feet 8 inches.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Weight",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The measurement of how heavy a person or object is.",
+    "example": "His weight is around 160 pounds.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Hair color",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The color of a person's hair, often described using terms like 'blonde,' 'brunette,' 'black,' etc.",
+    "example": "Her natural hair color is brown.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Eye color",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The color of a person's eyes, such as 'blue,' 'green,' 'brown,' etc.",
+    "example": "His eye color is hazel.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Complexion",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The natural color, texture, and appearance of a person's skin, especially on the face.",
+    "example": "She has a fair complexion.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Signature",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "A person's name written in a distinctive way, used as a form of identification or authorization.",
+    "example": "Please sign the document with your signature.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 29,
+    "word": "ID card",
+    "partOfSpeech": "Noun",
+    "synonym": "Identification card",
+    "meaning": "A small card or document that proves a person's identity and often includes personal information like name, photo, and address.",
+    "example": "Make sure to carry your ID card with you at all times.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Passport",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "An official government document that certifies a person's identity and citizenship and allows them to travel internationally.",
+    "example": "She needed her passport to board the international flight.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Driver's license",
+    "partOfSpeech": "Noun",
+    "synonym": "Driver's permit",
+    "meaning": "An official document that permits an individual to operate a motor vehicle legally.",
+    "example": "You need to have a valid driver's license to drive a car.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Emergency contacts",
+    "partOfSpeech": "Noun",
+    "synonym": "Emergency information",
+    "meaning": "People or numbers to be contacted in case of urgent situations or accidents.",
+    "example": "Make sure to update your emergency contacts regularly.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Personality traits",
+    "partOfSpeech": "Noun",
+    "synonym": "Characteristics",
+    "meaning": "Distinctive qualities and attributes that define an individual's behavior and attitude.",
+    "example": "Her kindness and patience are among her notable personality traits.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Skills",
+    "partOfSpeech": "Noun",
+    "synonym": "Abilities",
+    "meaning": "Proficiencies or talents that a person has acquired through training or experience.",
+    "example": "His programming skills are highly sought after in the tech industry.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Achievements",
+    "partOfSpeech": "Noun",
+    "synonym": "Accomplishments",
+    "meaning": "Notable successes or accomplishments in one's life or career.",
+    "example": "Winning the championship was one of the proudest achievements of her life.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Goals",
+    "partOfSpeech": "Noun",
+    "synonym": "Objectives",
+    "meaning": "Desired outcomes or targets that a person aims to achieve.",
+    "example": "Her goal is to travel to at least ten different countries within the next five years.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Dreams",
+    "partOfSpeech": "Noun",
+    "synonym": "Aspirations",
+    "meaning": "Deeply desired and often unrealistic or imaginative goals or wishes.",
+    "example": "Becoming a famous actor has been his lifelong dream.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Strengths",
+    "partOfSpeech": "Noun",
+    "synonym": "Advantages",
+    "meaning": "Positive qualities, abilities, or attributes that contribute to a person's success or effectiveness.",
+    "example": "One of his strengths is his ability to communicate effectively with diverse groups.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Weaknesses",
+    "partOfSpeech": "Noun",
+    "synonym": "Limitations",
+    "meaning": "Areas where a person lacks skill, knowledge, or capability; vulnerabilities.",
+    "example": "Public speaking is one of her weaknesses, but she's working to overcome it.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Background",
+    "partOfSpeech": "Noun",
+    "synonym": "History",
+    "meaning": "Personal, familial, educational, and cultural information that forms an individual's identity.",
+    "example": "She comes from a diverse cultural background with roots in multiple countries.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Medical history",
+    "partOfSpeech": "Noun",
+    "synonym": "Health record",
+    "meaning": "A record of an individual's past health conditions, treatments, and medical events.",
+    "example": "It's important to provide your complete medical history to your healthcare provider.",
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 1,
+    "word": "Biography",
+    "partOfSpeech": "Noun",
+    "synonym": "Life story",
+    "meaning": "An account of a person's life written by someone else.",
+    "example": "Her biography chronicled her journey from a small town to international fame.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 2,
+    "word": "Ancestry",
+    "partOfSpeech": "Noun",
+    "synonym": "Descent",
+    "meaning": "One's family or ethnic descent.",
+    "example": "She traced her ancestry back several generations to learn about her roots.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 3,
+    "word": "Genealogy",
+    "partOfSpeech": "Noun",
+    "synonym": "Family history",
+    "meaning": "The study and tracing of a person's family lineage.",
+    "example": "He spent years researching his genealogy to create a comprehensive family tree.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 4,
+    "word": "Citizenship",
+    "partOfSpeech": "Noun",
+    "synonym": "Nationality",
+    "meaning": "The status of belonging to a particular country and enjoying its rights and privileges.",
+    "example": "After living there for years, she finally obtained French citizenship.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 5,
+    "word": "Residence permit",
+    "partOfSpeech": "Noun",
+    "synonym": "Residency visa",
+    "meaning": "An official document allowing a foreign national to reside in a country for a specific period.",
+    "example": "He applied for a residence permit to live and work in the United States.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 6,
+    "word": "Permanent address",
+    "partOfSpeech": "Noun",
+    "synonym": "Domicile",
+    "meaning": "A fixed and lasting residential address.",
+    "example": "Please provide your permanent address for official correspondence.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 7,
+    "word": "Temporary address",
+    "partOfSpeech": "Noun",
+    "synonym": "Transient residence",
+    "meaning": "A short-term residential address that is not permanent.",
+    "example": "While studying abroad, she had a temporary address for the duration of her program.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 8,
+    "word": "Native language",
+    "partOfSpeech": "Noun",
+    "synonym": "Mother tongue",
+    "meaning": "The first language a person learns and speaks.",
+    "example": "Her native language is Spanish, but she is also fluent in English.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 9,
+    "word": "Second language",
+    "partOfSpeech": "Noun",
+    "synonym": "Non-native language",
+    "meaning": "A language learned in addition to one's native language.",
+    "example": "He studied French as a second language in school.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 10,
+    "word": "Multilingual",
+    "partOfSpeech": "Adjective",
+    "synonym": "Polyglot",
+    "meaning": "Able to speak and understand multiple languages.",
+    "example": "She is a multilingual individual, proficient in five different languages.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 11,
+    "word": "Bilingual",
+    "partOfSpeech": "Adjective",
+    "synonym": "Two-language",
+    "meaning": "Able to speak and understand two languages.",
+    "example": "Growing up in a multicultural environment, she became bilingual in English and Mandarin.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Communication skills",
+    "partOfSpeech": "Noun",
+    "synonym": "Interpersonal skills",
+    "meaning": "The ability to convey information clearly and effectively to others.",
+    "example": "His strong communication skills made him an excellent public speaker.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Professional background",
+    "partOfSpeech": "Noun",
+    "synonym": "Career history",
+    "meaning": "One's past work experience, training, and qualifications.",
+    "example": "Her diverse professional background includes roles in finance, marketing, and consulting.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Work experience",
+    "partOfSpeech": "Noun",
+    "synonym": "Job history",
+    "meaning": "The practical knowledge and skills gained from employment.",
+    "example": "He had extensive work experience in various industries before starting his own business.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Qualifications",
+    "partOfSpeech": "Noun",
+    "synonym": "Credentials",
+    "meaning": "Official recognition of a person's skills, knowledge, and achievements.",
+    "example": "Her impressive qualifications included a master's degree and several industry certifications.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Academic degrees",
+    "partOfSpeech": "Noun",
+    "synonym": "Educational credentials",
+    "meaning": "Titles awarded by educational institutions to signify the completion of specific programs of study.",
+    "example": "She proudly displayed her academic degrees on the office wall.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Accomplishments",
+    "partOfSpeech": "Noun",
+    "synonym": "Achievements",
+    "meaning": "Noteworthy successes or achievements in one's personal or professional life.",
+    "example": "His many accomplishments included publishing three books and winning multiple awards.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Ambitions",
+    "partOfSpeech": "Noun",
+    "synonym": "Aspirations",
+    "meaning": "Strong desires or goals for success and achievement.",
+    "example": "Her ambitions included becoming a respected leader in the tech industry.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Career path",
+    "partOfSpeech": "Noun",
+    "synonym": "Professional trajectory",
+    "meaning": "The sequence of jobs and positions that make up a person's work history.",
+    "example": "He had a diverse career path that included roles in sales, marketing, and executive leadership.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Extracurricular activities",
+    "partOfSpeech": "Noun",
+    "synonym": "Extra activities",
+    "meaning": "Activities pursued outside of regular academic curriculum, often involving interests, hobbies, or personal development.",
+    "example": "She participated in various extracurricular activities such as debate club, art classes, and sports.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Volunteer work",
+    "partOfSpeech": "Noun",
+    "synonym": "Volunteering",
+    "meaning": "Unpaid activities undertaken willingly to contribute to a cause or organization.",
+    "example": "He dedicated his weekends to volunteer work at a local animal shelter.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Networking",
+    "partOfSpeech": "Noun",
+    "synonym": "Socializing",
+    "meaning": "The process of building and maintaining relationships for professional or personal purposes.",
+    "example": "Attending conferences and events helped her expand her professional networking circle.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Social circle",
+    "partOfSpeech": "Noun",
+    "synonym": "Social network",
+    "meaning": "The group of friends, acquaintances, and connections with whom one regularly interacts.",
+    "example": "Her diverse social circle included colleagues, classmates, and fellow hobbyists.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Personality traits",
+    "partOfSpeech": "Noun",
+    "synonym": "Characteristics",
+    "meaning": "Distinctive qualities and behaviors that contribute to an individual's character and behavior.",
+    "example": "Her positive personality traits, such as empathy and optimism, made her a joy to be around.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Leadership qualities",
+    "partOfSpeech": "Noun",
+    "synonym": "Leadership skills",
+    "meaning": "Attributes and abilities that enable a person to guide and inspire others effectively.",
+    "example": "His strong communication and decision-making abilities were key leadership qualities in the team.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Problem-solving skills",
+    "partOfSpeech": "Noun",
+    "synonym": "Analytical skills",
+    "meaning": "The capacity to analyze issues and find effective solutions.",
+    "example": "Her excellent problem-solving skills helped the team overcome complex challenges.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Critical thinking",
+    "partOfSpeech": "Noun",
+    "synonym": "Cognitive analysis",
+    "meaning": "The ability to objectively analyze and evaluate information to form well-reasoned conclusions.",
+    "example": "The course emphasized critical thinking, enabling students to assess arguments more effectively.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Decision-making process",
+    "partOfSpeech": "Noun",
+    "synonym": "Choice-making process",
+    "meaning": "The steps involved in selecting a course of action from various alternatives.",
+    "example": "She carefully considered the pros and cons during her decision-making process.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Cultural identity",
+    "partOfSpeech": "Noun",
+    "synonym": "Ethnic identity",
+    "meaning": "The sense of belonging and connection to a particular cultural or ethnic group.",
+    "example": "Her cultural identity was shaped by her family traditions and heritage.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Traditions",
+    "partOfSpeech": "Noun",
+    "synonym": "Customs",
+    "meaning": "Long-established beliefs, practices, or customs passed down within a society or family.",
+    "example": "One of our family traditions is to have a big dinner on Thanksgiving.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Customs",
+    "partOfSpeech": "Noun",
+    "synonym": "Traditions",
+    "meaning": "Traditional practices or behaviors within a particular group or culture.",
+    "example": "The customs of this region include celebrating a unique festival.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Artistic interests",
+    "partOfSpeech": "Noun",
+    "synonym": "Creative pursuits",
+    "meaning": "Creative or imaginative activities that engage one's artistic inclinations.",
+    "example": "Her artistic interests range from painting to playing musical instruments.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Literary preferences",
+    "partOfSpeech": "Noun",
+    "synonym": "Reading choices",
+    "meaning": "Personal inclinations towards certain types or genres of literature.",
+    "example": "His literary preferences include classic novels and science fiction.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Political views",
+    "partOfSpeech": "Noun",
+    "synonym": "Political beliefs",
+    "meaning": "Individual opinions or stances on political matters and issues.",
+    "example": "Their political views are rooted in social equality and environmental sustainability.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Personal values",
+    "partOfSpeech": "Noun",
+    "synonym": "Core beliefs",
+    "meaning": "Fundamental principles and ethics that guide one's behavior and decisions.",
+    "example": "Honesty and compassion are among her most important personal values.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Time management",
+    "partOfSpeech": "Noun",
+    "synonym": "Time organization",
+    "meaning": "The ability to plan and use time effectively to accomplish tasks and goals.",
+    "example": "Improving time management can lead to increased productivity and reduced stress.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Stress management",
+    "partOfSpeech": "Noun",
+    "synonym": "Stress reduction",
+    "meaning": "Strategies and techniques for handling and minimizing the negative effects of stress.",
+    "example": "Regular exercise and mindfulness practices contribute to effective stress management.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Work-life balance",
+    "partOfSpeech": "Noun",
+    "synonym": "Work-life harmony",
+    "meaning": "The equilibrium between one's professional responsibilities and personal activities.",
+    "example": "Maintaining a healthy work-life balance is essential for overall well-being.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Life goals",
+    "partOfSpeech": "Noun",
+    "synonym": "Aspirations",
+    "meaning": "Desired achievements or objectives that a person aims to accomplish in their lifetime.",
+    "example": "Her life goals include traveling to every continent and starting a charitable foundation.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Aspirations",
+    "partOfSpeech": "Noun",
+    "synonym": "Ambitions",
+    "meaning": "Strong desires or goals that one wants to achieve.",
+    "example": "His aspirations include becoming a successful entrepreneur.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Resilience",
+    "partOfSpeech": "Noun",
+    "synonym": "Toughness",
+    "meaning": "The ability to recover and bounce back from challenges or difficulties.",
+    "example": "Her resilience helped her overcome numerous obstacles in her career.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Adaptability",
+    "partOfSpeech": "Noun",
+    "synonym": "Flexibility",
+    "meaning": "The capacity to adjust and change in response to new conditions or circumstances.",
+    "example": "His adaptability allows him to thrive in rapidly changing environments.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Emotional intelligence",
+    "partOfSpeech": "Noun",
+    "synonym": "Emotional quotient",
+    "meaning": "The ability to understand and manage one's own emotions and those of others.",
+    "example": "Emotional intelligence is crucial for effective leadership and interpersonal relationships.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Introspection",
+    "partOfSpeech": "Noun",
+    "synonym": "Self-examination",
+    "meaning": "The process of examining one's thoughts, feelings, and motives.",
+    "example": "Regular introspection can lead to greater self-awareness and personal growth.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Self-awareness",
+    "partOfSpeech": "Noun",
+    "synonym": "Self-understanding",
+    "meaning": "Conscious knowledge and understanding of one's own character, emotions, and motives.",
+    "example": "Developing self-awareness is a fundamental step toward personal development.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Self-improvement",
+    "partOfSpeech": "Noun",
+    "synonym": "Personal development",
+    "meaning": "The process of working on oneself to enhance skills, knowledge, and overall quality of life.",
+    "example": "She is dedicated to a lifelong journey of self-improvement and growth.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Continuous learning",
+    "partOfSpeech": "Noun",
+    "synonym": "Lifelong learning",
+    "meaning": "The ongoing pursuit of knowledge and skills throughout one's life.",
+    "example": "Engaging in continuous learning is essential to keep up with a rapidly changing world.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Well-being",
+    "partOfSpeech": "Noun",
+    "synonym": "Health",
+    "meaning": "A state of being comfortable, healthy, and happy.",
+    "example": "Prioritizing well-being is important for maintaining a balanced and fulfilling life.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Mindfulness",
+    "partOfSpeech": "Noun",
+    "synonym": "Awareness",
+    "meaning": "The practice of being fully present and attentive in the present moment.",
+    "example": "Mindfulness meditation helps reduce stress and enhance overall well-being.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Empathy",
+    "partOfSpeech": "Noun",
+    "synonym": "Compassion",
+    "meaning": "The ability to understand and share the feelings of others.",
+    "example": "Her empathy allows her to connect deeply with people and offer meaningful support.",
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  }
+]
