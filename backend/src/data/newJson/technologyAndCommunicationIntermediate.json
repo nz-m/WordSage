@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Innovation",
+      "partOfSpeech": "Noun",
+      "synonym": "Creativity",
+      "meaning": "The introduction of new ideas, methods, or products.",
+      "example": "The company's success can be attributed to its culture of innovation.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Automation",
+      "partOfSpeech": "Noun",
+      "synonym": "Mechanization",
+      "meaning": "The use of largely automatic equipment in a system of operation.",
+      "example": "The factory implemented automation to streamline production.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Artificial intelligence",
+      "partOfSpeech": "Noun",
+      "synonym": "AI",
+      "meaning": "The simulation of human intelligence in computers or machines.",
+      "example": "Artificial intelligence is used in various applications, such as virtual assistants.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Machine learning",
+      "partOfSpeech": "Noun",
+      "synonym": "ML",
+      "meaning": "A subset of AI that involves the development of algorithms allowing computers to learn from and make predictions or decisions based on data.",
+      "example": "Machine learning algorithms can analyze patterns in data to make accurate predictions.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Augmented reality",
+      "partOfSpeech": "Noun",
+      "synonym": "AR",
+      "meaning": "Technology that superimposes a computer-generated image on a user's view of the real world.",
+      "example": "Augmented reality enhances the perception of the physical world through digital elements.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Virtual reality",
+      "partOfSpeech": "Noun",
+      "synonym": "VR",
+      "meaning": "A simulated experience that can be similar to or completely different from the real world.",
+      "example": "Virtual reality is commonly used in gaming and immersive experiences.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Internet of Things (IoT)",
+      "partOfSpeech": "Noun",
+      "synonym": "IoT",
+      "meaning": "A network of interconnected objects that can communicate and exchange data.",
+      "example": "The Internet of Things enables smart devices to communicate and perform tasks autonomously.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Blockchain",
+      "partOfSpeech": "Noun",
+      "synonym": "Distributed ledger",
+      "meaning": "A decentralized digital ledger that records transactions across multiple computers.",
+      "example": "Blockchain technology is used for secure and transparent record-keeping.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Cryptocurrency",
+      "partOfSpeech": "Noun",
+      "synonym": "Digital currency",
+      "meaning": "A digital or virtual currency that uses cryptography for security.",
+      "example": "Bitcoin is a popular example of a cryptocurrency.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Data privacy",
+      "partOfSpeech": "Noun",
+      "synonym": "Information privacy",
+      "meaning": "The protection of personal data from unauthorized access and use.",
+      "example": "Companies should prioritize data privacy to maintain customer trust.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Cybersecurity",
+      "partOfSpeech": "Noun",
+      "synonym": "Information security",
+      "meaning": "The practice of protecting systems, networks, and data from digital attacks.",
+      "example": "Strong cybersecurity measures are essential to prevent data breaches.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 12,
+      "word": "Biometric authentication",
+      "partOfSpeech": "Noun",
+      "synonym": "Biometric identification",
+      "meaning": "The use of unique biological characteristics for user authentication.",
+      "example": "Fingerprint and facial recognition are examples of biometric authentication.",
+      "level": "Intermediate",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+        "wordNumber": 13,
+        "word": "Data breach",
+        "partOfSpeech": "Noun",
+        "synonym": "Security breach",
+        "meaning": "Unauthorized access, release, or theft of sensitive or private information.",
+        "example": "The company experienced a major data breach, exposing customer information.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 14,
+        "word": "Encryption",
+        "partOfSpeech": "Noun",
+        "synonym": "Cryptography",
+        "meaning": "The process of converting information into a code to prevent unauthorized access.",
+        "example": "Sensitive emails are often sent using encryption to protect their contents.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 15,
+        "word": "User experience (UX)",
+        "partOfSpeech": "Noun",
+        "synonym": "User satisfaction",
+        "meaning": "The overall experience a person has while interacting with a product or service.",
+        "example": "The company focused on improving the user experience of their website to attract more visitors.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 16,
+        "word": "User interface (UI)",
+        "partOfSpeech": "Noun",
+        "synonym": "UI design",
+        "meaning": "The visual elements and layout that users interact with on a device or software.",
+        "example": "The new software version features an updated user interface that is more intuitive.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Algorithm",
+        "partOfSpeech": "Noun",
+        "synonym": "Procedure",
+        "meaning": "A step-by-step set of instructions or rules followed to solve a problem or complete a task.",
+        "example": "Search engines use complex algorithms to provide relevant search results.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Big data",
+        "partOfSpeech": "Noun",
+        "synonym": "Large-scale data",
+        "meaning": "Extremely large and complex datasets that require specialized processing techniques.",
+        "example": "Companies analyze big data to gain insights into customer behavior and trends.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Cloud computing",
+        "partOfSpeech": "Noun",
+        "synonym": "Cloud technology",
+        "meaning": "The delivery of computing services over the internet, including storage, servers, databases, networking, software, and more.",
+        "example": "Many businesses are migrating their IT infrastructure to cloud computing for scalability and cost savings.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Digital transformation",
+        "partOfSpeech": "Noun",
+        "synonym": "Digitalization",
+        "meaning": "The integration of digital technology into various aspects of an organization, leading to fundamental changes in how it operates and delivers value.",
+        "example": "The company's digital transformation strategy included adopting new online communication tools and automating manual processes.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 21,
+        "word": "E-commerce",
+        "partOfSpeech": "Noun",
+        "synonym": "Online shopping",
+        "meaning": "The buying and selling of goods and services over the internet.",
+        "example": "E-commerce has become increasingly popular, with many consumers preferring to shop online.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Online payment",
+        "partOfSpeech": "Noun",
+        "synonym": "Electronic payment",
+        "meaning": "The transfer of money or funds over the internet for goods or services.",
+        "example": "Online payment methods include credit cards, digital wallets, and bank transfers.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Streaming",
+        "partOfSpeech": "Noun",
+        "synonym": "Live broadcasting",
+        "meaning": "The real-time transmission of multimedia content, such as audio or video, over the internet.",
+        "example": "Many people enjoy streaming movies and music from online platforms.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Social networking",
+        "partOfSpeech": "Noun",
+        "synonym": "Social media",
+        "meaning": "The use of websites and applications to connect and communicate with others, often sharing personal information and updates.",
+        "example": "Social networking platforms allow users to interact with friends and family members online.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Influencer",
+        "partOfSpeech": "Noun",
+        "synonym": "Trendsetter",
+        "meaning": "A person who has the ability to affect the purchasing decisions and opinions of others, often through social media.",
+        "example": "The company collaborated with a popular influencer to promote their new product.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Blog",
+        "partOfSpeech": "Noun",
+        "synonym": "Online journal",
+        "meaning": "A regularly updated website or web page that provides informal, often personal, written content on various topics.",
+        "example": "She started a blog to share her travel experiences and tips with a wider audience.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Podcast",
+        "partOfSpeech": "Noun",
+        "synonym": "Audio show",
+        "meaning": "A digital audio or video program that is available for streaming or download, usually in episodes.",
+        "example": "I listen to podcasts during my commute to stay updated on the latest news and trends.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Webinar",
+        "partOfSpeech": "Noun",
+        "synonym": "Online seminar",
+        "meaning": "A seminar conducted over the internet, typically involving a presentation, discussion, or lecture.",
+        "example": "The company organized a webinar on digital marketing strategies.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Online learning",
+        "partOfSpeech": "Noun",
+        "synonym": "Virtual learning",
+        "meaning": "The process of acquiring knowledge or skills through digital resources and the internet.",
+        "example": "Many universities offer online learning programs for students who cannot attend classes in person.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 30,
+        "word": "E-learning",
+        "partOfSpeech": "Noun",
+        "synonym": "Electronic learning",
+        "meaning": "Learning conducted via electronic media, typically on the internet or through computer-based platforms.",
+        "example": "The company provides e-learning courses to train employees in new software.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Remote work",
+        "partOfSpeech": "Noun",
+        "synonym": "Telecommuting",
+        "meaning": "Working from a location outside the traditional office, often facilitated by digital communication tools.",
+        "example": "Due to the pandemic, many employees transitioned to remote work to maintain social distancing.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Video conferencing",
+        "partOfSpeech": "Noun",
+        "synonym": "Virtual meetings",
+        "meaning": "The use of video and audio technology to conduct meetings and conferences among participants in different locations.",
+        "example": "We had a video conferencing session with the overseas team to discuss project updates.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Telecommuting",
+        "partOfSpeech": "Noun",
+        "synonym": "Remote work",
+        "meaning": "Working from a location outside the traditional office, usually with the help of computers and communication technology.",
+        "example": "The company offers telecommuting options to employees to improve work-life balance.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Digital marketing",
+        "partOfSpeech": "Noun",
+        "synonym": "Online marketing",
+        "meaning": "Promoting products or services using digital channels and technologies, such as social media, email, and search engines.",
+        "example": "The business invested heavily in digital marketing to reach a wider online audience.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Content creation",
+        "partOfSpeech": "Noun",
+        "synonym": "Content generation",
+        "meaning": "The process of producing various forms of digital material, such as articles, videos, and images, for online platforms.",
+        "example": "Her job involves content creation for the company's blog and social media accounts.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 36,
+        "word": "SEO (Search Engine Optimization)",
+        "partOfSpeech": "Noun",
+        "synonym": "Search engine marketing",
+        "meaning": "The practice of optimizing digital content to improve its visibility and ranking on search engine results pages.",
+        "example": "The website's traffic increased significantly after implementing effective SEO strategies.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Analytics",
+        "partOfSpeech": "Noun",
+        "synonym": "Analysis",
+        "meaning": "The systematic computational analysis of data or statistics.",
+        "example": "Website analytics can provide insights into user behavior and preferences.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Cyberbullying",
+        "partOfSpeech": "Noun",
+        "synonym": "Online harassment",
+        "meaning": "The use of electronic communication to bully or harass individuals, typically through social media or other digital platforms.",
+        "example": "Many schools have programs to educate students about the dangers of cyberbullying.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Phishing",
+        "partOfSpeech": "Noun",
+        "synonym": "Scam",
+        "meaning": "The fraudulent attempt to obtain sensitive information, such as passwords and credit card details, by disguising as a trustworthy entity in electronic communication.",
+        "example": "She received an email asking for her account information, but it turned out to be a phishing attempt.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Digital citizenship",
+        "partOfSpeech": "Noun",
+        "synonym": "Online responsibility",
+        "meaning": "The responsible and ethical use of technology, especially when interacting with digital environments and online communities.",
+        "example": "Teaching digital citizenship includes educating students about online privacy and respectful communication.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Digital footprint",
+        "partOfSpeech": "Noun",
+        "synonym": "Online presence",
+        "meaning": "The trail of data and information left behind by a person's online interactions and activities.",
+        "example": "Your digital footprint can include social media posts, comments, and the websites you visit.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Open source",
+        "partOfSpeech": "Adjective",
+        "synonym": "Free and open",
+        "meaning": "Refers to software or projects that are publicly accessible, modifiable, and distributable under an open license.",
+        "example": "Many developers contribute to open-source projects to collaborate and improve software together.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 43,
+        "word": "User-generated content",
+        "partOfSpeech": "Noun",
+        "synonym": "UGC",
+        "meaning": "Content, such as videos, reviews, or posts, created and shared by users on online platforms.",
+        "example": "Social media platforms thrive on user-generated content, which keeps users engaged.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Copyright",
+        "partOfSpeech": "Noun",
+        "synonym": "Authorship protection",
+        "meaning": "Legal protection given to original creators of literary, artistic, and other creative works, granting them exclusive rights to their creations.",
+        "example": "Plagiarism can lead to copyright infringement, which is a violation of intellectual property rights.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Fair use",
+        "partOfSpeech": "Noun",
+        "synonym": "Permissible use",
+        "meaning": "A legal doctrine that allows limited use of copyrighted material without permission, especially for purposes such as criticism, commentary, news reporting, education, and research.",
+        "example": "Using copyrighted material for fair use purposes generally doesn't require obtaining explicit permission from the creator.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Accessibility",
+        "partOfSpeech": "Noun",
+        "synonym": "Inclusiveness",
+        "meaning": "The design and arrangement of digital products, services, and environments to be usable by people with disabilities or impairments.",
+        "example": "Web developers should ensure accessibility by providing alt text for images and captions for videos.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Hackathon",
+        "partOfSpeech": "Noun",
+        "synonym": "Codefest",
+        "meaning": "An event where programmers, designers, and others collaborate intensively on software projects, often within a limited time frame.",
+        "example": "Participants at the hackathon developed innovative apps and prototypes overnight.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Code",
+        "partOfSpeech": "Noun",
+        "synonym": "Programming",
+        "meaning": "A set of instructions written in a programming language to carry out specific tasks or operations on a computer.",
+        "example": "Learning to code can empower individuals to create software and automate processes.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Debugging",
+        "partOfSpeech": "Noun",
+        "synonym": "Error fixing",
+        "meaning": "The process of identifying and resolving errors or issues in software code to ensure its proper functionality.",
+        "example": "Programmers spend a significant amount of time debugging to eliminate bugs and improve software quality.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Tech literacy",
+        "partOfSpeech": "Noun",
+        "synonym": "Digital literacy",
+        "meaning": "The ability to understand, use, and interact with technology effectively and responsibly.",
+        "example": "Tech literacy is becoming increasingly important in today's digital world, as technology is integrated into various aspects of life.",
+        "level": "Intermediate",
+        "lessonTitle": "Technology and Communication"
+      }
+]
+  
