@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Nature",
+      "partOfSpeech": "Noun",
+      "synonym": "Natural world",
+      "meaning": "The phenomena of the physical world collectively, including plants, animals, landscapes, and other features.",
+      "example": "Many people enjoy spending time in nature, hiking and observing wildlife.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Environment",
+      "partOfSpeech": "Noun",
+      "synonym": "Surroundings",
+      "meaning": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
+      "example": "It's important to take care of the environment by reducing waste and conserving resources.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Earth",
+      "partOfSpeech": "Noun",
+      "synonym": "Planet",
+      "meaning": "The third planet from the sun; the planet on which we live.",
+      "example": "Earth is known for its diverse ecosystems and abundant life.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Planet",
+      "partOfSpeech": "Noun",
+      "synonym": "Celestial body",
+      "meaning": "A celestial body moving in an elliptical orbit around a star.",
+      "example": "Jupiter is the largest planet in our solar system.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Land",
+      "partOfSpeech": "Noun",
+      "synonym": "Ground",
+      "meaning": "The solid part of the Earth's surface, as opposed to the sea or air.",
+      "example": "Farmers use the land to grow crops and raise animals.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Water",
+      "partOfSpeech": "Noun",
+      "synonym": "H2O",
+      "meaning": "A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.",
+      "example": "Fish and other aquatic creatures live in the water.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Air",
+      "partOfSpeech": "Noun",
+      "synonym": "Atmosphere",
+      "meaning": "The invisible gaseous substance surrounding the Earth, a mixture mainly of oxygen and nitrogen.",
+      "example": "Birds fly through the air using their wings.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Tree",
+      "partOfSpeech": "Noun",
+      "synonym": "Woody plant",
+      "meaning": "A woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground.",
+      "example": "Forests are made up of many different types of trees.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Forest",
+      "partOfSpeech": "Noun",
+      "synonym": "Woodland",
+      "meaning": "A large area covered chiefly with trees and undergrowth.",
+      "example": "Many animals, including deer and bears, live in the forest.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Mountain",
+      "partOfSpeech": "Noun",
+      "synonym": "Peak",
+      "meaning": "A large natural elevation of the Earth's surface rising abruptly from the surrounding level; a mountain range or massif.",
+      "example": "Climbers often challenge themselves to reach the summit of a mountain.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 11,
+      "word": "River",
+      "partOfSpeech": "Noun",
+      "synonym": "Stream",
+      "meaning": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
+      "example": "The Nile River is one of the longest rivers in the world.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 12,
+      "word": "Lake",
+      "partOfSpeech": "Noun",
+      "synonym": "Reservoir",
+      "meaning": "A large body of water surrounded by land.",
+      "example": "People often go fishing and boating on the lake during the summer.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+      "wordNumber": 13,
+      "word": "Ocean",
+      "partOfSpeech": "Noun",
+      "synonym": "Sea",
+      "meaning": "A very large expanse of sea, in particular, each of the main areas into which the sea is divided geographically.",
+      "example": "The Pacific Ocean is the largest and deepest ocean on Earth.",
+      "level": "Beginner",
+      "lessonTitle": "Nature and Environment"
+    },
+    {
+        "wordNumber": 14,
+        "word": "Beach",
+        "partOfSpeech": "Noun",
+        "synonym": "Shore",
+        "meaning": "A sandy or pebbly area of land next to the sea or other large body of water.",
+        "example": "We spent the day relaxing on the beach, listening to the sound of the waves.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Sky",
+        "partOfSpeech": "Noun",
+        "synonym": "Heavens",
+        "meaning": "The expanse of air over the Earth; the upper atmosphere.",
+        "example": "The sky turned various shades of pink and orange as the sun set.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Sun",
+        "partOfSpeech": "Noun",
+        "synonym": "Star",
+        "meaning": "The star at the center of the solar system, which provides light and heat to Earth.",
+        "example": "People enjoy spending time outdoors when the sun is shining.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Moon",
+        "partOfSpeech": "Noun",
+        "synonym": "Lunar",
+        "meaning": "The natural satellite of Earth, visible at night as a bright or faint silvery-white disk.",
+        "example": "The full moon illuminated the night sky.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Star",
+        "partOfSpeech": "Noun",
+        "synonym": "Celestial body",
+        "meaning": "A luminous sphere of plasma held together by its own gravity, emitting light and heat.",
+        "example": "The night sky was filled with countless stars, each shining brightly.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Cloud",
+        "partOfSpeech": "Noun",
+        "synonym": "Mist",
+        "meaning": "A visible mass of water droplets or ice crystals suspended in the atmosphere.",
+        "example": "The sky was partly cloudy, with fluffy white clouds drifting by.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Rain",
+        "partOfSpeech": "Noun",
+        "synonym": "Precipitation",
+        "meaning": "Water that falls from the clouds in the form of droplets.",
+        "example": "We decided to stay indoors due to the heavy rain outside.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Wind",
+        "partOfSpeech": "Noun",
+        "synonym": "Breeze",
+        "meaning": "The natural movement of the air, especially in the form of a current blowing from a particular direction.",
+        "example": "The wind rustled the leaves on the trees, creating a soothing sound.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Weather",
+        "partOfSpeech": "Noun",
+        "synonym": "Climate",
+        "meaning": "The atmospheric conditions at a specific place and time, including temperature, humidity, precipitation, and wind.",
+        "example": "The weather forecast predicted clear skies and warm temperatures for the weekend.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Climate",
+        "partOfSpeech": "Noun",
+        "synonym": "Weather patterns",
+        "meaning": "The long-term average of weather conditions in a particular area.",
+        "example": "The region has a tropical climate, characterized by high temperatures and heavy rainfall.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Season",
+        "partOfSpeech": "Noun",
+        "synonym": "Period",
+        "meaning": "A division of the year characterized by distinct weather patterns and daylight hours.",
+        "example": "Winter is a season known for cold temperatures and snowfall.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Spring",
+        "partOfSpeech": "Noun",
+        "synonym": "Season",
+        "meaning": "The season between winter and summer when plants begin to bloom and temperatures become milder.",
+        "example": "Many flowers start to blossom in spring, adding vibrant colors to the landscape.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Summer",
+        "partOfSpeech": "Noun",
+        "synonym": "Season",
+        "meaning": "The warmest season of the year, occurring between spring and autumn.",
+        "example": "People often go to the beach during the summer to enjoy the sun.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Autumn",
+        "partOfSpeech": "Noun",
+        "synonym": "Fall",
+        "meaning": "The season between summer and winter, characterized by cooler temperatures and falling leaves.",
+        "example": "The trees turn beautiful shades of red and orange in autumn.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Winter",
+        "partOfSpeech": "Noun",
+        "synonym": "Cold season",
+        "meaning": "The coldest season of the year, with shorter days and lower temperatures.",
+        "example": "Children often build snowmen during the winter months.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Animal",
+        "partOfSpeech": "Noun",
+        "synonym": "Creature",
+        "meaning": "A living organism that can move, grow, and reproduce on its own.",
+        "example": "Lions, tigers, and bears are examples of wild animals.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Bird",
+        "partOfSpeech": "Noun",
+        "synonym": "Avian",
+        "meaning": "A warm-blooded vertebrate with feathers, typically able to fly.",
+        "example": "Robins and sparrows are common types of birds found in gardens.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Fish",
+        "partOfSpeech": "Noun",
+        "synonym": "Aquatic animal",
+        "meaning": "A cold-blooded vertebrate that lives in water and breathes through gills.",
+        "example": "Salmon is a popular type of fish that people enjoy eating.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Insect",
+        "partOfSpeech": "Noun",
+        "synonym": "Bug",
+        "meaning": "A small arthropod animal with six legs and typically one or two pairs of wings.",
+        "example": "Butterflies and ants are examples of insects.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Plant",
+        "partOfSpeech": "Noun",
+        "synonym": "Flora",
+        "meaning": "A living organism that typically has leaves, stems, and roots, and uses photosynthesis to produce energy.",
+        "example": "Trees, flowers, and grass are all types of plants.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Flower",
+        "partOfSpeech": "Noun",
+        "synonym": "Blossom",
+        "meaning": "The reproductive structure of a plant, typically brightly colored and fragrant.",
+        "example": "Roses and sunflowers are popular types of flowers.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Grass",
+        "partOfSpeech": "Noun",
+        "synonym": "Lawn",
+        "meaning": "A type of plant with narrow leaves that covers the ground in lawns and pastures.",
+        "example": "Children often play on the grass in parks.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Soil",
+        "partOfSpeech": "Noun",
+        "synonym": "Dirt",
+        "meaning": "The top layer of the Earth's surface, composed of minerals, organic matter, and living organisms.",
+        "example": "Plants grow in the soil, which provides them with nutrients.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Ecosystem",
+        "partOfSpeech": "Noun",
+        "synonym": "Ecological system",
+        "meaning": "A community of living organisms and their interactions with each other and their physical environment.",
+        "example": "The coral reef is a diverse and intricate ecosystem.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Habitat",
+        "partOfSpeech": "Noun",
+        "synonym": "Environment",
+        "meaning": "The natural home or environment of a plant, animal, or other organism.",
+        "example": "The rainforest provides a habitat for many species of birds.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Conservation",
+        "partOfSpeech": "Noun",
+        "synonym": "Preservation",
+        "meaning": "The act of protecting and preserving the natural environment, resources, or species.",
+        "example": "The national park has strict rules for the conservation of its wildlife.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Pollution",
+        "partOfSpeech": "Noun",
+        "synonym": "Contamination",
+        "meaning": "The presence or introduction of harmful substances into the environment, causing harm to living organisms.",
+        "example": "Air pollution from factories can have negative effects on human health.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Recycling",
+        "partOfSpeech": "Noun",
+        "synonym": "Reclamation",
+        "meaning": "The process of collecting and reprocessing materials to be used again, reducing waste and conserving resources.",
+        "example": "We should all participate in recycling to reduce our impact on the environment.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Sustainability",
+        "partOfSpeech": "Noun",
+        "synonym": "Durability",
+        "meaning": "The ability to maintain a balanced and healthy environment for current and future generations.",
+        "example": "Using renewable energy sources is crucial for achieving long-term sustainability.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Renewable energy",
+        "partOfSpeech": "Noun",
+        "synonym": "Sustainable energy",
+        "meaning": "Energy derived from sources that are naturally replenished, such as sunlight, wind, and water.",
+        "example": "Solar panels convert sunlight into renewable energy for powering homes.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Wildlife",
+        "partOfSpeech": "Noun",
+        "synonym": "Fauna",
+        "meaning": "Animals, birds, insects, and other living things that are not domesticated and exist in their natural habitat.",
+        "example": "The national park is home to a diverse range of wildlife species.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Biodiversity",
+        "partOfSpeech": "Noun",
+        "synonym": "Variety of life",
+        "meaning": "The variety and variability of living organisms in a particular habitat or ecosystem.",
+        "example": "The rainforest is known for its high levels of biodiversity.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Endangered species",
+        "partOfSpeech": "Noun",
+        "synonym": "Threatened species",
+        "meaning": "Organisms that are at risk of becoming extinct due to low population numbers and threats to their survival.",
+        "example": "Efforts are being made to protect the habitat of the endangered species.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Natural resources",
+        "partOfSpeech": "Noun",
+        "synonym": "Raw materials",
+        "meaning": "Materials or substances that occur naturally and can be used for various purposes by humans.",
+        "example": "Oil, coal, and minerals are examples of valuable natural resources.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Deforestation",
+        "partOfSpeech": "Noun",
+        "synonym": "Clear-cutting",
+        "meaning": "The process of clearing or removing forests, often to make way for agriculture or urban development.",
+        "example": "Deforestation can lead to loss of biodiversity and disruptions in ecosystems.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Global warming",
+        "partOfSpeech": "Noun",
+        "synonym": "Climate change",
+        "meaning": "The long-term increase in Earth's average surface temperature due to human activities, primarily the emission of greenhouse gases.",
+        "example": "Melting glaciers and rising sea levels are consequences of global warming.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Greenhouse effect",
+        "partOfSpeech": "Noun",
+        "synonym": "Heat trapping",
+        "meaning": "The process by which certain gases in Earth's atmosphere trap heat, leading to an increase in surface temperature.",
+        "example": "The greenhouse effect is essential for maintaining a habitable temperature on Earth, but human activities have intensified it.",
+        "level": "Beginner",
+        "lessonTitle": "Nature and Environment"
+      }
+]
+  
