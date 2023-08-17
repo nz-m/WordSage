@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Pedagogy",
+      "partOfSpeech": "Noun",
+      "synonym": "Teaching methods",
+      "meaning": "The method and practice of teaching, especially as an academic subject or theoretical concept.",
+      "example": "The professor's innovative pedagogy engaged students in interactive discussions.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Andragogy",
+      "partOfSpeech": "Noun",
+      "synonym": "Adult education",
+      "meaning": "The method and practice of teaching adult learners, focusing on their specific needs and experiences.",
+      "example": "Andragogy emphasizes self-directed learning and practical application.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Heutagogy",
+      "partOfSpeech": "Noun",
+      "synonym": "Self-determined learning",
+      "meaning": "A learning framework where learners take an active role in designing and directing their own learning experiences.",
+      "example": "Heutagogy promotes critical thinking and lifelong learning skills.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Metacognition",
+      "partOfSpeech": "Noun",
+      "synonym": "Thinking about thinking",
+      "meaning": "Awareness and understanding of one's own thought processes, leading to improved learning and problem-solving.",
+      "example": "Developing metacognition helps students become more effective learners.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Epistemology",
+      "partOfSpeech": "Noun",
+      "synonym": "Theory of knowledge",
+      "meaning": "The study of how knowledge is acquired, justified, and believed, exploring the nature and limits of human understanding.",
+      "example": "Epistemology delves into questions about the nature of truth and belief.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Didactic",
+      "partOfSpeech": "Adjective",
+      "synonym": "Instructive",
+      "meaning": "Intending to teach, educate, or convey moral or ethical lessons.",
+      "example": "The novel had a didactic purpose, aiming to impart important life lessons.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Socratic method",
+      "partOfSpeech": "Noun",
+      "synonym": "Socratic dialogue",
+      "meaning": "A form of cooperative argumentative dialogue used to stimulate critical thinking, often through a series of questions and answers.",
+      "example": "The Socratic method encourages students to examine and defend their beliefs.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Experiential learning",
+      "partOfSpeech": "Noun",
+      "synonym": "Learning by doing",
+      "meaning": "Learning through direct experience, reflection, and active engagement with real-world situations.",
+      "example": "Experiential learning enhances understanding through practical application.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Inquiry-based learning",
+      "partOfSpeech": "Noun",
+      "synonym": "Discovery learning",
+      "meaning": "An approach where learners explore concepts and ideas by posing questions, investigating, and seeking solutions.",
+      "example": "Inquiry-based learning fosters curiosity and critical thinking skills.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Flipped classroom",
+      "partOfSpeech": "Noun",
+      "synonym": "Reverse instruction",
+      "meaning": "A teaching method where traditional in-class instruction and homework activities are reversed, often involving pre-recorded lectures and in-depth discussions during class.",
+      "example": "In a flipped classroom, students watch video lectures at home and engage in active learning during class.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Blended learning",
+      "partOfSpeech": "Noun",
+      "synonym": "Hybrid learning",
+      "meaning": "An educational approach that combines traditional face-to-face instruction with online learning activities and resources.",
+      "example": "Blended learning offers flexibility and personalized learning experiences.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 12,
+      "word": "MOOC",
+      "partOfSpeech": "Noun",
+      "synonym": "Massive Open Online Course",
+      "meaning": "A large-scale online course that is open to a wide audience, often for free or at a low cost.",
+      "example": "Many universities offer MOOCs on various subjects to learners around the world.",
+      "level": "Advanced",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+        "wordNumber": 13,
+        "word": "Gamification",
+        "partOfSpeech": "Noun",
+        "synonym": "Game-based learning",
+        "meaning": "The integration of game elements and principles into non-game contexts, often used to enhance engagement and motivation in learning.",
+        "example": "The teacher introduced gamification elements into the classroom to make lessons more interactive and enjoyable.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 14,
+        "word": "E-portfolio",
+        "partOfSpeech": "Noun",
+        "synonym": "Electronic portfolio",
+        "meaning": "A digital collection of a student's work, achievements, and reflections, often used to showcase learning progress and skills.",
+        "example": "As part of the assessment, students were required to create an e-portfolio demonstrating their growth over the course of the semester.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Rubric",
+        "partOfSpeech": "Noun",
+        "synonym": "Scoring guide",
+        "meaning": "A set of criteria or guidelines used to assess and evaluate student work, often providing a clear description of expectations for different levels of performance.",
+        "example": "The teacher provided a detailed rubric to students before the assignment to help them understand how their work would be graded.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Bloom's Taxonomy",
+        "partOfSpeech": "Noun",
+        "synonym": "Bloom's Classification",
+        "meaning": "A hierarchical framework that categorizes educational objectives into levels of complexity, ranging from basic knowledge and comprehension to higher-order thinking skills.",
+        "example": "The teacher used Bloom's Taxonomy to design activities that promote critical thinking and problem-solving among students.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Differentiated instruction",
+        "partOfSpeech": "Noun",
+        "synonym": "Individualized teaching",
+        "meaning": "An instructional approach that adapts teaching methods, content, and assessment to accommodate the diverse learning needs and preferences of students.",
+        "example": "The teacher employed differentiated instruction techniques to provide targeted support to students with varying abilities and learning styles.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Authentic assessment",
+        "partOfSpeech": "Noun",
+        "synonym": "Real-world assessment",
+        "meaning": "An evaluation method that requires students to apply their knowledge and skills in meaningful, real-life contexts, often mirroring the tasks they would encounter outside the classroom.",
+        "example": "The project-based assessment allowed students to demonstrate their understanding of the topic through authentic assessment tasks relevant to their future careers.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Formative assessment",
+        "partOfSpeech": "Noun",
+        "synonym": "Ongoing assessment",
+        "meaning": "Assessment conducted during the learning process to gather feedback on student understanding, guide instructional decisions, and support learning improvement.",
+        "example": "The teacher used formative assessment techniques such as quizzes and class discussions to monitor student progress and adjust teaching strategies.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Summative assessment",
+        "partOfSpeech": "Noun",
+        "synonym": "Final assessment",
+        "meaning": "An evaluation conducted at the end of a learning period to measure a student's overall achievement and mastery of a subject or skill.",
+        "example": "The comprehensive exam served as a summative assessment, evaluating students' knowledge and skills acquired throughout the semester.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Rubric",
+        "partOfSpeech": "Noun",
+        "synonym": "Scoring guide",
+        "meaning": "A set of criteria or guidelines used to assess and evaluate student work, often providing a clear description of expectations for different levels of performance.",
+        "example": "The teacher provided a detailed rubric to students before the assignment to help them understand how their work would be graded.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Peer evaluation",
+        "partOfSpeech": "Noun",
+        "synonym": "Peer assessment",
+        "meaning": "The process of students assessing and providing feedback on the work of their classmates, promoting collaborative learning and self-assessment skills.",
+        "example": "As part of the project, students engaged in peer evaluation to offer constructive criticism and suggestions for improvement to their peers.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Academic integrity",
+        "partOfSpeech": "Noun",
+        "synonym": "Educational honesty",
+        "meaning": "The ethical principle of maintaining honesty and credibility in academic work, including proper citation of sources and original creation of ideas.",
+        "example": "The university emphasizes academic integrity and provides guidelines to students on avoiding plagiarism and upholding ethical standards.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Interdisciplinary",
+        "partOfSpeech": "Adjective",
+        "synonym": "Cross-disciplinary",
+        "meaning": "Involving the integration of knowledge, methods, or insights from different academic disciplines to address complex issues or solve problems.",
+        "example": "The research project took an interdisciplinary approach, combining expertise from fields such as biology, sociology, and economics to analyze urban development.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Multiliteracies",
+        "partOfSpeech": "Noun",
+        "synonym": "Multiple literacies",
+        "meaning": "The ability to engage and communicate effectively using various forms of communication and media, including visual, digital, and textual modes.",
+        "example": "Modern education emphasizes the development of multiliteracies to prepare students for the diverse ways information is presented and shared in today's world.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Global competence",
+        "partOfSpeech": "Noun",
+        "synonym": "Global literacy",
+        "meaning": "The knowledge, skills, and attitudes necessary to understand and effectively participate in an interconnected and culturally diverse world.",
+        "example": "The curriculum aims to cultivate global competence by exposing students to different cultures, perspectives, and global issues.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Culturally responsive teaching",
+        "partOfSpeech": "Phrase",
+        "synonym": "Culturally inclusive teaching",
+        "meaning": "An educational approach that recognizes and values the diversity of students' cultural backgrounds and incorporates them into the learning process.",
+        "example": "Culturally responsive teaching involves integrating students' cultural experiences into the curriculum to create an inclusive learning environment.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Project-based learning",
+        "partOfSpeech": "Noun",
+        "synonym": "PBL",
+        "meaning": "A teaching method where students gain knowledge and skills by working on a complex and extended project that addresses real-world problems or questions.",
+        "example": "In project-based learning, students collaborated to design and build a sustainable model city as part of their geography class.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Problem-based learning",
+        "partOfSpeech": "Noun",
+        "synonym": "PBL",
+        "meaning": "An instructional approach that engages students in solving real-world problems or scenarios, often in collaborative groups.",
+        "example": "Problem-based learning in medical education involves diagnosing and developing treatment plans for simulated patient cases.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Student-centered learning",
+        "partOfSpeech": "Phrase",
+        "synonym": "Learner-centered learning",
+        "meaning": "An educational philosophy that prioritizes the individual learning needs, interests, and preferences of students.",
+        "example": "In a student-centered learning environment, students have the autonomy to choose projects and activities aligned with their own interests.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Teacher professional development",
+        "partOfSpeech": "Phrase",
+        "synonym": "Educator professional development",
+        "meaning": "Activities, programs, and opportunities that help teachers enhance their knowledge, skills, and teaching practices.",
+        "example": "Attending workshops and conferences is a common way for teachers to engage in ongoing professional development.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Educational technology",
+        "partOfSpeech": "Phrase",
+        "synonym": "EdTech",
+        "meaning": "The use of digital tools, resources, and technology platforms to enhance and support teaching and learning processes.",
+        "example": "Educational technology can include online learning platforms, interactive apps, and virtual simulations.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Virtual reality in education",
+        "partOfSpeech": "Phrase",
+        "synonym": "VR in education",
+        "meaning": "The application of virtual reality technology to create immersive and interactive learning experiences for students.",
+        "example": "Virtual reality in education allows students to explore historical sites or scientific concepts in a 3D virtual environment.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Augmented reality in education",
+        "partOfSpeech": "Phrase",
+        "synonym": "AR in education",
+        "meaning": "The use of augmented reality technology to overlay digital content, such as images, videos, or information, onto the real-world learning environment.",
+        "example": "Augmented reality in education can bring interactive elements to textbooks or provide visualizations of complex concepts.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Personalized learning",
+        "partOfSpeech": "Phrase",
+        "synonym": "Individualized learning",
+        "meaning": "An educational approach that tailors instruction, content, and pace to meet the unique learning needs and interests of each student.",
+        "example": "Personalized learning may involve adaptive software that adjusts difficulty levels based on students' performance.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Adaptive learning",
+        "partOfSpeech": "Phrase",
+        "synonym": "Adaptive teaching",
+        "meaning": "A teaching method that uses technology and data to dynamically adjust the learning experience based on individual students' progress and needs.",
+        "example": "Adaptive learning platforms provide tailored exercises and resources to help students improve in areas where they need more practice.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Data-driven instruction",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "An approach to teaching and learning that utilizes data and analysis to inform instructional decisions and strategies.",
+        "example": "Teachers use data-driven instruction to tailor their lessons to the specific needs of their students.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Educational research",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Systematic investigation into educational practices, methods, and outcomes to contribute to the understanding and improvement of education.",
+        "example": "Educational research helps educators refine their teaching techniques and curricula.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Neuroeducation",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The interdisciplinary study that explores the interactions between neuroscience and education to enhance teaching and learning strategies.",
+        "example": "Neuroeducation provides insights into how the brain learns, helping educators design more effective instructional methods.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Cognitive load theory",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "A psychological theory that focuses on the cognitive demands imposed on a person's working memory during learning tasks.",
+        "example": "Cognitive load theory suggests that instructional design should manage cognitive load to optimize learning outcomes.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Schema theory",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "A cognitive theory that explains how prior knowledge and mental frameworks (schemas) influence the process of encoding and retrieving information.",
+        "example": "Schema theory helps us understand how learners organize and assimilate new information based on their existing knowledge structures.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Learning analytics",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The collection, analysis, and interpretation of data related to learning and education to optimize learning experiences and outcomes.",
+        "example": "Learning analytics can identify patterns in student performance and engagement, allowing educators to make informed decisions.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Open educational resources (OER)",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Freely accessible and openly licensed educational materials that can be used for teaching, learning, and research.",
+        "example": "Teachers can utilize open educational resources to provide students with cost-effective and high-quality learning materials.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Blended learning",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "An instructional approach that combines traditional classroom teaching with online and digital learning activities.",
+        "example": "Blended learning offers flexibility and personalized learning experiences by integrating in-person and virtual learning components.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Microcredentials",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Small, focused credentials that validate a person's skills or knowledge in a specific area, often earned through short courses or projects.",
+        "example": "Microcredentials provide learners with opportunities to showcase their expertise in niche subjects or skills.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Competency-based education",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "An educational approach that focuses on mastering specific skills and competencies rather than solely completing courses or time-based requirements.",
+        "example": "Competency-based education ensures that students acquire and demonstrate proficiency in essential skills for real-world application.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 47,
+        "word": "E-learning platforms",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Online platforms that deliver educational content and facilitate learning through digital resources, often offering interactive features.",
+        "example": "E-learning platforms provide a convenient and accessible way for learners to engage with educational materials from anywhere.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Flipped classroom",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "An instructional model where traditional in-class activities, such as lectures, are moved online, and homework and discussions take place in person.",
+        "example": "In a flipped classroom, students watch video lectures at home and engage in collaborative activities during class time.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Mindful learning",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The practice of being fully present and engaged while acquiring new knowledge, skills, and understanding.",
+        "example": "Mindful learning encourages deep understanding and retention of information by fostering focused awareness during the learning process.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Transdisciplinary learning",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "An educational approach that integrates knowledge and methods from multiple disciplines to address complex real-world problems.",
+        "example": "Transdisciplinary learning encourages students to apply insights from various fields to create innovative solutions.",
+        "level": "Advanced",
+        "lessonTitle": "Education and Learning"
+      }
+]
+  
