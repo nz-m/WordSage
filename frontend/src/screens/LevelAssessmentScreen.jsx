@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import colors from "../themes/colors";
+import colors from "../constants/colors";
 import Question from "../components/Question";
 import FinishMessage from "./FinishMessage";
 import { useSelector, useDispatch } from "react-redux";

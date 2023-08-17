@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Education",
+      "partOfSpeech": "Noun",
+      "synonym": "Learning",
+      "meaning": "The process of acquiring knowledge, skills, values, or habits.",
+      "example": "Formal education often takes place in schools or universities.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Learn",
+      "partOfSpeech": "Verb",
+      "synonym": "Acquire",
+      "meaning": "To gain knowledge, understanding, or skills through study, experience, or teaching.",
+      "example": "Children learn various subjects in school.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Study",
+      "partOfSpeech": "Verb",
+      "synonym": "Examine",
+      "meaning": "To engage in learning or acquiring knowledge, often through focused reading or research.",
+      "example": "She likes to study in a quiet environment.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 4,
+      "word": "School",
+      "partOfSpeech": "Noun",
+      "synonym": "Educational institution",
+      "meaning": "An institution where students receive education and instruction.",
+      "example": "He attends a local public school.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Classroom",
+      "partOfSpeech": "Noun",
+      "synonym": "Lecture hall",
+      "meaning": "A room in a school or educational institution where classes are conducted.",
+      "example": "The students gathered in the classroom for the lecture.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Teacher",
+      "partOfSpeech": "Noun",
+      "synonym": "Educator",
+      "meaning": "A person who imparts knowledge, instructs, or guides students in a particular subject or skill.",
+      "example": "The teacher explained the math problem to the students.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Student",
+      "partOfSpeech": "Noun",
+      "synonym": "Learner",
+      "meaning": "A person who is engaged in the process of learning, often within an educational institution.",
+      "example": "The students were excited about their upcoming science project.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Lesson",
+      "partOfSpeech": "Noun",
+      "synonym": "Instruction",
+      "meaning": "A period of teaching or learning, often focused on a specific topic or subject.",
+      "example": "The history lesson covered the events of the American Revolution.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Subject",
+      "partOfSpeech": "Noun",
+      "synonym": "Topic",
+      "meaning": "A particular area of study or knowledge that is taught in schools or educational settings.",
+      "example": "Mathematics is a challenging subject for many students.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Book",
+      "partOfSpeech": "Noun",
+      "synonym": "Volume",
+      "meaning": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers.",
+      "example": "She enjoys reading mystery books in her free time.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Notebook",
+      "partOfSpeech": "Noun",
+      "synonym": "Journal",
+      "meaning": "A book with blank or ruled pages for writing notes or keeping records.",
+      "example": "He jotted down important points in his notebook during the lecture.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 12,
+      "word": "Pen",
+      "partOfSpeech": "Noun",
+      "synonym": "Writing instrument",
+      "meaning": "An instrument used for writing or drawing, typically consisting of a thin cylindrical shaft and a writing point.",
+      "example": "She used a pen to fill out the application form.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+      "wordNumber": 13,
+      "word": "Pencil",
+      "partOfSpeech": "Noun",
+      "synonym": "Drawing implement",
+      "meaning": "A thin cylindrical instrument used for writing, drawing, or marking, consisting of a graphite or colored core encased in wood or other materials.",
+      "example": "He sketched a quick design using a pencil.",
+      "level": "Beginner",
+      "lessonTitle": "Education and Learning"
+    },
+    {
+        "wordNumber": 14,
+        "word": "Eraser",
+        "partOfSpeech": "Noun",
+        "synonym": "Rubber",
+        "meaning": "A tool used to remove pencil marks from paper.",
+        "example": "She used an eraser to correct her mistakes on the test.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Desk",
+        "partOfSpeech": "Noun",
+        "synonym": "Table",
+        "meaning": "A piece of furniture with a flat surface, often used for studying or working.",
+        "example": "He sat at his desk to complete his homework.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Whiteboard",
+        "partOfSpeech": "Noun",
+        "synonym": "Dry-erase board",
+        "meaning": "A smooth, white surface used for writing with dry-erase markers.",
+        "example": "The teacher wrote important notes on the whiteboard.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Chalk",
+        "partOfSpeech": "Noun",
+        "synonym": "Chalkstick",
+        "meaning": "A soft, white stick used for writing on chalkboards.",
+        "example": "The teacher used chalk to write equations on the chalkboard.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Homework",
+        "partOfSpeech": "Noun",
+        "synonym": "Assignment",
+        "meaning": "Tasks or exercises given to students to complete outside of school.",
+        "example": "She spent the evening doing her math homework.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Exam",
+        "partOfSpeech": "Noun",
+        "synonym": "Test",
+        "meaning": "A formal assessment of a student's knowledge or skills.",
+        "example": "He felt nervous before the final exam.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Test",
+        "partOfSpeech": "Noun",
+        "synonym": "Exam",
+        "meaning": "A trial assessment to evaluate a person's understanding of a subject.",
+        "example": "She studied hard for the history test.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Grade",
+        "partOfSpeech": "Noun",
+        "synonym": "Mark",
+        "meaning": "A level of achievement or performance in a subject.",
+        "example": "He received an A grade on his science project.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Report card",
+        "partOfSpeech": "Noun",
+        "synonym": "Progress report",
+        "meaning": "A document that shows a student's academic performance and grades.",
+        "example": "Her report card reflected her hard work throughout the semester.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Project",
+        "partOfSpeech": "Noun",
+        "synonym": "Assignment",
+        "meaning": "A task or assignment that requires planning, research, and creativity.",
+        "example": "The science fair project was a collaborative effort.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Presentation",
+        "partOfSpeech": "Noun",
+        "synonym": "Demonstration",
+        "meaning": "An organized display or talk to convey information to an audience.",
+        "example": "She prepared a PowerPoint presentation for her history class.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Schoolbag",
+        "partOfSpeech": "Noun",
+        "synonym": "Backpack",
+        "meaning": "A bag used to carry books, supplies, and personal items to school.",
+        "example": "He packed his lunch and notebooks in his schoolbag.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Backpack",
+        "partOfSpeech": "Noun",
+        "synonym": "Schoolbag",
+        "meaning": "A bag with shoulder straps, often used to carry belongings.",
+        "example": "She kept her art supplies in her backpack.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Library",
+        "partOfSpeech": "Noun",
+        "synonym": "Bookroom",
+        "meaning": "A place where books and other materials are available for borrowing or reading.",
+        "example": "He spent hours studying at the library.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Read",
+        "partOfSpeech": "Verb",
+        "synonym": "Peruse",
+        "meaning": "To look at and understand the meaning of written or printed words.",
+        "example": "She loves to read books and magazines.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Write",
+        "partOfSpeech": "Verb",
+        "synonym": "Compose",
+        "meaning": "To mark down in writing using a pen or pencil.",
+        "example": "Please write your name on the top of the page.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Listen",
+        "partOfSpeech": "Verb",
+        "synonym": "Hear",
+        "meaning": "To give one's attention to sound and try to hear what is being said or played.",
+        "example": "He likes to listen to music while working.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Speak",
+        "partOfSpeech": "Verb",
+        "synonym": "Talk",
+        "meaning": "To communicate verbally; to utter words.",
+        "example": "She can speak multiple languages fluently.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Question",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Inquiry",
+        "meaning": "A sentence in an interrogative form, addressed to someone in order to get information.",
+        "example": "She asked a question about the upcoming test.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Answer",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Response",
+        "meaning": "A reply to a question, letter, or message.",
+        "example": "He provided a detailed answer to the interviewer's question.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Understand",
+        "partOfSpeech": "Verb",
+        "synonym": "Comprehend",
+        "meaning": "To grasp the meaning of something; to comprehend.",
+        "example": "She took her time to understand the instructions before starting the task.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Practice",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Drill",
+        "meaning": "Repeated exercise or performance of an activity in order to improve or master it.",
+        "example": "Regular practice is essential for improving your skills.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Dictionary",
+        "partOfSpeech": "Noun",
+        "synonym": "Lexicon",
+        "meaning": "A reference book containing words, usually alphabetically arranged, along with information about their meanings and usage.",
+        "example": "He used a dictionary to look up the definition of an unfamiliar word.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Calculator",
+        "partOfSpeech": "Noun",
+        "synonym": "Compute",
+        "meaning": "An electronic device used for mathematical calculations.",
+        "example": "She used a calculator to solve the complex math problem.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 38,
+        "word": "School uniform",
+        "partOfSpeech": "Noun",
+        "synonym": "Dress code",
+        "meaning": "A set of standardized clothing worn by students of a particular school.",
+        "example": "All students are required to wear the school uniform during class hours.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Ruler",
+        "partOfSpeech": "Noun",
+        "synonym": "Measuring stick",
+        "meaning": "A straight strip of material marked at regular intervals, used for measuring or drawing straight lines.",
+        "example": "She used a ruler to draw a straight line on the paper.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Globe",
+        "partOfSpeech": "Noun",
+        "synonym": "Earth",
+        "meaning": "A spherical representation of the Earth's surface, typically showing countries and continents.",
+        "example": "The classroom had a large globe that the students used for geography lessons.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Map",
+        "partOfSpeech": "Noun",
+        "synonym": "Chart",
+        "meaning": "A visual representation of an area, showing features such as roads, cities, and geographical characteristics.",
+        "example": "They used a map to navigate through the unfamiliar city.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Science",
+        "partOfSpeech": "Noun",
+        "synonym": "Knowledge",
+        "meaning": "The systematic study of the natural world through observation and experimentation.",
+        "example": "Biology, chemistry, and physics are different branches of science.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Math",
+        "partOfSpeech": "Noun",
+        "synonym": "Mathematics",
+        "meaning": "The study of numbers, quantities, and shapes, and the relationships between them.",
+        "example": "She enjoys solving challenging math problems.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 44,
+        "word": "History",
+        "partOfSpeech": "Noun",
+        "synonym": "Past",
+        "meaning": "The study of past events, particularly human achievements, experiences, and societies.",
+        "example": "We learned about ancient civilizations in our history class.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Geography",
+        "partOfSpeech": "Noun",
+        "synonym": "Topography",
+        "meaning": "The study of Earth's landscapes, environments, and the relationships between people and their surroundings.",
+        "example": "Geography helps us understand how different regions are interconnected.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Art",
+        "partOfSpeech": "Noun",
+        "synonym": "Creativity",
+        "meaning": "The expression or application of human creative skill and imagination, often in visual forms such as painting, sculpture, and music.",
+        "example": "The art class focused on teaching various painting techniques.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Music",
+        "partOfSpeech": "Noun",
+        "synonym": "Melody",
+        "meaning": "The art of arranging sounds in time to create a melody, rhythm, and harmony.",
+        "example": "She enjoys playing the piano and creating beautiful music.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Physical education",
+        "partOfSpeech": "Noun",
+        "synonym": "PE",
+        "meaning": "A subject in school that focuses on physical fitness, sports, and activities to promote health and well-being.",
+        "example": "In physical education class, students participate in various sports and exercises.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Computer",
+        "partOfSpeech": "Noun",
+        "synonym": "Machine",
+        "meaning": "An electronic device capable of processing data and performing tasks using pre-programmed instructions.",
+        "example": "He uses a computer to browse the internet and complete school assignments.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Internet",
+        "partOfSpeech": "Noun",
+        "synonym": "Web",
+        "meaning": "A global network that connects millions of computers, providing access to information, communication, and online resources.",
+        "example": "The internet allows us to search for information and connect with people around the world.",
+        "level": "Beginner",
+        "lessonTitle": "Education and Learning"
+      }
+]
+  

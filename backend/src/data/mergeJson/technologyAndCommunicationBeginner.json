@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Technology",
+      "partOfSpeech": "Noun",
+      "synonym": "Innovation",
+      "meaning": "The application of scientific knowledge for practical purposes, especially in industry and commerce.",
+      "example": "Advancements in technology have revolutionized various industries.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Communication",
+      "partOfSpeech": "Noun",
+      "synonym": "Interaction",
+      "meaning": "The exchange of information, thoughts, ideas, or feelings through speech, writing, or other mediums.",
+      "example": "Effective communication is essential for building strong relationships.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Device",
+      "partOfSpeech": "Noun",
+      "synonym": "Gadget",
+      "meaning": "A tool or instrument designed to perform a specific task or function.",
+      "example": "Smartphones are versatile devices that can perform various functions.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Computer",
+      "partOfSpeech": "Noun",
+      "synonym": "PC (Personal Computer)",
+      "meaning": "An electronic device capable of processing and storing data, performing calculations, and carrying out various tasks.",
+      "example": "I use a computer for both work and entertainment purposes.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Laptop",
+      "partOfSpeech": "Noun",
+      "synonym": "Notebook",
+      "meaning": "A portable computer that can be used on a person's lap, designed for mobility and convenience.",
+      "example": "I prefer using a laptop for working while traveling.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Tablet",
+      "partOfSpeech": "Noun",
+      "synonym": "Pad",
+      "meaning": "A flat, portable device with a touchscreen interface, typically used for browsing the internet, reading, and entertainment.",
+      "example": "Tablets are popular for reading e-books and playing games.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Smartphone",
+      "partOfSpeech": "Noun",
+      "synonym": "Mobile phone",
+      "meaning": "A mobile device that combines the functions of a cell phone with those of a computer, typically offering internet access, apps, and more.",
+      "example": "My smartphone helps me stay connected and organized throughout the day.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 8,
+      "word": "App",
+      "partOfSpeech": "Noun",
+      "synonym": "Application",
+      "meaning": "A software program designed to perform specific tasks or provide entertainment on a computer or mobile device.",
+      "example": "I use a weather app to check the forecast before planning outdoor activities.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Website",
+      "partOfSpeech": "Noun",
+      "synonym": "Webpage",
+      "meaning": "A collection of interconnected web pages hosted on a single domain, accessible through the internet.",
+      "example": "I found a recipe for a delicious cake on a cooking website.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Internet",
+      "partOfSpeech": "Noun",
+      "synonym": "Web",
+      "meaning": "A global network of interconnected computers and servers that allows the sharing of information and resources.",
+      "example": "The internet has transformed the way we access and share information.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Email",
+      "partOfSpeech": "Noun",
+      "synonym": "Electronic mail",
+      "meaning": "A method of exchanging digital messages over the internet, typically between individuals or groups.",
+      "example": "I sent an email to my colleague to discuss the upcoming project.",
+      "level": "Beginner",
+      "lessonTitle": "Technology and Communication"
+    },
+    {
+        "wordNumber": 12,
+        "word": "Social media",
+        "partOfSpeech": "Noun",
+        "synonym": "Online networking",
+        "meaning": "Websites and applications that enable users to create and share content, as well as participate in social networking.",
+        "example": "Many people use social media platforms like Facebook, Instagram, and Twitter to connect with friends and share updates.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 13,
+        "word": "Chat",
+        "partOfSpeech": "Noun/Verb",
+        "synonym": "Conversation",
+        "meaning": "A written or spoken conversation between two or more people; to engage in such a conversation.",
+        "example": "I had a nice chat with my friend online.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 14,
+        "word": "Message",
+        "partOfSpeech": "Noun/Verb",
+        "synonym": "Communication",
+        "meaning": "A piece of information sent or received; to send or receive information using words or other methods.",
+        "example": "I received a text message from my colleague.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Text",
+        "partOfSpeech": "Noun/Verb",
+        "synonym": "Written message",
+        "meaning": "Written words or symbols; to send a written message.",
+        "example": "She sent me a text asking about our meeting.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Call",
+        "partOfSpeech": "Noun/Verb",
+        "synonym": "Phone call",
+        "meaning": "A telephone conversation; to make or receive a telephone conversation.",
+        "example": "I'll give you a call later to discuss the details.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Video call",
+        "partOfSpeech": "Noun/Verb",
+        "synonym": "Video chat",
+        "meaning": "A communication method that allows people to see and hear each other in real-time using video and audio technology.",
+        "example": "We had a video call with our relatives who live abroad.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Camera",
+        "partOfSpeech": "Noun",
+        "synonym": "Photographic device",
+        "meaning": "A device used to capture or record images and videos.",
+        "example": "He used his camera to take stunning photos during the vacation.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Selfie",
+        "partOfSpeech": "Noun",
+        "synonym": "Self-portrait",
+        "meaning": "A photograph that one takes of oneself, typically with a smartphone or webcam.",
+        "example": "She snapped a quick selfie while waiting for the bus.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Wi-Fi",
+        "partOfSpeech": "Noun",
+        "synonym": "Wireless network",
+        "meaning": "A technology that allows devices to connect to the internet without using physical cables.",
+        "example": "I connected my laptop to the Wi-Fi network to browse the web.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Password",
+        "partOfSpeech": "Noun",
+        "synonym": "Passcode",
+        "meaning": "A secret combination of letters, numbers, or symbols used to access a computer system or an online account.",
+        "example": "Make sure to choose a strong password to protect your online accounts.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Username",
+        "partOfSpeech": "Noun",
+        "synonym": "User ID",
+        "meaning": "A unique name used to identify oneself on a computer system or online platform.",
+        "example": "I couldn't log in because I forgot my username.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Search",
+        "partOfSpeech": "Verb/Noun",
+        "synonym": "Look up",
+        "meaning": "To seek or examine information, data, or answers using a computer or other means; the act of seeking information.",
+        "example": "I need to search for a recipe for tonight's dinner.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Browser",
+        "partOfSpeech": "Noun",
+        "synonym": "Web browser",
+        "meaning": "A software application used to access and view websites on the internet.",
+        "example": "I opened my browser to read the latest news.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Download",
+        "partOfSpeech": "Verb",
+        "synonym": "Retrieve",
+        "meaning": "To transfer data or files from a remote computer or server to a local device.",
+        "example": "I need to download the software to my computer before I can use it.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Upload",
+        "partOfSpeech": "Verb",
+        "synonym": "Transfer",
+        "meaning": "To send or transfer data or files from a local device to a remote computer or server.",
+        "example": "You can upload your photos to the cloud for safekeeping.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Link",
+        "partOfSpeech": "Noun/Verb",
+        "synonym": "Connection",
+        "meaning": "A reference or connection between two separate pieces of information or resources.",
+        "example": "The link provided in the email led me to an interesting article.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Icon",
+        "partOfSpeech": "Noun",
+        "synonym": "Symbol",
+        "meaning": "A small graphical representation or symbol that represents a program, file, or function.",
+        "example": "Click on the camera icon to open the photo app.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Keyboard",
+        "partOfSpeech": "Noun",
+        "synonym": "Keypad",
+        "meaning": "A set of keys or buttons used to input characters or commands into a computer or device.",
+        "example": "She typed a message on the keyboard and hit the 'Enter' key.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Mouse",
+        "partOfSpeech": "Noun",
+        "synonym": "Pointing device",
+        "meaning": "A hand-held device used to control the movement of the cursor on a computer screen.",
+        "example": "Move the mouse to select different options on the screen.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Click",
+        "partOfSpeech": "Verb/Noun",
+        "synonym": "Select",
+        "meaning": "To press a button on a mouse or other pointing device to interact with an on-screen element.",
+        "example": "Click on the link to open the webpage.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Screen",
+        "partOfSpeech": "Noun",
+        "synonym": "Display",
+        "meaning": "The surface on which visual information is displayed, such as a computer monitor or smartphone display.",
+        "example": "The movie is playing on the big screen in the theater.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Display",
+        "partOfSpeech": "Noun/Verb",
+        "synonym": "Show",
+        "meaning": "To show or exhibit information or images on a screen or other visual medium.",
+        "example": "The museum had an impressive display of ancient artifacts.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 34,
+        "word": "App store",
+        "partOfSpeech": "Noun",
+        "synonym": "Application marketplace",
+        "meaning": "An online platform where users can browse, download, and install various software applications for their devices.",
+        "example": "I found a useful productivity app in the app store.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Software",
+        "partOfSpeech": "Noun",
+        "synonym": "Program",
+        "meaning": "Computer programs or applications that provide specific functions or tasks when executed on a device.",
+        "example": "I use graphic design software to create digital artwork.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Hardware",
+        "partOfSpeech": "Noun",
+        "synonym": "Equipment",
+        "meaning": "The physical components of a computer or electronic device, such as the processor, memory, and peripherals.",
+        "example": "Upgrading the hardware of my computer improved its performance.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Operating system",
+        "partOfSpeech": "Noun",
+        "synonym": "OS",
+        "meaning": "The software that manages computer hardware and provides services for other software applications.",
+        "example": "Windows and macOS are examples of operating systems.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Notification",
+        "partOfSpeech": "Noun",
+        "synonym": "Alert",
+        "meaning": "A message or signal that informs or updates a user about an event or activity.",
+        "example": "I received a notification on my phone about the upcoming meeting.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Settings",
+        "partOfSpeech": "Noun",
+        "synonym": "Configuration",
+        "meaning": "Options or preferences that allow customization of a device, application, or system.",
+        "example": "You can adjust the display settings to make the screen brighter.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Privacy",
+        "partOfSpeech": "Noun",
+        "synonym": "Confidentiality",
+        "meaning": "The state of being free from unauthorized access or intrusion into personal information.",
+        "example": "I value my privacy and ensure that my online accounts have strong passwords.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Security",
+        "partOfSpeech": "Noun",
+        "synonym": "Safety",
+        "meaning": "Measures taken to protect against threats, risks, or unauthorized access.",
+        "example": "The company invested in robust security measures to prevent data breaches.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Virus",
+        "partOfSpeech": "Noun",
+        "synonym": "Malware",
+        "meaning": "A malicious software program that can replicate itself and spread to other computers or devices.",
+        "example": "I scanned my computer for viruses using antivirus software.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Malware",
+        "partOfSpeech": "Noun",
+        "synonym": "Malicious Software",
+        "meaning": "Software designed to harm, exploit, or gain unauthorized access to computer systems.",
+        "example": "He accidentally downloaded malware while clicking on a suspicious link.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Backup",
+        "partOfSpeech": "Noun",
+        "synonym": "Copy",
+        "meaning": "A duplicate copy of data or files created as a precaution against data loss.",
+        "example": "I regularly create a backup of my important files on an external hard drive.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Cloud",
+        "partOfSpeech": "Noun",
+        "synonym": "Online Storage",
+        "meaning": "A network of remote servers used for storing and managing data over the internet.",
+        "example": "I uploaded my photos to the cloud to free up space on my phone.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Online",
+        "partOfSpeech": "Adjective",
+        "synonym": "Internet-based",
+        "meaning": "Connected to or available through the internet.",
+        "example": "I enjoy shopping online for convenience and a wide selection of products.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Offline",
+        "partOfSpeech": "Adjective",
+        "synonym": "Disconnected",
+        "meaning": "Not connected to the internet or a network.",
+        "example": "I prefer to work offline when I need to focus on writing.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Digital",
+        "partOfSpeech": "Adjective",
+        "synonym": "Electronic",
+        "meaning": "Relating to or using technology that involves the use of computerized or electronic signals.",
+        "example": "We live in a digital age where most of our communication is done through screens.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Tech support",
+        "partOfSpeech": "Noun",
+        "synonym": "Technical assistance",
+        "meaning": "Help or guidance provided to users experiencing technical issues with devices, software, or systems.",
+        "example": "I called tech support when my computer was not connecting to the internet.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Upgrade",
+        "partOfSpeech": "Verb",
+        "synonym": "Improve",
+        "meaning": "To replace or enhance a device, software, or system with a newer or better version.",
+        "example": "I decided to upgrade my phone to get access to new features and improved performance.",
+        "level": "Beginner",
+        "lessonTitle": "Technology and Communication"
+      }
+]
+  

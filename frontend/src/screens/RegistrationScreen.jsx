@@ -11,7 +11,7 @@ import {
   Modal,
   Pressable,
 } from "react-native";
-import colors from "../themes/colors";
+import colors from "../constants/colors";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
 import { registerUser } from "../features/auth/authThunks";

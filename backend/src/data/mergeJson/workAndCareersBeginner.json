@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Job",
+      "partOfSpeech": "Noun",
+      "synonym": "Occupation",
+      "meaning": "A paid position of regular employment.",
+      "example": "He found a job as a software developer.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Career",
+      "partOfSpeech": "Noun",
+      "synonym": "Profession",
+      "meaning": "An occupation undertaken for a significant period of a person's life and with opportunities for progress.",
+      "example": "She built a successful career in marketing.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Work",
+      "partOfSpeech": "Noun",
+      "synonym": "Labor",
+      "meaning": "Activity involving mental or physical effort done in order to achieve a purpose or result.",
+      "example": "His work involves designing websites.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Employee",
+      "partOfSpeech": "Noun",
+      "synonym": "Worker",
+      "meaning": "A person employed for wages or salary, especially at a non-executive level.",
+      "example": "The company hired several new employees this year.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Employer",
+      "partOfSpeech": "Noun",
+      "synonym": "Boss",
+      "meaning": "A person or organization that employs people.",
+      "example": "The employer provides health insurance benefits.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Office",
+      "partOfSpeech": "Noun",
+      "synonym": "Workplace",
+      "meaning": "A place where administrative, clerical, or professional work is conducted.",
+      "example": "She works in a modern office building downtown.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Company",
+      "partOfSpeech": "Noun",
+      "synonym": "Firm",
+      "meaning": "A commercial business.",
+      "example": "The company specializes in software development.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Boss",
+      "partOfSpeech": "Noun",
+      "synonym": "Supervisor",
+      "meaning": "A person in charge of a worker or organization.",
+      "example": "Her boss praised her for completing the project on time.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Colleague",
+      "partOfSpeech": "Noun",
+      "synonym": "Co-worker",
+      "meaning": "A person with whom one works, typically in a profession or business.",
+      "example": "She collaborated with her colleagues on the research project.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Team",
+      "partOfSpeech": "Noun",
+      "synonym": "Group",
+      "meaning": "A group of people with different skills and tasks who work together to achieve a common goal.",
+      "example": "The development team created a new software application.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Meeting",
+      "partOfSpeech": "Noun",
+      "synonym": "Gathering",
+      "meaning": "An organized event where people come together to discuss or work on a specific topic or issue.",
+      "example": "The team had a meeting to discuss the project's progress.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 12,
+      "word": "Project",
+      "partOfSpeech": "Noun",
+      "synonym": "Assignment",
+      "meaning": "A planned piece of work that has a specific goal and usually involves a series of tasks.",
+      "example": "She managed a marketing project to launch a new product.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+      "wordNumber": 13,
+      "word": "Task",
+      "partOfSpeech": "Noun",
+      "synonym": "Assignment",
+      "meaning": "A piece of work that needs to be done.",
+      "example": "He completed the assigned tasks before the deadline.",
+      "level": "Beginner",
+      "lessonTitle": "Work and Careers"
+    },
+    {
+        "wordNumber": 14,
+        "word": "Deadline",
+        "partOfSpeech": "Noun",
+        "synonym": "Due date",
+        "meaning": "The time or date by which something must be completed.",
+        "example": "The deadline for submitting the project is next Friday.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Paycheck",
+        "partOfSpeech": "Noun",
+        "synonym": "Salary payment",
+        "meaning": "A check or electronic transfer for the amount of money an employee has earned.",
+        "example": "I received my paycheck at the end of the month.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Salary",
+        "partOfSpeech": "Noun",
+        "synonym": "Earnings",
+        "meaning": "A fixed regular payment, typically paid monthly, to an employee for their work.",
+        "example": "She earns a good salary working as a software engineer.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Wage",
+        "partOfSpeech": "Noun",
+        "synonym": "Hourly pay",
+        "meaning": "A fixed regular payment, often hourly, for work performed.",
+        "example": "The minimum wage in this region is $15 per hour.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Promotion",
+        "partOfSpeech": "Noun",
+        "synonym": "Advancement",
+        "meaning": "The act of being raised to a higher position or rank within an organization.",
+        "example": "After years of hard work, she finally received a promotion to manager.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Interview",
+        "partOfSpeech": "Noun",
+        "synonym": "Job interview",
+        "meaning": "A formal meeting where a candidate is assessed for a job position.",
+        "example": "He prepared thoroughly for the job interview by researching the company.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Resume",
+        "partOfSpeech": "Noun",
+        "synonym": "CV (Curriculum Vitae)",
+        "meaning": "A document containing a person's education, work experience, skills, and achievements, typically used for job applications.",
+        "example": "She sent her resume along with the job application.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Cover letter",
+        "partOfSpeech": "Noun",
+        "synonym": "Application letter",
+        "meaning": "A letter sent along with a resume, providing additional information about the applicant's qualifications and interest in the job.",
+        "example": "He wrote a personalized cover letter to accompany his job application.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Application",
+        "partOfSpeech": "Noun",
+        "synonym": "Job application",
+        "meaning": "A formal request for employment submitted to an employer.",
+        "example": "She filled out the job application form and submitted it online.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Skills",
+        "partOfSpeech": "Noun",
+        "synonym": "Abilities",
+        "meaning": "Proficiency or expertise in a particular area, gained through training or experience.",
+        "example": "His technical skills are highly valued in the IT industry.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Qualifications",
+        "partOfSpeech": "Noun",
+        "synonym": "Credentials",
+        "meaning": "Official records or documents indicating a person's ability, knowledge, and suitability for a particular job or position.",
+        "example": "She met all the qualifications listed in the job posting.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Experience",
+        "partOfSpeech": "Noun",
+        "synonym": "Work history",
+        "meaning": "The knowledge and skills acquired from participating in various activities, especially in a work setting.",
+        "example": "Her years of experience as a project manager made her a strong candidate for the leadership role.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Training",
+        "partOfSpeech": "Noun",
+        "synonym": "Instruction",
+        "meaning": "The process of teaching or learning a skill or profession.",
+        "example": "The company provides ongoing training to improve employees' job-related skills.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Internship",
+        "partOfSpeech": "Noun",
+        "synonym": "Traineeship",
+        "meaning": "A temporary position that provides practical work experience, often for students or recent graduates.",
+        "example": "She completed a summer internship at a marketing agency to gain real-world experience.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Volunteer",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Unpaid worker",
+        "meaning": "A person who offers to do something without being paid, often for a charitable or community organization.",
+        "example": "She decided to volunteer at the local animal shelter.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Full-time",
+        "partOfSpeech": "Adjective",
+        "synonym": "Permanent, Regular",
+        "meaning": "Refers to a job or employment status where an individual works the complete number of hours considered standard for a specific job.",
+        "example": "He works a full-time job at the company headquarters.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Part-time",
+        "partOfSpeech": "Adjective",
+        "synonym": "Partial, Half-time",
+        "meaning": "Relates to a job or employment status where an individual works fewer hours than a full-time employee.",
+        "example": "She's studying and works part-time as a barista.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Temporary",
+        "partOfSpeech": "Adjective",
+        "synonym": "Short-term, Interim",
+        "meaning": "Lasting for a limited time, not permanent.",
+        "example": "They hired a temporary assistant to cover for the regular employee on leave.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Permanent",
+        "partOfSpeech": "Adjective",
+        "synonym": "Full-time, Indefinite",
+        "meaning": "Existing or intended to exist indefinitely; not temporary.",
+        "example": "After the probation period, she was offered a permanent position in the company.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Shift",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Work period, Rotation",
+        "meaning": "A period of time during which a person works, especially as part of a roster.",
+        "example": "He works the night shift at the hospital.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Overtime",
+        "partOfSpeech": "Noun / Adverb",
+        "synonym": "Extra hours, Additional time",
+        "meaning": "Time worked beyond the regular working hours, often entailing additional pay.",
+        "example": "She earned extra money by doing overtime during the busy season.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Contract",
+        "partOfSpeech": "Noun / Verb",
+        "synonym": "Agreement, Pact",
+        "meaning": "A legally binding agreement between parties, often outlining terms of employment or services.",
+        "example": "He signed a contract to work for the company for a year.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Remote work",
+        "partOfSpeech": "Noun",
+        "synonym": "Telecommuting, Virtual work",
+        "meaning": "Working from a location outside of the office, often facilitated by technology and communication tools.",
+        "example": "Many employees enjoy the flexibility of remote work.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Collaboration",
+        "partOfSpeech": "Noun",
+        "synonym": "Cooperation, Partnership",
+        "meaning": "The act of working together with others to achieve a common goal.",
+        "example": "Effective collaboration among team members led to the project's success.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Communication",
+        "partOfSpeech": "Noun",
+        "synonym": "Conveying, Sharing",
+        "meaning": "The exchange of information, ideas, or thoughts between individuals or groups.",
+        "example": "Clear communication is essential for a productive work environment.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Problem-solving",
+        "partOfSpeech": "Noun / Adjective",
+        "synonym": "Troubleshooting, Solution-finding",
+        "meaning": "The process of finding solutions to challenges or obstacles.",
+        "example": "Her strong problem-solving skills helped the team overcome technical issues.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Time management",
+        "partOfSpeech": "Noun",
+        "synonym": "Scheduling, Organizing",
+        "meaning": "The ability to plan and use time effectively to accomplish tasks and goals.",
+        "example": "Improving time management can lead to increased productivity and reduced stress.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Leadership",
+        "partOfSpeech": "Noun",
+        "synonym": "Guidance",
+        "meaning": "The ability to guide, direct, and inspire a group of people to achieve a common goal.",
+        "example": "His leadership skills were evident as he led the team to success.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Creativity",
+        "partOfSpeech": "Noun",
+        "synonym": "Imagination",
+        "meaning": "The use of original ideas to create something new or inventive.",
+        "example": "Her creativity shone through in her innovative approach to problem-solving.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Innovation",
+        "partOfSpeech": "Noun",
+        "synonym": "Novelty",
+        "meaning": "The introduction of new ideas, methods, or products to bring about positive change.",
+        "example": "The company's culture of innovation led to the development of groundbreaking technologies.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Multitasking",
+        "partOfSpeech": "Noun",
+        "synonym": "Task-switching",
+        "meaning": "The ability to perform multiple tasks or activities simultaneously.",
+        "example": "Her multitasking skills allowed her to handle several projects at once.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Office supplies",
+        "partOfSpeech": "Noun",
+        "synonym": "Stationery",
+        "meaning": "Various materials and equipment used in an office environment, such as pens, paper, and folders.",
+        "example": "She ordered new office supplies to ensure everyone had the necessary tools for their work.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Workspace",
+        "partOfSpeech": "Noun",
+        "synonym": "Work area",
+        "meaning": "The physical area where a person works, often equipped with tools and resources.",
+        "example": "He organized his workspace to create an efficient and comfortable environment.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Desk",
+        "partOfSpeech": "Noun",
+        "synonym": "Work surface",
+        "meaning": "A piece of furniture with a flat surface, typically used for working or writing.",
+        "example": "She kept her computer and notes neatly arranged on her desk.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Computer",
+        "partOfSpeech": "Noun",
+        "synonym": "PC (Personal Computer)",
+        "meaning": "An electronic device capable of processing data and performing various tasks according to programmed instructions.",
+        "example": "He used his computer to create presentations and communicate with colleagues.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Phone",
+        "partOfSpeech": "Noun",
+        "synonym": "Telephone",
+        "meaning": "A device used for voice communication over long distances.",
+        "example": "She answered the phone to discuss a potential business opportunity.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Email",
+        "partOfSpeech": "Noun",
+        "synonym": "Electronic mail",
+        "meaning": "A digital method of exchanging messages between people using electronic devices.",
+        "example": "He sent an email to his colleagues to update them on the project's progress.",
+        "level": "Beginner",
+        "lessonTitle": "Work and Careers"
+      }
+]
+  

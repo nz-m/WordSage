@@ -39,11 +39,12 @@ export const registerUser = createAsyncThunk(
   }
 );
 
-export const logoutUser = createAsyncThunk(
-  "auth/logout",
+export const clearAsyncStorage = createAsyncThunk(
+  "auth/clearAsyncStorage",
   async (_, thunkAPI) => {
     try {
       await removeAuthToken();
+      await storeUserInfo();
     } catch (error) {
       return thunkAPI.rejectWithValue(error.response.data);
     }

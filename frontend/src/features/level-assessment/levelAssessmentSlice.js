@@ -13,7 +13,9 @@ const initialState = {
 const levelAssessmentSlice = createSlice({
   name: "levelAssessment",
   initialState,
-  reducers: {},
+  reducers: {
+    resetLevelAssessmentState: (state) => initialState,
+  },
 
   extraReducers: (builder) => {
     builder
@@ -47,4 +49,5 @@ const levelAssessmentSlice = createSlice({
   },
 });
 
+export const { resetLevelAssessmentState } = levelAssessmentSlice.actions;
 export default levelAssessmentSlice.reducer;

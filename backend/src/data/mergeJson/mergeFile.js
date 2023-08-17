@@ -6,7 +6,6 @@ const outputFilePath = './merged_output.json';
 
 const mergedArray = [];
 
-// Read JSON files from the input folder
 fs.readdir(inputFolderPath, (err, files) => {
   if (err) {
     console.error('Error reading folder:', err);
@@ -26,7 +25,6 @@ fs.readdir(inputFolderPath, (err, files) => {
     }
   });
 
-  // Write merged data to the output file
   fs.writeFile(
     outputFilePath,
     JSON.stringify(mergedArray, null, 2),

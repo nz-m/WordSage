@@ -1,6 +1,6 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
-import colors from "../themes/colors";
+import colors from "../constants/colors";
 
 const Question = ({ question, selectedAnswer, setSelectedAnswer }) => {
   return (
@@ -11,9 +11,7 @@ const Question = ({ question, selectedAnswer, setSelectedAnswer }) => {
           key={option.id}
           style={[
             styles.optionButton,
-            selectedAnswer === option.id
-              ? { backgroundColor: "#fca311" }
-              : {},
+            selectedAnswer === option.id ? { backgroundColor: "#fca311" } : {},
           ]}
           onPress={() => setSelectedAnswer(option.id)}
         >

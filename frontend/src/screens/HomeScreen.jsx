@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import Screen from "../components/Screen";
 import { Ionicons } from "@expo/vector-icons";
-import colors from "../themes/colors";
+import colors from "../constants/colors";
 import { useSelector } from "react-redux";
 import LoadingScreen from "./LoadingScreen";
 const HomeScreen = () => {

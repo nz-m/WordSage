@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Integrative medicine",
+      "partOfSpeech": "Noun",
+      "synonym": "Holistic medicine",
+      "meaning": "A medical approach that combines conventional medicine with complementary therapies to treat the whole person.",
+      "example": "The clinic offers integrative medicine treatments, including acupuncture and nutritional counseling.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Mind-body medicine",
+      "partOfSpeech": "Noun",
+      "synonym": "Psychoneuroimmunology",
+      "meaning": "An approach that considers the interactions between the mind, body, and behavior in relation to health and disease.",
+      "example": "Mind-body medicine techniques include meditation, yoga, and guided imagery.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Psychosomatic",
+      "partOfSpeech": "Adjective",
+      "synonym": "Somatic",
+      "meaning": "Relating to or involving the interaction of the mind and body; having physical symptoms caused by mental or emotional factors.",
+      "example": "Her doctor explained that the chest pain might be psychosomatic in nature, originating from stress.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Neuroplasticity",
+      "partOfSpeech": "Noun",
+      "synonym": "Brain plasticity",
+      "meaning": "The brain's ability to reorganize and form new neural connections throughout life, especially in response to learning, experience, and recovery from injury.",
+      "example": "Neuroplasticity plays a key role in rehabilitation after a stroke.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Epigenetics",
+      "partOfSpeech": "Noun",
+      "synonym": "Genetic regulation",
+      "meaning": "The study of changes in gene expression that do not involve alterations to the DNA sequence, often influenced by environmental factors.",
+      "example": "Epigenetics has shown how certain lifestyle choices can affect gene expression.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Functional medicine",
+      "partOfSpeech": "Noun",
+      "synonym": "Integrative medicine",
+      "meaning": "A personalized, systems-oriented approach to healthcare that focuses on identifying and addressing the root causes of illness.",
+      "example": "Functional medicine seeks to treat the underlying causes of chronic conditions.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Metabolic health",
+      "partOfSpeech": "Noun",
+      "synonym": "Metabolic wellness",
+      "meaning": "The state of well-being in which the body's metabolic processes are functioning optimally.",
+      "example": "Regular exercise and a balanced diet contribute to good metabolic health.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Biomechanics",
+      "partOfSpeech": "Noun",
+      "synonym": "Mechanobiology",
+      "meaning": "The study of the mechanics of living organisms and how physical forces affect biological structures and functions.",
+      "example": "Biomechanics helps analyze human movement and design ergonomic products.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Biohacking",
+      "partOfSpeech": "Noun",
+      "synonym": "DIY biology",
+      "meaning": "The practice of making changes to one's lifestyle, diet, or body in order to improve physical and mental performance, often using technology and self-experimentation.",
+      "example": "He's been experimenting with different diets and wearables as part of his biohacking journey.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Quantified self",
+      "partOfSpeech": "Noun",
+      "synonym": "Self-tracking",
+      "meaning": "The trend of individuals using technology to monitor and collect data about various aspects of their daily life, such as health, fitness, and productivity.",
+      "example": "She uses various apps and devices to practice the concept of quantified self.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Neurofeedback",
+      "partOfSpeech": "Noun",
+      "synonym": "EEG biofeedback",
+      "meaning": "A technique that involves real-time monitoring of brain activity and providing feedback to help individuals learn to regulate their brain function.",
+      "example": "Neurofeedback has been explored as a treatment for attention disorders.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 12,
+      "word": "Cognitive-behavioral therapy",
+      "partOfSpeech": "Noun",
+      "synonym": "CBT",
+      "meaning": "A psychotherapeutic approach that aims to change patterns of thinking and behavior that contribute to mental health issues.",
+      "example": "She found relief from her anxiety through cognitive-behavioral therapy sessions.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+      "wordNumber": 13,
+      "word": "Psychotherapy",
+      "partOfSpeech": "Noun",
+      "synonym": "Talk therapy",
+      "meaning": "The use of verbal communication between a trained therapist and a client to address emotional and psychological issues.",
+      "example": "Psychotherapy can help individuals develop coping strategies and improve their mental well-being.",
+      "level": "Advanced",
+      "lessonTitle": "Health and Wellness"
+    },
+    {
+        "wordNumber": 14,
+        "word": "Hypnotherapy",
+        "partOfSpeech": "Noun",
+        "synonym": "Hypnosis",
+        "meaning": "A therapeutic technique that uses guided relaxation, focused attention, and deep concentration to achieve a heightened state of awareness.",
+        "example": "Hypnotherapy is often used to treat various psychological and behavioral issues.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 15,
+        "word": "EMDR therapy",
+        "partOfSpeech": "Noun",
+        "synonym": "Eye Movement Desensitization and Reprocessing therapy",
+        "meaning": "A psychotherapy approach designed to alleviate the distress associated with traumatic memories. It involves bilateral stimulation of the brain to help process traumatic experiences.",
+        "example": "EMDR therapy has been effective in treating post-traumatic stress disorder (PTSD).",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Mindfulness-based stress reduction",
+        "partOfSpeech": "Noun",
+        "synonym": "MBSR",
+        "meaning": "A structured program that incorporates mindfulness meditation to help individuals manage stress, anxiety, and pain.",
+        "example": "Participating in mindfulness-based stress reduction can lead to improved well-being and emotional balance.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Transcendental meditation",
+        "partOfSpeech": "Noun",
+        "synonym": "TM",
+        "meaning": "A technique in which a person sits with their eyes closed and silently repeats a specific mantra to promote deep relaxation and reduce stress.",
+        "example": "Practicing transcendental meditation regularly has been associated with increased clarity of mind and reduced anxiety.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Neuro-linguistic programming",
+        "partOfSpeech": "Noun",
+        "synonym": "NLP",
+        "meaning": "An approach that focuses on the connection between neurological processes, language, and behavioral patterns, aiming to influence positive changes in individuals.",
+        "example": "Neuro-linguistic programming techniques are often used for personal development and improved communication skills.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Positive psychology",
+        "partOfSpeech": "Noun",
+        "synonym": "Optimistic psychology",
+        "meaning": "The study of factors that contribute to a fulfilling and meaningful life, emphasizing strengths, virtues, and factors that promote well-being.",
+        "example": "Positive psychology interventions can help individuals cultivate a more positive outlook and improve their overall mental health.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Emotional regulation",
+        "partOfSpeech": "Noun",
+        "synonym": "Emotion management",
+        "meaning": "The ability to recognize, understand, and effectively manage one's own emotions as well as the emotions of others.",
+        "example": "Emotional regulation is a key skill for maintaining healthy relationships and coping with stress.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Resilience training",
+        "partOfSpeech": "Noun",
+        "synonym": "Adversity training",
+        "meaning": "A program or approach designed to enhance an individual's ability to bounce back from setbacks, adversity, and stressors.",
+        "example": "Participating in resilience training can help individuals develop psychological strength and adaptability.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 22,
+        "word": "High-intensity interval training (HIIT)",
+        "partOfSpeech": "Noun",
+        "synonym": "HIIT",
+        "meaning": "A workout strategy that alternates between intense bursts of exercise and short periods of rest or lower-intensity activity.",
+        "example": "High-intensity interval training is known for its efficiency in improving cardiovascular fitness and burning calories.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Crossfit",
+        "partOfSpeech": "Noun",
+        "synonym": "Crossfit training",
+        "meaning": "A high-intensity fitness regimen that combines elements from various disciplines, aiming to improve overall physical fitness and performance.",
+        "example": "Crossfit workouts often include functional movements and can be tailored to individual fitness levels.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Tabata",
+        "partOfSpeech": "Noun",
+        "synonym": "Tabata method",
+        "meaning": "A form of high-intensity interval training (HIIT) that follows a specific protocol: 20 seconds of intense exercise followed by 10 seconds of rest, repeated for several rounds.",
+        "example": "Tabata training can provide significant cardiovascular and metabolic benefits in a short amount of time.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 25,
+        "word": "VO2 max",
+        "partOfSpeech": "Noun",
+        "synonym": "Maximum oxygen uptake",
+        "meaning": "The maximum amount of oxygen that an individual's body can utilize during intense exercise, often used as an indicator of cardiovascular fitness.",
+        "example": "A higher VO2 max is generally associated with better aerobic endurance and overall physical performance.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Isometric exercises",
+        "partOfSpeech": "Noun",
+        "synonym": "Isometrics",
+        "meaning": "Muscle-strengthening exercises in which the muscles contract without significant movement of the joints, helping to improve strength and endurance.",
+        "example": "Planks and wall sits are common examples of isometric exercises that target core and lower body muscles.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Orthomolecular nutrition",
+        "partOfSpeech": "Noun",
+        "synonym": "Orthomolecular therapy",
+        "meaning": "An approach to nutrition that involves using optimal levels of vitamins, minerals, and other nutrients to maintain good health and treat various medical conditions.",
+        "example": "Orthomolecular nutrition focuses on individualized nutrient therapy to promote overall well-being.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Fasting protocols",
+        "partOfSpeech": "Noun",
+        "synonym": "Fasting regimens",
+        "meaning": "Specific plans or schedules followed during fasting, indicating when and how to abstain from food.",
+        "example": "There are various fasting protocols, such as the 16/8 method and the 5:2 diet.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Ketogenic diet",
+        "partOfSpeech": "Noun",
+        "synonym": "Keto diet",
+        "meaning": "A high-fat, low-carbohydrate diet that aims to promote ketosis, a metabolic state where the body burns fat for energy.",
+        "example": "Many people follow a ketogenic diet to support weight loss and improve insulin sensitivity.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Plant-based diet",
+        "partOfSpeech": "Noun",
+        "synonym": "Vegetarian diet",
+        "meaning": "A diet primarily focused on consuming plant-derived foods, excluding or minimizing animal products.",
+        "example": "Switching to a plant-based diet can have positive effects on heart health and the environment.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Intermittent fasting",
+        "partOfSpeech": "Noun",
+        "synonym": "IF",
+        "meaning": "Cycling between periods of eating and fasting, often with the goal of improving health and weight management.",
+        "example": "Intermittent fasting has gained popularity as a method to control calorie intake and support metabolic health.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Autophagy",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The body's natural process of breaking down and recycling damaged or dysfunctional cells to maintain cellular health.",
+        "example": "Fasting and exercise are known to stimulate autophagy, contributing to cellular rejuvenation.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Telomeres",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The protective caps at the ends of chromosomes that shorten over time and are associated with aging and age-related diseases.",
+        "example": "Preserving telomere length may play a role in extending lifespan and delaying age-related health issues.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Mitochondrial health",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The state of well-being and optimal functioning of mitochondria, which are the energy-producing organelles in cells.",
+        "example": "Lifestyle factors like exercise and a balanced diet contribute to maintaining good mitochondrial health.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Microbiome",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The collection of microorganisms, including bacteria, viruses, and fungi, that inhabit a particular environment in the body, such as the gut.",
+        "example": "A diverse and balanced microbiome is linked to digestive health and a strong immune system.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Functional foods",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Foods that offer additional health benefits beyond basic nutrition due to specific bioactive compounds they contain.",
+        "example": "Berries and nuts are examples of functional foods that provide antioxidants and other beneficial compounds.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Adaptogens",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Natural substances, often derived from plants, that are believed to help the body adapt to stress and promote overall well-being.",
+        "example": "Ginseng and ashwagandha are considered adaptogens with potential stress-reducing properties.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Epigenetic factors",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "External influences and environmental conditions that can affect how genes are expressed without altering the underlying DNA sequence.",
+        "example": "Diet and lifestyle can influence epigenetic factors, potentially impacting health outcomes.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Antioxidants",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "Compounds that help protect cells from damage caused by harmful molecules called free radicals, potentially reducing the risk of chronic diseases.",
+        "example": "Vitamin C and E are antioxidants found in fruits and vegetables that contribute to overall health.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Telomerase activation",
+        "partOfSpeech": "Noun",
+        "synonym": "",
+        "meaning": "The process of enhancing or stimulating the activity of telomerase enzyme, which may play a role in maintaining or extending telomere length.",
+        "example": "Research is ongoing to explore methods of telomerase activation for potential anti-aging interventions.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Nutrigenomics",
+        "partOfSpeech": "Noun",
+        "synonym": "Nutritional Genomics",
+        "meaning": "The study of how individual genetic makeup interacts with the diet and how this influences health and disease.",
+        "example": "Nutrigenomics aims to understand how specific nutrients affect gene expression.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Regenerative medicine",
+        "partOfSpeech": "Noun",
+        "synonym": "Regeneration therapy",
+        "meaning": "Medical treatment focused on replacing, engineering, or regenerating human cells, tissues, or organs to restore normal function.",
+        "example": "Stem cell therapy is a form of regenerative medicine.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Stem cell therapy",
+        "partOfSpeech": "Noun",
+        "synonym": "Stem cell treatment",
+        "meaning": "Medical technique that uses stem cells to treat or prevent diseases and conditions.",
+        "example": "Stem cell therapy has shown promise in treating certain types of injuries.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Personalized medicine",
+        "partOfSpeech": "Noun",
+        "synonym": "Precision medicine",
+        "meaning": "Medical approach that customizes healthcare decisions, treatments, practices, or products to the individual patient.",
+        "example": "Genetic testing is often used in personalized medicine to tailor treatment plans.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Precision health",
+        "partOfSpeech": "Noun",
+        "synonym": "Personalized health",
+        "meaning": "An approach that considers individual variability in genes, environment, and lifestyle for maintaining health and preventing disease.",
+        "example": "Precision health strategies may involve using wearable devices to monitor health indicators.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Wearable health technology",
+        "partOfSpeech": "Noun",
+        "synonym": "Wearable medical devices",
+        "meaning": "Devices worn as accessories or implants that monitor and collect health-related data.",
+        "example": "Smartwatches are a common example of wearable health technology.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Telehealth",
+        "partOfSpeech": "Noun",
+        "synonym": "Telemedicine",
+        "meaning": "The remote provision of healthcare services using telecommunications technology.",
+        "example": "During the pandemic, telehealth became a vital way to deliver medical care.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Digital therapeutics",
+        "partOfSpeech": "Noun",
+        "synonym": "Digital health interventions",
+        "meaning": "Evidence-based therapeutic interventions driven by software programs to prevent, manage, or treat a medical disorder or disease.",
+        "example": "A mobile app that helps users manage their anxiety is an example of digital therapeutics.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Gene editing therapies",
+        "partOfSpeech": "Noun",
+        "synonym": "Genome editing treatments",
+        "meaning": "Medical treatments that involve altering or modifying a person's DNA to treat or prevent diseases.",
+        "example": "CRISPR technology has enabled significant advancements in gene editing therapies.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Longevity research",
+        "partOfSpeech": "Noun",
+        "synonym": "Life extension research",
+        "meaning": "Scientific investigation aimed at understanding and extending the human lifespan and promoting healthy aging.",
+        "example": "Longevity research explores factors that contribute to living longer and healthier lives.",
+        "level": "Advanced",
+        "lessonTitle": "Health and Wellness"
+      }
+]
+  

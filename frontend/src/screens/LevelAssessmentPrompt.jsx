@@ -4,7 +4,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
-import colors from "../themes/colors";
+import colors from "../constants/colors";
 import { fetchQuestions } from "../features/level-assessment/levelAssessmentThunks";
 
 const LevelAssessmentPrompt = () => {

@@ -7,7 +7,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
-import colors from "../themes/colors";
+import colors from "../constants/colors";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
 import { startLesson, getWords } from "../features/learn/learnThunks";
@@ -28,17 +28,17 @@ const LessonDetailsScreen = ({ route }) => {
     words,
   } = useSelector((state) => state.learn);
 
-  const handleStartLesson = async (lessonId) => {
-    await dispatch(startLesson(lessonId));
-    setIsStartPressed(true);
-  };
-
   const handleNavigation = () => {
     if (lesson.status === "in progress") {
       setIsContinuePressed(true);
     } else if (lesson.status === "not started") {
       handleStartLesson(lesson._id);
     }
+  };
+
+  const handleStartLesson = async (lessonId) => {
+    await dispatch(startLesson(lessonId));
+    setIsStartPressed(true);
   };
 
   useEffect(() => {

@@ -46,6 +46,26 @@ export const getWords = createAsyncThunk(
       const response = await axiosInstance.get(
         `/learn/get-words/${lessonTopic}`
       );
+
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.response.data);
+    }
+  }
+);
+
+export const markWordAsLearned = createAsyncThunk(
+  "learn/markWordAsLearned",
+  async (data, thunkAPI) => {
+    const { wordId, lessonTitle, isLearned, level } = data;
+
+    try {
+      const response = await axiosInstance.post("/learn/word-learned", {
+        wordId,
+        lessonTitle,
+        isLearned,
+        level,
+      });
       return response.data;
     } catch (error) {
       return thunkAPI.rejectWithValue(error.response.data);

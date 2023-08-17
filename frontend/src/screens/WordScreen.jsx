@@ -2,16 +2,20 @@ import React, { useState } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import * as Speech from "expo-speech";
-import colors from "../themes/colors";
-// import words from "../data/words";
+import colors from "../constants/colors";
+import { markWordAsLearned } from "../features/learn/learnThunks";
+import { updateWords } from "../features/learn/learnSlice";
+import { useDispatch } from "react-redux";
 
 const WordScreen = ({ route }) => {
   const { words } = route.params;
 
+  const dispatch = useDispatch();
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [wordData, setWordData] = useState(words[currentIndex]);
   const [wordStatus, setWordStatus] = useState(
-    words.map((word) => ({ _id: word._id, isDone: false }))
+    words.map((word) => ({ _id: word._id, isDone: word.isLearned }))
   );
 
   const handlePronunciationPress = (word) => {
@@ -33,6 +37,19 @@ const WordScreen = ({ route }) => {
       word._id === wordData._id ? { ...word, isDone: true } : word
     );
     setWordStatus(updatedStatus);
+    dispatch(
+      markWordAsLearned({
+        wordId: wordData._id,
+        lessonTitle: wordData.lessonTitle,
+        level: wordData.level,
+        isLearned: true,
+      })
+    );
+    dispatch(
+      updateWords({
+        wordId: wordData._id,
+      })
+    );
   };
 
   const isDone = wordStatus.find((word) => word._id === wordData._id)?.isDone;

@@ -17,7 +17,15 @@ const initialState = {
 const learnSlice = createSlice({
   name: "learn",
   initialState,
-  reducers: {},
+  reducers: {
+    // update words after marking a word as learned
+    updateWords(state, action) {
+      const { wordId } = action.payload;
+      const wordIndex = state.words.findIndex((word) => word._id === wordId);
+      state.words[wordIndex].isLearned = true;
+    },
+    resetLearnState: (state) => initialState,
+  },
   extraReducers: (builder) => {
     builder
       .addCase("learn/startLearning/pending", (state, action) => {
@@ -75,4 +83,5 @@ const learnSlice = createSlice({
   },
 });
 
+export const { updateWords, resetLearnState } = learnSlice.actions;
 export default learnSlice.reducer;

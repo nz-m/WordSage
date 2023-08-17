@@ -1,10 +1,19 @@
-import { Controller, Post, UseGuards, Req, Body, Get } from '@nestjs/common';
+import {
+  Controller,
+  Post,
+  UseGuards,
+  Req,
+  Body,
+  Get,
+  Param,
+} from '@nestjs/common';
 import { LearnService } from './learn.service';
 import { AuthGuard } from '@nestjs/passport';
 import { CreateLessonsDto } from './dto/create-lessons.dto';
 import { LessonToSend } from './interface/lessonToSend.interface';
 import { UserToSend } from '../auth/interface/user.interface';
 import { AddWordDto } from './dto/add-word.dto';
+import { Level } from '../auth/entities/user.entity';
 
 @Controller('learn')
 export class LearnController {
@@ -56,6 +65,27 @@ export class LearnController {
     return this.learnService.getWordsByLessonTitle(
       req.params.lessonTitle,
       req.user._id,
+    );
+  }
+
+  @UseGuards(AuthGuard())
+  @Post('word-learned')
+  async markWordAsLearned(
+    @Req() req,
+    @Body()
+    body: {
+      wordId: string;
+      lessonTitle: string;
+      isLearned: boolean;
+      level: Level;
+    },
+  ): Promise<{ success: boolean; message: string }> {
+    return this.learnService.markWordAsLearned(
+      req.user._id,
+      body.wordId,
+      body.lessonTitle,
+      body.isLearned,
+      body.level,
     );
   }
 }

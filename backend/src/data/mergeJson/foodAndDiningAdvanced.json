@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Gastronomy",
+      "partOfSpeech": "Noun",
+      "synonym": "Culinary art",
+      "meaning": "The practice or art of choosing, cooking, and eating good food.",
+      "example": "His passion for gastronomy led him to become a renowned chef.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Epicurean",
+      "partOfSpeech": "Adjective",
+      "synonym": "Gourmet",
+      "meaning": "Relating to the enjoyment of good food and drink; pleasure-seeking in terms of food.",
+      "example": "The restaurant is known for its epicurean delights and luxurious ambiance.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Molecular gastronomy",
+      "partOfSpeech": "Noun",
+      "synonym": "Modernist cuisine",
+      "meaning": "A scientific approach to cooking that explores the physical and chemical transformations of ingredients.",
+      "example": "The chef wowed diners with his innovative dishes that showcased molecular gastronomy techniques.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Gastropub",
+      "partOfSpeech": "Noun",
+      "synonym": "Pub-grub",
+      "meaning": "A pub that serves high-quality food, often with a focus on innovative and gourmet dishes.",
+      "example": "The local gastropub is a favorite spot for enjoying hearty meals and craft beers.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Terroir",
+      "partOfSpeech": "Noun",
+      "synonym": "Sense of place",
+      "meaning": "The unique characteristics of a region's environment that influence the taste of food and drink produced there.",
+      "example": "The wine's flavor profile is a result of the grapes' interaction with the terroir of the vineyard.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Locavore",
+      "partOfSpeech": "Noun",
+      "synonym": "Local-food enthusiast",
+      "meaning": "A person who primarily seeks out locally produced food and avoids foods that have traveled long distances.",
+      "example": "Being a dedicated locavore, she shops at farmers' markets and supports local producers.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Artisanal",
+      "partOfSpeech": "Adjective",
+      "synonym": "Handcrafted",
+      "meaning": "Relating to or produced by skilled craftsmen, often in small quantities.",
+      "example": "The bakery is known for its artisanal bread, made with traditional techniques and high-quality ingredients.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Degustation",
+      "partOfSpeech": "Noun",
+      "synonym": "Tasting",
+      "meaning": "A careful and appreciative tasting of various foods, often in small portions.",
+      "example": "The restaurant offers a degustation menu that allows diners to savor a variety of exquisite dishes.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Haute cuisine",
+      "partOfSpeech": "Noun",
+      "synonym": "High cuisine",
+      "meaning": "An elaborate and refined style of cooking, often characterized by intricate techniques and presentation.",
+      "example": "The chef's mastery of haute cuisine earned the restaurant critical acclaim and a loyal following.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Michelin-starred",
+      "partOfSpeech": "Adjective",
+      "synonym": "Michelin-rated",
+      "meaning": "A restaurant that has been awarded one or more stars by the Michelin Guide, indicating exceptional quality.",
+      "example": "The city boasts several Michelin-starred restaurants known for their superb culinary experiences.",
+      "level": "Advanced",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+    "wordNumber": 11,
+    "word": "Culinary innovation",
+    "partOfSpeech": "Noun",
+    "synonym": "Cooking advancement",
+    "meaning": "The creation and development of new and unique techniques, recipes, or methods in the culinary field.",
+    "example": "The restaurant is known for its constant culinary innovation, introducing unexpected flavors and combinations.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 12,
+    "word": "Sous-vide cooking",
+    "partOfSpeech": "Noun",
+    "synonym": "Under vacuum cooking",
+    "meaning": "A cooking technique that involves vacuum-sealing food in a plastic pouch and cooking it at a precise and consistent temperature in a water bath.",
+    "example": "Sous-vide cooking is favored by many chefs for its ability to retain the natural flavors and textures of ingredients.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 13,
+    "word": "Fermentation",
+    "partOfSpeech": "Noun",
+    "synonym": "Fermenting",
+    "meaning": "The process of breaking down complex substances, such as sugars, into simpler substances, often carried out by microorganisms like yeast and bacteria.",
+    "example": "Fermentation is a crucial step in the production of foods like yogurt, bread, and kimchi.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 14,
+    "word": "Infusion",
+    "partOfSpeech": "Noun",
+    "synonym": "Steeping",
+    "meaning": "The process of extracting flavors, aromas, and properties from an ingredient (such as herbs, spices, or tea leaves) by soaking them in a liquid (usually hot).",
+    "example": "To create a unique cocktail, the bartender used an infusion of lavender and gin.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 15,
+    "word": "Reduction",
+    "partOfSpeech": "Noun",
+    "synonym": "Concentration",
+    "meaning": "The process of simmering a liquid (such as a sauce) to evaporate water, resulting in a thicker and more concentrated final product with intensified flavors.",
+    "example": "The chef prepared a reduction of red wine and shallots to drizzle over the steak.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 16,
+    "word": "Emulsion",
+    "partOfSpeech": "Noun",
+    "synonym": "Mixture",
+    "meaning": "A stable mixture of two immiscible liquids, such as oil and water, achieved through the use of an emulsifying agent.",
+    "example": "Mayonnaise is a classic example of an emulsion, with oil and vinegar forming a creamy sauce.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 17,
+    "word": "Deconstruction",
+    "partOfSpeech": "Noun",
+    "synonym": "Disassembly",
+    "meaning": "Analyzing and presenting a dish in its individual components and ingredients, often in a new and artistic arrangement.",
+    "example": "The dessert was a deconstruction of a traditional apple pie, with each element reimagined on the plate.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 18,
+    "word": "Molecular cuisine",
+    "partOfSpeech": "Noun",
+    "synonym": "Molecular gastronomy",
+    "meaning": "A style of cooking that explores the physical and chemical transformations of ingredients, often using innovative techniques and equipment.",
+    "example": "The chef's molecular cuisine creations involved foams, gels, and unexpected textures.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 19,
+    "word": "Aromatics",
+    "partOfSpeech": "Noun",
+    "synonym": "Flavoring agents",
+    "meaning": "Ingredients, such as herbs, spices, and vegetables, used to add fragrance, flavor, and depth to dishes.",
+    "example": "The soup's rich aroma was enhanced by the addition of aromatic herbs like thyme and rosemary.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 20,
+    "word": "Umami-rich ingredients",
+    "partOfSpeech": "Noun",
+    "synonym": "Savory-flavored components",
+    "meaning": "Ingredients that contain umami, one of the five basic tastes, known for enhancing the overall flavor of dishes.",
+    "example": "Soy sauce, mushrooms, and Parmesan cheese are examples of umami-rich ingredients often used to deepen the taste of a recipe.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 21,
+    "word": "Supertaster",
+    "partOfSpeech": "Noun",
+    "synonym": "Hypergeusia",
+    "meaning": "A person with a heightened ability to taste and distinguish flavors in food and drink.",
+    "example": "As a supertaster, she could detect even the subtlest notes in the wine.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 22,
+    "word": "Experiential dining",
+    "partOfSpeech": "Noun",
+    "synonym": "Immersive dining",
+    "meaning": "A culinary concept that focuses on providing a multi-sensory and immersive dining experience.",
+    "example": "The restaurant offered an experiential dining event where diners were transported to different eras with each course.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 23,
+    "word": "Chef's table",
+    "partOfSpeech": "Noun",
+    "synonym": "Chef's counter",
+    "meaning": "A special table located in or near the kitchen of a restaurant, where diners can watch the chef prepare and plate dishes.",
+    "example": "We were lucky to secure a reservation at the chef's table, where we could interact with the culinary team.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 24,
+    "word": "Tasting menu",
+    "partOfSpeech": "Noun",
+    "synonym": "Degustation menu",
+    "meaning": "A curated selection of smaller portioned dishes, allowing diners to sample a variety of flavors and techniques.",
+    "example": "The tasting menu showcased the chef's creativity and offered a delightful gastronomic journey.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 25,
+    "word": "Food aesthetics",
+    "partOfSpeech": "Noun",
+    "synonym": "Gastronomic aesthetics",
+    "meaning": "The visual presentation and artistic arrangement of food on a plate, emphasizing its beauty and appeal.",
+    "example": "The chef's meticulous attention to food aesthetics turned each dish into a work of art.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 26,
+    "word": "Molecular mixology",
+    "partOfSpeech": "Noun",
+    "synonym": "Culinary mixology",
+    "meaning": "An innovative approach to cocktail-making that uses scientific techniques and tools to create unique flavors and textures.",
+    "example": "The bar's molecular mixology techniques resulted in cocktails that were not only delicious but visually captivating.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 27,
+    "word": "Craft cocktails",
+    "partOfSpeech": "Noun",
+    "synonym": "Artisanal cocktails",
+    "meaning": "Cocktails that are carefully crafted with high-quality and often locally sourced ingredients, showcasing creativity and skill.",
+    "example": "The bartender's passion for creating craft cocktails was evident in the intricate flavors of each drink.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 28,
+    "word": "Gastronomic journey",
+    "partOfSpeech": "Noun",
+    "synonym": "Culinary adventure",
+    "meaning": "An exploration of various cuisines, ingredients, and cooking techniques, often involving travel and discovery.",
+    "example": "Embarking on a gastronomic journey through Asia allowed us to savor the rich tapestry of flavors the region has to offer.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 29,
+    "word": "Culinary arts",
+    "partOfSpeech": "Noun",
+    "synonym": "Cooking arts",
+    "meaning": "The practice and skill of preparing and cooking food, often with a focus on creativity and aesthetics.",
+    "example": "She pursued a formal education in the culinary arts to refine her cooking techniques and broaden her culinary horizons.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 30,
+    "word": "Sourcing rare ingredients",
+    "partOfSpeech": "Verb phrase",
+    "synonym": "Obtaining scarce ingredients",
+    "meaning": "The process of acquiring and procuring ingredients that are not easily available or commonly found.",
+    "example": "The chef's dedication to sourcing rare ingredients led to the creation of a truly unique and memorable dish.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 31,
+    "word": "Foraging",
+    "partOfSpeech": "Verb",
+    "synonym": "Wildcrafting",
+    "meaning": "The act of gathering wild and edible plants, fungi, and other natural ingredients from their natural environment.",
+    "example": "The restaurant's commitment to sustainability was evident in their practice of foraging for local herbs and mushrooms.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 32,
+    "word": "Seasonality in cooking",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Cooking according to the seasons",
+    "meaning": "Adapting recipes and menus based on the availability of seasonal ingredients to ensure freshness and optimal flavor.",
+    "example": "The chef's emphasis on seasonality in cooking resulted in dishes that captured the essence of each time of year.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 33,
+    "word": "Nose-to-tail eating",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Whole-animal consumption",
+    "meaning": "A culinary approach that involves using the entire animal, including less common cuts and offal, to minimize waste.",
+    "example": "The restaurant's commitment to nose-to-tail eating showcased a sustainable and ethical approach to meat consumption.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 34,
+    "word": "Farm-to-fork movement",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Farm-to-table movement",
+    "meaning": "A food production and consumption model that emphasizes locally sourced, fresh, and minimally processed ingredients.",
+    "example": "The farm-to-fork movement promotes a stronger connection between consumers and the origins of their food.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 35,
+    "word": "Sustainability in gastronomy",
+    "partOfSpeech": "Noun phrase",
+    "synonym": "Sustainable practices in food",
+    "meaning": "Incorporating environmentally conscious and socially responsible practices in various aspects of food and dining.",
+    "example": "The restaurant's commitment to sustainability in gastronomy included efforts to reduce food waste and support local farmers.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 36,
+    "word": "Culinology",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The blending of culinary arts and food science in the preparation of food products.",
+    "example": "Culinology combines culinary expertise with scientific knowledge to create innovative food items.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 37,
+    "word": "Culinary diplomacy",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The use of food and cuisine as tools to promote and strengthen international relations.",
+    "example": "The chef's culinary diplomacy helped foster cultural exchange between the two nations.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 38,
+    "word": "Food anthropology",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The study of the role of food in culture, society, and history.",
+    "example": "Food anthropology examines how food practices shape human identity and social relationships.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 39,
+    "word": "Food security",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The state of having reliable access to a sufficient quantity of nutritious food.",
+    "example": "Efforts to achieve global food security aim to eliminate hunger and malnutrition.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 40,
+    "word": "Food sovereignty",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The right of individuals and communities to control their own food systems and policies.",
+    "example": "Food sovereignty emphasizes local and sustainable food production and distribution.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 41,
+    "word": "Ethical consumption",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "Making consumer choices that align with one's values, particularly concerning social and environmental issues.",
+    "example": "Ethical consumption involves supporting brands that prioritize fair labor practices and eco-friendly production.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 42,
+    "word": "Agritourism",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "A form of tourism that involves visiting and experiencing agricultural, rural, or farm-based activities.",
+    "example": "Agritourism allows urban dwellers to connect with rural life through activities like farm tours and workshops.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 43,
+    "word": "Culinary heritage",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The traditional practices, recipes, and culinary knowledge passed down through generations.",
+    "example": "Preserving culinary heritage involves documenting and transmitting traditional cooking techniques.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 44,
+    "word": "Indigenous cuisine",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The traditional foods and culinary practices of indigenous or native cultures.",
+    "example": "Indigenous cuisine often incorporates locally sourced ingredients and reflects cultural traditions.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 45,
+    "word": "Slow food movement",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "A global movement that advocates for locally produced, sustainable, and high-quality foods.",
+    "example": "The slow food movement encourages consumers to choose foods that promote environmental and cultural preservation.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 46,
+    "word": "Zero-waste cooking",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "A cooking approach that aims to minimize food waste throughout the entire cooking process.",
+    "example": "Zero-waste cooking involves using all parts of ingredients and repurposing food scraps.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 47,
+    "word": "Nutrigenomics",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The study of how genes and nutrition interact to influence health and disease.",
+    "example": "Nutrigenomics explores how individual genetic makeup affects responses to different diets.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 48,
+    "word": "Food biohacking",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "The practice of using technology, biology, and experimentation to enhance or personalize one's diet.",
+    "example": "Food biohacking involves tracking biomarkers and adjusting diet based on data-driven insights.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 49,
+    "word": "Futuristic food concepts",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "Innovative and speculative ideas about the future of food and its production.",
+    "example": "Futuristic food concepts might include lab-grown meat and 3D-printed meals.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "wordNumber": 50,
+    "word": "Algal cuisine",
+    "partOfSpeech": "Noun",
+    "synonym": "",
+    "meaning": "Cuisine that incorporates various types of edible algae and seaweed.",
+    "example": "Algal cuisine offers a sustainable source of nutrients and can be used in various dishes.",
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  }
+]
+  

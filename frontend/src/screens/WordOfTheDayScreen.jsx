@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import * as Speech from "expo-speech";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import colors from "../themes/colors";
+import colors from "../constants/colors";
 import { useNavigation } from "@react-navigation/native";
 
 const WordOfTheDayScreen = () => {

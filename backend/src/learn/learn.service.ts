@@ -1,4 +1,9 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  Injectable,
+  InternalServerErrorException,
+  NotFoundException,
+} from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import {
@@ -10,7 +15,7 @@ import {
   Word,
   WordProgress,
 } from './entities';
-import { User } from '../auth/entities/user.entity';
+import { Level, User } from '../auth/entities/user.entity';
 import { LessonStatus } from './entities/lesson-progress.entity';
 import { CreateLessonsDto } from './dto/create-lessons.dto';
 import { LessonToSend } from './interface/lessonToSend.interface';
@@ -73,8 +78,7 @@ export class LearnService {
       lessonProgress.status = LessonStatus.IN_PROGRESS;
       await lessonProgress.save();
 
-      const lessons = await this.fetchLessonsWithProgress(userId);
-      return lessons;
+      return await this.fetchLessonsWithProgress(userId);
     } catch (error) {
       return { success: false, message: 'Error starting lesson.' };
     }
@@ -163,7 +167,7 @@ export class LearnService {
 
       return { user: userToSend };
     } catch (error) {
-      return { message: 'Error starting lessons.' };
+      throw new BadRequestException("Couldn't start learning.");
     }
   }
 
@@ -180,7 +184,7 @@ export class LearnService {
           message: 'Duplicate word found. Please check your input.',
         };
       }
-      return { success: false, message: 'Error creating words.' };
+      throw new BadRequestException("Couldn't add words.");
     }
   }
 
@@ -211,11 +215,93 @@ export class LearnService {
       throw new NotFoundException(`User with ID ${userId} not found`);
     }
 
-    return this.wordModel
+    const words = await this.wordModel
       .find({
         lessonTitle: lessonTitle,
         level: user.level,
       })
       .sort({ wordNumber: 1 });
+
+    const learnedWordIds = await this.wordProgressModel
+      .find({
+        user: userId,
+        lessonTitle: lessonTitle,
+        isLearned: true,
+      })
+      .lean()
+      .exec();
+
+    return words.map((word) => ({
+      ...word.toObject(),
+      isLearned: learnedWordIds.some(
+        (learnedWord) => learnedWord.word.toString() === word._id.toString(),
+      ),
+    }));
+  }
+
+  async markWordAsLearned(
+    userId: string,
+    wordId: string,
+    lessonTitle: string,
+    isLearned: boolean,
+    level: Level,
+  ): Promise<{ success: boolean; message: string }> {
+    try {
+      let message: string;
+      let success: boolean;
+
+      const wordProgress = await this.wordProgressModel
+        .findOneAndUpdate(
+          {
+            user: userId,
+            word: wordId,
+            level: level,
+            lessonTitle: lessonTitle,
+          },
+          {
+            $setOnInsert: {
+              user: userId,
+              word: wordId,
+              level: level,
+              lessonTitle: lessonTitle,
+            },
+          },
+          { upsert: true, new: true },
+        )
+        .exec();
+
+      if (wordProgress) {
+        await wordProgress.updateOne({ isLearned });
+        success = true;
+        message = 'Word progress updated.';
+      } else {
+        success = true;
+        message = 'Word progress created.';
+      }
+
+      return { success, message };
+    } catch (error) {
+      throw new InternalServerErrorException('Failed to update word progress');
+    }
+  }
+
+  async markLessonAsCompleted(
+    userId: string,
+    lessonId: string,
+  ): Promise<LessonToSend[] | { success: boolean; message: string }> {
+    try {
+      const lessonProgress = await this.lessonProgressModel
+        .findOne({ user: userId, lesson: lessonId })
+        .exec();
+
+      lessonProgress.status = LessonStatus.COMPLETED;
+      await lessonProgress.save();
+
+      return await this.fetchLessonsWithProgress(userId);
+    } catch (error) {
+      throw new InternalServerErrorException(
+        'Failed to mark lesson as completed',
+      );
+    }
   }
 }

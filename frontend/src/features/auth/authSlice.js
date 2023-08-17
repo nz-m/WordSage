@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { loginUser, registerUser, logoutUser } from "./authThunks";
+import { loginUser, registerUser, clearAsyncStorage } from "./authThunks";
 import { assessLevel } from "../level-assessment/levelAssessmentThunks";
 import { startLearning } from "../learn/learnThunks";
 
@@ -24,6 +24,7 @@ const authSlice = createSlice({
     clearSuccess: (state) => {
       state.registrationSuccess = false;
     },
+    resetAuthState: (state) => initialState,
   },
   extraReducers: (builder) => {
     builder
@@ -59,15 +60,15 @@ const authSlice = createSlice({
       .addCase(assessLevel.fulfilled, (state, action) => {
         state.user = action.payload.user;
       })
-      .addCase(logoutUser.fulfilled, (state) => {
-        state.user = null;
-        state.token = null;
-      })
       .addCase(startLearning.fulfilled, (state, action) => {
         state.user = action.payload.user;
+      })
+      .addCase(clearAsyncStorage.fulfilled, (state) => {
+        state.user = null;
+        state.token = null;
       });
   },
 });
 
-export const { clearError, clearSuccess } = authSlice.actions;
+export const { clearError, clearSuccess, resetAuthState } = authSlice.actions;
 export default authSlice.reducer;

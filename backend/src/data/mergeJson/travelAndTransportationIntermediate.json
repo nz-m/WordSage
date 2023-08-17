@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Adventure travel",
+      "partOfSpeech": "Noun",
+      "synonym": "Exploratory travel",
+      "meaning": "Traveling to remote or exotic locations to engage in exciting and daring activities.",
+      "example": "She enjoyed adventure travel, such as hiking in the Himalayas and bungee jumping.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Cultural immersion",
+      "partOfSpeech": "Noun",
+      "synonym": "Cultural submersion",
+      "meaning": "Fully engaging and integrating oneself into the customs, traditions, and lifestyle of a different culture.",
+      "example": "Her experience of living with a local family allowed for deep cultural immersion.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Ecotourism",
+      "partOfSpeech": "Noun",
+      "synonym": "Ecological tourism",
+      "meaning": "Responsible travel to natural areas that conserves the environment, sustains the well-being of local people, and involves interpretation and education.",
+      "example": "The national park promotes ecotourism to raise awareness about wildlife conservation.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Itinerary planning",
+      "partOfSpeech": "Noun",
+      "synonym": "Travel planning",
+      "meaning": "The process of creating a detailed plan or schedule for a trip, including travel arrangements and activities.",
+      "example": "Careful itinerary planning ensures that you make the most of your time during your vacation.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Budget travel",
+      "partOfSpeech": "Noun",
+      "synonym": "Economical travel",
+      "meaning": "Traveling on a limited budget, often involving cost-saving strategies and affordable accommodations.",
+      "example": "They opted for budget travel, staying in hostels and using public transportation to save money.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Backpacking",
+      "partOfSpeech": "Noun",
+      "synonym": "Rucksack travel",
+      "meaning": "Traveling with only a backpack, often used by budget travelers or those seeking adventure.",
+      "example": "He spent a year backpacking through Europe, staying in youth hostels and exploring new cities.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Tour package",
+      "partOfSpeech": "Noun",
+      "synonym": "Travel package",
+      "meaning": "A pre-arranged combination of travel services, such as transportation, accommodation, and guided tours.",
+      "example": "The tour package includes flights, hotel stays, and guided sightseeing tours.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Tour guide",
+      "partOfSpeech": "Noun",
+      "synonym": "Tour leader",
+      "meaning": "A person who provides assistance, information, and guidance to tourists during their travels.",
+      "example": "The tour guide led the group through historical landmarks, sharing interesting facts along the way.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Land transportation",
+      "partOfSpeech": "Noun",
+      "synonym": "Ground transportation",
+      "meaning": "The movement of people or goods on the surface of the earth, using vehicles such as cars, buses, and trains.",
+      "example": "The city has a well-developed system of land transportation, including an extensive network of buses and subways.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Air travel",
+      "partOfSpeech": "Noun",
+      "synonym": "Air transportation",
+      "meaning": "The act of traveling by aircraft, usually over long distances.",
+      "example": "Air travel has made it possible to reach far-off destinations quickly and efficiently.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Cruise",
+      "partOfSpeech": "Noun",
+      "synonym": "Voyage",
+      "meaning": "A trip on a ship, usually for pleasure, during which you visit several places.",
+      "example": "They went on a Caribbean cruise and enjoyed the beautiful beaches and vibrant culture of the islands.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 12,
+      "word": "Cabin",
+      "partOfSpeech": "Noun",
+      "synonym": "Lodge",
+      "meaning": "A private room on a ship or a small, simple dwelling in a remote or rural area.",
+      "example": "They booked a cozy cabin in the mountains for a weekend getaway.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 13,
+      "word": "Port",
+      "partOfSpeech": "Noun",
+      "synonym": "Harbor",
+      "meaning": "A place along the coast where ships can dock to load and unload passengers or cargo.",
+      "example": "The cruise ship arrived at the port, and passengers disembarked to explore the city.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 14,
+      "word": "Check-in counter",
+      "partOfSpeech": "Noun",
+      "synonym": "Registration desk",
+      "meaning": "A location at an airport or hotel where you officially announce your arrival and receive necessary information or documents.",
+      "example": "Passengers should proceed to the check-in counter to receive their boarding passes.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 15,
+      "word": "Security check",
+      "partOfSpeech": "Noun",
+      "synonym": "Security screening",
+      "meaning": "The process of inspecting passengers and their belongings to ensure compliance with safety regulations before entering a secure area.",
+      "example": "All passengers must undergo a security check before boarding the airplane.",
+      "level": "Intermediate",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+        "wordNumber": 16,
+        "word": "Departure lounge",
+        "partOfSpeech": "Noun",
+        "synonym": "Waiting area",
+        "meaning": "An area in an airport where passengers wait before their flight.",
+        "example": "We spent some time relaxing in the departure lounge before our flight was called.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Boarding gate",
+        "partOfSpeech": "Noun",
+        "synonym": "Gate",
+        "meaning": "A designated area at the airport where passengers board their flight.",
+        "example": "We proceeded to the boarding gate after the announcement.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Delayed flight",
+        "partOfSpeech": "Noun",
+        "synonym": "Postponed flight",
+        "meaning": "A flight that is behind schedule and does not depart or arrive on time.",
+        "example": "Due to bad weather, our flight was a delayed flight.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Layover",
+        "partOfSpeech": "Noun",
+        "synonym": "Stopover",
+        "meaning": "A period of time during which a traveler waits at an airport between connecting flights.",
+        "example": "Our layover in Dubai was for six hours.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Connecting flight",
+        "partOfSpeech": "Noun",
+        "synonym": "Transfer flight",
+        "meaning": "A flight that requires passengers to change aircraft at a hub or intermediary airport.",
+        "example": "We had a short layover in Chicago before catching our connecting flight to London.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Turbulence",
+        "partOfSpeech": "Noun",
+        "synonym": "Rough air",
+        "meaning": "Sudden and violent movements of the aircraft caused by irregular air currents.",
+        "example": "The flight experienced turbulence while passing through a storm.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 22,
+        "word": "In-flight entertainment",
+        "partOfSpeech": "Noun",
+        "synonym": "Onboard entertainment",
+        "meaning": "Entertainment options available to passengers during a flight.",
+        "example": "The airline offers a variety of movies and games for in-flight entertainment.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Arrival terminal",
+        "partOfSpeech": "Noun",
+        "synonym": "Arrival area",
+        "meaning": "The section of the airport where passengers disembark from their flight.",
+        "example": "We met our friends at the arrival terminal of the airport.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Baggage claim",
+        "partOfSpeech": "Noun",
+        "synonym": "Baggage retrieval",
+        "meaning": "The area where passengers collect their checked luggage after a flight.",
+        "example": "After landing, we went to the baggage claim to collect our suitcases.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Lost luggage",
+        "partOfSpeech": "Noun",
+        "synonym": "Missing baggage",
+        "meaning": "Luggage that has not arrived at the expected destination with the passenger.",
+        "example": "The airline is working to locate the passenger's lost luggage.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Hotel reservation",
+        "partOfSpeech": "Noun",
+        "synonym": "Lodging booking",
+        "meaning": "A booking made in advance for accommodations at a hotel.",
+        "example": "I made a hotel reservation for two nights during our trip.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Room service",
+        "partOfSpeech": "Noun",
+        "synonym": "Hotel dining",
+        "meaning": "A hotel service that delivers food and beverages to a guest's room.",
+        "example": "We ordered breakfast through room service this morning.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Concierge",
+        "partOfSpeech": "Noun",
+        "synonym": "Hotel assistant",
+        "meaning": "A hotel employee who assists guests with various services, such as arranging tours or making reservations.",
+        "example": "The concierge helped us find a local restaurant for dinner.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Amenities",
+        "partOfSpeech": "Noun",
+        "synonym": "Facilities",
+        "meaning": "Convenient features that enhance comfort or convenience.",
+        "example": "The hotel offers various amenities such as a swimming pool, gym, and spa.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 30,
+        "word": "City tour",
+        "partOfSpeech": "Noun",
+        "synonym": "Urban excursion",
+        "meaning": "A guided exploration of a city's notable attractions and landmarks.",
+        "example": "We joined a city tour to explore the historical sites and culture of the area.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Local cuisine",
+        "partOfSpeech": "Noun",
+        "synonym": "Regional food",
+        "meaning": "Traditional dishes and culinary styles of a specific region or locality.",
+        "example": "While traveling, it's a great opportunity to try the local cuisine and experience new flavors.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Language barrier",
+        "partOfSpeech": "Noun",
+        "synonym": "Communication obstacle",
+        "meaning": "Difficulty in communicating due to differences in languages spoken.",
+        "example": "Overcoming the language barrier can sometimes be a challenge while traveling in foreign countries.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Public transportation",
+        "partOfSpeech": "Noun",
+        "synonym": "Mass transit",
+        "meaning": "System of vehicles for transporting passengers, operated by the government or organizations.",
+        "example": "Using public transportation is an eco-friendly and cost-effective way to get around the city.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Bus stop",
+        "partOfSpeech": "Noun",
+        "synonym": "Bus station",
+        "meaning": "Designated place where buses pick up and drop off passengers.",
+        "example": "Wait for me at the bus stop, and we'll travel to the city center together.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Train station",
+        "partOfSpeech": "Noun",
+        "synonym": "Railway station",
+        "meaning": "Facility where trains stop to load and unload passengers and cargo.",
+        "example": "The train station was bustling with travelers eager to embark on their journeys.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Subway map",
+        "partOfSpeech": "Noun",
+        "synonym": "Metro map",
+        "meaning": "A diagrammatic representation of a subway or metro system's routes and stations.",
+        "example": "I studied the subway map to plan my route through the city.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Commute",
+        "partOfSpeech": "Verb",
+        "synonym": "Travel, Journey",
+        "meaning": "Regularly traveling between one's home and place of work or study.",
+        "example": "She commutes by train every day to her office downtown.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Rush hour",
+        "partOfSpeech": "Noun",
+        "synonym": "Peak hour, Traffic jam",
+        "meaning": "The busy period during the day with heavy traffic, typically when people are commuting to or from work.",
+        "example": "Avoid driving during rush hour if you want to reach your destination on time.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Traffic congestion",
+        "partOfSpeech": "Noun",
+        "synonym": "Traffic jam, Gridlock",
+        "meaning": "The situation when there are too many vehicles on the road, causing slow or stopped movement.",
+        "example": "The city experienced severe traffic congestion due to an accident on the highway.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Car rental agency",
+        "partOfSpeech": "Noun",
+        "synonym": "Car hire company",
+        "meaning": "A business that rents out automobiles for short periods, often for travel purposes.",
+        "example": "We booked a car from a reliable car rental agency for our vacation.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Road trip itinerary",
+        "partOfSpeech": "Noun",
+        "synonym": "Travel plan, Journey schedule",
+        "meaning": "A detailed plan or schedule of activities and destinations for a road trip.",
+        "example": "We followed our road trip itinerary, stopping at various landmarks along the way.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Navigation app",
+        "partOfSpeech": "Noun",
+        "synonym": "GPS app, Map app",
+        "meaning": "A mobile application that provides directions and navigation assistance for travelers.",
+        "example": "I rely on a navigation app to guide me when I'm exploring new places.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Landmarks",
+        "partOfSpeech": "Noun",
+        "synonym": "Points of interest, Monuments",
+        "meaning": "Prominent or easily recognizable features of a landscape, often used as reference points in navigation.",
+        "example": "The Eiffel Tower and the Statue of Liberty are famous landmarks.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Guided tour",
+        "partOfSpeech": "Noun",
+        "synonym": "Escorted tour",
+        "meaning": "A tour in which a knowledgeable guide leads a group of people and provides information about the sights.",
+        "example": "We joined a guided tour of the historic city to learn about its rich history.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Audio guide",
+        "partOfSpeech": "Noun",
+        "synonym": "Audio tour, Audio commentary",
+        "meaning": "A device or recording that provides spoken explanations or commentary about a place or exhibit.",
+        "example": "The museum offered audio guides in multiple languages to enhance the visitor's experience.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Self-guided tour",
+        "partOfSpeech": "Noun",
+        "synonym": "Independent tour",
+        "meaning": "A tour in which individuals explore a place on their own, often using maps, guides, or digital resources.",
+        "example": "The historic district can be explored at your own pace with a self-guided tour.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Cultural heritage",
+        "partOfSpeech": "Noun",
+        "synonym": "Heritage, Tradition",
+        "meaning": "The beliefs, customs, practices, art, and knowledge that are passed down through generations.",
+        "example": "Preserving our cultural heritage is important for maintaining our identity.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Exchange rate",
+        "partOfSpeech": "Noun",
+        "synonym": "Currency exchange rate",
+        "meaning": "The value of one country's currency in terms of another country's currency.",
+        "example": "I checked the exchange rate before traveling abroad to ensure I got a fair deal.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Travel documents",
+        "partOfSpeech": "Noun",
+        "synonym": "Travel papers, Identification",
+        "meaning": "Official papers such as passports, visas, and tickets that are required for traveling.",
+        "example": "Make sure to carry all necessary travel documents when going on an international trip.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Travel insurance coverage",
+        "partOfSpeech": "Noun",
+        "synonym": "Trip insurance protection",
+        "meaning": "Financial coverage and protection against unexpected events or emergencies that may occur during travel.",
+        "example": "Purchasing travel insurance coverage can provide peace of mind when traveling in case of cancellations or medical emergencies.",
+        "level": "Intermediate",
+        "lessonTitle": "Travel and Transportation"
+      }
+]
+  

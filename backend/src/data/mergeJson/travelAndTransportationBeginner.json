@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Travel",
+      "partOfSpeech": "Noun",
+      "synonym": "Journey",
+      "meaning": "The act of going from one place to another, especially over a distance.",
+      "example": "She loves to travel and explore new places.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Trip",
+      "partOfSpeech": "Noun",
+      "synonym": "Excursion",
+      "meaning": "A journey or excursion, especially for pleasure or vacation.",
+      "example": "We're planning a trip to the mountains next month.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Vacation",
+      "partOfSpeech": "Noun",
+      "synonym": "Holiday",
+      "meaning": "A period of time spent away from home or work for rest, relaxation, or travel.",
+      "example": "They went on a tropical vacation to escape the cold weather.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Journey",
+      "partOfSpeech": "Noun",
+      "synonym": "Travel",
+      "meaning": "The act of traveling from one place to another, usually a long distance.",
+      "example": "The journey across the desert was challenging but rewarding.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Destination",
+      "partOfSpeech": "Noun",
+      "synonym": "End point",
+      "meaning": "The place to which someone or something is going or being sent.",
+      "example": "Their final destination was a remote village in the mountains.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Airport",
+      "partOfSpeech": "Noun",
+      "synonym": "Aerodrome",
+      "meaning": "A place where aircraft regularly land and take off, with facilities for passengers and cargo.",
+      "example": "We arrived at the airport three hours before our flight.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Airplane",
+      "partOfSpeech": "Noun",
+      "synonym": "Aircraft",
+      "meaning": "A powered flying vehicle with fixed wings and a weight greater than that of the air it displaces.",
+      "example": "They boarded the airplane for their international journey.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Flight",
+      "partOfSpeech": "Noun",
+      "synonym": "Air travel",
+      "meaning": "A journey made by air, especially in an airplane.",
+      "example": "Their flight was delayed due to bad weather conditions.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Ticket",
+      "partOfSpeech": "Noun",
+      "synonym": "Pass",
+      "meaning": "A piece of paper or electronic record that gives the holder a right to enter, travel, or participate in an event.",
+      "example": "Make sure to print your ticket before arriving at the theater.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Passport",
+      "partOfSpeech": "Noun",
+      "synonym": "Travel document",
+      "meaning": "An official government document issued to a citizen that certifies their identity and citizenship and permits travel abroad.",
+      "example": "She forgot to renew her passport before planning her international trip.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+      "wordNumber": 11,
+      "word": "Visa",
+      "partOfSpeech": "Noun",
+      "synonym": "Entry permit",
+      "meaning": "An endorsement or stamp placed by officials on a passport that allows the holder to enter, leave, or stay for a specified period of time in a country.",
+      "example": "He obtained a tourist visa to visit his friends in a foreign country.",
+      "level": "Beginner",
+      "lessonTitle": "Travel and Transportation"
+    },
+    {
+        "wordNumber": 12,
+        "word": "Customs",
+        "partOfSpeech": "Noun",
+        "synonym": "Duties",
+        "meaning": "Official department that examines and taxes goods entering a country.",
+        "example": "You need to declare any valuable items at customs.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 13,
+        "word": "Luggage",
+        "partOfSpeech": "Noun",
+        "synonym": "Baggage",
+        "meaning": "Personal belongings and items carried by travelers.",
+        "example": "Make sure to label your luggage with your name and contact information.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 14,
+        "word": "Suitcase",
+        "partOfSpeech": "Noun",
+        "synonym": "Trunk",
+        "meaning": "A rectangular container with a handle, used for carrying clothes and belongings during travel.",
+        "example": "She packed her clothes neatly into the suitcase.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Backpack",
+        "partOfSpeech": "Noun",
+        "synonym": "Rucksack",
+        "meaning": "A bag with shoulder straps, carried on the back, often used for carrying personal items.",
+        "example": "He always carries his laptop in his backpack.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Hotel",
+        "partOfSpeech": "Noun",
+        "synonym": "Lodge",
+        "meaning": "An establishment that provides lodging and often meals and other services for travelers.",
+        "example": "We booked a room at a luxurious hotel for our vacation.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Accommodation",
+        "partOfSpeech": "Noun",
+        "synonym": "Lodging",
+        "meaning": "A place where travelers can stay or live temporarily.",
+        "example": "The city offers a wide range of accommodations for tourists.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Reservation",
+        "partOfSpeech": "Noun",
+        "synonym": "Booking",
+        "meaning": "An arrangement to secure accommodations, a ticket, etc., in advance.",
+        "example": "I made a reservation for a table at the restaurant.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Check-in",
+        "partOfSpeech": "Noun",
+        "synonym": "Registration",
+        "meaning": "The process of arriving at a hotel and registering one's information.",
+        "example": "Check-in starts at 3 PM, and you can collect your room key at the front desk.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Check-out",
+        "partOfSpeech": "Noun",
+        "synonym": "Departure",
+        "meaning": "The process of leaving a hotel and settling any outstanding charges.",
+        "example": "Please complete the check-out process before 11 AM.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Reception",
+        "partOfSpeech": "Noun",
+        "synonym": "Front desk",
+        "meaning": "The area where guests are received and attended to, often at a hotel.",
+        "example": "You can inquire about local attractions at the hotel reception.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Room",
+        "partOfSpeech": "Noun",
+        "synonym": "Chamber",
+        "meaning": "A space in a hotel or other accommodation where guests sleep or stay.",
+        "example": "We had a spacious and comfortable room with a view of the ocean.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Bed",
+        "partOfSpeech": "Noun",
+        "synonym": "Mattress",
+        "meaning": "A piece of furniture for sleeping, typically consisting of a mattress and a frame.",
+        "example": "After a long day of travel, I was relieved to finally rest on a soft bed.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 24,
+        "word": "Bathroom",
+        "partOfSpeech": "Noun",
+        "synonym": "Restroom",
+        "meaning": "A room equipped for personal hygiene, containing a toilet and sink.",
+        "example": "Excuse me, where is the nearest bathroom?",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Hostel",
+        "partOfSpeech": "Noun",
+        "synonym": "Lodge",
+        "meaning": "An inexpensive lodging option, often with shared facilities, targeted at travelers.",
+        "example": "We stayed at a hostel during our backpacking trip.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Motel",
+        "partOfSpeech": "Noun",
+        "synonym": "Motor inn",
+        "meaning": "A roadside hotel designed for travelers with parking spaces for motor vehicles.",
+        "example": "After a long drive, we decided to spend the night at a motel.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Taxi",
+        "partOfSpeech": "Noun",
+        "synonym": "Cab",
+        "meaning": "A vehicle that passengers can hire for a fare to transport them to a specific destination.",
+        "example": "I took a taxi to the airport for my flight.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Bus",
+        "partOfSpeech": "Noun",
+        "synonym": "Coach",
+        "meaning": "A large vehicle designed to transport multiple passengers, typically along a fixed route.",
+        "example": "We decided to take the bus to the city center.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Train",
+        "partOfSpeech": "Noun",
+        "synonym": "Railway",
+        "meaning": "A form of transportation that runs on tracks and is used to carry passengers and goods.",
+        "example": "I prefer traveling by train because it's comfortable and scenic.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Subway",
+        "partOfSpeech": "Noun",
+        "synonym": "Metro",
+        "meaning": "An underground railway system in a city, usually electrically powered.",
+        "example": "The subway is a fast way to get around the city during rush hour.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Tram",
+        "partOfSpeech": "Noun",
+        "synonym": "Streetcar",
+        "meaning": "A vehicle that runs on tracks and is used for public transportation within a city.",
+        "example": "I took the tram to reach the museum downtown.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Car",
+        "partOfSpeech": "Noun",
+        "synonym": "Automobile",
+        "meaning": "A four-wheeled motor vehicle used for transportation.",
+        "example": "We rented a car to explore the countryside.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Rental car",
+        "partOfSpeech": "Noun",
+        "synonym": "Hire car",
+        "meaning": "A car that is rented from a rental agency for a specified period.",
+        "example": "We picked up a rental car at the airport for our vacation.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Driver's license",
+        "partOfSpeech": "Noun",
+        "synonym": "Driving licence",
+        "meaning": "An official document that permits an individual to operate a motor vehicle.",
+        "example": "Make sure to carry your driver's license when you're driving.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Gas station",
+        "partOfSpeech": "Noun",
+        "synonym": "Petrol station",
+        "meaning": "A facility where vehicles can refuel with gasoline or diesel.",
+        "example": "I need to stop at the gas station to fill up the tank.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Highway",
+        "partOfSpeech": "Noun",
+        "synonym": "Expressway",
+        "meaning": "A main road, often with multiple lanes and designed for high-speed traffic.",
+        "example": "We took the highway to reach the next city quickly.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Road trip",
+        "partOfSpeech": "Noun",
+        "synonym": "Journey by car",
+        "meaning": "A long journey made in a car, usually for pleasure or vacation.",
+        "example": "We had an amazing road trip along the coast.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Traffic",
+        "partOfSpeech": "Noun",
+        "synonym": "Congestion",
+        "meaning": "The vehicles on a road or the movement of vehicles.",
+        "example": "The traffic was heavy during rush hour.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Map",
+        "partOfSpeech": "Noun",
+        "synonym": "Chart",
+        "meaning": "A visual representation of an area, often showing geographical features and locations.",
+        "example": "I used a map to find my way around the city.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Directions",
+        "partOfSpeech": "Noun",
+        "synonym": "Guidance",
+        "meaning": "Instructions on how to reach a destination or proceed with a task.",
+        "example": "She gave me clear directions to the nearest bus stop.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Landmark",
+        "partOfSpeech": "Noun",
+        "synonym": "Point of interest",
+        "meaning": "A recognizable feature of a landscape or location, often used for navigation or reference.",
+        "example": "The Eiffel Tower is a famous landmark in Paris.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Tourist attraction",
+        "partOfSpeech": "Noun",
+        "synonym": "Tourist spot",
+        "meaning": "A place that is popular and interesting for tourists to visit.",
+        "example": "The museum is one of the city's main tourist attractions.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Sightseeing",
+        "partOfSpeech": "Noun",
+        "synonym": "Touring",
+        "meaning": "The activity of visiting interesting places, especially as a tourist.",
+        "example": "We spent the day sightseeing and exploring the historic district.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Guidebook",
+        "partOfSpeech": "Noun",
+        "synonym": "Travel guide",
+        "meaning": "A book containing information and advice for travelers, often about a specific destination.",
+        "example": "I bought a guidebook to help me plan my trip to Japan.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Itinerary",
+        "partOfSpeech": "Noun",
+        "synonym": "Travel plan",
+        "meaning": "A detailed plan or schedule for a trip, including places to visit and activities.",
+        "example": "Our itinerary includes visits to three different cities.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Souvenir",
+        "partOfSpeech": "Noun",
+        "synonym": "Memento",
+        "meaning": "A keepsake or item purchased as a reminder of a place or event visited.",
+        "example": "I bought a souvenir from the gift shop to remember my trip.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Currency exchange",
+        "partOfSpeech": "Noun",
+        "synonym": "Foreign exchange",
+        "meaning": "The act of converting one currency into another, often for travel purposes.",
+        "example": "I went to the bank to do some currency exchange before my trip.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Travel insurance",
+        "partOfSpeech": "Noun",
+        "synonym": "Trip insurance",
+        "meaning": "Insurance coverage that provides financial protection and assistance during travel.",
+        "example": "It's a good idea to have travel insurance in case of unexpected events.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Boarding pass",
+        "partOfSpeech": "Noun",
+        "synonym": "Flight pass",
+        "meaning": "A document that allows a passenger to board a plane and indicates their seat assignment.",
+        "example": "I printed out my boarding pass before heading to the airport.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Gate",
+        "partOfSpeech": "Noun",
+        "synonym": "Entrance",
+        "meaning": "An entry or exit point, often at an airport for boarding flights.",
+        "example": "Our flight departure gate is located in Terminal B.",
+        "level": "Beginner",
+        "lessonTitle": "Travel and Transportation"
+      }
+]
+  
