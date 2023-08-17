@@ -1,0 +1,503 @@
+[
+    {
+      "wordNumber": 1,
+      "word": "Culinary",
+      "partOfSpeech": "Adjective",
+      "synonym": "Cooking",
+      "meaning": "Relating to the art or practice of cooking.",
+      "example": "She pursued a career in the culinary arts and became a renowned chef.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 2,
+      "word": "Cuisine",
+      "partOfSpeech": "Noun",
+      "synonym": "Cooking",
+      "meaning": "A style or method of cooking, especially as characteristic of a particular country, region, or establishment.",
+      "example": "Italian cuisine is known for its use of fresh ingredients and rich flavors.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 3,
+      "word": "Gourmet",
+      "partOfSpeech": "Adjective",
+      "synonym": "Epicurean",
+      "meaning": "Involving or purporting to involve high-quality or exotic ingredients and skilled preparation.",
+      "example": "The restaurant is known for its gourmet dishes, which are meticulously crafted by the chef.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 4,
+      "word": "Organic",
+      "partOfSpeech": "Adjective",
+      "synonym": "Natural",
+      "meaning": "Produced or involving production without the use of synthetic chemicals, pesticides, or fertilizers.",
+      "example": "They prefer to buy organic vegetables to support environmentally-friendly farming practices.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 5,
+      "word": "Locally-sourced",
+      "partOfSpeech": "Adjective",
+      "synonym": "Community-sourced",
+      "meaning": "Obtained or produced from nearby or local sources.",
+      "example": "The restaurant prides itself on serving locally-sourced ingredients to support the community.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 6,
+      "word": "Sustainable",
+      "partOfSpeech": "Adjective",
+      "synonym": "Environmentally-friendly",
+      "meaning": "Capable of being maintained over the long term without harming the environment or depleting resources.",
+      "example": "The company is committed to sustainable practices, such as using renewable energy and reducing waste.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 7,
+      "word": "Farm-to-table",
+      "partOfSpeech": "Adjective",
+      "synonym": "Farm-to-fork",
+      "meaning": "Referring to the direct supply of produce from local farms to a restaurant or table.",
+      "example": "The restaurant's menu highlights farm-to-table dishes made from fresh ingredients sourced locally.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 8,
+      "word": "Fusion",
+      "partOfSpeech": "Noun",
+      "synonym": "Blend",
+      "meaning": "The merging of different culinary traditions, often resulting in innovative and eclectic dishes.",
+      "example": "The restaurant offers a unique fusion of Asian and Mediterranean cuisines.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 9,
+      "word": "Spicy",
+      "partOfSpeech": "Adjective",
+      "synonym": "Hot",
+      "meaning": "Containing a strong, pungent, or hot flavor due to the presence of spices or seasonings.",
+      "example": "The curry dish was incredibly spicy, leaving a lingering heat on the palate.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+      "wordNumber": 10,
+      "word": "Savory",
+      "partOfSpeech": "Adjective",
+      "synonym": "Flavorful",
+      "meaning": "Pleasant to the taste, often with a rich, full, and satisfying flavor.",
+      "example": "The roasted vegetables were seasoned perfectly, creating a savory accompaniment to the main course.",
+      "level": "Intermediate",
+      "lessonTitle": "Food and Dining"
+    },
+    {
+        "wordNumber": 11,
+        "word": "Sweet",
+        "partOfSpeech": "Adjective",
+        "synonym": "Sugary",
+        "meaning": "Having a taste resembling that of sugar; not bitter or salty.",
+        "example": "Desserts like cakes and candies are usually sweet.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 12,
+        "word": "Bitter",
+        "partOfSpeech": "Adjective",
+        "synonym": "Astringent",
+        "meaning": "Having a sharp, pungent taste; not sweet.",
+        "example": "Coffee and dark chocolate can taste bitter.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 13,
+        "word": "Sour",
+        "partOfSpeech": "Adjective",
+        "synonym": "Tart",
+        "meaning": "Having a sharp, acidic taste; opposite of sweet.",
+        "example": "Lemons and vinegar are known for their sour flavor.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 14,
+        "word": "Umami",
+        "partOfSpeech": "Noun",
+        "synonym": "Savory",
+        "meaning": "A pleasant, savory taste considered one of the five basic tastes, along with sweet, sour, bitter, and salty.",
+        "example": "Soy sauce and mushrooms are rich in umami flavor.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 15,
+        "word": "Nutritious",
+        "partOfSpeech": "Adjective",
+        "synonym": "Healthy",
+        "meaning": "Containing essential nutrients for growth, health, and well-being.",
+        "example": "Vegetables and fruits are known for being nutritious.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 16,
+        "word": "Balanced diet",
+        "partOfSpeech": "Noun",
+        "synonym": "Healthy diet",
+        "meaning": "Eating a variety of foods in proportions that provide the nutrients your body needs.",
+        "example": "A balanced diet includes a mix of carbohydrates, proteins, fats, vitamins, and minerals.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 17,
+        "word": "Dietary restrictions",
+        "partOfSpeech": "Noun",
+        "synonym": "Food limitations",
+        "meaning": "Specific limitations or requirements in a person's diet based on health, ethical, or cultural reasons.",
+        "example": "Some people have dietary restrictions such as gluten intolerance or allergies.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 18,
+        "word": "Vegetarian",
+        "partOfSpeech": "Noun",
+        "synonym": "Veggie",
+        "meaning": "A person who does not eat meat, poultry, or fish, but may consume other animal products like dairy and eggs.",
+        "example": "She has been a vegetarian for five years.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 19,
+        "word": "Vegan",
+        "partOfSpeech": "Noun",
+        "synonym": "Plant-based",
+        "meaning": "A person who avoids all animal products, including meat, dairy, eggs, and even honey.",
+        "example": "He decided to become a vegan for ethical reasons.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 20,
+        "word": "Gluten-free",
+        "partOfSpeech": "Adjective",
+        "synonym": "No gluten",
+        "meaning": "A diet that excludes gluten, a protein found in wheat, barley, and rye.",
+        "example": "She follows a gluten-free diet due to her celiac disease.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 21,
+        "word": "Lactose-intolerant",
+        "partOfSpeech": "Adjective",
+        "synonym": "Milk-sensitive",
+        "meaning": "Having a decreased ability to digest lactose, the sugar found in milk and dairy products.",
+        "example": "He avoids dairy products because he is lactose-intolerant.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 22,
+        "word": "Allergies",
+        "partOfSpeech": "Noun",
+        "synonym": "Hypersensitivities",
+        "meaning": "Abnormal immune responses to certain substances, often resulting in adverse reactions when exposed to allergens.",
+        "example": "Her peanut allergy requires her to carry an epinephrine auto-injector.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 23,
+        "word": "Tasting menu",
+        "partOfSpeech": "Noun",
+        "synonym": "Chef's menu",
+        "meaning": "A curated menu offered by a restaurant, featuring a selection of small dishes to showcase the chef's skills and a variety of flavors.",
+        "example": "We opted for the tasting menu, which included seven courses of delightful surprises.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 24,
+        "word": "À la carte",
+        "partOfSpeech": "Adjective",
+        "synonym": "Individual dishes",
+        "meaning": "A menu style where each dish and its price are listed separately, allowing diners to order items individually.",
+        "example": "Instead of a set menu, they offer dishes à la carte so you can customize your meal.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 25,
+        "word": "Buffet",
+        "partOfSpeech": "Noun",
+        "synonym": "Smorgasbord",
+        "meaning": "A self-service meal where a variety of dishes are laid out on a table or counter, and diners serve themselves.",
+        "example": "The hotel's breakfast buffet included a wide range of options, from pastries to omelets.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 26,
+        "word": "Fast food",
+        "partOfSpeech": "Noun",
+        "synonym": "Quick service food",
+        "meaning": "Food that is prepared and served quickly, often in a pre-packaged or standardized manner.",
+        "example": "Many people enjoy grabbing a quick meal at a fast food restaurant.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 27,
+        "word": "Fine dining",
+        "partOfSpeech": "Noun",
+        "synonym": "Gourmet dining",
+        "meaning": "An upscale and sophisticated style of dining that usually offers high-quality food, elegant atmosphere, and excellent service.",
+        "example": "They celebrated their anniversary by going to a fine dining restaurant.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 28,
+        "word": "Cooking techniques",
+        "partOfSpeech": "Noun",
+        "synonym": "Cooking methods",
+        "meaning": "Various methods and procedures used in preparing and cooking food.",
+        "example": "Learning different cooking techniques can greatly improve your culinary skills.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 29,
+        "word": "Grilling",
+        "partOfSpeech": "Noun",
+        "synonym": "Barbecuing",
+        "meaning": "Cooking food over an open flame or heat source, often on a grill or grate.",
+        "example": "They invited friends over for a backyard barbecue and enjoyed grilling various meats.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 30,
+        "word": "Roasting",
+        "partOfSpeech": "Noun",
+        "synonym": "Baking",
+        "meaning": "Cooking food, usually meat, by exposing it to dry heat in an oven or over an open flame.",
+        "example": "The Thanksgiving turkey was perfectly cooked through roasting in the oven.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 31,
+        "word": "Sautéing",
+        "partOfSpeech": "Noun",
+        "synonym": "Pan-frying",
+        "meaning": "Cooking food quickly in a small amount of oil or fat in a shallow pan over high heat.",
+        "example": "She sautéed the vegetables until they were tender and slightly browned.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 32,
+        "word": "Boiling",
+        "partOfSpeech": "Noun",
+        "synonym": "Cooking in water",
+        "meaning": "Cooking food by submerging it in boiling water until it becomes tender or reaches a desired state.",
+        "example": "Pasta is commonly cooked by boiling it in a pot of salted water.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 33,
+        "word": "Steaming",
+        "partOfSpeech": "Noun",
+        "synonym": "Cooking by steam",
+        "meaning": "Cooking food by exposing it to steam, which helps retain its nutrients and flavors.",
+        "example": "She preferred steaming vegetables to preserve their color and texture.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 34,
+        "word": "Stir-frying",
+        "partOfSpeech": "Noun",
+        "synonym": "Quick frying",
+        "meaning": "Cooking small, uniform-sized pieces of food quickly in a hot pan or wok, often with constant stirring.",
+        "example": "Stir-frying is a popular cooking technique in Asian cuisine.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 35,
+        "word": "Baking",
+        "partOfSpeech": "Noun",
+        "synonym": "Cooking in an oven",
+        "meaning": "Cooking food by surrounding it with dry heat in an enclosed space, such as an oven.",
+        "example": "She loves baking cookies and cakes on weekends.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 36,
+        "word": "Broiling",
+        "partOfSpeech": "Noun",
+        "synonym": "Grilling from above",
+        "meaning": "Cooking food by exposing it directly to high heat, usually from above, in an oven or broiler.",
+        "example": "He broiled the fish until it was nicely browned on top.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 37,
+        "word": "Simmering",
+        "partOfSpeech": "Noun",
+        "synonym": "Low-boiling",
+        "meaning": "Cooking food gently and slowly over low to medium-low heat, just below the boiling point.",
+        "example": "The stew simmered on the stove for hours, allowing the flavors to meld together.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 38,
+        "word": "Poaching",
+        "partOfSpeech": "Verb",
+        "synonym": "Simmering",
+        "meaning": "Cooking technique where food is gently simmered in liquid, such as water or broth.",
+        "example": "Poaching is commonly used for cooking eggs and delicate proteins.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 39,
+        "word": "Marinating",
+        "partOfSpeech": "Verb",
+        "synonym": "Soaking",
+        "meaning": "Process of soaking food, typically meat, in a seasoned liquid mixture to enhance flavor and tenderness.",
+        "example": "The chef marinated the chicken in a blend of herbs and spices before grilling.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 40,
+        "word": "Blanching",
+        "partOfSpeech": "Verb",
+        "synonym": "Parboiling",
+        "meaning": "Briefly immersing food in boiling water and then immediately cooling it in ice water.",
+        "example": "Blanching is often used to preserve color and texture in vegetables.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 41,
+        "word": "Plating presentation",
+        "partOfSpeech": "Noun",
+        "synonym": "Food Arrangement",
+        "meaning": "Artful arrangement of food on a plate to enhance its visual appeal before serving.",
+        "example": "The restaurant is known for its exquisite plating presentation, turning each dish into a work of art.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 42,
+        "word": "Garnish",
+        "partOfSpeech": "Noun/Verb",
+        "synonym": "Decoration",
+        "meaning": "Edible embellishment or decoration added to a dish for flavor or visual appeal.",
+        "example": "The chef added a sprig of fresh parsley as a garnish to the pasta.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 43,
+        "word": "Food pairing",
+        "partOfSpeech": "Noun",
+        "synonym": "Flavor Matching",
+        "meaning": "Art and science of combining different foods and beverages to create harmonious flavor combinations.",
+        "example": "Wine and cheese are a classic example of successful food pairing.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 44,
+        "word": "Sommelier",
+        "partOfSpeech": "Noun",
+        "synonym": "Wine Steward",
+        "meaning": "Trained and knowledgeable wine professional who specializes in all aspects of wine service.",
+        "example": "The sommelier recommended a perfect wine to complement the main course.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 45,
+        "word": "Tasting notes",
+        "partOfSpeech": "Noun",
+        "synonym": "Flavor Description",
+        "meaning": "Detailed descriptions of the flavors, aromas, and characteristics of a food or beverage.",
+        "example": "The wine critic provided tasting notes that highlighted the complex fruity undertones of the red wine.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 46,
+        "word": "Palate",
+        "partOfSpeech": "Noun",
+        "synonym": "Taste Buds",
+        "meaning": "The sense of taste, often used to refer to a person's ability to distinguish and appreciate flavors.",
+        "example": "Her well-trained palate allowed her to identify subtle differences in the spices used in the curry.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 47,
+        "word": "Digestive",
+        "partOfSpeech": "Noun",
+        "synonym": "Aperitif",
+        "meaning": "An alcoholic beverage, often herbal or bitter in flavor, consumed before or after a meal to aid digestion.",
+        "example": "The restaurant offered a selection of digestive drinks to conclude the dining experience.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 48,
+        "word": "Culinary traditions",
+        "partOfSpeech": "Noun",
+        "synonym": "Cooking Customs",
+        "meaning": "Long-standing practices and customs related to food preparation and cooking in a specific culture or region.",
+        "example": "The festival showcased various culinary traditions from around the world.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 49,
+        "word": "Street food",
+        "partOfSpeech": "Noun",
+        "synonym": "Roadside Cuisine",
+        "meaning": "Ready-to-eat food and beverages sold by vendors in public places, often from stalls or food trucks.",
+        "example": "Exploring the vibrant street food scene is a must-do for tourists visiting the city.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      },
+      {
+        "wordNumber": 50,
+        "word": "Exotic ingredients",
+        "partOfSpeech": "Noun",
+        "synonym": "Unusual Components",
+        "meaning": "Uncommon or foreign ingredients used in cooking to add unique and unfamiliar flavors to dishes.",
+        "example": "The chef incorporated exotic ingredients like dragon fruit and saffron into the dessert recipe.",
+        "level": "Intermediate",
+        "lessonTitle": "Food and Dining"
+      }
+]
+  
