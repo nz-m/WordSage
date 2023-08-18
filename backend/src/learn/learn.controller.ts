@@ -1,11 +1,11 @@
 import {
-  Controller,
-  Post,
-  UseGuards,
-  Req,
   Body,
+  Controller,
   Get,
   Param,
+  Post,
+  Req,
+  UseGuards,
 } from '@nestjs/common';
 import { LearnService } from './learn.service';
 import { AuthGuard } from '@nestjs/passport';
@@ -18,6 +18,7 @@ import { Level } from '../auth/entities/user.entity';
 @Controller('learn')
 export class LearnController {
   constructor(private learnService: LearnService) {}
+
   @Post('create-lessons')
   createLessons(
     @Body() lessons: CreateLessonsDto[],
@@ -61,11 +62,11 @@ export class LearnController {
 
   @UseGuards(AuthGuard())
   @Get('get-words/:lessonTitle')
-  async getWordsByLessonTitle(@Req() req): Promise<any> {
-    return this.learnService.getWordsByLessonTitle(
-      req.params.lessonTitle,
-      req.user._id,
-    );
+  async getWordsByLessonTitle(
+    @Param('lessonTitle') lessonTitle: string,
+    @Req() req,
+  ): Promise<any> {
+    return this.learnService.getWordsByLessonTitle(lessonTitle, req.user._id);
   }
 
   @UseGuards(AuthGuard())
@@ -86,6 +87,20 @@ export class LearnController {
       body.lessonTitle,
       body.isLearned,
       body.level,
+    );
+  }
+
+  @UseGuards(AuthGuard())
+  @Post('lesson-completed/:lessonId/:lessonNumber')
+  async markLessonAsCompleted(
+    @Param('lessonId') lessonId: string,
+    @Param('lessonNumber') lessonNumber: string,
+    @Req() req,
+  ): Promise<LessonToSend[] | { success: boolean; message: string }> {
+    return this.learnService.markLessonAsCompleted(
+      req.user._id,
+      lessonId,
+      lessonNumber,
     );
   }
 }

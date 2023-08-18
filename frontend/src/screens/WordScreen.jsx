@@ -1,14 +1,17 @@
 import React, { useState } from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { Modal, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import * as Speech from "expo-speech";
 import colors from "../constants/colors";
-import { markWordAsLearned } from "../features/learn/learnThunks";
+import {
+  markLessonAsCompleted,
+  markWordAsLearned,
+} from "../features/learn/learnThunks";
 import { updateWords } from "../features/learn/learnSlice";
 import { useDispatch } from "react-redux";
 
 const WordScreen = ({ route }) => {
-  const { words } = route.params;
+  const { words, lessonId, lessonNumber } = route.params;
 
   const dispatch = useDispatch();
 
@@ -17,6 +20,13 @@ const WordScreen = ({ route }) => {
   const [wordStatus, setWordStatus] = useState(
     words.map((word) => ({ _id: word._id, isDone: word.isLearned }))
   );
+
+  // keep track of completed words count
+  const [completedWords, setCompletedWords] = useState(
+    words.filter((word) => word.isLearned).length
+  );
+
+  const totalWords = words.length;
 
   const handlePronunciationPress = (word) => {
     Speech.speak(word);
@@ -36,6 +46,9 @@ const WordScreen = ({ route }) => {
     const updatedStatus = wordStatus.map((word) =>
       word._id === wordData._id ? { ...word, isDone: true } : word
     );
+
+    setCompletedWords((prevCompletedWords) => prevCompletedWords + 1);
+
     setWordStatus(updatedStatus);
     dispatch(
       markWordAsLearned({
@@ -50,9 +63,21 @@ const WordScreen = ({ route }) => {
         wordId: wordData._id,
       })
     );
+
+    if (completedWords === totalWords) {
+      setShowCongratsModal(true);
+      dispatch(markLessonAsCompleted({ lessonId, lessonNumber }));
+    }
+
+    setTimeout(() => {
+      if (currentIndex < words.length - 1) {
+        handleNextPress();
+      }
+    }, 500);
   };
 
   const isDone = wordStatus.find((word) => word._id === wordData._id)?.isDone;
+  const [showCongratsModal, setShowCongratsModal] = useState(false);
 
   return (
     <View style={styles.container}>
@@ -135,6 +160,36 @@ const WordScreen = ({ route }) => {
       ) : (
         <Text style={{ color: colors.primary }}>Word marked as done!</Text>
       )}
+
+      <Modal
+        animationType="slide"
+        transparent={true}
+        visible={showCongratsModal}
+        onRequestClose={() => setShowCongratsModal(false)}
+      >
+        <View style={styles.modalContainer}>
+          <View style={styles.modalContent}>
+            <Text style={styles.congratsText}>
+              Congratulations on completing the lesson!
+            </Text>
+            <Text style={styles.congratsText}>
+              You have learned {completedWords} out of {totalWords} words.
+            </Text>
+            <Text style={styles.congratsText}>Keep up the good work!</Text>
+
+            <Text style={styles.congratsText}>
+              The next is unlocked for you! You can start the next lesson now.
+            </Text>
+
+            <TouchableOpacity
+              style={styles.modalButton}
+              onPress={() => setShowCongratsModal(false)}
+            >
+              <Text style={styles.modalButtonText}>Okay</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
     </View>
   );
 };
@@ -192,6 +247,38 @@ const styles = StyleSheet.create({
     color: colors.white,
     fontWeight: "bold",
     fontSize: 16,
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
+  },
+
+  modalContent: {
+    backgroundColor: "white",
+    padding: 20,
+    borderRadius: 10,
+    width: 300,
+    alignItems: "center",
+  },
+
+  congratsText: {
+    fontSize: 18,
+    fontWeight: "bold",
+    marginBottom: 20,
+  },
+
+  modalButton: {
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    backgroundColor: colors.primary,
+    borderRadius: 5,
+  },
+
+  modalButtonText: {
+    color: "white",
+    fontWeight: "bold",
   },
 });
 

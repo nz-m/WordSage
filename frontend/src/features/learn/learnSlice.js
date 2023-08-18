@@ -79,6 +79,12 @@ const learnSlice = createSlice({
       .addCase("learn/getWords/rejected", (state, action) => {
         state.isWordsfetching = false;
         state.wordsfetchingError = action.payload.message;
+      })
+      .addCase("learn/markLessonAsCompleted/fulfilled", (state, action) => {
+        state.lessons = action.payload;
+      })
+      .addCase("learn/markLessonAsCompleted/rejected", (state, action) => {
+        state.fetchingError = action.payload.message;
       });
   },
 });

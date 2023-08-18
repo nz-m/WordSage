@@ -288,6 +288,7 @@ export class LearnService {
   async markLessonAsCompleted(
     userId: string,
     lessonId: string,
+    lessonNumber: string,
   ): Promise<LessonToSend[] | { success: boolean; message: string }> {
     try {
       const lessonProgress = await this.lessonProgressModel
@@ -296,6 +297,20 @@ export class LearnService {
 
       lessonProgress.status = LessonStatus.COMPLETED;
       await lessonProgress.save();
+
+      // update the next lesson to be "not started"
+      const nextLesson = await this.lessonModel
+        .findOne({ lessonNumber: Number(lessonNumber) + 1 })
+        .lean()
+        .exec();
+
+      if (nextLesson) {
+        const nextLessonProgress = await this.lessonProgressModel
+          .findOne({ user: userId, lesson: nextLesson._id })
+          .exec();
+        nextLessonProgress.status = LessonStatus.NOT_STARTED;
+        await nextLessonProgress.save();
+      }
 
       return await this.fetchLessonsWithProgress(userId);
     } catch (error) {

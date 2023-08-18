@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
   ActivityIndicator,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import colors from "../constants/colors";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
-import { startLesson, getWords } from "../features/learn/learnThunks";
+import { getWords, startLesson } from "../features/learn/learnThunks";
 
 const LessonDetailsScreen = ({ route }) => {
   const dispatch = useDispatch();
@@ -44,7 +44,11 @@ const LessonDetailsScreen = ({ route }) => {
   useEffect(() => {
     if (isContinuePressed || isStartPressed) {
       if (words && words.length > 0 && words[0].lessonTitle === lesson.title) {
-        navigation.replace("Word", { words });
+        navigation.replace("Word", {
+          words,
+          lessonId: lesson._id,
+          lessonNumber: lesson.lessonNumber,
+        });
       } else {
         dispatch(getWords(lesson.title));
       }
@@ -101,7 +105,6 @@ const LessonDetailsScreen = ({ route }) => {
         </Text>
       )}
 
-      {/* Display loading indicator while starting lesson */}
       {isStartingLesson || isWordsFetching ? (
         <ActivityIndicator color={colors.primary} size="large" />
       ) : (

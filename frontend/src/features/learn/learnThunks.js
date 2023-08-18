@@ -72,3 +72,17 @@ export const markWordAsLearned = createAsyncThunk(
     }
   }
 );
+
+export const markLessonAsCompleted = createAsyncThunk(
+  "learn/markLessonAsCompleted",
+  async ({ lessonId, lessonNumber }, thunkAPI) => {
+    try {
+      const response = await axiosInstance.post(
+        `/learn/lesson-completed/${lessonId}/${lessonNumber}`
+      );
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.response.data);
+    }
+  }
+);
