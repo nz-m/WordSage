@@ -10,9 +10,11 @@ import {
 import { updateWords } from "../features/learn/learnSlice";
 import { useDispatch } from "react-redux";
 
-const WordScreen = ({ route }) => {
-  const { words, lessonId, lessonNumber } = route.params;
-
+const WordScreen = ({
+  route: {
+    params: { words, lessonId, lessonNumber },
+  },
+}) => {
   const dispatch = useDispatch();
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -21,7 +23,7 @@ const WordScreen = ({ route }) => {
     words.map((word) => ({ _id: word._id, isDone: word.isLearned }))
   );
 
-  // keep track of completed words count
+  // Keep track of the count of completed words
   const [completedWords, setCompletedWords] = useState(
     words.filter((word) => word.isLearned).length
   );
@@ -50,21 +52,22 @@ const WordScreen = ({ route }) => {
     setCompletedWords((prevCompletedWords) => prevCompletedWords + 1);
 
     setWordStatus(updatedStatus);
-    dispatch(
-      markWordAsLearned({
-        wordId: wordData._id,
-        lessonTitle: wordData.lessonTitle,
-        level: wordData.level,
-        isLearned: true,
-      })
-    );
-    dispatch(
-      updateWords({
-        wordId: wordData._id,
-      })
-    );
 
-    if (completedWords === totalWords) {
+    const markAsLearnedPayload = {
+      wordId: wordData._id,
+      lessonTitle: wordData.lessonTitle,
+      level: wordData.level,
+      isLearned: true,
+    };
+
+    const updateWordsPayload = {
+      wordId: wordData._id,
+    };
+
+    dispatch(markWordAsLearned(markAsLearnedPayload));
+    dispatch(updateWords(updateWordsPayload));
+
+    if (completedWords + 1 === totalWords) {
       setShowCongratsModal(true);
       dispatch(markLessonAsCompleted({ lessonId, lessonNumber }));
     }
@@ -124,7 +127,11 @@ const WordScreen = ({ route }) => {
       <View style={styles.section}>
         <MaterialCommunityIcons name="book" size={24} color="#888" />
         <Text style={styles.title}>Part of Speech:</Text>
-        <Text style={styles.description}>{wordData.partOfSpeech}</Text>
+        {wordData.partOfSpeech ? (
+          <Text style={styles.description}>{wordData.partOfSpeech}</Text>
+        ) : (
+          <Text style={styles.description}>N/A</Text>
+        )}
       </View>
 
       <View style={styles.section}>
@@ -133,15 +140,17 @@ const WordScreen = ({ route }) => {
         <Text style={styles.description}>{wordData.meaning}</Text>
       </View>
 
-      <View style={styles.section}>
-        <MaterialCommunityIcons
-          name="book-open-page-variant"
-          size={24}
-          color="#888"
-        />
-        <Text style={styles.title}>Synonym:</Text>
-        <Text style={styles.description}>{wordData.synonym}</Text>
-      </View>
+      {wordData.synonym && (
+        <View style={styles.section}>
+          <MaterialCommunityIcons
+            name="book-open-page-variant"
+            size={24}
+            color="#888"
+          />
+          <Text style={styles.title}>Synonym:</Text>
+          <Text style={styles.description}>{wordData.synonym}</Text>
+        </View>
+      )}
 
       <View style={styles.section}>
         <MaterialCommunityIcons

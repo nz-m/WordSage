@@ -4,7 +4,8 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { AuthModule } from './auth/auth.module';
 import { LevelAssessmentModule } from './level-assessment/level-assessment.module';
 import { LearnModule } from './learn/learn.module';
-import { LoggerMiddleware } from './middleware/logger.middleware';
+import { LoggerMiddleware, DelayMiddleware } from './middleware';
+
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -20,6 +21,7 @@ import { LoggerMiddleware } from './middleware/logger.middleware';
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
+    // consumer.apply(LoggerMiddleware, DelayMiddleware).forRoutes('*');
     consumer.apply(LoggerMiddleware).forRoutes('*');
   }
 }
