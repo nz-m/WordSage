@@ -16,7 +16,7 @@ import { UserToSend } from './interface/user.interface';
 export class AuthService {
   constructor(
     @InjectModel(User.name)
-    private userModel: Model<User>,
+    private readonly userModel: Model<User>,
     private jwtService: JwtService,
   ) {}
 

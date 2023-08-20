@@ -6,15 +6,7 @@ import {
 } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
-import {
-  Lesson,
-  LessonProgress,
-  PracticeQuiz,
-  QuizProgress,
-  QuizQuestion,
-  Word,
-  WordProgress,
-} from './entities';
+import { Lesson, Word, LessonProgress, WordProgress } from './entities';
 import { Level, User } from '../auth/entities/user.entity';
 import { LessonStatus } from './entities/lesson-progress.entity';
 import { CreateLessonsDto } from './dto/create-lessons.dto';
@@ -25,22 +17,16 @@ import { AddWordDto } from './dto/add-word.dto';
 @Injectable()
 export class LearnService {
   constructor(
-    @InjectModel(QuizQuestion.name)
-    private quizQuestionModel: Model<QuizQuestion>,
     @InjectModel(Lesson.name)
-    private lessonModel: Model<Lesson>,
-    @InjectModel(PracticeQuiz.name)
-    private practiceQuizModel: Model<PracticeQuiz>,
+    private readonly lessonModel: Model<Lesson>,
     @InjectModel(Word.name)
-    private wordModel: Model<Word>,
-    @InjectModel(QuizProgress.name)
-    private quizProgressModel: Model<QuizProgress>,
+    private readonly wordModel: Model<Word>,
     @InjectModel(WordProgress.name)
-    private wordProgressModel: Model<WordProgress>,
+    private readonly wordProgressModel: Model<WordProgress>,
     @InjectModel(LessonProgress.name)
-    private lessonProgressModel: Model<LessonProgress>,
+    private readonly lessonProgressModel: Model<LessonProgress>,
     @InjectModel(User.name)
-    private userModel: Model<User>,
+    private readonly userModel: Model<User>,
   ) {}
 
   async createLessons(

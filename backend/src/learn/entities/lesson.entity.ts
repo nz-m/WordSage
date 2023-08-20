@@ -16,7 +16,7 @@ export class Lesson extends Document {
   @Prop()
   description: string;
 
-  @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'PracticeQuiz' })
+  @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'Quiz' })
   practiceQuiz: mongoose.Types.ObjectId;
 }
 

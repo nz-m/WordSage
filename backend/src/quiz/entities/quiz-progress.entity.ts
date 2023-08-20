@@ -1,6 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 import * as mongoose from 'mongoose';
+import { UserAnswer } from '../interface/quiz.interface';
 
 @Schema()
 export class QuizProgress extends Document {
@@ -9,19 +10,24 @@ export class QuizProgress extends Document {
 
   @Prop({
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'PracticeQuiz',
+    ref: 'Quiz',
     required: true,
   })
-  quiz: mongoose.Types.ObjectId;
+  quiz: string;
 
-  @Prop([{ question: String, userAnswer: String }])
-  userAnswers: { question: string; userAnswer: string }[];
+  @Prop({
+    required: true,
+  })
+  userAnswers: UserAnswer[];
 
   @Prop({ default: 0 })
   score: number;
 
-  @Prop({ default: 0 })
-  timeTaken: number;
+  @Prop({ default: new Date() })
+  startTime: Date;
+
+  @Prop({ default: '' })
+  timeTaken: string;
 
   @Prop({ default: false })
   isAttempted: boolean;

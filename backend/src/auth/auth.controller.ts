@@ -5,7 +5,7 @@ import { UserToSend } from './interface/user.interface';
 
 @Controller('auth')
 export class AuthController {
-  constructor(private authService: AuthService) {}
+  constructor(private readonly authService: AuthService) {}
 
   @Post('register')
   signUp(

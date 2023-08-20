@@ -5,6 +5,7 @@ import { AuthModule } from './auth/auth.module';
 import { LevelAssessmentModule } from './level-assessment/level-assessment.module';
 import { LearnModule } from './learn/learn.module';
 import { LoggerMiddleware, DelayMiddleware } from './middleware';
+import { QuizModule } from './quiz/quiz.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { LoggerMiddleware, DelayMiddleware } from './middleware';
     AuthModule,
     LevelAssessmentModule,
     LearnModule,
+    QuizModule,
   ],
 })
 export class AppModule implements NestModule {

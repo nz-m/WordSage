@@ -17,7 +17,7 @@ import { Level } from '../auth/entities/user.entity';
 
 @Controller('learn')
 export class LearnController {
-  constructor(private learnService: LearnService) {}
+  constructor(private readonly learnService: LearnService) {}
 
   @Post('create-lessons')
   createLessons(

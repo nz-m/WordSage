@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the synonym for 'happy'?",
+    "answer": "Joyful",
+    "distractor1": "Sad",
+    "distractor2": "Angry",
+    "distractor3": "Excited",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What does the word 'efficient' mean?",
+    "answer": "Performing a task with the least waste of time and effort.",
+    "distractor1": "Complicated",
+    "distractor2": "Useless",
+    "distractor3": "Slow",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "Which word means 'a feeling of strong dislike'?",
+    "answer": "Aversion",
+    "distractor1": "Appreciation",
+    "distractor2": "Tolerance",
+    "distractor3": "Curiosity",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What is the opposite of 'success'?",
+    "answer": "Failure",
+    "distractor1": "Achievement",
+    "distractor2": "Victory",
+    "distractor3": "Progress",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "Which word means 'a group of stars forming a pattern'?",
+    "answer": "Constellation",
+    "distractor1": "Galaxy",
+    "distractor2": "Orbit",
+    "distractor3": "Meteor",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What does the term 'benevolent' mean?",
+    "answer": "Kind and generous",
+    "distractor1": "Cruel and ruthless",
+    "distractor2": "Careless and negligent",
+    "distractor3": "Indifferent and apathetic",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "Which word describes 'the fear of spiders'?",
+    "answer": "Arachnophobia",
+    "distractor1": "Claustrophobia",
+    "distractor2": "Acrophobia",
+    "distractor3": "Agoraphobia",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What does 'coincidence' mean?",
+    "answer": "A remarkable concurrence of events without apparent causal connection.",
+    "distractor1": "Intentional occurrence",
+    "distractor2": "Predictable outcome",
+    "distractor3": "Unavoidable consequence",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What is the term for 'a brief rest or break'?",
+    "answer": "Respite",
+    "distractor1": "Commotion",
+    "distractor2": "Vigilance",
+    "distractor3": "Stagnation",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What does 'inquisitive' mean?",
+    "answer": "Curious or inquiring",
+    "distractor1": "Indifferent",
+    "distractor2": "Apathetic",
+    "distractor3": "Careless",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  }
+]
