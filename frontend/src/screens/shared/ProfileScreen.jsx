@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
-import colors from "../constants/colors";
+import colors from "../../constants/colors";
 import { Feather } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
 import LoadingScreen from "./LoadingScreen";
-import logOut from "../features/rootAction";
+import logOut from "../../features/rootAction";
 
 const ProfileScreen = () => {
   const dispatch = useDispatch();
@@ -19,7 +19,7 @@ const ProfileScreen = () => {
 
   const userData = {
     name: user.name,
-    profilePicture: require("../assets/profile.png"),
+    profilePicture: require("../../assets/profile.png"),
     level: user.level,
     streak: 10,
     lessonsCompleted: "25/50",
@@ -72,7 +72,7 @@ const ProfileScreen = () => {
 
       <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
         <Image
-          source={require("../assets/logout.png")}
+          source={require("../../assets/logout.png")}
           style={styles.logoutImage}
         />
         <Text style={styles.logoutButtonText}>Logout</Text>

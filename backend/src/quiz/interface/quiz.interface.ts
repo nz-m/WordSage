@@ -21,5 +21,5 @@ export interface QuizResult {
   userAnswers: UserAnswer[];
   timeTaken: string;
   score: number;
-  startTime: Date;
+  startTime: string;
 }

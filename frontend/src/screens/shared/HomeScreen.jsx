@@ -1,9 +1,9 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import Screen from "../components/Screen";
+import Screen from "../../components/Screen";
 import { Ionicons } from "@expo/vector-icons";
-import colors from "../constants/colors";
+import colors from "../../constants/colors";
 import { useSelector } from "react-redux";
 import LoadingScreen from "./LoadingScreen";
 const HomeScreen = () => {
@@ -41,7 +41,7 @@ const HomeScreen = () => {
             onPress={() => navigation.navigate("Profile")}
           >
             <Image
-              source={require("../assets/profile.png")}
+              source={require("../../assets/profile.png")}
               style={styles.profileImage}
             />
             <Text style={styles.welcomeText}>Welcome, {user.name}!</Text>

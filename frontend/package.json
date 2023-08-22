@@ -23,6 +23,7 @@
     "lottie-react-native": "^6.1.2",
     "react": "18.2.0",
     "react-native": "0.72.3",
+    "react-native-elements": "^3.4.3",
     "react-redux": "^8.1.2",
     "redux-persist": "^6.0.0",
     "typescript": "^5.1.3"

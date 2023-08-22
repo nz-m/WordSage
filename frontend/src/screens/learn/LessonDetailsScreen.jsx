@@ -7,10 +7,14 @@ import {
   View,
 } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
-import colors from "../constants/colors";
+import colors from "../../constants/colors";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
-import { getWords, startLesson } from "../features/learn/learnThunks";
+import { getWords, startLesson } from "../../features/learn/learnThunks";
+import { getQuiz } from "../../features/quiz/quizThunks";
+import { getQuizStatus } from "../../features/quiz/quizThunks";
+import { clearQuizErrors } from "../../features/quiz/quizSlice";
+import LoadingScreen from "../shared/LoadingScreen";
 
 const LessonDetailsScreen = ({
   route: {
@@ -20,16 +24,37 @@ const LessonDetailsScreen = ({
   const dispatch = useDispatch();
   const navigation = useNavigation();
 
-  const [isContinuePressed, setIsContinuePressed] = useState(false);
-  const [isStartPressed, setIsStartPressed] = useState(false);
+  const {
+    isQuizStatusFetching,
+    quizStatusFetchingError,
+    isQuizTaken,
+    isQuizFetching,
+    quiz,
+    quizFetchingError,
+  } = useSelector((state) => state.quiz);
 
   const {
     isStartingLesson,
     startingLessonError,
     isWordsFetching,
-    wordsfetchingError,
+    wordsFetchingError,
     words,
   } = useSelector((state) => state.learn);
+
+  const { user } = useSelector((state) => state.auth);
+
+  useEffect(() => {
+    if (lesson) {
+      dispatch(getQuizStatus({ lessonTitle: lesson.title }));
+    }
+  }, [isQuizTaken]);
+
+  if (isQuizStatusFetching) {
+    return <LoadingScreen />;
+  }
+
+  const [isContinuePressed, setIsContinuePressed] = useState(false);
+  const [isStartPressed, setIsStartPressed] = useState(false);
 
   const totalLearnedWords = words.filter((word) => word.isLearned).length;
 
@@ -46,9 +71,26 @@ const LessonDetailsScreen = ({
     setIsStartPressed(true);
   };
 
-  const handleQuiz = () => {
-    console.log("Quiz");
+  const handleQuiz = async () => {
+    if (isQuizTaken) {
+      navigation.navigate("QuizResult", {
+        lessonTitle: lesson.title,
+      });
+      return;
+    }
+
+    await dispatch(
+      getQuiz({
+        level: user.level,
+        lessonTitle: lesson.title,
+      })
+    );
+
+    if (!isQuizFetching && !quizFetchingError && quiz) {
+      navigation.navigate("QuizPrompt");
+    }
   };
+
   useEffect(() => {
     if (isContinuePressed || isStartPressed) {
       if (words && words.length > 0 && words[0].lessonTitle === lesson.title) {
@@ -62,6 +104,10 @@ const LessonDetailsScreen = ({
       }
     }
   }, [isContinuePressed, isStartPressed, words]);
+
+  const handleClearError = () => {
+    dispatch(clearQuizErrors());
+  };
 
   const renderLessonStatusText = () => {
     if (lesson.status === "not started") {
@@ -78,7 +124,15 @@ const LessonDetailsScreen = ({
           <Text style={styles.boldText}>
             Congratulations on completing this lesson!
           </Text>
-          <Text>Take the quiz to test your knowledge on this lesson.</Text>
+
+          {isQuizTaken ? (
+            <Text style={styles.progressText}>
+              You have already taken the quiz for this lesson. Click the button
+              below to see your quiz result.
+            </Text>
+          ) : (
+            <Text>Take the quiz to test your knowledge on this lesson.</Text>
+          )}
         </>
       );
     } else if (lesson.status === "in progress") {
@@ -110,12 +164,31 @@ const LessonDetailsScreen = ({
         <>
           {lesson.status === "completed" && (
             <TouchableOpacity style={styles.quizButton} onPress={handleQuiz}>
-              <Text style={styles.quizButtonText}>Start Quiz</Text>
-              <MaterialIcons
-                name="arrow-forward"
-                size={24}
-                color={colors.white}
-              />
+              {isQuizFetching ? (
+                <ActivityIndicator color={colors.white} size="small" />
+              ) : (
+                <>
+                  {!isQuizTaken ? (
+                    <>
+                      <Text style={styles.quizButtonText}>Take Quiz</Text>
+                      <MaterialIcons
+                        name="arrow-forward"
+                        size={24}
+                        color={colors.white}
+                      />
+                    </>
+                  ) : (
+                    <>
+                      <Text style={styles.quizButtonText}>See Quiz Result</Text>
+                      <MaterialIcons
+                        name="arrow-forward"
+                        size={24}
+                        color={colors.white}
+                      />
+                    </>
+                  )}
+                </>
+              )}
             </TouchableOpacity>
           )}
 
@@ -149,14 +222,26 @@ const LessonDetailsScreen = ({
           {lesson.title}
         </Text>
       </View>
-
       {/* Display error message */}
       {startingLessonError ||
-        (wordsfetchingError && (
+      quizStatusFetchingError ||
+      quizFetchingError ||
+      wordsFetchingError ? (
+        <View style={styles.errorContainer}>
           <Text style={styles.errorMessage}>
-            {startingLessonError || wordsfetchingError}
+            {startingLessonError ||
+              wordsFetchingError ||
+              quizStatusFetchingError ||
+              quizFetchingError}
           </Text>
-        ))}
+          <TouchableOpacity
+            style={styles.clearButton}
+            onPress={handleClearError}
+          >
+            <Text style={styles.clearButtonText}>Clear</Text>
+          </TouchableOpacity>
+        </View>
+      ) : null}
 
       <View>
         {renderLessonStatusText()}
@@ -210,6 +295,24 @@ const styles = StyleSheet.create({
   errorMessage: {
     color: "red",
     marginBottom: 10,
+  },
+  errorContainer: {
+    backgroundColor: "#ffebeb",
+    padding: 10,
+    borderRadius: 8,
+    marginBottom: 20,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  clearButton: {
+    backgroundColor: "#f0f0f0",
+    padding: 8,
+    borderRadius: 6,
+    marginLeft: 10,
+  },
+  clearButtonText: {
+    color: "#333",
+    fontWeight: "bold",
   },
 
   progressText: {

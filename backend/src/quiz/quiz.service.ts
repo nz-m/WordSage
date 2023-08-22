@@ -1,4 +1,5 @@
 import {
+  BadRequestException,
   Injectable,
   InternalServerErrorException,
   NotFoundException,
@@ -6,10 +7,10 @@ import {
 import { Quiz, QuizProgress, QuizQuestion } from './entities';
 import { User } from '../auth/entities/user.entity';
 import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
 import { QuizQuestionDto } from './dto/quiz-question.dto';
 import { CreateQuizDto } from './dto/create-quiz.dto';
 import { Question, QuizResult, UserAnswer } from './interface/quiz.interface';
+import { Model } from 'mongoose';
 
 @Injectable()
 export class QuizService {
@@ -101,46 +102,61 @@ export class QuizService {
         quiz: quiz._id,
         isAttempted: true,
       })
-
       .exec();
 
     if (quizProgress) {
-      throw new NotFoundException('The quiz has already been attempted.');
+      throw new NotFoundException(
+        "It appears you've started the quiz but haven't finished it. Feel free to explore other lessons",
+      );
     }
 
     return quiz;
   }
 
   async startQuiz(
-    level: string,
-    lessonTitle: string,
     quizId: string,
     userId: string,
+    level: string,
   ): Promise<{
     success: boolean;
     message: string;
   }> {
-    const quizProgress = new this.quizProgressModel({
-      user: userId,
-      quiz: quizId,
-      level,
-      lessonTitle,
-      isAttempted: true,
-      isCompleted: false,
-      score: 0,
-      startTime: new Date(),
-    });
+    try {
+      const existingProgress = await this.quizProgressModel.findOne({
+        user: userId,
+        quiz: quizId,
+      });
 
-    await quizProgress.save();
+      if (existingProgress) {
+        return { success: false, message: 'Quiz has already been started.' };
+      }
+      const quiz = await this.quizModel.findById(quizId).exec();
+      const lessonTitle = quiz.lessonTitle;
 
-    return { success: true, message: 'Quiz started.' };
+      const quizProgress = new this.quizProgressModel({
+        user: userId,
+        quiz: quizId,
+        level: level,
+        isAttempted: true,
+        isCompleted: false,
+        score: 0,
+        startTime: new Date(),
+        lessonTitle: lessonTitle,
+      });
+
+      await quizProgress.save();
+
+      return { success: true, message: 'Quiz started.' };
+    } catch (error) {
+      throw new InternalServerErrorException('Failed to start quiz.');
+    }
   }
 
   async endQuiz(
     userId: string,
     quizId: string,
     userAnswers: UserAnswer[],
-  ): Promise<QuizResult> {
+  ): Promise<{ success: boolean; message: string }> {
     try {
       const quizProgress = await this.quizProgressModel.findOne({
         user: userId,
@@ -153,7 +169,14 @@ export class QuizService {
         throw new NotFoundException('Quiz progress not found.');
       }
 
-      const quiz = await this.quizModel.findById(quizId).populate('questions');
+      if (quizProgress.isCompleted) {
+        throw new BadRequestException('Quiz has already been completed.');
+      }
+
+      const [quiz, endTime] = await Promise.all([
+        this.quizModel.findById(quizId).populate('questions').exec(),
+        Date.now(),
+      ]);
 
       if (!quiz) {
         throw new NotFoundException('Quiz not found.');
@@ -164,37 +187,36 @@ export class QuizService {
         userAnswers,
       );
 
-      const endTime = new Date();
       const timeTakenInSeconds =
-        (endTime.getTime() - quizProgress.startTime.getTime()) / 1000;
-
+        (endTime - quizProgress.startTime.getTime()) / 1000;
       const formattedTimeTaken = this.formatTimeTaken(timeTakenInSeconds);
 
       quizProgress.score = score;
       quizProgress.timeTaken = formattedTimeTaken;
       quizProgress.isCompleted = true;
       quizProgress.userAnswers = userAnswers;
+      quizProgress.endTime = new Date(endTime);
 
       await quizProgress.save();
 
-      return {
-        startTime: quizProgress.startTime,
-        _id: quiz._id,
-        timeTaken: formattedTimeTaken,
-        score,
-        userAnswers,
-        questions: quiz.questions as Question[],
-      };
+      return { success: true, message: 'Quiz ended.' };
     } catch (error) {
       throw new InternalServerErrorException('Failed to end quiz.');
     }
   }
 
-  async getQuizResult(userId: string, quizId: string): Promise<QuizResult> {
-    const quizResult = await this.retrieveQuizResult(userId, quizId);
+  async getQuizResult(
+    userId: string,
+    level: string,
+    lessonTitle: string,
+  ): Promise<QuizResult> {
+    const quizResult = await this.retrieveQuizResult(
+      userId,
+      level,
+      lessonTitle,
+    );
 
     if (!quizResult) {
-      console.log('Quiz result not found.');
       throw new NotFoundException('Quiz result not found.');
     }
     return quizResult;
@@ -202,13 +224,15 @@ export class QuizService {
 
   private async retrieveQuizResult(
     userId: string,
-    quizId: string,
+    level: string,
+    lessonTitle: string,
   ): Promise<QuizResult> {
     try {
       const quizProgress = await this.quizProgressModel
         .findOne({
           user: userId,
-          quiz: quizId,
+          level: level,
+          lessonTitle: lessonTitle,
           isAttempted: true,
           isCompleted: true,
         })
@@ -224,16 +248,16 @@ export class QuizService {
       // @ts-ignore
       const questions = quizProgress.quiz.questions as Question[];
       const userAnswers = quizProgress.userAnswers;
-
       const startTime = quizProgress.startTime;
+      const endTime = quizProgress.endTime;
 
-      const endTime = new Date();
       const timeTakenInSeconds =
         (endTime.getTime() - startTime.getTime()) / 1000;
 
       const score = this.calculateScore(questions, userAnswers);
 
       const formattedTimeTaken = this.formatTimeTaken(timeTakenInSeconds);
+      const formattedStartTime = this.formatStartTime(startTime);
 
       return {
         _id: quizProgress._id,
@@ -241,7 +265,7 @@ export class QuizService {
         userAnswers,
         timeTaken: formattedTimeTaken,
         score,
-        startTime,
+        startTime: formattedStartTime,
       };
     } catch (error) {
       throw new NotFoundException('Quiz result not found.');
@@ -256,6 +280,39 @@ export class QuizService {
     const minutes = Math.floor(timeInSeconds / 60);
     const seconds = Math.floor(timeInSeconds % 60);
     return `${minutes} minutes ${seconds} seconds`;
+  }
+
+  private formatStartTime(startTime: Date): string {
+    const date = new Date(startTime);
+    const options: Intl.DateTimeFormatOptions = {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric',
+    };
+    const dateString = date.toLocaleDateString('en-US', options);
+    const day = date.getDate();
+    let suffix;
+    if (day % 10 === 1 && day !== 11) {
+      suffix = 'st';
+    } else if (day % 10 === 2 && day !== 12) {
+      suffix = 'nd';
+    } else if (day % 10 === 3 && day !== 13) {
+      suffix = 'rd';
+    } else {
+      suffix = 'th';
+    }
+    const timeString = date.toLocaleTimeString('en-US', {
+      hour: 'numeric',
+      minute: 'numeric',
+    });
+    return (
+      dateString.split(',')[0] +
+      suffix +
+      ', ' +
+      date.getFullYear() +
+      ' ' +
+      timeString
+    );
   }
 
   private calculateScore(
@@ -277,5 +334,29 @@ export class QuizService {
     questionId: string,
   ): Question | undefined {
     return questions.find((q) => q._id.toString() === questionId);
+  }
+
+  async getQuizStatus(
+    userId: string,
+    level: string,
+    lessonTitle: string,
+  ): Promise<{ message: string; isCompleted: boolean }> {
+    try {
+      const quizProgress = await this.quizProgressModel.findOne({
+        user: userId,
+        lessonTitle: lessonTitle,
+        level: level,
+        isAttempted: true,
+        isCompleted: true,
+      });
+
+      if (!quizProgress) {
+        return { message: 'Quiz not completed.', isCompleted: false };
+      }
+
+      return { message: 'Quiz completed.', isCompleted: true };
+    } catch (error) {
+      throw new InternalServerErrorException('Failed to fetch quiz status.');
+    }
   }
 }

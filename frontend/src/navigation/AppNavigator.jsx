@@ -1,21 +1,23 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
+import LoginScreen from "../screens/auth/LoginScreen";
+import RegistrationScreen from "../screens/auth/RegistrationScreen";
+import HomeScreen from "../screens/shared/HomeScreen";
+import ProfileScreen from "../screens/shared/ProfileScreen";
+import LessonListScreen from "../screens/learn/LessonListScreen";
+import LessonDetailsScreen from "../screens/learn/LessonDetailsScreen";
+import WordScreen from "../screens/learn/WordScreen";
+import WordOfTheDayScreen from "../screens/shared/WordOfTheDayScreen";
+import LevelUpTestScreen from "../screens/levelUp-test/LevelUpTestScreen";
+import LevelAssessmentPrompt from "../screens/level-assessment/LevelAssessmentPrompt";
+import LevelAssessmentScreen from "../screens/level-assessment/LevelAssessmentScreen";
+import LevelAssessmentResult from "../screens/level-assessment/LevelAssessmentResult";
+import LoadingScreen from "../screens/shared/LoadingScreen";
+import StartLearningPrompt from "../screens/learn/StartLearningPrompt";
+import QuizScreen from "../screens/quiz/QuizScreen";
+import QuizPromptScreen from "../screens/quiz/QuizPromptScreen";
+import QuizResultScreen from "../screens/quiz/QuizResultScreen";
 import { useSelector } from "react-redux";
-import LoginScreen from "../screens/LoginScreen";
-import RegistrationScreen from "../screens/RegistrationScreen";
-import HomeScreen from "../screens/HomeScreen";
-import ProfileScreen from "../screens/ProfileScreen";
-import LessonListScreen from "../screens/LessonListScreen";
-import LessonDetailsScreen from "../screens/LessonDetailsScreen";
-import WordScreen from "../screens/WordScreen";
-import WordOfTheDayScreen from "../screens/WordOfTheDayScreen";
-import LevelUpTestScreen from "../screens/LevelUpTestScreen";
-import LevelAssessmentPrompt from "../screens/LevelAssessmentPrompt";
-import LevelAssessmentScreen from "../screens/LevelAssessmentScreen";
-import LevelAssessmentResult from "../screens/LevelAssessmentResult";
-import LoadingScreen from "../screens/LoadingScreen";
-import StartLearningPrompt from "../screens/StartLearningPrompt";
-
 const Stack = createStackNavigator();
 
 const AppNavigator = () => {
@@ -77,6 +79,24 @@ const AppNavigator = () => {
           <Stack.Screen
             name="LevelUpTest"
             component={LevelUpTestScreen}
+            options={{ headerShown: false }}
+          />
+
+          <Stack.Screen
+            name="QuizPrompt"
+            component={QuizPromptScreen}
+            options={{ headerShown: false }}
+          />
+
+          <Stack.Screen
+            name="Quiz"
+            component={QuizScreen}
+            options={{ headerShown: false }}
+          />
+
+          <Stack.Screen
+            name="QuizResult"
+            component={QuizResultScreen}
             options={{ headerShown: false }}
           />
         </>

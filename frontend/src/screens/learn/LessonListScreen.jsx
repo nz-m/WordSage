@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchLessons } from "../features/learn/learnThunks";
+import { fetchLessons } from "../../features/learn/learnThunks";
 
 const LessonListScreen = ({ navigation }) => {
   const { lessons, isFetching } = useSelector((state) => state.learn);

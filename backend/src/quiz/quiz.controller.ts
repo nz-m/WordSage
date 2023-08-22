@@ -51,15 +51,14 @@ export class QuizController {
   }
 
   @UseGuards(AuthGuard())
-  @Post('start')
+  @Post('start/:quizId')
   async startQuiz(
-    @Body('level') level: string,
-    @Body('lessonTitle') lessonTitle: string,
-    @Body('quizId') quizId: string,
+    @Param('quizId') quizId: string,
     @Req() req,
   ): Promise<{ success: boolean; message: string }> {
     const userId = req.user._id;
-    return await this.quizService.startQuiz(level, lessonTitle, quizId, userId);
+    const level = req.user.level;
+    return await this.quizService.startQuiz(quizId, userId, level);
   }
 
   @UseGuards(AuthGuard())
@@ -68,18 +67,30 @@ export class QuizController {
     @Body()
     submitQuizAnswerDto: SubmitQuizAnswerDto,
     @Req() req,
-  ): Promise<QuizResult> {
+  ): Promise<{ success: boolean; message: string }> {
     const { quizId, userAnswers } = submitQuizAnswerDto;
     return await this.quizService.endQuiz(req.user._id, quizId, userAnswers);
   }
 
   @UseGuards(AuthGuard())
-  @Get('result/:quizId')
+  @Get('result/:lessonTitle')
   async getQuizResult(
-    @Param('quizId') quizId: string,
+    @Param('lessonTitle') lessonTitle: string,
     @Req() req,
   ): Promise<QuizResult> {
     const userId = req.user._id;
-    return await this.quizService.getQuizResult(userId, quizId);
+    const level = req.user.level;
+    return await this.quizService.getQuizResult(userId, level, lessonTitle);
+  }
+
+  @UseGuards(AuthGuard())
+  @Get('status/:lessonTitle')
+  async getQuizStatus(
+    @Param('lessonTitle') lessonTitle: string,
+    @Req() req,
+  ): Promise<{ message: string; isCompleted: boolean }> {
+    const userId = req.user._id;
+    const level = req.user.level;
+    return await this.quizService.getQuizStatus(userId, level, lessonTitle);
   }
 }

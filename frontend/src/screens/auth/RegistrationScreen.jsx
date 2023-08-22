@@ -11,11 +11,11 @@ import {
   Modal,
   Pressable,
 } from "react-native";
-import colors from "../constants/colors";
+import colors from "../../constants/colors";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
-import { registerUser } from "../features/auth/authThunks";
-import { clearError, clearSuccess } from "../features/auth/authSlice";
+import { registerUser } from "../../features/auth/authThunks";
+import { clearError, clearSuccess } from "../../features/auth/authSlice";
 const RegistrationScreen = () => {
   const dispatch = useDispatch();
 
@@ -54,7 +54,7 @@ const RegistrationScreen = () => {
       >
         <Image
           style={styles.tinyLogo}
-          source={require("../assets/undraw-adventure-map-hnin-21.png")}
+          source={require("../../assets/undraw-adventure-map-hnin-21.png")}
         />
         <Text style={styles.title}>Get Started</Text>
         <Text style={styles.subTitle}>by creating a free account </Text>
@@ -66,7 +66,7 @@ const RegistrationScreen = () => {
             onChangeText={(text) => setName(text)}
           />
           <Image
-            source={require("../assets/user.png")}
+            source={require("../../assets/user.png")}
             style={styles.ImageStyle}
           />
         </View>
@@ -80,7 +80,7 @@ const RegistrationScreen = () => {
             autoCapitalize="none"
           />
           <Image
-            source={require("../assets/mail.png")}
+            source={require("../../assets/mail.png")}
             style={styles.ImageStyle}
           />
         </View>
@@ -93,7 +93,7 @@ const RegistrationScreen = () => {
             secureTextEntry={true}
           />
           <Image
-            source={require("../assets/lock.png")}
+            source={require("../../assets/lock.png")}
             style={styles.ImageStyle}
           />
         </View>

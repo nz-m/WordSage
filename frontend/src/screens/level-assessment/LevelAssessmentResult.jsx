@@ -22,7 +22,7 @@ const LevelAssessmentResult = ({ navigation }) => {
       <Text style={styles.levelText}>{level}</Text>
       {/* Lottie Animation */}
       <LottieView
-        source={require("../assets/celebration.json")}
+        source={require("../../assets/celebration.json")}
         autoPlay
         loop={true}
         style={styles.lottieAnimation}

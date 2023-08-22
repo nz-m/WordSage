@@ -9,7 +9,7 @@ const initialState = {
   isStartingLesson: false,
   startingLessonError: null,
   isWordsfetching: false,
-  wordsfetchingError: null,
+  wordsFetchingError: null,
   lessons: [],
   words: [],
 };
@@ -69,16 +69,16 @@ const learnSlice = createSlice({
       })
       .addCase("learn/getWords/pending", (state, action) => {
         state.isWordsfetching = true;
-        state.wordsfetchingError = null;
+        state.wordsFetchingError = null;
       })
       .addCase("learn/getWords/fulfilled", (state, action) => {
         state.isWordsfetching = false;
-        state.wordsfetchingError = null;
+        state.wordsFetchingError = null;
         state.words = action.payload;
       })
       .addCase("learn/getWords/rejected", (state, action) => {
         state.isWordsfetching = false;
-        state.wordsfetchingError = action.payload.message;
+        state.wordsFetchingError = action.payload.message;
       })
       .addCase("learn/markLessonAsCompleted/fulfilled", (state, action) => {
         state.lessons = action.payload;

@@ -9,12 +9,12 @@ import {
   ActivityIndicator,
   KeyboardAvoidingView,
 } from "react-native";
-import colors from "../constants/colors";
+import colors from "../../constants/colors";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
-import { loginUser } from "../features/auth/authThunks";
-import { getAuthToken } from "../helpers/tokenStorage";
-import { getUserInfo } from "../helpers/userInfoStorage";
+import { loginUser } from "../../features/auth/authThunks";
+import { getAuthToken } from "../../helpers/tokenStorage";
+import { getUserInfo } from "../../helpers/userInfoStorage";
 
 const LoginScreen = () => {
   const [userInfo, setUserInfo] = useState(null);
@@ -64,7 +64,7 @@ const LoginScreen = () => {
     <KeyboardAvoidingView style={styles.container}>
       <Image
         style={styles.tinyLogo}
-        source={require("../assets/undraw-adventure-map-hnin-21.png")}
+        source={require("../../assets/undraw-adventure-map-hnin-21.png")}
       />
       <Text style={styles.title}>Welcome to WordSage</Text>
       <Text style={styles.subTitle}>
@@ -81,7 +81,7 @@ const LoginScreen = () => {
           required
         />
         <Image
-          source={require("../assets/mail.png")}
+          source={require("../../assets/mail.png")}
           style={styles.ImageStyle}
         />
       </View>
@@ -94,7 +94,7 @@ const LoginScreen = () => {
           secureTextEntry={true}
         />
         <Image
-          source={require("../assets/lock.png")}
+          source={require("../../assets/lock.png")}
           style={styles.ImageStyle}
         />
       </View>

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import colors from "../constants/colors";
-import Question from "../components/Question";
-import FinishMessage from "./FinishMessage";
+import colors from "../../constants/colors";
+import Question from "../../components/Question";
+import FinishMessage from "../shared/FinishMessage";
 import { useSelector, useDispatch } from "react-redux";
-import { assessLevel } from "../features/level-assessment/levelAssessmentThunks";
+import { assessLevel } from "../../features/level-assessment/levelAssessmentThunks";
 
 const LevelAssessmentScreen = ({ navigation }) => {
   const dispatch = useDispatch();

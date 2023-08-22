@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { Modal, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import * as Speech from "expo-speech";
-import colors from "../constants/colors";
+import colors from "../../constants/colors";
 import {
   markLessonAsCompleted,
   markWordAsLearned,
-} from "../features/learn/learnThunks";
-import { updateWords } from "../features/learn/learnSlice";
+} from "../../features/learn/learnThunks";
+import { updateWords } from "../../features/learn/learnSlice";
 import { useDispatch } from "react-redux";
 
 const WordScreen = ({

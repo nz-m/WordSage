@@ -7,9 +7,9 @@ import {
   ActivityIndicator,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import colors from "../constants/colors";
+import colors from "../../constants/colors";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchLessons, startLearning } from "../features/learn/learnThunks";
+import { fetchLessons, startLearning } from "../../features/learn/learnThunks";
 
 const StartLearningPrompt = () => {
   const navigation = useNavigation();

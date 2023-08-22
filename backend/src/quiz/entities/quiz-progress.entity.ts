@@ -2,6 +2,8 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 import * as mongoose from 'mongoose';
 import { UserAnswer } from '../interface/quiz.interface';
+import { Level } from '../../auth/entities/user.entity';
+import { LessonTitle } from '../../learn/entities/word.entity';
 
 @Schema()
 export class QuizProgress extends Document {
@@ -18,6 +20,16 @@ export class QuizProgress extends Document {
   @Prop({
     required: true,
   })
+  level: Level;
+
+  @Prop({
+    required: true,
+  })
+  lessonTitle: LessonTitle;
+
+  @Prop({
+    required: true,
+  })
   userAnswers: UserAnswer[];
 
   @Prop({ default: 0 })
@@ -25,6 +37,9 @@ export class QuizProgress extends Document {
 
   @Prop({ default: new Date() })
   startTime: Date;
+
+  @Prop()
+  endTime: Date;
 
   @Prop({ default: '' })
   timeTaken: string;
