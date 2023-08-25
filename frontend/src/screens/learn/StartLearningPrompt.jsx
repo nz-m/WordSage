@@ -6,14 +6,17 @@ import {
   StyleSheet,
   ActivityIndicator,
 } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation, useIsFocused } from "@react-navigation/native";
 import colors from "../../constants/colors";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchLessons, startLearning } from "../../features/learn/learnThunks";
+import { resetLoadingAndErrorStates } from "../../features/learn/learnSlice";
 
 const StartLearningPrompt = () => {
+  const isFocused = useIsFocused();
   const navigation = useNavigation();
   const dispatch = useDispatch();
+
   const { isStarting, isStarted, startingError } = useSelector(
     (state) => state.learn
   );
@@ -26,9 +29,13 @@ const StartLearningPrompt = () => {
 
   useEffect(() => {
     if (isStarted) {
-      navigation.replace("LessonList");
+      navigation.replace("Vocabulary Lessons");
     }
-  }, [isStarted]);
+
+    return () => {
+      dispatch(resetLoadingAndErrorStates());
+    };
+  }, [isStarted, isFocused]);
 
   const renderStartButton = () => {
     if (user.level === "Beginner") {
@@ -92,7 +99,7 @@ const StartLearningPrompt = () => {
       <Text style={styles.title}>Welcome to Your Vocabulary Journey!</Text>
       {startingError && <Text style={styles.error}>{startingError}</Text>}
       {isStarting ? (
-        <ActivityIndicator size="large" color={colors.accentColor} />
+        <ActivityIndicator size="large" color={colors.primary} />
       ) : (
         renderStartButton()
       )}
@@ -124,7 +131,7 @@ const styles = StyleSheet.create({
   startButton: {
     width: 200,
     height: 50,
-    backgroundColor: colors.accentColor,
+    backgroundColor: colors.primary,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 8,
@@ -134,6 +141,13 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 18,
     fontWeight: "bold",
+  },
+  congratulationsText: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: colors.primaryText,
+    marginBottom: 15,
+    textAlign: "center",
   },
   error: {
     color: "red",

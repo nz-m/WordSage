@@ -25,6 +25,17 @@ const learnSlice = createSlice({
       state.words[wordIndex].isLearned = true;
     },
     resetLearnState: (state) => initialState,
+
+    resetLoadingAndErrorStates(state) {
+      state.isStarting = false;
+      state.isFetching = false;
+      state.startingError = null;
+      state.fetchingError = null;
+      state.isStartingLesson = false;
+      state.startingLessonError = null;
+      state.isWordsFetching = false;
+      state.wordsFetchingError = null;
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -89,5 +100,6 @@ const learnSlice = createSlice({
   },
 });
 
-export const { updateWords, resetLearnState } = learnSlice.actions;
+export const { updateWords, resetLearnState, resetLoadingAndErrorStates } =
+  learnSlice.actions;
 export default learnSlice.reducer;

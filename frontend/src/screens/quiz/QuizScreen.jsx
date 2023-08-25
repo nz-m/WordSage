@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import {
   View,
   Text,
-  Button,
   TouchableOpacity,
   StyleSheet,
   ActivityIndicator,
@@ -11,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { submitQuiz } from "../../features/quiz/quizThunks";
 import LoadingScreen from "../shared/LoadingScreen";
 import { useNavigation } from "@react-navigation/native";
+import colors from "../../constants/colors";
 
 const QuizScreen = () => {
   const navigator = useNavigation();
@@ -87,6 +87,12 @@ const QuizScreen = () => {
     }
   };
 
+  const formatTime = (seconds) => {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes}m ${remainingSeconds}s`;
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.questionContainer}>
@@ -153,12 +159,12 @@ const QuizScreen = () => {
         </TouchableOpacity>
       </View>
       {currentQuestionIndex !== questions.length - 1 ? (
-        <View style={{ flexDirection: "row" }}>
-          <Button title="Next Question" onPress={nextQuestion} />
-        </View>
+        <TouchableOpacity style={styles.nextButton} onPress={nextQuestion}>
+          <Text style={styles.nextButtonText}>Next Question</Text>
+        </TouchableOpacity>
       ) : (
-        <TouchableOpacity style={styles.button} onPress={handleFinishQuiz}>
-          <Text style={styles.buttonText}>
+        <TouchableOpacity style={styles.nextButton} onPress={handleFinishQuiz}>
+          <Text style={styles.nextButtonText}>
             {isQuizSubmitting ? (
               <ActivityIndicator size="small" color="white" />
             ) : (
@@ -169,7 +175,7 @@ const QuizScreen = () => {
       )}
 
       <Text style={styles.remainingTime}>
-        Time Remaining: {remainingTime} seconds
+        Time Remaining: {formatTime(remainingTime)}
       </Text>
     </View>
   );
@@ -185,7 +191,7 @@ const styles = StyleSheet.create({
   questionContainer: {
     backgroundColor: "white",
     padding: 20,
-    borderRadius: 10,
+    borderRadius: 6,
     marginBottom: 20,
     width: "90%",
     alignSelf: "center",
@@ -223,14 +229,29 @@ const styles = StyleSheet.create({
     color: "#333",
   },
   correctOption: {
-    backgroundColor: "green",
+    backgroundColor: "#4ade80",
   },
   incorrectOption: {
-    backgroundColor: "red",
+    backgroundColor: "#f87171",
   },
   remainingTime: {
-    fontSize: 14,
-    color: "#666",
+    fontSize: 15,
+    color: colors.black,
+    marginTop: 20,
+    fontWeight: "bold",
+  },
+  nextButton: {
+    width: 120,
+    height: 45,
+    backgroundColor: "#3988FF",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 6,
+    marginTop: 20,
+  },
+  nextButtonText: {
+    color: "white",
+    fontSize: 16,
   },
 });
 

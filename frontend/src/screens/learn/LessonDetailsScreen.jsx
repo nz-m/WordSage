@@ -71,6 +71,7 @@ const LessonDetailsScreen = ({
   const handleQuiz = async () => {
     if (isQuizTaken) {
       navigation.navigate("QuizResult", { lessonTitle: lesson.title });
+      return;
     }
 
     await dispatch(getQuiz({ level: user.level, lessonTitle: lesson.title }));
@@ -272,7 +273,7 @@ const styles = StyleSheet.create({
   quizButton: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#3988FF",
+    backgroundColor: colors.primary,
     paddingVertical: 15,
     paddingHorizontal: 20,
     borderRadius: 8,

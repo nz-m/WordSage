@@ -2,8 +2,8 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { removeAuthToken, storeAuthToken } from "../../helpers/tokenStorage";
 import { storeUserInfo } from "../../helpers/userInfoStorage";
+import { API_BASE_URL } from "../../constants/baseUrl";
 
-const API_BASE_URL = "http://192.168.31.72:4000";
 const LOGIN_URL = `${API_BASE_URL}/auth/login`;
 const REGISTER_URL = `${API_BASE_URL}/auth/register`;
 

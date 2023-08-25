@@ -10,7 +10,7 @@ const colors = {
   white: "#FFFFFF",
   primaryText: "#333333",
   secondaryText: "#666666",
-  primaryBackground: "#F2F2F2",
+  primaryBackground: "#F3F4F6",
   darkGray: "#5A5A5A",
 };
 

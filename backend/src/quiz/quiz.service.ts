@@ -189,6 +189,7 @@ export class QuizService {
 
       const timeTakenInSeconds =
         (endTime - quizProgress.startTime.getTime()) / 1000;
+
       const formattedTimeTaken = this.formatTimeTaken(timeTakenInSeconds);
 
       quizProgress.score = score;

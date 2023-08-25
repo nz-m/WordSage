@@ -15,6 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { loginUser } from "../../features/auth/authThunks";
 import { getAuthToken } from "../../helpers/tokenStorage";
 import { getUserInfo } from "../../helpers/userInfoStorage";
+import { clearError } from "../../features/auth/authSlice";
 
 const LoginScreen = () => {
   const [userInfo, setUserInfo] = useState(null);
@@ -57,8 +58,20 @@ const LoginScreen = () => {
   const { loginError, loading } = useSelector((state) => state.auth);
 
   const handleLogin = async () => {
+    if (!email || !password) {
+      alert("Please fill in all fields");
+      return;
+    }
     await dispatch(loginUser({ email, password }));
   };
+
+  useEffect(() => {
+    if (loginError) {
+      setTimeout(() => {
+        dispatch(clearError());
+      }, 5000);
+    }
+  }, [loginError]);
 
   return (
     <KeyboardAvoidingView style={styles.container}>
@@ -70,6 +83,22 @@ const LoginScreen = () => {
       <Text style={styles.subTitle}>
         Please login to your account to continue
       </Text>
+
+      {loginError && (
+        <View style={styles.messageContainer}>
+          <View style={styles.errorContainer}>
+            {typeof loginError === "string" ? (
+              <Text style={styles.errorMessage}>{loginError}</Text>
+            ) : (
+              loginError.map((error, index) => (
+                <Text key={index} style={styles.errorMessage}>
+                  {error}
+                </Text>
+              ))
+            )}
+          </View>
+        </View>
+      )}
 
       <View style={styles.SectionStyle}>
         <TextInput
@@ -99,18 +128,17 @@ const LoginScreen = () => {
         />
       </View>
 
-      <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
-        <Text style={styles.loginButtonText}>Login</Text>
+      <TouchableOpacity
+        style={styles.loginButton}
+        onPress={handleLogin}
+        disabled={loading}
+      >
+        {loading ? (
+          <ActivityIndicator size="small" color={colors.white} />
+        ) : (
+          <Text style={styles.loginButtonText}>Login</Text>
+        )}
       </TouchableOpacity>
-
-      {loading || loginError ? (
-        <View style={styles.messageContainer}>
-          {loading && <ActivityIndicator size="large" color={colors.primary} />}
-          {loginError && !loading && (
-            <Text style={styles.message}>{loginError}</Text>
-          )}
-        </View>
-      ) : null}
 
       {token && userInfo ? (
         <TouchableOpacity
@@ -199,7 +227,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   forget: {
-    color: "#3988FF",
+    color: colors.primary,
     marginBottom: 15,
   },
   loginButton: {
@@ -218,16 +246,17 @@ const styles = StyleSheet.create({
   existingLoginButton: {
     width: "100%",
     height: 50,
-    backgroundColor: colors.primary,
+    backgroundColor: "transparent",
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 8,
+    borderColor: colors.primary,
+    borderWidth: 1,
     marginTop: 10,
   },
   existingLoginButtonText: {
-    color: "#fff",
+    color: colors.primary,
     fontSize: 16,
-    fontWeight: "bold",
   },
   signupLink: {
     marginTop: 5,
@@ -264,12 +293,18 @@ const styles = StyleSheet.create({
   messageContainer: {
     marginTop: 20,
     alignItems: "center",
+    borderWidth: 1,
+    borderColor: "red",
+    borderRadius: 8,
+    padding: 10,
+    width: "100%",
   },
   errorMessage: {
     color: "red",
     fontSize: 16,
-    fontWeight: "bold",
-    marginTop: 10,
+  },
+  errorContainer: {
+    alignItems: "center",
   },
 });
 

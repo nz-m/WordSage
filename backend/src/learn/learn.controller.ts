@@ -57,7 +57,11 @@ export class LearnController {
     @Req() req,
     @Body() body: { lessonId: string },
   ): Promise<LessonToSend[] | { success: boolean; message: string }> {
-    return this.learnService.startLesson(req.user._id, body.lessonId);
+    return this.learnService.startLesson(
+      req.user._id,
+      body.lessonId,
+      req.user.level,
+    );
   }
 
   @UseGuards(AuthGuard())

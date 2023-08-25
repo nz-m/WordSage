@@ -20,7 +20,7 @@ const LessonListScreen = ({ navigation }) => {
     }
   }, []);
 
-  if (isFetching) {
+  if (isFetching || !lessons) {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
         <ActivityIndicator size="large" color="blue" />
@@ -54,7 +54,7 @@ const LessonListScreen = ({ navigation }) => {
       case "not started":
       case "completed":
       case "in progress":
-        navigation.navigate("LessonDetails", { lesson });
+        navigation.navigate("Lesson Information", { lesson });
         break;
       case "locked":
         alert("This lesson is locked. Complete previous lessons to unlock.");
@@ -66,8 +66,7 @@ const LessonListScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Vocabulary Lessons</Text>
-      {lessons.map((lesson) => (
+      {lessons?.map((lesson) => (
         <TouchableOpacity
           key={lesson.lessonNumber}
           style={styles.lessonItem}
@@ -99,12 +98,7 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: "#FFFFFF",
   },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 20,
-    color: "#333333",
-  },
+
   lessonItem: {
     flexDirection: "row",
     alignItems: "center",

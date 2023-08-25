@@ -27,4 +27,4 @@ export class LessonProgress extends Document {
 export const LessonProgressSchema =
   SchemaFactory.createForClass(LessonProgress);
 
-LessonProgressSchema.index({ user: 1, lesson: 1 }, { unique: true });
+LessonProgressSchema.index({ user: 1, lesson: 1, level: 1 }, { unique: true });

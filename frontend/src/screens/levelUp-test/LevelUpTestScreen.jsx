@@ -24,7 +24,7 @@ const LevelUpTestScreen = ({ navigation }) => {
   }, [isQuizCompleted]);
 
   const handleResult = () => {
-    navigation.navigate("LevelUpTestResult");
+    navigation.replace("LevelUpTestResult");
   };
 
   const handleNextQuestion = () => {
@@ -60,7 +60,6 @@ const LevelUpTestScreen = ({ navigation }) => {
       setIsQuizCompleted(true);
     }
   }, [remainingTime]);
-
   return (
     <View style={styles.container}>
       <View style={styles.container2}>
@@ -80,7 +79,6 @@ const LevelUpTestScreen = ({ navigation }) => {
               selectedAnswer={selectedAnswer}
               setSelectedAnswer={setSelectedAnswer}
             />
-
             <TouchableOpacity
               style={styles.nextButton}
               onPress={handleNextQuestion}
@@ -114,16 +112,24 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
-    backgroundColor: "#3988FF",
+    backgroundColor: colors.primaryBackground,
   },
   container2: {
-    //flex: 2,
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 30,
     paddingVertical: 50,
     backgroundColor: "white",
-    borderRadius: 30,
+    borderRadius: 8,
+    width: "100%",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.05,
+    shadowRadius: 1,
+    elevation: 2,
   },
   timer: {
     fontSize: 18,
@@ -137,12 +143,12 @@ const styles = StyleSheet.create({
   },
 
   nextButton: {
-    width: 150,
-    height: 50,
-    backgroundColor: "#3988FF",
+    width: 100,
+    height: 45,
+    backgroundColor: colors.primary,
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 8,
+    borderRadius: 6,
     marginTop: 20,
   },
   nextButtonText: {
@@ -153,11 +159,11 @@ const styles = StyleSheet.create({
   finishButton: {
     width: 150,
     height: 50,
-    backgroundColor: "#3988FF",
+    backgroundColor: colors.primary,
     justifyContent: "center",
     alignItems: "center",
 
-    borderRadius: 8,
+    borderRadius: 6,
     marginTop: 20,
   },
   finishButtonText: {

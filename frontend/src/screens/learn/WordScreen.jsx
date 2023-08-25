@@ -10,6 +10,7 @@ import {
   markWordAsLearned,
 } from "../../features/learn/learnThunks";
 import { updateWords } from "../../features/learn/learnSlice";
+import LottieView from "lottie-react-native";
 
 const WordScreen = ({
   route: {
@@ -36,8 +37,8 @@ const WordScreen = ({
     words.filter((word) => word.isLearned).length
   );
 
-  // const totalWords = words.length;
-  const totalWords = 2;
+  const totalWords = words.length;
+  // const totalWords = 2;
 
   const handlePronunciationPress = (word) => {
     Speech.speak(word);
@@ -121,30 +122,35 @@ const WordScreen = ({
         </TouchableOpacity>
       </View>
 
-      <Text style={styles.word}>
-        {wordData.word.charAt(0).toUpperCase() + wordData.word.slice(1)}
-      </Text>
+      <View
+        style={{
+          flexDirection: "row",
+          justifyContent: "center",
+        }}
+      >
+        <Text style={styles.word(isDone)}>
+          {wordData.word.charAt(0).toUpperCase() + wordData.word.slice(1)}
+        </Text>
 
-      <TouchableOpacity onPress={() => handlePronunciationPress(wordData.word)}>
-        <MaterialCommunityIcons
-          name="volume-high"
-          size={24}
-          color={colors.primary}
-        />
-      </TouchableOpacity>
-
-      <View style={styles.section}>
-        <MaterialCommunityIcons name="book" size={24} color="#888" />
-        <Text style={styles.title}>Part of Speech:</Text>
-        {wordData.partOfSpeech ? (
-          <Text style={styles.description}>{wordData.partOfSpeech}</Text>
-        ) : (
-          <Text style={styles.description}>N/A</Text>
-        )}
+        <TouchableOpacity
+          onPress={() => handlePronunciationPress(wordData.word)}
+        >
+          <MaterialCommunityIcons
+            name="volume-high"
+            size={24}
+            color={colors.primary}
+          />
+        </TouchableOpacity>
       </View>
 
       <View style={styles.section}>
-        <MaterialCommunityIcons name="book" size={24} color="#888" />
+        <MaterialCommunityIcons name="book" size={24} color={colors.gray} />
+        <Text style={styles.title}>Part of Speech:</Text>
+        <Text style={styles.description}>{wordData.partOfSpeech || "N/A"}</Text>
+      </View>
+
+      <View style={styles.section}>
+        <MaterialCommunityIcons name="book" size={24} color={colors.gray} />
         <Text style={styles.title}>Meaning:</Text>
         <Text style={styles.description}>{wordData.meaning}</Text>
       </View>
@@ -154,7 +160,7 @@ const WordScreen = ({
           <MaterialCommunityIcons
             name="book-open-page-variant"
             size={24}
-            color="#888"
+            color={colors.gray}
           />
           <Text style={styles.title}>Synonym:</Text>
           <Text style={styles.description}>{wordData.synonym}</Text>
@@ -165,14 +171,14 @@ const WordScreen = ({
         <MaterialCommunityIcons
           name="comment-question-outline"
           size={24}
-          color="#888"
+          color={colors.gray}
         />
         <Text style={styles.title}>Usage:</Text>
         <Text style={styles.description}>{wordData.example}</Text>
       </View>
 
       {user?.level !== "Expert" && (
-        <View>
+        <View style={styles.centered}>
           {!isDone ? (
             <TouchableOpacity
               style={styles.doneButton}
@@ -181,7 +187,7 @@ const WordScreen = ({
               <Text style={styles.doneButtonText}>Mark as Done</Text>
             </TouchableOpacity>
           ) : (
-            <Text style={{ color: colors.primary }}>Word marked as done!</Text>
+            <Text style={styles.markedDoneText}>Word marked as done!</Text>
           )}
         </View>
       )}
@@ -194,16 +200,24 @@ const WordScreen = ({
       >
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
+            {/* Lottie animation */}
+            <LottieView
+              source={require("../../assets/celebration.json")}
+              autoPlay
+              loop
+              style={styles.animation}
+            />
+
             <Text style={styles.congratsText}>
               Congratulations on completing the lesson!
             </Text>
-            <Text style={styles.congratsText}>
+            <Text style={styles.modalTexts}>
               You have learned {completedWords} out of {totalWords} words.
             </Text>
-            <Text style={styles.congratsText}>Keep up the good work!</Text>
+            <Text style={styles.modalTexts}>Keep up the good work!</Text>
 
-            <Text style={styles.congratsText}>
-              The next is unlocked for you! You can start the next lesson now.
+            <Text style={styles.modalTexts}>
+              The next lesson is unlocked for you! You can start it now.
             </Text>
 
             <TouchableOpacity
@@ -241,12 +255,14 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: colors.darkGray,
   },
-  word: {
+  word: (isDone) => ({
     fontSize: 32,
     fontWeight: "bold",
     marginBottom: 20,
     textAlign: "center",
-  },
+    color: isDone ? colors.primary : colors.black,
+  }),
+
   section: {
     marginBottom: 20,
   },
@@ -261,49 +277,71 @@ const styles = StyleSheet.create({
     marginLeft: 30,
     color: "#888",
   },
+
+  centered: {
+    alignItems: "center",
+  },
   doneButton: {
+    marginTop: 10,
     backgroundColor: colors.primary,
-    padding: 10,
-    borderRadius: 8,
-    alignSelf: "center",
-    marginTop: 20,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 5,
   },
   doneButtonText: {
-    color: colors.white,
+    color: "white",
+    fontSize: 16,
     fontWeight: "bold",
+  },
+  markedDoneText: {
+    marginTop: 10,
+    color: colors.primary,
     fontSize: 16,
   },
+
   modalContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "rgba(0, 0, 0, 0.5)",
   },
-
   modalContent: {
-    backgroundColor: "white",
-    padding: 20,
+    backgroundColor: colors.white,
     borderRadius: 10,
-    width: 300,
+    padding: 20,
+    width: "80%",
     alignItems: "center",
   },
-
+  animation: {
+    width: 150,
+    height: 150,
+    marginBottom: 20,
+  },
   congratsText: {
     fontSize: 18,
     fontWeight: "bold",
-    marginBottom: 20,
+    marginBottom: 15,
+    textAlign: "center",
+    color: colors.primaryText,
+  },
+
+  modalTexts: {
+    fontSize: 16,
+    textAlign: "center",
+    marginBottom: 10,
   },
 
   modalButton: {
+    backgroundColor: colors.primary,
     paddingVertical: 10,
     paddingHorizontal: 20,
-    backgroundColor: colors.primary,
     borderRadius: 5,
+    marginTop: 15,
   },
-
   modalButtonText: {
-    color: "white",
+    color: colors.white,
     fontWeight: "bold",
+    fontSize: 16,
   },
 });
 

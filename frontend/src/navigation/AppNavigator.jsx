@@ -63,11 +63,18 @@ const AppNavigator = () => {
           <Stack.Screen
             name="StartLearningPrompt"
             component={StartLearningPrompt}
+            options={{ headerShown: false }}
           />
-          <Stack.Screen name="LessonList" component={LessonListScreen} />
-          <Stack.Screen name="LessonDetails" component={LessonDetailsScreen} />
+          <Stack.Screen
+            name="Vocabulary Lessons"
+            component={LessonListScreen}
+          />
+          <Stack.Screen
+            name="Lesson Information"
+            component={LessonDetailsScreen}
+          />
           <Stack.Screen name="Word" component={WordScreen} />
-          <Stack.Screen name="WordOfTheDay" component={WordOfTheDayScreen} />
+          <Stack.Screen name="Word of the Day" component={WordOfTheDayScreen} />
           <Stack.Screen
             name="LevelAssessmentResult"
             component={LevelAssessmentResult}

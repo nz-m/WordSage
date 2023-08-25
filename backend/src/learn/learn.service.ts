@@ -36,7 +36,7 @@ export class LearnService {
       await this.lessonModel.create(lessons);
       return { success: true, message: 'Lessons created.' };
     } catch (error) {
-      return { success: false, message: 'Error creating lessons.' };
+      throw new BadRequestException("Couldn't create lessons.");
     }
   }
 
@@ -47,18 +47,19 @@ export class LearnService {
   async startLesson(
     userId: string,
     lessonId: string,
-  ): Promise<LessonToSend[] | { success: boolean; message: string }> {
+    level: string,
+  ): Promise<LessonToSend[]> {
     try {
       const lessonProgress = await this.lessonProgressModel
-        .findOne({ user: userId, lesson: lessonId })
+        .findOne({ user: userId, lesson: lessonId, level: level })
         .exec();
 
       if (!lessonProgress) {
-        return { success: false, message: 'Lesson progress not found.' };
+        throw new NotFoundException('Lesson progress not found');
       }
 
       if (lessonProgress.status === LessonStatus.COMPLETED) {
-        return { success: false, message: 'Lesson already completed.' };
+        throw new BadRequestException('Lesson already completed');
       }
 
       lessonProgress.status = LessonStatus.IN_PROGRESS;
@@ -66,7 +67,8 @@ export class LearnService {
 
       return await this.fetchLessonsWithProgress(userId);
     } catch (error) {
-      return { success: false, message: 'Error starting lesson.' };
+      console.log(error);
+      throw new InternalServerErrorException('Failed to start lesson');
     }
   }
 
@@ -191,7 +193,7 @@ export class LearnService {
           message: 'Duplicate word found. Please check your input.',
         };
       }
-      return { success: false, message: 'Error creating word.' };
+      throw new BadRequestException("Couldn't add word.");
     }
   }
 

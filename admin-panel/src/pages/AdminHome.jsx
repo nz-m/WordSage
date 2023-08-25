@@ -1,7 +1,12 @@
 import React from "react";
 import Header from "../components/Header.jsx";
 import { Link } from "react-router-dom";
-import { FaBook, FaQuestion, FaClipboardList } from "react-icons/fa";
+import {
+  FaBook,
+  FaQuestion,
+  FaClipboardList,
+  FaUserFriends,
+} from "react-icons/fa";
 
 const AdminHome = () => {
   return (
@@ -22,14 +27,17 @@ const AdminHome = () => {
             </p>
           </Link>
 
-          {/* Quiz Questions Card */}
-          <div className="bg-white p-6 rounded shadow-md cursor-pointer hover:shadow-lg transition flex flex-col items-center justify-center text-center">
-            <FaClipboardList className="text-4xl mb-2 text-blue-500" />
-            <h2 className="text-xl font-semibold mb-2">Quiz Questions</h2>
-            <p className="text-gray-600">Manage all existing quiz questions.</p>
-          </div>
+          {/* Manage users card */}
+          <Link
+            to="/users"
+            className="bg-white p-6 rounded shadow-md cursor-pointer hover:shadow-lg transition flex flex-col items-center justify-center text-center"
+          >
+            <FaUserFriends className="text-4xl mb-2 text-blue-500" />
+            <h2 className="text-xl font-semibold mb-2">Manage Users</h2>
+            <p className="text-gray-600">View and manage all existing users.</p>
+          </Link>
 
-          {/* Show All Users Card */}
+          {/* Lessons card */}
           <div className="bg-white p-6 rounded shadow-md cursor-pointer hover:shadow-lg transition flex flex-col items-center justify-center text-center">
             <FaBook className="text-4xl mb-2 text-blue-500" />
             <h2 className="text-xl font-semibold mb-2">Lessons</h2>

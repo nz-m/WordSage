@@ -38,6 +38,10 @@ const RegistrationScreen = () => {
   const [password, setPassword] = useState("");
 
   const handleRegistration = () => {
+    if (!name || !email || !password) {
+      alert("Please fill in all fields");
+      return;
+    }
     dispatch(registerUser({ name, email, password }));
   };
 
@@ -58,6 +62,16 @@ const RegistrationScreen = () => {
         />
         <Text style={styles.title}>Get Started</Text>
         <Text style={styles.subTitle}>by creating a free account </Text>
+
+        {regError && Array.isArray(regError) && regError.length > 0 && (
+          <View style={styles.messageContainer}>
+            {regError.map((errorMessage, index) => (
+              <Text key={index} style={styles.errorMessage}>
+                {errorMessage}
+              </Text>
+            ))}
+          </View>
+        )}
 
         <View style={styles.SectionStyle}>
           <TextInput
@@ -99,11 +113,20 @@ const RegistrationScreen = () => {
         </View>
 
         <TouchableOpacity
-          style={styles.registrationButton}
+          style={[
+            styles.registrationButton,
+            loading && styles.registrationButtonDisabled,
+          ]}
           onPress={handleRegistration}
+          disabled={loading}
         >
-          <Text style={styles.registrationButtonText}>Register</Text>
+          {loading ? (
+            <ActivityIndicator size="small" color={colors.white} />
+          ) : (
+            <Text style={styles.registrationButtonText}>Register</Text>
+          )}
         </TouchableOpacity>
+
         <TouchableOpacity
           style={styles.registrationLink}
           onPress={() => navigation.navigate("Login")}
@@ -111,23 +134,6 @@ const RegistrationScreen = () => {
           <Text style={styles.registrationText}>Already a member? </Text>
           <Text style={styles.registrationLinkText}>Login</Text>
         </TouchableOpacity>
-
-        {loading && (
-          <ActivityIndicator
-            style={styles.loadingIndicator}
-            size="large"
-            color={colors.primary}
-          />
-        )}
-        {regError && Array.isArray(regError) && regError.length > 0 && (
-          <View style={styles.errorContainer}>
-            {regError.map((errorMessage, index) => (
-              <Text key={index} style={styles.errorText}>
-                {errorMessage}
-              </Text>
-            ))}
-          </View>
-        )}
       </KeyboardAvoidingView>
       <Modal
         animationType="slide"
@@ -137,21 +143,24 @@ const RegistrationScreen = () => {
           setModalVisible(!modalVisible);
         }}
       >
-        <View style={styles.centeredView}>
-          <View style={styles.modalView}>
-            <Text style={styles.modalText}>
-              Your account has been created successfully
-            </Text>
-            <Pressable
-              style={[styles.button, styles.buttonClose]}
-              onPress={() => {
-                setModalVisible(!modalVisible);
-                dispatch(clearSuccess());
-                navigation.navigate("Login");
-              }}
-            >
-              <Text style={styles.textStyle}>Go to Login</Text>
-            </Pressable>
+        <View style={styles.modalOverlay}>
+          <View style={styles.centeredView}>
+            <View style={styles.modalView}>
+              <Text style={styles.modalText}>
+                Your account has been created successfully
+              </Text>
+              <Pressable
+                style={[styles.button, styles.buttonClose]}
+                onPress={() => {
+                  setModalVisible(!modalVisible);
+                  dispatch(clearSuccess());
+                  dispatch(clearError());
+                  navigation.navigate("Login");
+                }}
+              >
+                <Text style={styles.textStyle}>Login Now</Text>
+              </Pressable>
+            </View>
           </View>
         </View>
       </Modal>
@@ -188,6 +197,12 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 5,
   },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
+    justifyContent: "center",
+    alignItems: "center",
+  },
   button: {
     borderRadius: 5,
     padding: 10,
@@ -197,7 +212,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#F194FF",
   },
   buttonClose: {
-    backgroundColor: "#2196F3",
+    backgroundColor: colors.primary,
   },
   textStyle: {
     color: "white",
@@ -251,34 +266,51 @@ const styles = StyleSheet.create({
   registrationButton: {
     width: "100%",
     height: 50,
-    backgroundColor: "#007BFF",
+    backgroundColor: colors.primary,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 8,
     marginTop: 20,
+  },
+  registrationButtonDisabled: {
+    opacity: 0.5,
   },
   registrationButtonText: {
     color: "#fff",
     fontSize: 18,
     fontWeight: "bold",
   },
+  loadingIndicator: {
+    position: "absolute",
+    alignSelf: "center",
+  },
   registrationLink: {
     marginTop: 5,
     flexDirection: "row",
   },
   registrationText: {
-    color: colors.Gray,
+    color: colors.gray,
   },
 
   registrationLinkText: {
     color: colors.primary,
   },
-  loadingIndicator: {
-    marginTop: 10,
+
+  messageContainer: {
+    marginTop: 20,
+    alignItems: "center",
+    borderWidth: 1,
+    borderColor: "red",
+    borderRadius: 8,
+    padding: 10,
+    width: "100%",
   },
-  errorText: {
+  errorMessage: {
     color: "red",
-    marginTop: 10,
+    fontSize: 16,
+  },
+  errorContainer: {
+    alignItems: "center",
   },
 });
 

@@ -30,14 +30,14 @@ const HomeScreen = () => {
 
   const handleLearningResourcePress = () => {
     if (user.isLearningStarted) {
-      navigation.navigate("LessonList");
+      navigation.navigate("Vocabulary Lessons");
     } else {
       navigation.navigate("StartLearningPrompt");
     }
   };
 
   const handleWordOfTheDayPress = () => {
-    navigation.navigate("WordOfTheDay");
+    navigation.navigate("Word of the Day");
   };
 
   const totalLessons = 10;
@@ -83,7 +83,7 @@ const HomeScreen = () => {
             style={[styles.card, styles.continueLearningCard]}
             onPress={handleLearningResourcePress}
           >
-            <Ionicons name="book" size={32} color="#FFF" />
+            <Ionicons name="book" size={32} color="#3b82f6" />
             <Text style={styles.cardTitle}>Continue Learning</Text>
 
             {user?.level !== "Expert" && (
@@ -97,7 +97,7 @@ const HomeScreen = () => {
             style={[styles.card, styles.wordOfTheDayCard]}
             onPress={handleWordOfTheDayPress}
           >
-            <Ionicons name="calendar" size={32} color="#FFF" />
+            <Ionicons name="calendar" size={32} color="#22c55e" />
             <Text style={styles.cardTitle}>Word of the Day</Text>
           </TouchableOpacity>
 
@@ -108,7 +108,7 @@ const HomeScreen = () => {
               style={[styles.card, styles.levelUpAssessmentCard]}
               onPress={handleLevelUpAssessmentPress}
             >
-              <Ionicons name="trophy" size={32} color="#FFF" />
+              <Ionicons name="trophy" size={32} color="#f43f5e" />
               <Text style={styles.cardTitle}>Level-up Test</Text>
             </TouchableOpacity>
           )}
@@ -116,7 +116,7 @@ const HomeScreen = () => {
             <TouchableOpacity
               style={[styles.card, styles.levelUpAssessmentCard]}
             >
-              <Ionicons name="trophy" size={32} color="#FFF" />
+              <Ionicons name="trophy" size={32} color="black" />
               <Text style={styles.cardTitle}>You are an Expert now!</Text>
             </TouchableOpacity>
           )}
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: colors.primary,
+    backgroundColor: "#fefce8",
   },
   topSection: {
     flex: 2,
@@ -139,10 +139,18 @@ const styles = StyleSheet.create({
   userProfile: {
     alignItems: "center",
     padding: 20,
-    borderRadius: 10,
+    borderRadius: 6,
     marginBottom: 20,
     width: "100%",
-    backgroundColor: colors.almond,
+    backgroundColor: colors.white,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.05,
+    shadowRadius: 1,
+    elevation: 2,
   },
   profileImage: {
     width: 80,
@@ -169,26 +177,36 @@ const styles = StyleSheet.create({
   card: {
     width: "100%",
     padding: 20,
-    borderRadius: 10,
+    borderRadius: 6,
     justifyContent: "center",
     alignItems: "center",
+    borderWidth: 1,
+    borderColor: colors.white,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.05,
+    shadowRadius: 1,
+    elevation: 2,
   },
   cardTitle: {
     textAlign: "center",
     fontSize: 16,
     fontWeight: "bold",
     marginTop: 10,
-    color: "#FFF",
+    color: colors.black,
   },
 
   continueLearningCard: {
-    backgroundColor: "#69C9FF",
+    backgroundColor: colors.white,
   },
   wordOfTheDayCard: {
-    backgroundColor: "#FF6A88",
+    backgroundColor: colors.white,
   },
   levelUpAssessmentCard: {
-    backgroundColor: "#FFB56A",
+    backgroundColor: colors.white,
   },
 });
 

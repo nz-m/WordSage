@@ -16,7 +16,7 @@ const WordOfTheDayScreen = () => {
       "I experienced serendipity when I found my long-lost friend at the airport.",
   };
 
-  handleDonePress = () => {
+  const handleDonePress = () => {
     navigation.navigate("Home");
   };
 
@@ -26,7 +26,6 @@ const WordOfTheDayScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Word of the Day</Text>
       <View style={styles.wordCard}>
         <Text style={styles.word}>{wordOfTheDay.word}</Text>
         <TouchableOpacity
@@ -56,11 +55,7 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: "#f0f0f0",
   },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 20,
-  },
+
   wordCard: {
     backgroundColor: "white",
     padding: 20,

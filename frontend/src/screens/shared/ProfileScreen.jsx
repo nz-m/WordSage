@@ -61,15 +61,15 @@ const ProfileScreen = () => {
       <View style={styles.statContainer}>
         {renderStatCard(
           "book",
-          "Lessons Completed",
+          "Lessons Finished",
           userData.lessonsCompleted,
-          "#8ac926"
+          "#67e8f9"
         )}
         {renderStatCard(
           "bar-chart-2",
           "Practice Quiz",
           `Quiz Taken: ${userData.totalQuizzesCompleted}\nHighest Score: ${userData.practiceQuizResults.highestScore}\nAverage Score: ${userData.practiceQuizResults.averageScore}`,
-          "#ffca3a"
+          "#fed7aa"
         )}
       </View>
 
@@ -78,13 +78,13 @@ const ProfileScreen = () => {
           "check-circle",
           "Words Learnt",
           userData.totalWordsLearned,
-          "#73d2de"
+          "#6ee7b7"
         )}
         {renderStatCard(
           "clock",
-          "Streaks (Days)",
+          "Login Streak",
           `Longest: ${userData.longestStreak}\nCurrent: ${userData.currentStreak}`,
-          "#ff595e"
+          "#ddd6fe"
         )}
       </View>
 
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
   },
   levelText: {
     fontSize: 18,
-    color: colors.white,
+    color: colors.darkGray,
     marginBottom: 10,
   },
   statContainer: {
@@ -144,30 +144,33 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: "bold",
     marginBottom: 5,
-    color: colors.white,
+    color: colors.black,
     textDecorationLine: "underline",
   },
   statValue: {
     fontSize: 14,
-    color: colors.white,
+    color: colors.darkGray,
     textAlign: "center",
   },
   logoutButton: {
     marginTop: 40,
-    backgroundColor: "#E3E3E3",
+    backgroundColor: colors.white,
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 8,
     flexDirection: "row",
     alignSelf: "center",
     height: 45,
-    width: 120,
+    width: "40%",
+    borderWidth: 1,
+    borderColor: "red",
+    justifyContent: "center",
   },
   logoutButtonText: {
     fontSize: 16,
     fontWeight: "bold",
     marginLeft: 7,
-    color: "#E04F5F",
+    color: "red",
   },
   logoutImage: {
     width: 25,

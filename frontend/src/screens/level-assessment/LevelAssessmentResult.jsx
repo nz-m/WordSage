@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import { View, Text, TouchableOpacity, Modal, StyleSheet } from "react-native";
 import { useSelector } from "react-redux";
 import LottieView from "lottie-react-native";
+import { colors } from "react-native-elements";
+import { useNavigation } from "@react-navigation/native";
 
-const LevelAssessmentResult = ({ navigation }) => {
+const LevelAssessmentResult = () => {
+  const navigation = useNavigation();
   const { user } = useSelector((state) => state.auth);
   const { correctCounts, level, scorePercentage } = useSelector(
     (state) => state.levelAssessment
@@ -12,7 +15,7 @@ const LevelAssessmentResult = ({ navigation }) => {
   const [modalVisible, setModalVisible] = useState(false);
 
   const handleFinish = () => {
-    navigation.navigate("Home");
+    navigation.replace("Home");
   };
 
   return (
@@ -105,7 +108,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   detailsButton: {
-    backgroundColor: "#3498db",
+    backgroundColor: colors.primary,
     padding: 10,
     borderRadius: 5,
     marginTop: 20,

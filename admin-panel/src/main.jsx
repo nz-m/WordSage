@@ -6,6 +6,7 @@ import AllQuestions from "./pages/AllQuestions.jsx";
 import AddQuestion from "./pages/AddQuestion.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import UserManagement from "./pages/UserManagement.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/add-question",
     element: <AddQuestion />,
+  },
+  {
+    path: "/users",
+    element: <UserManagement />,
   },
 ]);
 

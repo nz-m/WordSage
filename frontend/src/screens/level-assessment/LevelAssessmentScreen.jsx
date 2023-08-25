@@ -5,7 +5,6 @@ import Question from "../../components/Question";
 import FinishMessage from "../shared/FinishMessage";
 import { useSelector, useDispatch } from "react-redux";
 import { assessLevel } from "../../features/level-assessment/levelAssessmentThunks";
-import { assessTest } from "../../features/level-up-test/levelUpThunks";
 
 const LevelAssessmentScreen = ({ navigation }) => {
   const dispatch = useDispatch();
@@ -24,7 +23,7 @@ const LevelAssessmentScreen = ({ navigation }) => {
     }
   }, [isQuizCompleted]);
   const handleResult = () => {
-    navigation.navigate("LevelAssessmentResult");
+    navigation.replace("LevelAssessmentResult");
   };
 
   const handleNextQuestion = () => {
@@ -113,16 +112,24 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
-    backgroundColor: "#3988FF",
+    backgroundColor: colors.primaryBackground,
   },
   container2: {
-    //flex: 2,
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 30,
     paddingVertical: 50,
     backgroundColor: "white",
-    borderRadius: 30,
+    borderRadius: 8,
+    width: "100%",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.05,
+    shadowRadius: 1,
+    elevation: 2,
   },
   timer: {
     fontSize: 18,
@@ -136,12 +143,12 @@ const styles = StyleSheet.create({
   },
 
   nextButton: {
-    width: 150,
-    height: 50,
+    width: 100,
+    height: 45,
     backgroundColor: "#3988FF",
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 8,
+    borderRadius: 6,
     marginTop: 20,
   },
   nextButtonText: {
@@ -152,11 +159,11 @@ const styles = StyleSheet.create({
   finishButton: {
     width: 150,
     height: 50,
-    backgroundColor: "#3988FF",
+    backgroundColor: colors.primary,
     justifyContent: "center",
     alignItems: "center",
 
-    borderRadius: 8,
+    borderRadius: 6,
     marginTop: 20,
   },
   finishButtonText: {

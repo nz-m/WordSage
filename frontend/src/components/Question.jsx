@@ -11,7 +11,11 @@ const Question = ({ question, selectedAnswer, setSelectedAnswer }) => {
           key={option.id}
           style={[
             styles.optionButton,
-            selectedAnswer === option.id ? { backgroundColor: "#fca311" } : {},
+            selectedAnswer === option.id
+              ? { backgroundColor: "#bbf7d0" }
+              : {
+                  backgroundColor: "#f4f4f5",
+                },
           ]}
           onPress={() => setSelectedAnswer(option.id)}
         >
@@ -30,13 +34,13 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   optionButton: {
-    width: 250,
     height: 50,
-    backgroundColor: "#E5E5E5",
+    backgroundColor: colors.primaryBackground,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 8,
     marginBottom: 10,
+    width: "100%",
   },
   optionText: {
     fontSize: 18,
@@ -46,6 +50,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     textAlign: "center",
     padding: 10,
+    textAlignVertical: "center",
   },
 });
 

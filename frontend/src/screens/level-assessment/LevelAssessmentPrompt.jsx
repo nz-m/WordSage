@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
-import { AntDesign } from "@expo/vector-icons";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ActivityIndicator,
+} from "react-native";
+import { Ionicons, AntDesign } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
 import colors from "../../constants/colors";
@@ -10,6 +15,7 @@ import { fetchQuestions } from "../../features/level-assessment/levelAssessmentT
 const LevelAssessmentPrompt = () => {
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.auth);
+  const { loading } = useSelector((state) => state.levelAssessment);
   const navigation = useNavigation();
 
   useEffect(() => {
@@ -24,7 +30,6 @@ const LevelAssessmentPrompt = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Hello, {user.name}!</Text>
       <Text style={styles.welcomeMessage}>Welcome to WordSage</Text>
-      <Text style={styles.subtitle}>Your Personal Vocabulary Tutor</Text>
       <Text style={styles.description}>
         Welcome aboard! Before we begin, let's evaluate your current English
         vocabulary level. This test is designed to provide us with insights into
@@ -52,8 +57,16 @@ const LevelAssessmentPrompt = () => {
           <Text style={styles.detailsTextSub}>15</Text>
         </View>
       </View>
-      <TouchableOpacity style={styles.startButton} onPress={handleStartTest}>
-        <Text style={styles.buttonText}>Start</Text>
+      <TouchableOpacity
+        style={[styles.startButton, loading && styles.startButtonDisabled]}
+        onPress={handleStartTest}
+        disabled={loading}
+      >
+        {loading ? (
+          <ActivityIndicator size="small" color={colors.white} />
+        ) : (
+          <Text style={styles.buttonText}>Start</Text>
+        )}
       </TouchableOpacity>
     </View>
   );
@@ -64,7 +77,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: colors.primaryBackground,
+    backgroundColor: "white",
     paddingHorizontal: 20,
   },
   emphasized: {
@@ -96,10 +109,13 @@ const styles = StyleSheet.create({
   startButton: {
     width: 200,
     height: 50,
-    backgroundColor: "#3988FF",
+    backgroundColor: colors.primary,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 8,
+  },
+  startButtonDisabled: {
+    opacity: 0.5,
   },
   buttonText: {
     color: "white",
@@ -113,12 +129,21 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   quizDetails: {
-    backgroundColor: "#e8e8e8",
     padding: 10,
-    borderRadius: 5,
     marginBottom: 10,
     alignItems: "center",
+    backgroundColor: "white",
+    borderRadius: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.09,
+    shadowRadius: 1,
+    elevation: 2,
   },
+
   detailsText: {
     color: "gray",
     fontSize: 16,

@@ -1,8 +1,9 @@
 import axios from "axios";
 import { getAuthToken } from "./tokenStorage";
+import { API_BASE_URL } from "../constants/baseUrl";
 
 const axiosInstance = axios.create({
-  baseURL: "http://192.168.31.72:4000",
+  baseURL: API_BASE_URL,
 });
 
 axiosInstance.interceptors.request.use(
