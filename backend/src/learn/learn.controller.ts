@@ -37,7 +37,7 @@ export class LearnController {
   startLearning(
     @Req() req,
   ): Promise<{ user: UserToSend } | { message: string }> {
-    return this.learnService.startLearning(req.user._id);
+    return this.learnService.startLearning(req.user._id, req.user.level);
   }
 
   @Post('add-words')

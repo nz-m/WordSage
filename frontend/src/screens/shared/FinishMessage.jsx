@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from "react-native";
 const FinishMessage = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.congratulationsText}>Congratulations!</Text>
+      <Text style={styles.completionText}>Quiz Completed!</Text>
       <Text style={styles.messageText}>
         You have finished the quiz. Tap below to see your result.
       </Text>
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: 20,
   },
-  congratulationsText: {
+  completionText: {
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 10,

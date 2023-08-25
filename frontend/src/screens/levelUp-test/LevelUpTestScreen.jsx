@@ -1,42 +1,109 @@
-import React from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import React, { useState, useEffect } from "react";
+import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import colors from "../../constants/colors";
+import Question from "../../components/Question";
+import FinishMessage from "../shared/FinishMessage";
+import { useSelector, useDispatch } from "react-redux";
+import { assessTest } from "../../features/level-up-test/levelUpThunks";
 
-const LevelUpTestScreen = () => {
-  const navigator = useNavigation();
+const LevelUpTestScreen = ({ navigation }) => {
+  const dispatch = useDispatch();
+  const questions = useSelector((state) => state.levelUpTest.questions);
 
-  const assessmentDetails = {
-    maxAttemptsPerDay: 1,
-    numOfQuestions: 10,
-    timeLimit: "15 minutes",
-    passingScore: "90%",
+  const [userAnswers, setUserAnswers] = useState([]);
+
+  const [isQuizCompleted, setIsQuizCompleted] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [remainingTime, setRemainingTime] = useState(600); // 10 minutes
+
+  useEffect(() => {
+    if (isQuizCompleted) {
+      dispatch(assessTest(userAnswers));
+    }
+  }, [isQuizCompleted]);
+
+  const handleResult = () => {
+    navigation.navigate("LevelUpTestResult");
   };
 
-  const handleStartAssessment = () => {
-    navigator.navigate("LevelAssessment");
+  const handleNextQuestion = () => {
+    const currentQuestionData = questions[currentQuestion];
+
+    // Only add an answer if an option is selected
+    if (selectedAnswer !== null) {
+      const answerData = {
+        questionId: currentQuestionData._id,
+        selectedAnswer,
+      };
+      setUserAnswers((prevAnswers) => [...prevAnswers, answerData]);
+    }
+
+    if (currentQuestion === questions.length - 1) {
+      setIsQuizCompleted(true);
+    } else {
+      setCurrentQuestion((prevQuestion) => prevQuestion + 1);
+      setSelectedAnswer(null);
+    }
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRemainingTime((prevTime) => prevTime - 1);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    if (remainingTime === 0) {
+      setIsQuizCompleted(true);
+    }
+  }, [remainingTime]);
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Leveling Up Assessment</Text>
-      <View style={styles.messageBox}>
-        <Text style={styles.messageText}>
-          You can attempt this test once a day.
-        </Text>
-        <Text style={styles.messageText}>
-          There will be {assessmentDetails.numOfQuestions} questions to answer
-          in {assessmentDetails.timeLimit}.
-        </Text>
-        <Text style={styles.messageText}>
-          Achieving {assessmentDetails.passingScore} score will level you up.
-        </Text>
+      <View style={styles.container2}>
+        {!isQuizCompleted ? (
+          <>
+            <Text style={styles.timer}>
+              Remaining Time: {Math.floor(remainingTime / 60)}:
+              {remainingTime % 60}
+            </Text>
+
+            <Text style={styles.questionNumber}>
+              Question {currentQuestion + 1} of {questions.length}
+            </Text>
+
+            <Question
+              question={questions[currentQuestion]}
+              selectedAnswer={selectedAnswer}
+              setSelectedAnswer={setSelectedAnswer}
+            />
+
+            <TouchableOpacity
+              style={styles.nextButton}
+              onPress={handleNextQuestion}
+              disabled={remainingTime === 0}
+            >
+              <Text style={styles.nextButtonText}>
+                {currentQuestion === questions.length - 1 ? "Done" : "Next"}
+              </Text>
+            </TouchableOpacity>
+          </>
+        ) : (
+          <>
+            <FinishMessage />
+
+            <TouchableOpacity
+              style={styles.finishButton}
+              onPress={handleResult}
+            >
+              <Text style={styles.finishButtonText}>Go to result</Text>
+            </TouchableOpacity>
+          </>
+        )}
       </View>
-      <TouchableOpacity
-        style={styles.startButton}
-        onPress={handleStartAssessment}
-      >
-        <Text style={styles.startButtonText}>Start Now</Text>
-      </TouchableOpacity>
     </View>
   );
 };
@@ -44,37 +111,59 @@ const LevelUpTestScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#f0f0f0",
+    paddingHorizontal: 20,
+    backgroundColor: "#3988FF",
   },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 20,
-  },
-  messageBox: {
-    backgroundColor: "white",
-    padding: 20,
-    borderRadius: 10,
-    marginBottom: 20,
-  },
-  messageText: {
-    fontSize: 16,
-    marginBottom: 10,
-    textAlign: "center",
-  },
-  startButton: {
-    backgroundColor: "#2196F3",
-    paddingVertical: 15,
+  container2: {
+    //flex: 2,
+    justifyContent: "center",
+    alignItems: "center",
     paddingHorizontal: 30,
-    borderRadius: 8,
+    paddingVertical: 50,
+    backgroundColor: "white",
+    borderRadius: 30,
   },
-  startButtonText: {
+  timer: {
     fontSize: 18,
     fontWeight: "bold",
+    color: colors.primaryText,
+    marginBottom: 20,
+  },
+  questionNumber: {
+    color: "gray",
+    marginBottom: 10,
+  },
+
+  nextButton: {
+    width: 150,
+    height: 50,
+    backgroundColor: "#3988FF",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 8,
+    marginTop: 20,
+  },
+  nextButtonText: {
     color: "white",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  finishButton: {
+    width: 150,
+    height: 50,
+    backgroundColor: "#3988FF",
+    justifyContent: "center",
+    alignItems: "center",
+
+    borderRadius: 8,
+    marginTop: 20,
+  },
+  finishButtonText: {
+    color: "white",
+    fontSize: 18,
+    fontWeight: "bold",
   },
 });
 

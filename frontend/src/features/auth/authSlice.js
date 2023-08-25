@@ -1,11 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { loginUser, registerUser, clearAsyncStorage } from "./authThunks";
 import { assessLevel } from "../level-assessment/levelAssessmentThunks";
+import { assessTest } from "../level-up-test/levelUpThunks";
 import { startLearning } from "../learn/learnThunks";
+import { fetchUserInfo } from "../profile/profileThunks";
 
 const initialState = {
   token: null,
   user: null,
+  isUserFetching: false,
+  errorFetchingUser: null,
   loading: false,
   regError: [],
   loginError: null,
@@ -66,6 +70,20 @@ const authSlice = createSlice({
       .addCase(clearAsyncStorage.fulfilled, (state) => {
         state.user = null;
         state.token = null;
+      })
+      .addCase(fetchUserInfo.fulfilled, (state, action) => {
+        state.user = action.payload;
+        state.isUserFetching = false;
+      })
+      .addCase(fetchUserInfo.pending, (state) => {
+        state.isUserFetching = true;
+      })
+      .addCase(fetchUserInfo.rejected, (state, action) => {
+        state.isUserFetching = false;
+        state.errorFetchingUser = action.payload.message;
+      })
+      .addCase(assessTest.fulfilled, (state, action) => {
+        state.user = action.payload.userData;
       });
   },
 });

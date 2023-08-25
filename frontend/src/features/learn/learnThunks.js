@@ -32,6 +32,7 @@ export const startLesson = createAsyncThunk(
       const response = await axiosInstance.post("/learn/start-lesson", {
         lessonId,
       });
+
       return response.data;
     } catch (error) {
       return thunkAPI.rejectWithValue(error.response.data);

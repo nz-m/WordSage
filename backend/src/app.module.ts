@@ -6,6 +6,9 @@ import { LevelAssessmentModule } from './level-assessment/level-assessment.modul
 import { LearnModule } from './learn/learn.module';
 import { LoggerMiddleware, DelayMiddleware } from './middleware';
 import { QuizModule } from './quiz/quiz.module';
+import { LevelUpTestModule } from './level-up-test/level-up-test.module';
+import { ProfileModule } from './profile/profile.module';
+import { AdminModule } from './admin/admin.module';
 
 @Module({
   imports: [
@@ -19,6 +22,9 @@ import { QuizModule } from './quiz/quiz.module';
     LevelAssessmentModule,
     LearnModule,
     QuizModule,
+    LevelUpTestModule,
+    ProfileModule,
+    AdminModule,
   ],
 })
 export class AppModule implements NestModule {

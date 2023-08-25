@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, Button, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  Button,
+  TouchableOpacity,
+  StyleSheet,
+  ActivityIndicator,
+} from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { submitQuiz } from "../../features/quiz/quizThunks";
 import LoadingScreen from "../shared/LoadingScreen";
@@ -8,7 +15,9 @@ import { useNavigation } from "@react-navigation/native";
 const QuizScreen = () => {
   const navigator = useNavigation();
   const dispatch = useDispatch();
-  const { quiz } = useSelector((state) => state.quiz);
+  const { quiz, isQuizSubmitting, quizSubmittingError } = useSelector(
+    (state) => state.quiz
+  );
 
   const { _id, questions, timeLimit } = quiz;
 
@@ -148,7 +157,15 @@ const QuizScreen = () => {
           <Button title="Next Question" onPress={nextQuestion} />
         </View>
       ) : (
-        <Button title="Finish Quiz" onPress={handleFinishQuiz} />
+        <TouchableOpacity style={styles.button} onPress={handleFinishQuiz}>
+          <Text style={styles.buttonText}>
+            {isQuizSubmitting ? (
+              <ActivityIndicator size="small" color="white" />
+            ) : (
+              "Finish Quiz"
+            )}
+          </Text>
+        </TouchableOpacity>
       )}
 
       <Text style={styles.remainingTime}>

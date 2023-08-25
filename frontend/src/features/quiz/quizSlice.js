@@ -13,7 +13,7 @@ const initialState = {
   isResultFetching: false,
   resultFetchingError: null,
   isQuizTaken: false,
-  isGettingQuizStatus: false,
+  isQuizStatusFetching: false,
   quizStatusError: null,
 };
 
@@ -22,6 +22,9 @@ const quizSlice = createSlice({
   initialState,
   reducers: {
     resetQuizState: (state) => initialState,
+    resetQuizResult: (state) => {
+      state.quizResult = null;
+    },
     clearQuizErrors: (state) => {
       state.quizFetchingError = null;
       state.quizStartingError = null;
@@ -84,21 +87,21 @@ const quizSlice = createSlice({
         state.resultFetchingError = action.payload.message;
       })
       .addCase("quiz/getQuizStatus/pending", (state, action) => {
-        state.isGettingQuizStatus = true;
+        state.isQuizStatusFetching = true;
         state.quizStatusError = null;
       })
       .addCase("quiz/getQuizStatus/fulfilled", (state, action) => {
-        state.isGettingQuizStatus = false;
+        state.isQuizStatusFetching = false;
         state.quizStatusError = null;
         state.isQuizTaken = action.payload.isCompleted;
       })
       .addCase("quiz/getQuizStatus/rejected", (state, action) => {
-        state.isGettingQuizStatus = false;
+        state.isQuizStatusFetching = false;
         state.quizStatusError = action.payload.message;
       });
   },
 });
 
-export const { resetQuizState, clearQuizErrors } = quizSlice.actions;
+export const { resetQuizResult, clearQuizErrors } = quizSlice.actions;
 
 export default quizSlice.reducer;

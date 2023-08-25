@@ -15,29 +15,31 @@ import {
   AssessmentQuestionDto,
   UserAnswerDto,
 } from './dto';
-import { QuestionLevel } from './entities/assessment-question.entity';
+import { Level } from '../auth/entities/user.entity';
 import { UserToSend } from '../auth/interface/user.interface';
 
 @Controller('level-assessment')
 export class LevelAssessmentController {
-  constructor(private levelAssessmentService: LevelAssessmentService) {}
+  constructor(
+    private readonly levelAssessmentService: LevelAssessmentService,
+  ) {}
 
   @Get('get-questions')
   getQuestions(): Promise<AssessmentQuestionDto[]> {
     return this.levelAssessmentService.getQuestions();
   }
-  @Post('add-question')
-  addQuestion(
-    @Body() assessmentQuestionDto: CreateAssessmentQuestionDto,
-  ): Promise<{ message: string }> {
-    return this.levelAssessmentService.addQuestion(assessmentQuestionDto);
-  }
-
   @Post('add-questions')
   addQuestions(
-    @Body() assessmentQuestionDto: CreateAssessmentQuestionDto[],
+    @Body()
+    assessmentQuestionDto:
+      | CreateAssessmentQuestionDto
+      | CreateAssessmentQuestionDto[],
   ): Promise<{ message: string }> {
-    return this.levelAssessmentService.addQuestions(assessmentQuestionDto);
+    if (Array.isArray(assessmentQuestionDto)) {
+      return this.levelAssessmentService.addQuestions(assessmentQuestionDto);
+    } else {
+      return this.levelAssessmentService.addQuestion(assessmentQuestionDto);
+    }
   }
 
   @Delete('delete-question/:id')
@@ -55,7 +57,10 @@ export class LevelAssessmentController {
     @Req() req,
   ): Promise<{
     level: string;
-    correctCounts: Record<QuestionLevel, number>;
+    correctCounts: Record<
+      Level.BEGINNER | Level.INTERMEDIATE | Level.ADVANCED,
+      number
+    >;
     scorePercentage: number;
     user: UserToSend;
   }> {

@@ -1,17 +1,16 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { Document } from 'mongoose';
-import * as mongoose from 'mongoose';
+import { Document, Types } from 'mongoose';
 import { UserAnswer } from '../interface/quiz.interface';
 import { Level } from '../../auth/entities/user.entity';
 import { LessonTitle } from '../../learn/entities/word.entity';
 
 @Schema()
 export class QuizProgress extends Document {
-  @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true })
-  user: mongoose.Types.ObjectId;
+  @Prop({ type: Types.ObjectId, ref: 'User', required: true })
+  user: Types.ObjectId;
 
   @Prop({
-    type: mongoose.Schema.Types.ObjectId,
+    type: Types.ObjectId,
     ref: 'Quiz',
     required: true,
   })

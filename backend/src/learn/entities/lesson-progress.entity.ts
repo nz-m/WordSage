@@ -1,5 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
+import { Level } from '../../auth/entities/user.entity';
 
 export enum LessonStatus {
   NOT_STARTED = 'not started',
@@ -18,6 +19,9 @@ export class LessonProgress extends Document {
 
   @Prop({ enum: LessonStatus, default: LessonStatus.NOT_STARTED })
   status: string;
+
+  @Prop({ enum: Level, required: true, default: Level.BEGINNER })
+  level: Level;
 }
 
 export const LessonProgressSchema =

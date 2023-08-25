@@ -1,19 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
-import colors from "../../constants/colors";
-import { Feather } from "@expo/vector-icons";
 import { useDispatch, useSelector } from "react-redux";
+import { useIsFocused } from "@react-navigation/native";
+import { Feather } from "@expo/vector-icons";
+import colors from "../../constants/colors";
 import LoadingScreen from "./LoadingScreen";
 import logOut from "../../features/rootAction";
+import { fetchUserStats } from "../../features/profile/profileThunks";
+import { resetStats } from "../../features/profile/profileSlice";
 
 const ProfileScreen = () => {
   const dispatch = useDispatch();
-  const handleLogout = () => {
-    dispatch(logOut());
-  };
+  const isFocused = useIsFocused();
+  const { stats } = useSelector((state) => state.profile);
   const { user } = useSelector((state) => state.auth);
 
-  if (!user) {
+  useEffect(() => {
+    if (isFocused) {
+      dispatch(fetchUserStats());
+    } else {
+      dispatch(resetStats());
+    }
+  }, [isFocused]);
+
+  if (!user || !stats) {
     return <LoadingScreen />;
   }
 
@@ -21,13 +31,24 @@ const ProfileScreen = () => {
     name: user.name,
     profilePicture: require("../../assets/profile.png"),
     level: user.level,
-    streak: 10,
-    lessonsCompleted: "25/50",
+    lessonsCompleted: stats.totalLessonsCompleted,
     practiceQuizResults: {
-      highestScore: 90,
-      averageScore: 75,
+      highestScore: stats.quizHighestScore,
+      averageScore: stats.quizAverageScore,
     },
+    longestStreak: stats.longestStreak,
+    currentStreak: stats.currentStreak,
+    totalWordsLearned: stats.totalWordsLearned,
+    totalQuizzesCompleted: stats.totalQuizzesCompleted,
   };
+
+  const renderStatCard = (iconName, title, value, bgColor) => (
+    <View style={[styles.statCard, { backgroundColor: bgColor }]}>
+      <Feather name={iconName} size={24} color={colors.primaryColor} />
+      <Text style={styles.statTitle}>{title}</Text>
+      <Text style={styles.statValue}>{value}</Text>
+    </View>
+  );
 
   return (
     <View style={styles.container}>
@@ -38,39 +59,39 @@ const ProfileScreen = () => {
       </View>
 
       <View style={styles.statContainer}>
-        <View style={styles.statCard}>
-          <Feather name="book" size={24} color={colors.primaryColor} />
-          <Text style={styles.statTitle}>Lessons Completed</Text>
-          <Text style={styles.statValue}>{userData.lessonsCompleted}</Text>
-        </View>
-
-        <View style={styles.statCard2}>
-          <Feather name="bar-chart-2" size={24} color={colors.primaryColor} />
-          <Text style={styles.statTitle}>Practice Quiz</Text>
-          <Text style={styles.statValue}>
-            Highest Score: {userData.practiceQuizResults.highestScore}
-          </Text>
-          <Text style={styles.statValue}>
-            Average Score: {userData.practiceQuizResults.averageScore}
-          </Text>
-        </View>
+        {renderStatCard(
+          "book",
+          "Lessons Completed",
+          userData.lessonsCompleted,
+          "#8ac926"
+        )}
+        {renderStatCard(
+          "bar-chart-2",
+          "Practice Quiz",
+          `Quiz Taken: ${userData.totalQuizzesCompleted}\nHighest Score: ${userData.practiceQuizResults.highestScore}\nAverage Score: ${userData.practiceQuizResults.averageScore}`,
+          "#ffca3a"
+        )}
       </View>
 
-      {/* Additional Statistics */}
       <View style={styles.statContainer}>
-        <View style={styles.statCard3}>
-          <Feather name="check-circle" size={24} color={colors.primaryColor} />
-          <Text style={styles.statTitle}>Words Learnt</Text>
-          <Text style={styles.statValue}>100</Text>
-        </View>
-        <View style={styles.statCard4}>
-          <Feather name="clock" size={24} color={colors.primaryColor} />
-          <Text style={styles.statTitle}>Longest Streak (Days)</Text>
-          <Text style={styles.statValue}>{userData.streak}</Text>
-        </View>
+        {renderStatCard(
+          "check-circle",
+          "Words Learnt",
+          userData.totalWordsLearned,
+          "#73d2de"
+        )}
+        {renderStatCard(
+          "clock",
+          "Streaks (Days)",
+          `Longest: ${userData.longestStreak}\nCurrent: ${userData.currentStreak}`,
+          "#ff595e"
+        )}
       </View>
 
-      <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
+      <TouchableOpacity
+        style={styles.logoutButton}
+        onPress={() => dispatch(logOut())}
+      >
         <Image
           source={require("../../assets/logout.png")}
           style={styles.logoutImage}
@@ -104,7 +125,7 @@ const styles = StyleSheet.create({
   },
   levelText: {
     fontSize: 18,
-    color: "gray",
+    color: colors.white,
     marginBottom: 10,
   },
   statContainer: {
@@ -114,46 +135,22 @@ const styles = StyleSheet.create({
   },
   statCard: {
     flex: 1,
-    backgroundColor: "#8ac926",
     padding: 20,
     borderRadius: 8,
     alignItems: "center",
     marginRight: 5,
-  },
-  statCard2: {
-    flex: 1,
-    backgroundColor: "#ffca3a",
-    padding: 20,
-    borderRadius: 8,
-    alignItems: "center",
-    marginLeft: 5,
-  },
-  statCard3: {
-    flex: 1,
-    backgroundColor: "#73d2de",
-    padding: 20,
-    borderRadius: 8,
-    alignItems: "center",
-    marginRight: 5,
-  },
-  statCard4: {
-    flex: 1,
-    backgroundColor: "#ff595e",
-    padding: 20,
-    borderRadius: 8,
-    alignItems: "center",
-    marginLeft: 5,
   },
   statTitle: {
     fontSize: 15,
     fontWeight: "bold",
     marginBottom: 5,
-    color: colors.primaryColor,
+    color: colors.white,
     textDecorationLine: "underline",
   },
   statValue: {
     fontSize: 14,
-    color: "gray",
+    color: colors.white,
+    textAlign: "center",
   },
   logoutButton: {
     marginTop: 40,

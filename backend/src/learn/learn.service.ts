@@ -104,10 +104,12 @@ export class LearnService {
    * Assigns and initializes lessons for a user, marking the first lesson as not started and the rest as locked.
    *
    * @param {string} userId - The ID of the user.
+   * @param {string} level - The level of the user.
    * @returns {Promise<{ user: UserToSend } | { message: string }>} - The updated user object or an error message.
    */
   async startLearning(
     userId: string,
+    level: string,
   ): Promise<{ user: UserToSend } | { message: string }> {
     try {
       const lessons = await this.lessonModel.find().exec();
@@ -122,6 +124,7 @@ export class LearnService {
         user: userId,
         lesson: firstLesson._id,
         status: LessonStatus.NOT_STARTED,
+        level: level,
       });
 
       const otherLessons = lessons.filter(
@@ -134,6 +137,7 @@ export class LearnService {
             user: userId,
             lesson: lesson._id,
             status: LessonStatus.LOCKED,
+            level: level,
           }),
         ),
       );
@@ -204,7 +208,7 @@ export class LearnService {
     const words = await this.wordModel
       .find({
         lessonTitle: lessonTitle,
-        level: user.level,
+        level: user.level === Level.EXPERT ? Level.ADVANCED : user.level,
       })
       .sort({ wordNumber: 1 });
 

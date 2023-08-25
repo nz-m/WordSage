@@ -8,7 +8,9 @@ import LessonListScreen from "../screens/learn/LessonListScreen";
 import LessonDetailsScreen from "../screens/learn/LessonDetailsScreen";
 import WordScreen from "../screens/learn/WordScreen";
 import WordOfTheDayScreen from "../screens/shared/WordOfTheDayScreen";
+import LevelUpTestPrompt from "../screens/levelUp-test/LevelUpTestPrompt";
 import LevelUpTestScreen from "../screens/levelUp-test/LevelUpTestScreen";
+import LevelUpTestResult from "../screens/levelUp-test/LevelUpTestResult";
 import LevelAssessmentPrompt from "../screens/level-assessment/LevelAssessmentPrompt";
 import LevelAssessmentScreen from "../screens/level-assessment/LevelAssessmentScreen";
 import LevelAssessmentResult from "../screens/level-assessment/LevelAssessmentResult";
@@ -77,8 +79,20 @@ const AppNavigator = () => {
             options={{ headerShown: false }}
           />
           <Stack.Screen
+            name="LevelUpTestPrompt"
+            component={LevelUpTestPrompt}
+            options={{ headerShown: false }}
+          />
+
+          <Stack.Screen
             name="LevelUpTest"
             component={LevelUpTestScreen}
+            options={{ headerShown: false }}
+          />
+
+          <Stack.Screen
+            name="LevelUpTestResult"
+            component={LevelUpTestResult}
             options={{ headerShown: false }}
           />
 

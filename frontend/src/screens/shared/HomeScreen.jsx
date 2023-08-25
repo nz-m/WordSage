@@ -1,17 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation, useIsFocused } from "@react-navigation/native";
 import Screen from "../../components/Screen";
 import { Ionicons } from "@expo/vector-icons";
 import colors from "../../constants/colors";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import LoadingScreen from "./LoadingScreen";
+import { fetchUserStats } from "../../features/profile/profileThunks";
+import { resetStats } from "../../features/profile/profileSlice";
 const HomeScreen = () => {
+  const dispatch = useDispatch();
   const navigation = useNavigation();
+  const isFocused = useIsFocused();
 
   const { user } = useSelector((state) => state.auth);
+  const { stats } = useSelector((state) => state.profile);
 
-  if (!user) {
+  useEffect(() => {
+    if (isFocused) {
+      dispatch(fetchUserStats());
+    } else {
+      dispatch(resetStats());
+    }
+  }, [isFocused]);
+
+  if (!user || !stats) {
     return <LoadingScreen />;
   }
 
@@ -27,8 +40,23 @@ const HomeScreen = () => {
     navigation.navigate("WordOfTheDay");
   };
 
+  const totalLessons = 10;
+  const { isLevelUpTestTakenToday, totalLessonsCompleted } = stats;
+
   const handleLevelUpAssessmentPress = () => {
-    navigation.navigate("LevelUpTest");
+    if (totalLessonsCompleted < totalLessons) {
+      alert(
+        `You need to complete ${
+          totalLessons - totalLessonsCompleted
+        } more lessons to take the test.`
+      );
+    } else if (isLevelUpTestTakenToday) {
+      alert(
+        "You can only take the test once a day. Please try again tomorrow."
+      );
+    } else {
+      navigation.navigate("LevelUpTestPrompt");
+    }
   };
 
   return (
@@ -57,6 +85,12 @@ const HomeScreen = () => {
           >
             <Ionicons name="book" size={32} color="#FFF" />
             <Text style={styles.cardTitle}>Continue Learning</Text>
+
+            {user?.level !== "Expert" && (
+              <Text>
+                {totalLessonsCompleted}/{totalLessons} Lessons Completed
+              </Text>
+            )}
           </TouchableOpacity>
 
           <TouchableOpacity
@@ -67,13 +101,25 @@ const HomeScreen = () => {
             <Text style={styles.cardTitle}>Word of the Day</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={[styles.card, styles.levelUpAssessmentCard]}
-            onPress={handleLevelUpAssessmentPress}
-          >
-            <Ionicons name="trophy" size={32} color="#FFF" />
-            <Text style={styles.cardTitle}>Level-up Assessment</Text>
-          </TouchableOpacity>
+          {/* needs to changed foe expert level*/}
+
+          {user?.level !== "Expert" && (
+            <TouchableOpacity
+              style={[styles.card, styles.levelUpAssessmentCard]}
+              onPress={handleLevelUpAssessmentPress}
+            >
+              <Ionicons name="trophy" size={32} color="#FFF" />
+              <Text style={styles.cardTitle}>Level-up Test</Text>
+            </TouchableOpacity>
+          )}
+          {user?.level === "Expert" && (
+            <TouchableOpacity
+              style={[styles.card, styles.levelUpAssessmentCard]}
+            >
+              <Ionicons name="trophy" size={32} color="#FFF" />
+              <Text style={styles.cardTitle}>You are an Expert now!</Text>
+            </TouchableOpacity>
+          )}
         </View>
       </View>
     </Screen>

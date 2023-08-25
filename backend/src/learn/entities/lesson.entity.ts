@@ -1,6 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { Document } from 'mongoose';
-import * as mongoose from 'mongoose';
+import { Document, Types } from 'mongoose';
 
 @Schema()
 export class Lesson extends Document {
@@ -16,8 +15,8 @@ export class Lesson extends Document {
   @Prop()
   description: string;
 
-  @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'Quiz' })
-  practiceQuiz: mongoose.Types.ObjectId;
+  @Prop({ type: Types.ObjectId, ref: 'Quiz' })
+  practiceQuiz: Types.ObjectId;
 }
 
 export const LessonSchema = SchemaFactory.createForClass(Lesson);

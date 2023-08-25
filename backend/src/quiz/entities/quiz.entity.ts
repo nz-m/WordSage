@@ -1,6 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { Document } from 'mongoose';
-import * as mongoose from 'mongoose';
+import { Document, Types } from 'mongoose';
 import { Level } from '../../auth/entities/user.entity';
 import { LessonTitle } from '../../learn/entities/word.entity';
 
@@ -17,7 +16,7 @@ export class Quiz extends Document {
   numberOfQuestions: number;
 
   @Prop({
-    type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'QuizQuestion' }],
+    type: [{ type: Types.ObjectId, ref: 'QuizQuestion' }],
     validate: [arrayLimit, '{PATH} exceeds the limit of 20'],
   })
   questions: QuizQuestion[];

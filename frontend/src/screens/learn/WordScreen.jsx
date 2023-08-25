@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import { Modal, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { View, Text, TouchableOpacity, Modal, StyleSheet } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import * as Speech from "expo-speech";
+import { useDispatch, useSelector } from "react-redux";
+
 import colors from "../../constants/colors";
 import {
   markLessonAsCompleted,
   markWordAsLearned,
 } from "../../features/learn/learnThunks";
 import { updateWords } from "../../features/learn/learnSlice";
-import { useDispatch } from "react-redux";
 
 const WordScreen = ({
   route: {
@@ -17,7 +18,14 @@ const WordScreen = ({
 }) => {
   const dispatch = useDispatch();
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const { user } = useSelector((state) => state.auth);
+
+  // Find the first word that is not learned
+  const firstNotLearnedWordIndex = words.findIndex((word) => !word.isLearned);
+  const [currentIndex, setCurrentIndex] = useState(
+    firstNotLearnedWordIndex === -1 ? 0 : firstNotLearnedWordIndex
+  );
+
   const [wordData, setWordData] = useState(words[currentIndex]);
   const [wordStatus, setWordStatus] = useState(
     words.map((word) => ({ _id: word._id, isDone: word.isLearned }))
@@ -28,7 +36,8 @@ const WordScreen = ({
     words.filter((word) => word.isLearned).length
   );
 
-  const totalWords = words.length;
+  // const totalWords = words.length;
+  const totalWords = 2;
 
   const handlePronunciationPress = (word) => {
     Speech.speak(word);
@@ -162,12 +171,19 @@ const WordScreen = ({
         <Text style={styles.description}>{wordData.example}</Text>
       </View>
 
-      {!isDone ? (
-        <TouchableOpacity style={styles.doneButton} onPress={handleDonePress}>
-          <Text style={styles.doneButtonText}>Mark as Done</Text>
-        </TouchableOpacity>
-      ) : (
-        <Text style={{ color: colors.primary }}>Word marked as done!</Text>
+      {user?.level !== "Expert" && (
+        <View>
+          {!isDone ? (
+            <TouchableOpacity
+              style={styles.doneButton}
+              onPress={handleDonePress}
+            >
+              <Text style={styles.doneButtonText}>Mark as Done</Text>
+            </TouchableOpacity>
+          ) : (
+            <Text style={{ color: colors.primary }}>Word marked as done!</Text>
+          )}
+        </View>
       )}
 
       <Modal

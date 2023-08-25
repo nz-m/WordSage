@@ -7,6 +7,10 @@ import { AuthController } from './auth.controller';
 import { User, UserSchema } from './entities/user.entity';
 import { JwtStrategy } from '../jwt.strategy';
 import { MongooseModule } from '@nestjs/mongoose';
+import {
+  LoginRecord,
+  LoginRecordSchema,
+} from '../profile/entities/login-record.entity';
 
 @Module({
   imports: [
@@ -20,7 +24,10 @@ import { MongooseModule } from '@nestjs/mongoose';
         },
       }),
     }),
-    MongooseModule.forFeature([{ name: User.name, schema: UserSchema }]),
+    MongooseModule.forFeature([
+      { name: User.name, schema: UserSchema },
+      { name: LoginRecord.name, schema: LoginRecordSchema },
+    ]),
   ],
   providers: [AuthService, JwtStrategy],
   controllers: [AuthController],

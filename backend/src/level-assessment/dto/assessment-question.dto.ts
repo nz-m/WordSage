@@ -1,4 +1,4 @@
-import { QuestionLevel } from '../entities/assessment-question.entity';
+import { Level } from '../../auth/entities/user.entity';
 import { IsEnum, IsNotEmpty, IsNumber, IsString } from 'class-validator';
 
 export class AssessmentQuestionDto {
@@ -18,6 +18,6 @@ export class AssessmentQuestionDto {
   correctAnswer: number;
 
   @IsNotEmpty()
-  @IsEnum(QuestionLevel)
-  level: QuestionLevel;
+  @IsEnum(Level)
+  level: Level;
 }

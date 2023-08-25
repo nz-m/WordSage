@@ -5,12 +5,8 @@ import {
 } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
-import {
-  AssessmentQuestion,
-  QuestionLevel,
-} from './entities/assessment-question.entity';
-
-import { User } from '../auth/entities/user.entity';
+import { AssessmentQuestion } from './entities/assessment-question.entity';
+import { User, Level } from '../auth/entities/user.entity';
 import {
   CreateAssessmentQuestionDto,
   AssessmentQuestionDto,
@@ -22,9 +18,9 @@ import { UserToSend } from '../auth/interface/user.interface';
 export class LevelAssessmentService {
   constructor(
     @InjectModel(AssessmentQuestion.name)
-    private assessmentQuestionModel: Model<AssessmentQuestion>,
+    private readonly assessmentQuestionModel: Model<AssessmentQuestion>,
     @InjectModel(User.name)
-    private userModel: Model<User>,
+    private readonly userModel: Model<User>,
   ) {}
 
   /**
@@ -126,15 +122,18 @@ export class LevelAssessmentService {
     userAnswerDto: UserAnswerDto[],
     userId: string,
   ): Promise<{
-    level: QuestionLevel;
-    correctCounts: Record<QuestionLevel, number>;
+    level: Level;
+    correctCounts: Record<
+      Level.BEGINNER | Level.INTERMEDIATE | Level.ADVANCED,
+      number
+    >;
     scorePercentage: number;
     user: UserToSend;
   }> {
     const difficultyWeights = {
-      [QuestionLevel.BEGINNER]: 1,
-      [QuestionLevel.INTERMEDIATE]: 2,
-      [QuestionLevel.ADVANCED]: 3,
+      [Level.BEGINNER]: 1,
+      [Level.INTERMEDIATE]: 2,
+      [Level.ADVANCED]: 3,
     };
 
     const questions = await this.assessmentQuestionModel.find().exec();
@@ -158,14 +157,14 @@ export class LevelAssessmentService {
         },
         {
           maxPossibleWeightedScore:
-            5 * difficultyWeights[QuestionLevel.BEGINNER] +
-            5 * difficultyWeights[QuestionLevel.INTERMEDIATE] +
-            5 * difficultyWeights[QuestionLevel.ADVANCED],
+            5 * difficultyWeights[Level.BEGINNER] +
+            5 * difficultyWeights[Level.INTERMEDIATE] +
+            5 * difficultyWeights[Level.ADVANCED],
           userWeightedScore: 0,
           correctCounts: {
-            [QuestionLevel.BEGINNER]: 0,
-            [QuestionLevel.INTERMEDIATE]: 0,
-            [QuestionLevel.ADVANCED]: 0,
+            [Level.BEGINNER]: 0,
+            [Level.INTERMEDIATE]: 0,
+            [Level.ADVANCED]: 0,
           },
         },
       );
@@ -175,10 +174,10 @@ export class LevelAssessmentService {
 
     const userProficiencyLevel =
       userProficiencyRatio <= 0.5
-        ? QuestionLevel.BEGINNER
+        ? Level.BEGINNER
         : userProficiencyRatio <= 0.8
-        ? QuestionLevel.INTERMEDIATE
-        : QuestionLevel.ADVANCED;
+        ? Level.INTERMEDIATE
+        : Level.ADVANCED;
 
     let user;
 

@@ -1,11 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
-
-export enum QuestionLevel {
-  BEGINNER = 'Beginner',
-  INTERMEDIATE = 'Intermediate',
-  ADVANCED = 'Advanced',
-}
+import { Level } from '../../auth/entities/user.entity';
 
 @Schema()
 export class AssessmentQuestion extends Document {
@@ -31,8 +26,8 @@ export class AssessmentQuestion extends Document {
   @Prop({ required: true })
   correctAnswer: number;
 
-  @Prop({ required: true, enum: QuestionLevel })
-  level: QuestionLevel;
+  @Prop({ required: true, enum: Level })
+  level: Level;
 }
 
 export const AssessmentQuestionSchema =

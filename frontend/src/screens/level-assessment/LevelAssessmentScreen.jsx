@@ -5,6 +5,7 @@ import Question from "../../components/Question";
 import FinishMessage from "../shared/FinishMessage";
 import { useSelector, useDispatch } from "react-redux";
 import { assessLevel } from "../../features/level-assessment/levelAssessmentThunks";
+import { assessTest } from "../../features/level-up-test/levelUpThunks";
 
 const LevelAssessmentScreen = ({ navigation }) => {
   const dispatch = useDispatch();
@@ -17,26 +18,29 @@ const LevelAssessmentScreen = ({ navigation }) => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [remainingTime, setRemainingTime] = useState(600); // 10 minutes
 
-  const handleFinishQuiz = async () => {
-    await dispatch(assessLevel(userAnswers));
-    setIsQuizCompleted(true);
-  };
-
+  useEffect(() => {
+    if (isQuizCompleted) {
+      dispatch(assessLevel(userAnswers));
+    }
+  }, [isQuizCompleted]);
   const handleResult = () => {
     navigation.navigate("LevelAssessmentResult");
   };
 
   const handleNextQuestion = () => {
     const currentQuestionData = questions[currentQuestion];
-    const answerData = {
-      questionId: currentQuestionData._id,
-      selectedAnswer,
-    };
 
-    setUserAnswers((prevAnswers) => [...prevAnswers, answerData]);
+    // Only add an answer if an option is selected
+    if (selectedAnswer !== null) {
+      const answerData = {
+        questionId: currentQuestionData._id,
+        selectedAnswer,
+      };
+      setUserAnswers((prevAnswers) => [...prevAnswers, answerData]);
+    }
 
     if (currentQuestion === questions.length - 1) {
-      handleFinishQuiz();
+      setIsQuizCompleted(true);
     } else {
       setCurrentQuestion((prevQuestion) => prevQuestion + 1);
       setSelectedAnswer(null);
@@ -53,7 +57,7 @@ const LevelAssessmentScreen = ({ navigation }) => {
 
   useEffect(() => {
     if (remainingTime === 0) {
-      handleFinishQuiz();
+      setIsQuizCompleted(true);
     }
   }, [remainingTime]);
 
@@ -76,17 +80,15 @@ const LevelAssessmentScreen = ({ navigation }) => {
               selectedAnswer={selectedAnswer}
               setSelectedAnswer={setSelectedAnswer}
             />
-            {selectedAnswer !== null && (
-              <TouchableOpacity
-                style={styles.nextButton}
-                onPress={handleNextQuestion}
-                disabled={remainingTime === 0}
-              >
-                <Text style={styles.nextButtonText}>
-                  {currentQuestion === questions.length - 1 ? "Done" : "Next"}
-                </Text>
-              </TouchableOpacity>
-            )}
+            <TouchableOpacity
+              style={styles.nextButton}
+              onPress={handleNextQuestion}
+              disabled={remainingTime === 0}
+            >
+              <Text style={styles.nextButtonText}>
+                {currentQuestion === questions.length - 1 ? "Done" : "Next"}
+              </Text>
+            </TouchableOpacity>
           </>
         ) : (
           <>

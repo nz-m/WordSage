@@ -11,8 +11,7 @@ import colors from "../../constants/colors";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
 import { getWords, startLesson } from "../../features/learn/learnThunks";
-import { getQuiz } from "../../features/quiz/quizThunks";
-import { getQuizStatus } from "../../features/quiz/quizThunks";
+import { getQuiz, getQuizStatus } from "../../features/quiz/quizThunks";
 import { clearQuizErrors } from "../../features/quiz/quizSlice";
 import LoadingScreen from "../shared/LoadingScreen";
 
@@ -32,7 +31,6 @@ const LessonDetailsScreen = ({
     quiz,
     quizFetchingError,
   } = useSelector((state) => state.quiz);
-
   const {
     isStartingLesson,
     startingLessonError,
@@ -40,23 +38,22 @@ const LessonDetailsScreen = ({
     wordsFetchingError,
     words,
   } = useSelector((state) => state.learn);
-
   const { user } = useSelector((state) => state.auth);
+
+  const [isContinuePressed, setIsContinuePressed] = useState(false);
+  const [isStartPressed, setIsStartPressed] = useState(false);
+  const [isTakeQuizPressed, setIsTakeQuizPressed] = useState(false);
+  const [isErrorClearPressed, setIsErrorClearPressed] = useState(false);
 
   useEffect(() => {
     if (lesson) {
       dispatch(getQuizStatus({ lessonTitle: lesson.title }));
     }
-  }, [isQuizTaken]);
 
-  if (isQuizStatusFetching) {
-    return <LoadingScreen />;
-  }
-
-  const [isContinuePressed, setIsContinuePressed] = useState(false);
-  const [isStartPressed, setIsStartPressed] = useState(false);
-
-  const totalLearnedWords = words.filter((word) => word.isLearned).length;
+    return () => {
+      dispatch(clearQuizErrors());
+    };
+  }, [isQuizTaken, navigation]);
 
   const handleNavigation = () => {
     if (lesson.status === "in progress" || lesson.status === "completed") {
@@ -73,23 +70,28 @@ const LessonDetailsScreen = ({
 
   const handleQuiz = async () => {
     if (isQuizTaken) {
-      navigation.navigate("QuizResult", {
-        lessonTitle: lesson.title,
-      });
-      return;
+      navigation.navigate("QuizResult", { lessonTitle: lesson.title });
     }
 
-    await dispatch(
-      getQuiz({
-        level: user.level,
-        lessonTitle: lesson.title,
-      })
-    );
+    await dispatch(getQuiz({ level: user.level, lessonTitle: lesson.title }));
+    setIsTakeQuizPressed(true);
+  };
 
-    if (!isQuizFetching && !quizFetchingError && quiz) {
+  useEffect(() => {
+    if (
+      isTakeQuizPressed &&
+      !isQuizFetching &&
+      !quizFetchingError &&
+      !isErrorClearPressed &&
+      quiz
+    ) {
       navigation.navigate("QuizPrompt");
     }
-  };
+
+    return () => {
+      setIsErrorClearPressed(false);
+    };
+  }, [isTakeQuizPressed, isQuizFetching, quizFetchingError, quiz, navigation]);
 
   useEffect(() => {
     if (isContinuePressed || isStartPressed) {
@@ -107,7 +109,12 @@ const LessonDetailsScreen = ({
 
   const handleClearError = () => {
     dispatch(clearQuizErrors());
+    setIsErrorClearPressed(true);
   };
+
+  if (isQuizStatusFetching) {
+    return <LoadingScreen />;
+  }
 
   const renderLessonStatusText = () => {
     if (lesson.status === "not started") {
@@ -118,13 +125,12 @@ const LessonDetailsScreen = ({
           the quiz to test your knowledge on this topic.
         </Text>
       );
-    } else if (lesson.status === "completed") {
+    } else if (lesson.status === "completed" && user.level !== "Expert") {
       return (
         <>
           <Text style={styles.boldText}>
             Congratulations on completing this lesson!
           </Text>
-
           {isQuizTaken ? (
             <Text style={styles.progressText}>
               You have already taken the quiz for this lesson. Click the button
@@ -137,15 +143,7 @@ const LessonDetailsScreen = ({
       );
     } else if (lesson.status === "in progress") {
       return (
-        <>
-          <Text style={styles.boldText}>Continue learning this lesson.</Text>
-          <Text style={styles.progressText}>
-            So far, you have learned{" "}
-            <Text style={styles.boldText}>{totalLearnedWords}</Text> words out
-            of <Text style={styles.totalText}>{words.length}</Text> vocabulary
-            words in this lesson.
-          </Text>
-        </>
+        <Text style={styles.boldText}>Continue learning this lesson.</Text>
       );
     } else {
       return (
@@ -157,41 +155,34 @@ const LessonDetailsScreen = ({
   };
 
   const renderButtons = () => {
-    if (isStartingLesson || isWordsFetching) {
+    if (isStartingLesson || isWordsFetching || isQuizFetching) {
       return <ActivityIndicator color={colors.primary} size="large" />;
     } else {
       return (
         <>
-          {lesson.status === "completed" && (
+          {lesson.status === "completed" && user.level !== "Expert" && (
             <TouchableOpacity style={styles.quizButton} onPress={handleQuiz}>
-              {isQuizFetching ? (
-                <ActivityIndicator color={colors.white} size="small" />
+              {!isQuizTaken ? (
+                <>
+                  <Text style={styles.quizButtonText}>Take Quiz</Text>
+                  <MaterialIcons
+                    name="arrow-forward"
+                    size={24}
+                    color={colors.white}
+                  />
+                </>
               ) : (
                 <>
-                  {!isQuizTaken ? (
-                    <>
-                      <Text style={styles.quizButtonText}>Take Quiz</Text>
-                      <MaterialIcons
-                        name="arrow-forward"
-                        size={24}
-                        color={colors.white}
-                      />
-                    </>
-                  ) : (
-                    <>
-                      <Text style={styles.quizButtonText}>See Quiz Result</Text>
-                      <MaterialIcons
-                        name="arrow-forward"
-                        size={24}
-                        color={colors.white}
-                      />
-                    </>
-                  )}
+                  <Text style={styles.quizButtonText}>See Quiz Result</Text>
+                  <MaterialIcons
+                    name="arrow-forward"
+                    size={24}
+                    color={colors.white}
+                  />
                 </>
               )}
             </TouchableOpacity>
           )}
-
           <TouchableOpacity
             style={styles.quizButton}
             onPress={handleNavigation}
@@ -286,6 +277,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 8,
     justifyContent: "space-between",
+    marginTop: 20,
   },
   quizButtonText: {
     fontSize: 18,
@@ -324,9 +316,10 @@ const styles = StyleSheet.create({
   boldText: {
     fontWeight: "bold",
   },
-  totalText: {
-    fontWeight: "bold",
-    color: "#888",
+  centeredButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
 
