@@ -17,7 +17,7 @@ WordSage is a personalized English vocabulary learning app built with React Nati
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **Frontend:** React Native
+- ⚛️ **Frontend:** React Native, Redux Toolkit
 - 🧱 **Backend:** NestJS
 - 💾 **Database:** MongoDB
 - 🎨 **Admin Panel:** React, Vite, and Tailwind CSS
@@ -101,10 +101,8 @@ Scan the QR code using the Expo Go app to run the app on your mobile device.
   <img src="screenshots/lessons.jpg" alt="Lessons" style="width: 40%; margin: 0;">
 </div>
 
-<div style="display: flex; flex-direction: row; gap: 10px; justify-content: center;">
-  <img src="screenshots/Admin-panel.png" alt="Admin Panel" style="width: 40%; margin: 0;">
-  <img src="screenshots/Manage-questions.png" alt="Manage Questions" style="width: 40%; margin: 0;">
-</div>
+  <img src="screenshots/Admin-panel.png" alt="Admin Panel">
+  <img src="screenshots/Manage-questions.png" alt="Manage Questions">
 
 
 
@@ -123,7 +121,7 @@ Contributions are welcome! Feel free to submit a Pull Request.
 
 ## 📬 Feedback
 
-If you have any feedback, please reach out to us at [neaz6160@gmail.com](mailto:neaz6160@gmail.com)
+If you have any feedback, please reach out to me at [neaz6160@gmail.com](mailto:neaz6160@gmail.com)
 
 ## 📄 License
 
