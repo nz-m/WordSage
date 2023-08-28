@@ -77,32 +77,34 @@ Scan the QR code using the Expo Go app to run the app on your mobile device.
 
 ## 📷 Screenshots
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row; gap: 10px; justify-content: center;">
   <img src="screenshots/login.jpg" alt="Login" style="width: 40%; margin: 0;">
   <img src="screenshots/home.jpg" alt="Home" style="width: 40%; margin: 0;">
 </div>
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row; gap: 10px; justify-content: center;">
   <img src="screenshots/profile.jpg" alt="Profile" style="width: 40%; margin: 0;">
   <img src="screenshots/vocabulary.jpg" alt="Vocabulary" style="width: 40%; margin: 0;">
 </div>
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row; gap: 10px; justify-content: center;">
   <img src="screenshots/quiz.jpg" alt="Quiz" style="width: 40%; margin: 0;">
   <img src="screenshots/result.jpg" alt="Result" style="width: 40%; margin: 0;">
 </div>
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row; gap: 10px; justify-content: center;">
   <img src="screenshots/proficiency-assessment.jpg" alt="Proficiency Assessment" style="width: 40%; margin: 0;">
   <img src="screenshots/assessment-prompt.jpg" alt="Assessment Prompt" style="width: 40%; margin: 0;">
 </div>
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row; gap: 10px; justify-content: center;">
   <img src="screenshots/lessons.jpg" alt="Lessons" style="width: 40%; margin: 0;">
 </div>
 
-<img src="screenshots/Admin-panel.png" alt="Admin Panel">
-<img src="screenshots/Manage-questions.png" alt="Manage Questions">
+<div style="display: flex; flex-direction: row; gap: 10px; justify-content: center;">
+  <img src="screenshots/Admin-panel.png" alt="Admin Panel" style="width: 40%; margin: 0;">
+  <img src="screenshots/Manage-questions.png" alt="Manage Questions" style="width: 40%; margin: 0;">
+</div>
 
 
 
