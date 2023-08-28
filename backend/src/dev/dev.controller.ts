@@ -1,13 +1,20 @@
 import { Controller, Delete, Get, Param, Patch } from '@nestjs/common';
-import { AdminService } from './admin.service';
+import { DevService } from './dev.service';
+import { ApiTags } from '@nestjs/swagger';
+import { SetupStats } from './interface/setup-stats.interface';
+@ApiTags('Dev')
+@Controller('dev')
+export class DevController {
+  constructor(private readonly devService: DevService) {}
 
-@Controller('admin')
-export class AdminController {
-  constructor(private readonly adminService: AdminService) {}
+  @Get('setup-stats')
+  getSetupStats(): Promise<SetupStats> {
+    return this.devService.getSetupStats();
+  }
 
   @Get('users')
   getAllUsers(): Promise<any> {
-    return this.adminService.getAllUsers();
+    return this.devService.getAllUsers();
   }
   @Patch('mark-all-lessons-as-completed/:userId/:level')
   markAllLessonsAsCompleted(
@@ -17,7 +24,7 @@ export class AdminController {
     success: boolean;
     message: string;
   }> {
-    return this.adminService.markAllLessonsAsCompleted(userId, level);
+    return this.devService.markAllLessonsAsCompleted(userId, level);
   }
 
   @Patch('mark-all-lessons-as-not-completed/:userId/:level')
@@ -28,7 +35,7 @@ export class AdminController {
     success: boolean;
     message: string;
   }> {
-    return this.adminService.markAllLessonsAsNotCompleted(userId, level);
+    return this.devService.markAllLessonsAsNotCompleted(userId, level);
   }
 
   @Patch('user-level/:userId/:level')
@@ -39,7 +46,7 @@ export class AdminController {
     success: boolean;
     message: string;
   }> {
-    return this.adminService.updateUserLevel(userId, level);
+    return this.devService.updateUserLevel(userId, level);
   }
 
   @Patch('user-level-assessed-status/:userId/:status')
@@ -50,7 +57,7 @@ export class AdminController {
     success: boolean;
     message: string;
   }> {
-    return this.adminService.updateUserLevelAssessedStatus(userId, status);
+    return this.devService.updateUserLevelAssessedStatus(userId, status);
   }
 
   @Patch('mark-all-words-as-learned/:userId/:level/:lessonTitle')
@@ -62,7 +69,7 @@ export class AdminController {
     success: boolean;
     message: string;
   }> {
-    return this.adminService.markALlWordsAsLearned(userId, level, lessonTitle);
+    return this.devService.markALlWordsAsLearned(userId, level, lessonTitle);
   }
 
   @Delete('test-restriction/:userId/:level')
@@ -73,7 +80,7 @@ export class AdminController {
     success: boolean;
     message: string;
   }> {
-    return this.adminService.removeTestRestriction(userId, level);
+    return this.devService.removeTestRestriction(userId, level);
   }
 
   @Delete('quiz-progress/:userId/:level/:lessonTitle')
@@ -85,6 +92,6 @@ export class AdminController {
     success: boolean;
     message: string;
   }> {
-    return this.adminService.removeQuizProgress(userId, level, lessonTitle);
+    return this.devService.removeQuizProgress(userId, level, lessonTitle);
   }
 }

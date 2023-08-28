@@ -5,7 +5,7 @@ import axios from "axios";
 import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const AllQuestions = () => {
+const AllAssessmentQuestions = () => {
   const BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [questionData, setQuestionData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -34,7 +34,7 @@ const AllQuestions = () => {
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col">
+    <div className="bg-gray-100 min-h-screen ">
       <Header />
       {/* Content */}
       <div className="flex-grow px-4 py-8">
@@ -43,10 +43,16 @@ const AllQuestions = () => {
             <p className="text-gray-500">
               Showing {questionData.length} of {questionData.length} questions
             </p>
-            <button className="flex items-center px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-              <FaPlus className="mr-2" />
-              <Link to="/add-question">Add Question</Link>
-            </button>
+            <div className="flex flex-col item-center">
+              <button className="flex items-center mx-3 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 my-2">
+                <FaPlus className="mr-2" />
+                <Link to="/add-question">Add Question</Link>
+              </button>
+              <button className="flex items-center mx-3 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 my-2">
+                <FaPlus className="mr-2" />
+                <Link to="/add-question-json">Add Raw JSON</Link>
+              </button>
+            </div>
           </div>
           {loading ? (
             <p className="text-center text-gray-500">Loading questions...</p>
@@ -67,4 +73,4 @@ const AllQuestions = () => {
   );
 };
 
-export default AllQuestions;
+export default AllAssessmentQuestions;

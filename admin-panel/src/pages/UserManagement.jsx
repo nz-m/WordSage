@@ -16,8 +16,25 @@ const Button = ({ children, onClick }) => (
 const UserManagement = () => {
   const levels = ["Beginner", "Intermediate", "Advanced"];
 
+  const LessonTitles = [
+    "Everyday Conversations",
+    "Personal Information",
+    "Home and Living",
+    "Food and Dining",
+    "Travel and Transportation",
+    "Health and Wellness",
+    "Work and Careers",
+    "Education and Learning",
+    "Nature and Environment",
+    "Technology and Communication",
+  ];
+
   const [selectedUser, setSelectedUser] = useState("");
   const [selectedLevel, setSelectedLevel] = useState(levels[0]);
+  const [selectedLessonTitle, setSelectedLessonTitle] = useState(
+    LessonTitles[0]
+  );
+
   const [isLoading, setIsLoading] = useState(true);
   const [users, setUsers] = useState([]);
   const [status, setStatus] = useState(null);
@@ -26,7 +43,7 @@ const UserManagement = () => {
   useEffect(() => {
     async function fetchUsers() {
       try {
-        const response = await axios.get(`${BASE_URL}/admin/users`);
+        const response = await axios.get(`${BASE_URL}/dev/users`);
         const mappedUsers = response.data.map((user) => ({
           _id: user._id,
           name: user.name,
@@ -43,7 +60,7 @@ const UserManagement = () => {
   const handleMarkLessons = async () => {
     if (selectedUser && selectedLevel) {
       try {
-        const markLessonsUrl = `${BASE_URL}/admin/mark-all-lessons-as-completed/${selectedUser}/${selectedLevel}`;
+        const markLessonsUrl = `${BASE_URL}/dev/mark-all-lessons-as-completed/${selectedUser}/${selectedLevel}`;
         await axios.patch(markLessonsUrl);
         setStatus("success");
         setErrorMessage("");
@@ -59,7 +76,7 @@ const UserManagement = () => {
   const handleRemoveTestRestriction = async () => {
     if (selectedUser && selectedLevel) {
       try {
-        const removeRestrictionUrl = `${BASE_URL}/admin/test-restriction/${selectedUser}/${selectedLevel}`;
+        const removeRestrictionUrl = `${BASE_URL}/dev/test-restriction/${selectedUser}/${selectedLevel}`;
         await axios.delete(removeRestrictionUrl);
         setStatus("success");
         setErrorMessage("");
@@ -68,6 +85,22 @@ const UserManagement = () => {
         setStatus("error");
         setErrorMessage("Error removing test restriction");
         console.error("Error removing test restriction:", error);
+      }
+    }
+  };
+
+  const handleMarkWords = async () => {
+    if (selectedUser && selectedLevel && selectedLessonTitle) {
+      try {
+        const markWordsUrl = `${BASE_URL}/dev/mark-all-words-as-learned/${selectedUser}/${selectedLevel}/${selectedLessonTitle}`;
+        await axios.patch(markWordsUrl);
+        setStatus("success");
+        setErrorMessage("");
+        console.log("Words marked as completed");
+      } catch (error) {
+        setStatus("error");
+        setErrorMessage("Error marking words as completed");
+        console.error("Error marking words as completed:", error);
       }
     }
   };
@@ -107,14 +140,28 @@ const UserManagement = () => {
               </option>
             ))}
           </select>
+
+          <select
+            className="border rounded-md px-2 py-1 w-full"
+            value={selectedLessonTitle}
+            onChange={(event) => setSelectedLessonTitle(event.target.value)}
+          >
+            {LessonTitles.map((lessonTitle) => (
+              <option key={lessonTitle} value={lessonTitle}>
+                {lessonTitle}
+              </option>
+            ))}
+          </select>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center gap-2">
           <Button onClick={handleMarkLessons}>
             Mark all lessons as complete
           </Button>
           <Button onClick={handleRemoveTestRestriction}>
-            Remove Test Restriction
+            Remove test restriction
           </Button>
+
+          <Button onClick={handleMarkWords}>Mark all words as learned</Button>
         </div>
 
         {status === "success" && (

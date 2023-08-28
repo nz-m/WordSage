@@ -1,0 +1,167 @@
+[
+  {
+    "questionText": "What is the meaning of 'abundant'?",
+    "options": [
+      { "id": 1, "optionText": "Scarce" },
+      { "id": 2, "optionText": "Plentiful" },
+      { "id": 3, "optionText": "Difficult" },
+      { "id": 4, "optionText": "Mysterious" }
+    ],
+    "correctAnswer": 2,
+    "level": "Beginner"
+  },
+  {
+    "questionText": "What is the synonym of 'quench'?",
+    "options": [
+      { "id": 1, "optionText": "Ignite" },
+      { "id": 2, "optionText": "Satisfy" },
+      { "id": 3, "optionText": "Burn" },
+      { "id": 4, "optionText": "Wet" }
+    ],
+    "correctAnswer": 2,
+    "level": "Beginner"
+  },
+  {
+    "questionText": "What word means 'a feeling of great pleasure or happiness'?",
+    "options": [
+      { "id": 1, "optionText": "Sadness" },
+      { "id": 2, "optionText": "Joy" },
+      { "id": 3, "optionText": "Anger" },
+      { "id": 4, "optionText": "Fear" }
+    ],
+    "correctAnswer": 2,
+    "level": "Beginner"
+  },
+  {
+    "questionText": "What is the opposite of 'arrive'?",
+    "options": [
+      { "id": 1, "optionText": "Depart" },
+      { "id": 2, "optionText": "Stay" },
+      { "id": 3, "optionText": "Sleep" },
+      { "id": 4, "optionText": "Run" }
+    ],
+    "correctAnswer": 1,
+    "level": "Beginner"
+  },
+  {
+    "questionText": "Which word refers to 'a small, young domestic animal'?",
+    "options": [
+      { "id": 1, "optionText": "Adult" },
+      { "id": 2, "optionText": "Pup" },
+      { "id": 3, "optionText": "Elder" },
+      { "id": 4, "optionText": "Old" }
+    ],
+    "correctAnswer": 2,
+    "level": "Beginner"
+  },
+  {
+    "questionText": "What does 'ambivalent' mean?",
+    "options": [
+      { "id": 1, "optionText": "Indifferent" },
+      { "id": 2, "optionText": "Having mixed feelings" },
+      { "id": 3, "optionText": "Confident" },
+      { "id": 4, "optionText": "Certain" }
+    ],
+    "correctAnswer": 2,
+    "level": "Intermediate"
+  },
+  {
+    "questionText": "What does it mean to 'condemn' someone?",
+    "options": [
+      { "id": 1, "optionText": "Praise" },
+      { "id": 2, "optionText": "Criticize severely" },
+      { "id": 3, "optionText": "Applaud" },
+      { "id": 4, "optionText": "Encourage" }
+    ],
+    "correctAnswer": 2,
+    "level": "Intermediate"
+  },
+  {
+    "questionText": "What is a synonym of 'ephemeral'?",
+    "options": [
+      { "id": 1, "optionText": "Lasting" },
+      { "id": 2, "optionText": "Temporary" },
+      { "id": 3, "optionText": "Permanent" },
+      { "id": 4, "optionText": "Eternal" }
+    ],
+    "correctAnswer": 2,
+    "level": "Intermediate"
+  },
+  {
+    "questionText": "What term means 'a brief or hasty glance'?",
+    "options": [
+      { "id": 1, "optionText": "Stare" },
+      { "id": 2, "optionText": "Glimpse" },
+      { "id": 3, "optionText": "Stroll" },
+      { "id": 4, "optionText": "Glare" }
+    ],
+    "correctAnswer": 2,
+    "level": "Intermediate"
+  },
+  {
+    "questionText": "What is the antonym of 'diligent'?",
+    "options": [
+      { "id": 1, "optionText": "Lazy" },
+      { "id": 2, "optionText": "Energetic" },
+      { "id": 3, "optionText": "Ambitious" },
+      { "id": 4, "optionText": "Hardworking" }
+    ],
+    "correctAnswer": 1,
+    "level": "Intermediate"
+  },
+  {
+    "questionText": "What does 'ubiquitous' mean?",
+    "options": [
+      { "id": 1, "optionText": "Rare" },
+      { "id": 2, "optionText": "Present everywhere" },
+      { "id": 3, "optionText": "Obscure" },
+      { "id": 4, "optionText": "Elusive" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced"
+  },
+  {
+    "questionText": "What is the term for 'the use of many words when fewer would do'?",
+    "options": [
+      { "id": 1, "optionText": "Conciseness" },
+      { "id": 2, "optionText": "Verbose" },
+      { "id": 3, "optionText": "Briefness" },
+      { "id": 4, "optionText": "Pithy" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced"
+  },
+  {
+    "questionText": "What is a synonym of 'innocuous'?",
+    "options": [
+      { "id": 1, "optionText": "Harmless" },
+      { "id": 2, "optionText": "Dangerous" },
+      { "id": 3, "optionText": "Malevolent" },
+      { "id": 4, "optionText": "Sinister" }
+    ],
+    "correctAnswer": 1,
+    "level": "Advanced"
+  },
+  {
+    "questionText": "What term means 'the state of being happy and satisfied'?",
+    "options": [
+      { "id": 1, "optionText": "Discontent" },
+      { "id": 2, "optionText": "Contentment" },
+      { "id": 3, "optionText": "Bitterness" },
+      { "id": 4, "optionText": "Resentment" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced"
+  },
+  {
+    "questionText": "What is the antonym of 'ephemeral'?",
+    "options": [
+      { "id": 1, "optionText": "Lasting" },
+      { "id": 2, "optionText": "Permanent" },
+      { "id": 3, "optionText": "Transient" },
+      { "id": 4, "optionText": "Fleeting" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced"
+  }
+]

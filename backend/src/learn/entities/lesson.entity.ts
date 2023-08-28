@@ -1,10 +1,11 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document, Types } from 'mongoose';
+import { LessonTitle } from './word.entity';
 
 @Schema()
 export class Lesson extends Document {
-  @Prop({ required: true })
-  title: string;
+  @Prop({ required: true, unique: true, enum: LessonTitle })
+  title: LessonTitle;
 
   @Prop({ required: true, unique: true, min: 1, max: 10 })
   lessonNumber: number;

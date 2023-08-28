@@ -32,11 +32,7 @@ export class QuizService {
 
       return { success: true, message: 'Question added.' };
     } catch (error) {
-      return {
-        success: false,
-        message:
-          'Failed to add question. Check if the question already exists.',
-      };
+      throw new InternalServerErrorException('Failed to add question.');
     }
   }
 
@@ -47,11 +43,7 @@ export class QuizService {
       await this.quizQuestionModel.insertMany(quizQuestionDtos);
       return { success: true, message: 'Questions added.' };
     } catch (error) {
-      return {
-        success: false,
-        message:
-          'Failed to add questions. Check if the questions already exist.',
-      };
+      throw new InternalServerErrorException('Failed to add questions.');
     }
   }
 
@@ -80,6 +72,19 @@ export class QuizService {
     });
 
     return createdQuiz.save();
+  }
+
+  async getAllQuiz(): Promise<Quiz[]> {
+    return this.quizModel.find().lean().exec();
+  }
+
+  async deleteAllQuiz(): Promise<{ success: boolean; message: string }> {
+    try {
+      await this.quizModel.deleteMany({});
+      return { success: true, message: 'All quizzes deleted.' };
+    } catch (error) {
+      throw new InternalServerErrorException('Failed to delete all quizzes.');
+    }
   }
 
   async getUnattemptedQuiz(

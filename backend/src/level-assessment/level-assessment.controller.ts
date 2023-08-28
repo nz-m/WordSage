@@ -17,7 +17,9 @@ import {
 } from './dto';
 import { Level } from '../auth/entities/user.entity';
 import { UserToSend } from '../auth/interface/user.interface';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('LevelAssessment')
 @Controller('level-assessment')
 export class LevelAssessmentController {
   constructor(
@@ -40,6 +42,11 @@ export class LevelAssessmentController {
     } else {
       return this.levelAssessmentService.addQuestion(assessmentQuestionDto);
     }
+  }
+
+  @Delete('delete-questions')
+  deleteQuestions(): Promise<{ message: string }> {
+    return this.levelAssessmentService.deleteQuestions();
   }
 
   @Delete('delete-question/:id')

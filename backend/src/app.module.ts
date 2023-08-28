@@ -8,7 +8,7 @@ import { LoggerMiddleware, DelayMiddleware } from './middleware';
 import { QuizModule } from './quiz/quiz.module';
 import { LevelUpTestModule } from './level-up-test/level-up-test.module';
 import { ProfileModule } from './profile/profile.module';
-import { AdminModule } from './admin/admin.module';
+import { DevModule } from './dev/dev.module';
 
 @Module({
   imports: [
@@ -24,7 +24,7 @@ import { AdminModule } from './admin/admin.module';
     QuizModule,
     LevelUpTestModule,
     ProfileModule,
-    AdminModule,
+    DevModule,
   ],
 })
 export class AppModule implements NestModule {

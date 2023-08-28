@@ -1,5 +1,6 @@
 import { IsEnum, IsNotEmpty, IsNumber, IsString } from 'class-validator';
 import { Level } from '../../auth/entities/user.entity';
+import { LessonTitle } from '../../learn/entities/word.entity';
 
 export class LevelUpTestQuestionDto {
   @IsNotEmpty()
@@ -20,4 +21,8 @@ export class LevelUpTestQuestionDto {
   @IsNotEmpty()
   @IsEnum(Level)
   level: Level;
+
+  @IsNotEmpty()
+  @IsEnum(LessonTitle)
+  lessonTitle: LessonTitle;
 }

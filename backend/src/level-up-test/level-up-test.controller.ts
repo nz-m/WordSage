@@ -13,7 +13,9 @@ import { AuthGuard } from '@nestjs/passport';
 import { CreateLevelUpQuestionDto, LevelUpTestQuestionDto } from './dto';
 import { UserAnswerDto } from '../level-assessment/dto';
 import { UserToSend } from '../auth/interface/user.interface';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('LevelUpTest')
 @Controller('level-up-test')
 export class LevelUpTestController {
   constructor(private readonly levelUpTestService: LevelUpTestService) {}

@@ -111,6 +111,17 @@ export class LevelAssessmentService {
     }
   }
 
+  async deleteQuestions(): Promise<{ message: string }> {
+    try {
+      await this.assessmentQuestionModel.deleteMany({});
+      return { message: 'Questions deleted successfully' };
+    } catch (error) {
+      throw new InternalServerErrorException(
+        'Failed to delete the questions due to an internal error',
+      );
+    }
+  }
+
   /**
    * Calculate the user's proficiency ratio by dividing their weighted score by the maximum possible weighted score.
    * Determine the user's proficiency level:
@@ -136,77 +147,78 @@ export class LevelAssessmentService {
       [Level.ADVANCED]: 3,
     };
 
-    const questions = await this.assessmentQuestionModel.find().exec();
+    try {
+      const questions = await this.assessmentQuestionModel.find().exec();
 
-    const { maxPossibleWeightedScore, userWeightedScore, correctCounts } =
-      userAnswerDto.reduce(
-        (accumulator, userAnswer) => {
-          const question = questions.find((q) =>
-            q._id.equals(userAnswer.questionId),
-          );
+      const { maxPossibleWeightedScore, userWeightedScore, correctCounts } =
+        userAnswerDto.reduce(
+          (accumulator, userAnswer) => {
+            const question = questions.find((q) =>
+              q._id.equals(userAnswer.questionId),
+            );
 
-          if (
-            question &&
-            userAnswer.selectedAnswer === question.correctAnswer
-          ) {
-            accumulator.userWeightedScore += difficultyWeights[question.level];
-            accumulator.correctCounts[question.level]++;
-          }
+            if (
+              question &&
+              userAnswer.selectedAnswer === question.correctAnswer
+            ) {
+              accumulator.userWeightedScore +=
+                difficultyWeights[question.level];
+              accumulator.correctCounts[question.level]++;
+            }
 
-          return accumulator;
-        },
-        {
-          maxPossibleWeightedScore:
-            5 * difficultyWeights[Level.BEGINNER] +
-            5 * difficultyWeights[Level.INTERMEDIATE] +
-            5 * difficultyWeights[Level.ADVANCED],
-          userWeightedScore: 0,
-          correctCounts: {
-            [Level.BEGINNER]: 0,
-            [Level.INTERMEDIATE]: 0,
-            [Level.ADVANCED]: 0,
+            return accumulator;
           },
-        },
+          {
+            maxPossibleWeightedScore:
+              5 * difficultyWeights[Level.BEGINNER] +
+              5 * difficultyWeights[Level.INTERMEDIATE] +
+              5 * difficultyWeights[Level.ADVANCED],
+            userWeightedScore: 0,
+            correctCounts: {
+              [Level.BEGINNER]: 0,
+              [Level.INTERMEDIATE]: 0,
+              [Level.ADVANCED]: 0,
+            },
+          },
+        );
+
+      const userProficiencyRatio = userWeightedScore / maxPossibleWeightedScore;
+      const scorePercentage = parseFloat(
+        (userProficiencyRatio * 100).toFixed(2),
       );
 
-    const userProficiencyRatio = userWeightedScore / maxPossibleWeightedScore;
-    const scorePercentage = parseFloat((userProficiencyRatio * 100).toFixed(2));
+      const userProficiencyLevel =
+        userProficiencyRatio <= 0.5
+          ? Level.BEGINNER
+          : userProficiencyRatio <= 0.8
+          ? Level.INTERMEDIATE
+          : Level.ADVANCED;
 
-    const userProficiencyLevel =
-      userProficiencyRatio <= 0.5
-        ? Level.BEGINNER
-        : userProficiencyRatio <= 0.8
-        ? Level.INTERMEDIATE
-        : Level.ADVANCED;
-
-    let user;
-
-    try {
-      user = await this.userModel.findOneAndUpdate(
+      const user = await this.userModel.findOneAndUpdate(
         { _id: userId },
         { level: userProficiencyLevel, isLevelAssessed: true },
         { new: true },
       );
+
+      const userToSend: UserToSend = {
+        _id: user._id.toString(),
+        email: user.email,
+        name: user.name,
+        level: user.level,
+        isLevelAssessed: user.isLevelAssessed,
+        isLearningStarted: user.isLearningStarted,
+      };
+
+      return {
+        level: userProficiencyLevel,
+        correctCounts,
+        scorePercentage,
+        user: userToSend,
+      };
     } catch (error) {
       throw new InternalServerErrorException(
-        'Failed to update the user proficiency level due to an internal error',
+        'An internal error occurred while assessing the user level.',
       );
     }
-
-    const userToSend: UserToSend = {
-      _id: user._id.toString(),
-      email: user.email,
-      name: user.name,
-      level: user.level,
-      isLevelAssessed: user.isLevelAssessed,
-      isLearningStarted: user.isLearningStarted,
-    };
-
-    return {
-      level: userProficiencyLevel,
-      correctCounts,
-      scorePercentage,
-      user: userToSend,
-    };
   }
 }

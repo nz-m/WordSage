@@ -4,7 +4,9 @@ import { AuthGuard } from '@nestjs/passport';
 import { UseGuards } from '@nestjs/common';
 import { UserStatsDto } from './dto/user-stats.dto';
 import { UserToSend } from '../auth/interface/user.interface';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Profile')
 @Controller('profile')
 export class ProfileController {
   constructor(private readonly profileService: ProfileService) {}

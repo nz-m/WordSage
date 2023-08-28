@@ -1,0 +1,137 @@
+[
+  {
+    "question": "What is the synonym for 'happy'?",
+    "answer": "Joyful",
+    "distractor1": "Sad",
+    "distractor2": "Angry",
+    "distractor3": "Excited",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What does 'efficient' mean?",
+    "answer": "Effective use of resources.",
+    "distractor1": "Complex",
+    "distractor2": "Useless",
+    "distractor3": "Slow",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What word means 'strong dislike'?",
+    "answer": "Aversion",
+    "distractor1": "Appreciation",
+    "distractor2": "Tolerance",
+    "distractor3": "Curiosity",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What's opposite of 'success'?",
+    "answer": "Failure",
+    "distractor1": "Achievement",
+    "distractor2": "Victory",
+    "distractor3": "Progress",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What word means 'group of stars in pattern'?",
+    "answer": "Constellation",
+    "distractor1": "Galaxy",
+    "distractor2": "Orbit",
+    "distractor3": "Meteor",
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What does 'benevolent' mean?",
+    "answer": "Kind and generous",
+    "distractor1": "Cruel",
+    "distractor2": "Careless",
+    "distractor3": "Indifferent",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What's 'fear of spiders'?",
+    "answer": "Arachnophobia",
+    "distractor1": "Claustrophobia",
+    "distractor2": "Acrophobia",
+    "distractor3": "Agoraphobia",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What's 'coincidence'?",
+    "answer": "Unrelated events happening together.",
+    "distractor1": "Intentional",
+    "distractor2": "Predictable",
+    "distractor3": "Unavoidable",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "Term for 'brief rest or break'?",
+    "answer": "Respite",
+    "distractor1": "Commotion",
+    "distractor2": "Vigilance",
+    "distractor3": "Stagnation",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What does 'inquisitive' mean?",
+    "answer": "Curious",
+    "distractor1": "Indifferent",
+    "distractor2": "Apathetic",
+    "distractor3": "Careless",
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "Linguistic phenomenon imitating meaning?",
+    "answer": "Onomatopoeia",
+    "distractor1": "Metaphor",
+    "distractor2": "Alliteration",
+    "distractor3": "Hyperbole",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "Term for avoiding silence in speech?",
+    "answer": "Turn-taking",
+    "distractor1": "Monologue",
+    "distractor2": "Interruption",
+    "distractor3": "Narrative",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What's 'politeness strategies'?",
+    "answer": "Maintaining harmony in talks.",
+    "distractor1": "Interrupting",
+    "distractor2": "Arguing",
+    "distractor3": "Using jargon",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "'Code-switching' in sociolinguistics?",
+    "answer": "Switching languages in talk.",
+    "distractor1": "Complex speech",
+    "distractor2": "Speaking loudly",
+    "distractor3": "Avoiding eye contact",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "question": "What's 'Grice's maxims' in conversation?",
+    "answer": "Guiding communication principles.",
+    "distractor1": "Rhyming patterns",
+    "distractor2": "Cultural norms",
+    "distractor3": "Speech disorders",
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  }
+]

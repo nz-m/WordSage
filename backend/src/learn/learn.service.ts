@@ -40,6 +40,15 @@ export class LearnService {
     }
   }
 
+  async deleteLessons(): Promise<{ success: boolean; message: string }> {
+    try {
+      await this.lessonModel.deleteMany({});
+      return { success: true, message: 'Lessons deleted.' };
+    } catch (error) {
+      throw new BadRequestException("Couldn't delete lessons.");
+    }
+  }
+
   async getLessons(userId: string): Promise<LessonToSend[]> {
     return await this.fetchLessonsWithProgress(userId);
   }
@@ -177,6 +186,15 @@ export class LearnService {
         };
       }
       throw new BadRequestException("Couldn't add words.");
+    }
+  }
+
+  async deleteWords(): Promise<{ success: boolean; message: string }> {
+    try {
+      await this.wordModel.deleteMany({});
+      return { success: true, message: 'Words deleted.' };
+    } catch (error) {
+      throw new BadRequestException("Couldn't delete words.");
     }
   }
 

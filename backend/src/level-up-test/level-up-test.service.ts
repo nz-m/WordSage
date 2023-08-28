@@ -2,6 +2,7 @@ import {
   BadRequestException,
   ConflictException,
   Injectable,
+  InternalServerErrorException,
 } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
@@ -12,6 +13,7 @@ import { LessonProgress } from '../learn/entities';
 import { UserAnswerDto } from '../level-assessment/dto';
 import { Level } from '../auth/entities/user.entity';
 import { UserToSend } from '../auth/interface/user.interface';
+import { LessonTitle } from '../learn/entities/word.entity';
 
 @Injectable()
 export class LevelUpTestService {
@@ -41,6 +43,7 @@ export class LevelUpTestService {
       options: question.options,
       correctAnswer: question.correctAnswer,
       level: question.level,
+      lessonTitle: question.lessonTitle,
     }));
   }
 
@@ -113,18 +116,43 @@ export class LevelUpTestService {
     const lastTestAttempt = await this.levelUpTestProgressModel
       .findOne({ user: userId, level: level })
       .exec();
-    if (lastTestAttempt) {
-      if (lastTestAttempt.lastTestAttemptDate.getDate() === today.getDate()) {
-        throw new BadRequestException(
-          'You can only take the test once a day. Please try again tomorrow',
-        );
-      }
+
+    if (
+      lastTestAttempt &&
+      lastTestAttempt.lastTestAttemptDate.getDate() === today.getDate()
+    ) {
+      throw new BadRequestException(
+        'You can only take the test once a day. Please try again tomorrow',
+      );
     }
 
-    const questions = await this.levelUpTestQuestionModel
-      .find({ level })
-      .limit(10)
-      .exec();
+    const lessonTitles = [
+      LessonTitle.EVERYDAY_CONVERSATIONS,
+      LessonTitle.PERSONAL_INFORMATION,
+      LessonTitle.HOME_AND_LIVING,
+      LessonTitle.FOOD_AND_DINING,
+      LessonTitle.TRAVEL_AND_TRANSPORTATION,
+      LessonTitle.HEALTH_AND_WELLNESS,
+      LessonTitle.WORK_AND_CAREERS,
+      LessonTitle.EDUCATION_AND_LEARNING,
+      LessonTitle.NATURE_AND_ENVIRONMENT,
+    ];
+
+    const allQuestions = await this.levelUpTestQuestionModel.find({ level });
+
+    const selectedQuestions = {};
+
+    allQuestions.forEach((question) => {
+      if (
+        lessonTitles.includes(question.lessonTitle) &&
+        !selectedQuestions[question.lessonTitle]
+      ) {
+        selectedQuestions[question.lessonTitle] = question;
+      }
+    });
+
+    const questionsToSend: LevelUpTestQuestionDto[] =
+      Object.values(selectedQuestions);
 
     await this.levelUpTestProgressModel.updateOne(
       { user: userId, level: level },
@@ -132,12 +160,13 @@ export class LevelUpTestService {
       { upsert: true },
     );
 
-    return questions.map((question) => ({
+    return questionsToSend.map((question) => ({
       _id: question._id,
       questionText: question.questionText,
       options: question.options,
       correctAnswer: question.correctAnswer,
       level: question.level,
+      lessonTitle: question.lessonTitle,
     }));
   }
 
@@ -149,58 +178,64 @@ export class LevelUpTestService {
     scorePercentage: number;
     userData: UserToSend;
   }> {
-    const questions = await this.levelUpTestQuestionModel.find({ level });
+    try {
+      const questions = await this.levelUpTestQuestionModel.find({ level });
 
-    let correctAnswers = 0;
+      let correctAnswers = 0;
 
-    for (const userAnswer of userAnswerDto) {
-      const question = questions.find(
-        (q) => q._id.toString() === userAnswer.questionId,
-      );
+      for (const userAnswer of userAnswerDto) {
+        const question = questions.find(
+          (q) => q._id.toString() === userAnswer.questionId,
+        );
 
-      if (question && question.correctAnswer === userAnswer.selectedAnswer) {
-        correctAnswers++;
-      }
-    }
-
-    const totalQuestions = questions.length;
-    const scorePercentage = (correctAnswers / totalQuestions) * 100;
-
-    if (scorePercentage >= 80) {
-      let updatedUserLevel = level;
-      if (level === Level.BEGINNER) {
-        updatedUserLevel = Level.INTERMEDIATE;
-      } else if (level === Level.INTERMEDIATE) {
-        updatedUserLevel = Level.ADVANCED;
-      } else if (level === Level.ADVANCED) {
-        updatedUserLevel = Level.EXPERT;
+        if (question && question.correctAnswer === userAnswer.selectedAnswer) {
+          correctAnswers++;
+        }
       }
 
-      await this.userModel.updateOne(
-        { _id: userId },
-        {
-          level: updatedUserLevel,
-          isLearningStarted: updatedUserLevel === Level.EXPERT,
-        },
+      const totalQuestions = questions.length;
+      const scorePercentage = (correctAnswers / totalQuestions) * 100;
+
+      if (scorePercentage >= 80) {
+        let updatedUserLevel = level;
+        if (level === Level.BEGINNER) {
+          updatedUserLevel = Level.INTERMEDIATE;
+        } else if (level === Level.INTERMEDIATE) {
+          updatedUserLevel = Level.ADVANCED;
+        } else if (level === Level.ADVANCED) {
+          updatedUserLevel = Level.EXPERT;
+        }
+
+        await this.userModel.updateOne(
+          { _id: userId },
+          {
+            level: updatedUserLevel,
+            isLearningStarted: updatedUserLevel === Level.EXPERT,
+          },
+        );
+      }
+
+      const updatedUser = await this.userModel.findById(userId);
+
+      const userData = {
+        _id: updatedUser._id,
+        email: updatedUser.email,
+        name: updatedUser.name,
+        level: updatedUser.level,
+        isLevelAssessed: updatedUser.isLevelAssessed,
+        isLearningStarted: updatedUser.isLearningStarted,
+      };
+
+      await this.levelUpTestProgressModel.updateOne(
+        { user: userId, level: level },
+        { scorePercentage: scorePercentage },
+      );
+
+      return { scorePercentage, userData };
+    } catch (error) {
+      throw new InternalServerErrorException(
+        'An error occurred while assessing the test.',
       );
     }
-
-    const updatedUser = await this.userModel.findById(userId);
-
-    const userData = {
-      _id: updatedUser._id,
-      email: updatedUser.email,
-      name: updatedUser.name,
-      level: updatedUser.level,
-      isLevelAssessed: updatedUser.isLevelAssessed,
-      isLearningStarted: updatedUser.isLearningStarted,
-    };
-
-    await this.levelUpTestProgressModel.updateOne(
-      { user: userId, level: level },
-      { scorePercentage: scorePercentage },
-    );
-
-    return { scorePercentage, userData };
   }
 }

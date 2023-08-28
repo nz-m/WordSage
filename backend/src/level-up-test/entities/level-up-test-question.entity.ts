@@ -1,6 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 import { Level } from '../../auth/entities/user.entity';
+import { LessonTitle } from '../../learn/entities/word.entity';
 
 @Schema()
 export class LevelUpTestQuestion extends Document {
@@ -28,6 +29,9 @@ export class LevelUpTestQuestion extends Document {
 
   @Prop({ required: true, enum: Level })
   level: Level;
+
+  @Prop({ required: true, enum: LessonTitle })
+  lessonTitle: LessonTitle;
 }
 
 export const LevelUpTestQuestionSchema =

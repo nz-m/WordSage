@@ -1,6 +1,7 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
   Param,
   Post,
@@ -14,12 +15,14 @@ import { QuizQuestionDto } from './dto/quiz-question.dto';
 import { CreateQuizDto } from './dto/create-quiz.dto';
 import { AuthGuard } from '@nestjs/passport';
 import { QuizResult } from './interface/quiz.interface';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Quiz')
 @Controller('quiz')
 export class QuizController {
   constructor(private readonly quizService: QuizService) {}
 
-  @Post('add-question')
+  @Post('add-questions')
   async createQuizQuestions(
     @Body() quizQuestionData: QuizQuestionDto | QuizQuestionDto[],
   ) {
@@ -30,9 +33,18 @@ export class QuizController {
     }
   }
 
+  @Get('get-all')
+  async getAllQuiz() {
+    return await this.quizService.getAllQuiz();
+  }
   @Post('create')
   async createQuiz(@Body() createQuizDto: CreateQuizDto) {
     return await this.quizService.createQuiz(createQuizDto);
+  }
+
+  @Delete('delete-all')
+  async deleteAllQuiz() {
+    return await this.quizService.deleteAllQuiz();
   }
 
   @UseGuards(AuthGuard())

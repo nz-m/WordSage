@@ -1,6 +1,7 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
   Param,
   Post,
@@ -14,7 +15,9 @@ import { LessonToSend } from './interface/lessonToSend.interface';
 import { UserToSend } from '../auth/interface/user.interface';
 import { AddWordDto } from './dto/add-word.dto';
 import { Level } from '../auth/entities/user.entity';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Learn')
 @Controller('learn')
 export class LearnController {
   constructor(private readonly learnService: LearnService) {}
@@ -24,6 +27,11 @@ export class LearnController {
     @Body() lessons: CreateLessonsDto[],
   ): Promise<{ success: boolean; message: string }> {
     return this.learnService.createLessons(lessons);
+  }
+
+  @Delete('delete-lessons')
+  deleteLessons(): Promise<{ success: boolean; message: string }> {
+    return this.learnService.deleteLessons();
   }
 
   @UseGuards(AuthGuard())
@@ -49,6 +57,11 @@ export class LearnController {
     } else {
       return this.learnService.addWord(words);
     }
+  }
+
+  @Delete('delete-words')
+  deleteWords(): Promise<{ success: boolean; message: string }> {
+    return this.learnService.deleteWords();
   }
 
   @UseGuards(AuthGuard())

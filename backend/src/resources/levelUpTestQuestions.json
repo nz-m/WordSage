@@ -1,0 +1,362 @@
+[
+  {
+    "questionText": "What's 'small talk'?",
+    "options": [
+      { "id": 1, "optionText": "Long conversation" },
+      { "id": 2, "optionText": "Casual chat" },
+      { "id": 3, "optionText": "Formal debate" },
+      { "id": 4, "optionText": "Loud argument" }
+    ],
+    "correctAnswer": 2,
+    "level": "Beginner",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "questionText": "What's 'identity'?",
+    "options": [
+      { "id": 1, "optionText": "Disguise type" },
+      { "id": 2, "optionText": "Being same" },
+      { "id": 3, "optionText": "Unique symbol" },
+      { "id": 4, "optionText": "Fictional character" }
+    ],
+    "correctAnswer": 2,
+    "level": "Beginner",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "questionText": "What's 'mortgage'?",
+    "options": [
+      { "id": 1, "optionText": "House renting" },
+      { "id": 2, "optionText": "Home loan" },
+      { "id": 3, "optionText": "Property tax" },
+      { "id": 4, "optionText": "Home insurance" }
+    ],
+    "correctAnswer": 2,
+    "level": "Beginner",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "questionText": "What's 'appetizer'?",
+    "options": [
+      { "id": 1, "optionText": "Large main course" },
+      { "id": 2, "optionText": "Dessert type" },
+      { "id": 3, "optionText": "Before main dish" },
+      { "id": 4, "optionText": "Beverage" }
+    ],
+    "correctAnswer": 3,
+    "level": "Beginner",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "questionText": "What's 'commute'?",
+    "options": [
+      { "id": 1, "optionText": "Work from home" },
+      { "id": 2, "optionText": "Country travel" },
+      { "id": 3, "optionText": "Long travel" },
+      { "id": 4, "optionText": "Regular travel" }
+    ],
+    "correctAnswer": 4,
+    "level": "Beginner",
+    "lessonTitle": "Travel and Transportation"
+  },
+  {
+    "questionText": "What's 'nutrition'?",
+    "options": [
+      { "id": 1, "optionText": "Exercise type" },
+      { "id": 2, "optionText": "Unaware state" },
+      { "id": 3, "optionText": "Food health" },
+      { "id": 4, "optionText": "Healthful food" }
+    ],
+    "correctAnswer": 3,
+    "level": "Beginner",
+    "lessonTitle": "Health and Wellness"
+  },
+  {
+    "questionText": "What's 'resume'?",
+    "options": [
+      { "id": 1, "optionText": "Stop action" },
+      { "id": 2, "optionText": "Job record" },
+      { "id": 3, "optionText": "Continue after pause" },
+      { "id": 4, "optionText": "Travel anew" }
+    ],
+    "correctAnswer": 2,
+    "level": "Beginner",
+    "lessonTitle": "Work and Careers"
+  },
+  {
+    "questionText": "What's 'knowledge'?",
+    "options": [
+      { "id": 1, "optionText": "Multilingual ability" },
+      { "id": 2, "optionText": "Unawareness" },
+      { "id": 3, "optionText": "Learned facts" },
+      { "id": 4, "optionText": "Guessing" }
+    ],
+    "correctAnswer": 3,
+    "level": "Beginner",
+    "lessonTitle": "Education and Learning"
+  },
+  {
+    "questionText": "What's 'sustainability'?",
+    "options": [
+      { "id": 1, "optionText": "Building a house" },
+      { "id": 2, "optionText": "Taking vacation" },
+      { "id": 3, "optionText": "Lifting heavy" },
+      { "id": 4, "optionText": "Eco-friendly use" }
+    ],
+    "correctAnswer": 4,
+    "level": "Beginner",
+    "lessonTitle": "Nature and Environment"
+  },
+  {
+    "questionText": "What's 'email'?",
+    "options": [
+      { "id": 1, "optionText": "Physical letter" },
+      { "id": 2, "optionText": "Food type" },
+      { "id": 3, "optionText": "Electronic message" },
+      { "id": 4, "optionText": "Transport mode" }
+    ],
+    "correctAnswer": 3,
+    "level": "Beginner",
+    "lessonTitle": "Technology and Communication"
+  },
+  {
+    "questionText": "What's 'banter'?",
+    "options": [
+      { "id": 1, "optionText": "Formal speech" },
+      { "id": 2, "optionText": "Witty chat" },
+      { "id": 3, "optionText": "Dance type" },
+      { "id": 4, "optionText": "Serious talk" }
+    ],
+    "correctAnswer": 2,
+    "level": "Intermediate",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "questionText": "What's 'privacy'?",
+    "options": [
+      { "id": 1, "optionText": "Fame state" },
+      { "id": 2, "optionText": "Good communication" },
+      { "id": 3, "optionText": "Aloneness" },
+      { "id": 4, "optionText": "Public-free" }
+    ],
+    "correctAnswer": 4,
+    "level": "Intermediate",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "questionText": "What's 'mortgage rate'?",
+    "options": [
+      { "id": 1, "optionText": "House rent cost" },
+      { "id": 2, "optionText": "Home loan interest" },
+      { "id": 3, "optionText": "Property price" },
+      { "id": 4, "optionText": "Home repair cost" }
+    ],
+    "correctAnswer": 2,
+    "level": "Intermediate",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "questionText": "What's 'cuisine'?",
+    "options": [
+      { "id": 1, "optionText": "Music type" },
+      { "id": 2, "optionText": "Clothing style" },
+      { "id": 3, "optionText": "Food prep" },
+      { "id": 4, "optionText": "Transport type" }
+    ],
+    "correctAnswer": 3,
+    "level": "Intermediate",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "questionText": "What's 'itinerary'?",
+    "options": [
+      { "id": 1, "optionText": "City map" },
+      { "id": 2, "optionText": "Expense list" },
+      { "id": 3, "optionText": "Event plan" },
+      { "id": 4, "optionText": "Cuisine type" }
+    ],
+    "correctAnswer": 3,
+    "level": "Intermediate",
+    "lessonTitle": "Travel and Transportation"
+  },
+  {
+    "questionText": "What's 'calorie'?",
+    "options": [
+      { "id": 1, "optionText": "Distance unit" },
+      { "id": 2, "optionText": "Exercise type" },
+      { "id": 3, "optionText": "Food energy" },
+      { "id": 4, "optionText": "Dessert type" }
+    ],
+    "correctAnswer": 3,
+    "level": "Intermediate",
+    "lessonTitle": "Health and Wellness"
+  },
+  {
+    "questionText": "What's 'networking'?",
+    "options": [
+      { "id": 1, "optionText": "Computer program" },
+      { "id": 2, "optionText": "Connecting practice" },
+      { "id": 3, "optionText": "Social event" },
+      { "id": 4, "optionText": "Art type" }
+    ],
+    "correctAnswer": 3,
+    "level": "Intermediate",
+    "lessonTitle": "Work and Careers"
+  },
+  {
+    "questionText": "What's 'critical thinking'?",
+    "options": [
+      { "id": 1, "optionText": "Backflip ability" },
+      { "id": 2, "optionText": "Logical thinking" },
+      { "id": 3, "optionText": "Instruction following" },
+      { "id": 4, "optionText": "Music play skill" }
+    ],
+    "correctAnswer": 2,
+    "level": "Intermediate",
+    "lessonTitle": "Education and Learning"
+  },
+  {
+    "questionText": "What's 'renewable energy'?",
+    "options": [
+      { "id": 1, "optionText": "Single-use energy" },
+      { "id": 2, "optionText": "Harmful sources" },
+      { "id": 3, "optionText": "Natural replenishing energy" },
+      { "id": 4, "optionText": "Fossil fuel energy" }
+    ],
+    "correctAnswer": 3,
+    "level": "Intermediate",
+    "lessonTitle": "Nature and Environment"
+  },
+  {
+    "questionText": "What's 'cybersecurity'?",
+    "options": [
+      { "id": 1, "optionText": "Dance type" },
+      { "id": 2, "optionText": "Digital defense" },
+      { "id": 3, "optionText": "Exercise form" },
+      { "id": 4, "optionText": "Emoji talk" }
+    ],
+    "correctAnswer": 2,
+    "level": "Intermediate",
+    "lessonTitle": "Technology and Communication"
+  },
+  {
+    "questionText": "What's 'eloquent'?",
+    "options": [
+      { "id": 1, "optionText": "Uninformed" },
+      { "id": 2, "optionText": "Persuasive talk" },
+      { "id": 3, "optionText": "Aggressive speech" },
+      { "id": 4, "optionText": "Quiet stance" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced",
+    "lessonTitle": "Everyday Conversations"
+  },
+  {
+    "questionText": "What's 'identity theft'?",
+    "options": [
+      { "id": 1, "optionText": "Dance type" },
+      { "id": 2, "optionText": "Impersonating for info" },
+      { "id": 3, "optionText": "New identity creation" },
+      { "id": 4, "optionText": "Criminal inquiry" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced",
+    "lessonTitle": "Personal Information"
+  },
+  {
+    "questionText": "What's 'sustainable architecture'?",
+    "options": [
+      { "id": 1, "optionText": "Music type" },
+      { "id": 2, "optionText": "Eco-friendly building" },
+      { "id": 3, "optionText": "Ancient buildings study" },
+      { "id": 4, "optionText": "Skyscraper construction" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced",
+    "lessonTitle": "Home and Living"
+  },
+  {
+    "questionText": "What's 'gastronomy'?",
+    "options": [
+      { "id": 1, "optionText": "Bird species" },
+      { "id": 2, "optionText": "Planet study" },
+      { "id": 3, "optionText": "Fine food practice" },
+      { "id": 4, "optionText": "Sculpting art" }
+    ],
+    "correctAnswer": 3,
+    "level": "Advanced",
+    "lessonTitle": "Food and Dining"
+  },
+  {
+    "questionText": "What's 'ecotourism'?",
+    "options": [
+      { "id": 1, "optionText": "Transport system" },
+      { "id": 2, "optionText": "Nature-friendly travel" },
+      { "id": 3, "optionText": "Cuisine type" },
+      { "id": 4, "optionText": "Ancient ruins study" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced",
+    "lessonTitle": "Travel and Transportation"
+  },
+  {
+    "questionText": "What's 'holistic'?",
+    "options": [
+      { "id": 1, "optionText": "Single-focus" },
+      { "id": 2, "optionText": "Comprehensive approach" },
+      { "id": 3, "optionText": "Opinion-based" },
+      { "id": 4, "optionText": "Lacking detail" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced",
+    "lessonTitle": "Health and Wellness"
+  },
+  {
+    "questionText": "What's 'entrepreneurship'?",
+    "options": [
+      { "id": 1, "optionText": "Dance type" },
+      { "id": 2, "optionText": "Business setup for profit" },
+      { "id": 3, "optionText": "Corporate work" },
+      { "id": 4, "optionText": "Civilization study" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced",
+    "lessonTitle": "Work and Careers"
+  },
+  {
+    "questionText": "What's 'metacognition'?",
+    "options": [
+      { "id": 1, "optionText": "Metal object analysis" },
+      { "id": 2, "optionText": "Self-thinking awareness" },
+      { "id": 3, "optionText": "Meteorite study" },
+      { "id": 4, "optionText": "Quick memory skill" }
+    ],
+    "correctAnswer": 3,
+    "level": "Advanced",
+    "lessonTitle": "Education and Learning"
+  },
+  {
+    "questionText": "What's 'biodiversity'?",
+    "options": [
+      { "id": 1, "optionText": "Biographical record" },
+      { "id": 2, "optionText": "Civilization study" },
+      { "id": 3, "optionText": "Ecosystem variety" },
+      { "id": 4, "optionText": "Instrument type" }
+    ],
+    "correctAnswer": 3,
+    "level": "Advanced",
+    "lessonTitle": "Nature and Environment"
+  },
+  {
+    "questionText": "What's 'cyberbullying'?",
+    "options": [
+      { "id": 1, "optionText": "Dance type" },
+      { "id": 2, "optionText": "Online harassment" },
+      { "id": 3, "optionText": "Exercise form" },
+      { "id": 4, "optionText": "Electronic music" }
+    ],
+    "correctAnswer": 2,
+    "level": "Advanced",
+    "lessonTitle": "Technology and Communication"
+  }
+]

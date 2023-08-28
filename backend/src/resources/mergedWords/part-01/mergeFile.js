@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const inputFolderPath = './';
-const outputFilePath = './merged_output.json';
+const outputFilePath = './part-01.json';
 
 const mergedArray = [];
 
