@@ -78,31 +78,32 @@ Scan the QR code using the Expo Go app to run the app on your mobile device.
 ## 📷 Screenshots
 
 <div style="display: flex; flex-direction: row;">
-  <img src="screenshots/login.jpg" alt="Login" style="width: 50%; margin: 0;">
-  <img src="screenshots/home.jpg" alt="Home" style="width: 50%; margin: 0;">
+  <img src="screenshots/login.jpg" alt="Login" style="width: 40%; margin: 0;">
+  <img src="screenshots/home.jpg" alt="Home" style="width: 40%; margin: 0;">
 </div>
 
 <div style="display: flex; flex-direction: row;">
-  <img src="screenshots/profile.jpg" alt="Profile" style="width: 50%; margin: 0;">
-  <img src="screenshots/vocabulary.jpg" alt="Vocabulary" style="width: 50%; margin: 0;">
+  <img src="screenshots/profile.jpg" alt="Profile" style="width: 40%; margin: 0;">
+  <img src="screenshots/vocabulary.jpg" alt="Vocabulary" style="width: 40%; margin: 0;">
 </div>
 
 <div style="display: flex; flex-direction: row;">
-  <img src="screenshots/quiz.jpg" alt="Quiz" style="width: 50%; margin: 0;">
-  <img src="screenshots/result.jpg" alt="Result" style="width: 50%; margin: 0;">
+  <img src="screenshots/quiz.jpg" alt="Quiz" style="width: 40%; margin: 0;">
+  <img src="screenshots/result.jpg" alt="Result" style="width: 40%; margin: 0;">
 </div>
 
 <div style="display: flex; flex-direction: row;">
-  <img src="screenshots/proficiency-assessment.jpg" alt="Proficiency Assessment" style="width: 50%; margin: 0;">
-  <img src="screenshots/assessment-prompt.jpg" alt="Assessment Prompt" style="width: 50%; margin: 0;">
+  <img src="screenshots/proficiency-assessment.jpg" alt="Proficiency Assessment" style="width: 40%; margin: 0;">
+  <img src="screenshots/assessment-prompt.jpg" alt="Assessment Prompt" style="width: 40%; margin: 0;">
 </div>
 
 <div style="display: flex; flex-direction: row;">
-  <img src="screenshots/lessons.jpg" alt="Lessons" style="width: 50%; margin: 0;">
+  <img src="screenshots/lessons.jpg" alt="Lessons" style="width: 40%; margin: 0;">
 </div>
 
 <img src="screenshots/Admin-panel.png" alt="Admin Panel">
 <img src="screenshots/Manage-questions.png" alt="Manage Questions">
+
 
 
 
