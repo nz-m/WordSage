@@ -5,16 +5,6 @@
 
 WordSage is a personalized English vocabulary learning app built with React Native and NestJS, designed to help users enhance their vocabulary in an engaging and effective way. The application covers over 1500 words, including their meanings, synonyms, antonyms, and example sentences. It also offers interactive quizzes to reinforce learning and track progress over time.
 
-## 📑 Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [Authors](#authors)
-- [Feedback](#feedback)
-- [License](#license)
 
 ## 🚀 Features
 
@@ -87,28 +77,74 @@ Scan the QR code using the Expo Go app to run the app on your mobile device.
 
 ## 📷 Screenshots
 
-<div style="display: flex; flex-direction: row;">
-  <img src="screenshots/login.jpg" alt="Login" style="width: 33%; margin: 0;">
-  <img src="screenshots/home.jpg" alt="Home" style="width: 33%; margin: 0;">
-  <img src="screenshots/profile.jpg" alt="Profile" style="width: 33%; margin: 0;">
+<style>
+  .image-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+</style>
+
+<div class="image-row">
+  <div style="width: 50%;">
+    <img src="screenshots/login.jpg" alt="Login" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Login</p>
+  </div>
+  <div style="width: 50%;">
+    <img src="screenshots/home.jpg" alt="Home" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Home</p>
+  </div>
 </div>
 
-
-<div style="display: flex; flex-direction: row;">
-  <img src="screenshots/vocabulary.jpg" alt="Vocabulary" style="width: 33%; margin: 0;">
-  <img src="screenshots/quiz.jpg" alt="Quiz" style="width: 33%; margin: 0;">
-  <img src="screenshots/result.jpg" alt="Result" style="width: 33%; margin: 0;">
+<div class="image-row">
+  <div style="width: 50%;">
+    <img src="screenshots/profile.jpg" alt="Profile" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Profile</p>
+  </div>
+  <div style="width: 50%;">
+    <img src="screenshots/vocabulary.jpg" alt="Vocabulary" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Vocabulary</p>
+  </div>
 </div>
 
-<div style="display: flex; flex-direction: row;">
-  <img src="screenshots/lessons.jpg" alt="Lessons" style="width: 33%; margin: 0;">
-  <img src="screenshots/proficiency-assessment.jpg" alt="Quiz" style="width: 33%; margin: 0;">
-  <img src="screenshots/assessment-prompt.jpg" alt="Prompt" style="width: 33%; margin: 0;">
+<div class="image-row">
+  <div style="width: 50%;">
+    <img src="screenshots/quiz.jpg" alt="Quiz" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Quiz</p>
+  </div>
+  <div style="width: 50%;">
+    <img src="screenshots/result.jpg" alt="Result" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Result</p>
+  </div>
 </div>
 
-<div style="display: flex; flex-direction: row;">
-  <img src="screenshots/Admin-panel.png" alt="Admin Panel" style="width: 33%; margin: 0;">
-    <img src="screenshots/Manage-questions.png" alt="Manage Questions" style="width: 33%; margin: 0;">
+<div class="image-row">
+  <div style="width: 50%;">
+    <img src="screenshots/proficiency-assessment.jpg" alt="Proficiency Assessment" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Proficiency Assessment</p>
+  </div>
+  <div style="width: 50%;">
+    <img src="screenshots/assessment-prompt.jpg" alt="Assessment Prompt" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Assessment Prompt</p>
+  </div>
+</div>
+
+<div class="image-row">
+  <div style="width: 50%;">
+    <img src="screenshots/lessons.jpg" alt="Lessons" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Lessons</p>
+  </div>
+</div>
+
+<div class="image-row">
+  <div style="width: 50%;">
+    <img src="screenshots/Admin-panel.png" alt="Admin Panel" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Admin Panel</p>
+  </div>
+  <div style="width: 50%;">
+    <img src="screenshots/Manage-questions.png" alt="Manage Questions" style="width: 100%; margin: 0;">
+    <p style="text-align: center;">Manage Questions</p>
+  </div>
 </div>
 
 
