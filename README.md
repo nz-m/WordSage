@@ -77,75 +77,34 @@ Scan the QR code using the Expo Go app to run the app on your mobile device.
 
 ## 📷 Screenshots
 
-<style>
-  .image-row {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-  }
-</style>
-
-<div class="image-row">
-  <div style="width: 50%;">
-    <img src="screenshots/login.jpg" alt="Login" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Login</p>
-  </div>
-  <div style="width: 50%;">
-    <img src="screenshots/home.jpg" alt="Home" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Home</p>
-  </div>
+<div style="display: flex; flex-direction: row;">
+  <img src="screenshots/login.jpg" alt="Login" style="width: 50%; margin: 0;">
+  <img src="screenshots/home.jpg" alt="Home" style="width: 50%; margin: 0;">
 </div>
 
-<div class="image-row">
-  <div style="width: 50%;">
-    <img src="screenshots/profile.jpg" alt="Profile" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Profile</p>
-  </div>
-  <div style="width: 50%;">
-    <img src="screenshots/vocabulary.jpg" alt="Vocabulary" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Vocabulary</p>
-  </div>
+<div style="display: flex; flex-direction: row;">
+  <img src="screenshots/profile.jpg" alt="Profile" style="width: 50%; margin: 0;">
+  <img src="screenshots/vocabulary.jpg" alt="Vocabulary" style="width: 50%; margin: 0;">
 </div>
 
-<div class="image-row">
-  <div style="width: 50%;">
-    <img src="screenshots/quiz.jpg" alt="Quiz" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Quiz</p>
-  </div>
-  <div style="width: 50%;">
-    <img src="screenshots/result.jpg" alt="Result" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Result</p>
-  </div>
+<div style="display: flex; flex-direction: row;">
+  <img src="screenshots/quiz.jpg" alt="Quiz" style="width: 50%; margin: 0;">
+  <img src="screenshots/result.jpg" alt="Result" style="width: 50%; margin: 0;">
 </div>
 
-<div class="image-row">
-  <div style="width: 50%;">
-    <img src="screenshots/proficiency-assessment.jpg" alt="Proficiency Assessment" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Proficiency Assessment</p>
-  </div>
-  <div style="width: 50%;">
-    <img src="screenshots/assessment-prompt.jpg" alt="Assessment Prompt" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Assessment Prompt</p>
-  </div>
+<div style="display: flex; flex-direction: row;">
+  <img src="screenshots/proficiency-assessment.jpg" alt="Proficiency Assessment" style="width: 50%; margin: 0;">
+  <img src="screenshots/assessment-prompt.jpg" alt="Assessment Prompt" style="width: 50%; margin: 0;">
 </div>
 
-<div class="image-row">
-  <div style="width: 50%;">
-    <img src="screenshots/lessons.jpg" alt="Lessons" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Lessons</p>
-  </div>
+<div style="display: flex; flex-direction: row;">
+  <img src="screenshots/lessons.jpg" alt="Lessons" style="width: 50%; margin: 0;">
 </div>
 
-<div class="image-row">
-  <div style="width: 50%;">
-    <img src="screenshots/Admin-panel.png" alt="Admin Panel" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Admin Panel</p>
-  </div>
-  <div style="width: 50%;">
-    <img src="screenshots/Manage-questions.png" alt="Manage Questions" style="width: 100%; margin: 0;">
-    <p style="text-align: center;">Manage Questions</p>
-  </div>
-</div>
+<img src="screenshots/Admin-panel.png" alt="Admin Panel">
+<img src="screenshots/Manage-questions.png" alt="Manage Questions">
+
+
 
 
 
