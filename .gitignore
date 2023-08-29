@@ -70,3 +70,5 @@ yarn-error.log*
 
 # misc
 todo.txt
+eas.json
+```

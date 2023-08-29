@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "WordSage",
-    "slug": "frontend",
+    "slug": "wordsage",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/icon2.png",
@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#3988FF"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -19,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.neaz.wordsage"
     },
     "web": {
       "favicon": "./src/assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f6c476f2-d194-4ce6-bc9c-32a61b1562ba"
+      }
+    },
+    "owner": "neaz"
   }
 }
