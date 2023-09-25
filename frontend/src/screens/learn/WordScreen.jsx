@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { View, Text, TouchableOpacity, Modal, StyleSheet } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import * as Speech from "expo-speech";
@@ -22,7 +22,10 @@ const WordScreen = ({
   const { user } = useSelector((state) => state.auth);
 
   // Find the first word that is not learned
-  const firstNotLearnedWordIndex = words.findIndex((word) => !word.isLearned);
+  const firstNotLearnedWordIndex = useMemo(
+    () => words.findIndex((word) => !word.isLearned),
+    [words]
+  );
   const [currentIndex, setCurrentIndex] = useState(
     firstNotLearnedWordIndex === -1 ? 0 : firstNotLearnedWordIndex
   );
@@ -89,7 +92,10 @@ const WordScreen = ({
     }, 500);
   };
 
-  const isDone = wordStatus.find((word) => word._id === wordData._id)?.isDone;
+  const isDone = useMemo(
+    () => wordStatus.find((word) => word._id === wordData._id)?.isDone,
+    [wordStatus, wordData]
+  );
   const [showCongratsModal, setShowCongratsModal] = useState(false);
 
   return (

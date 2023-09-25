@@ -40,8 +40,6 @@ const LessonDetailsScreen = ({
   } = useSelector((state) => state.learn);
   const { user } = useSelector((state) => state.auth);
 
-  const [isContinuePressed, setIsContinuePressed] = useState(false);
-  const [isStartPressed, setIsStartPressed] = useState(false);
   const [isTakeQuizPressed, setIsTakeQuizPressed] = useState(false);
   const [isErrorClearPressed, setIsErrorClearPressed] = useState(false);
 
@@ -55,17 +53,20 @@ const LessonDetailsScreen = ({
     };
   }, [isQuizTaken, navigation]);
 
-  const handleNavigation = () => {
-    if (lesson.status === "in progress" || lesson.status === "completed") {
-      setIsContinuePressed(true);
-    } else if (lesson.status === "not started") {
-      handleStartLesson(lesson._id);
+  const handleNavigation = async () => {
+    if (lesson.status === "not started") {
+      await dispatch(startLesson(lesson._id));
     }
-  };
 
-  const handleStartLesson = async (lessonId) => {
-    await dispatch(startLesson(lessonId));
-    setIsStartPressed(true);
+    if (words && words.length > 0 && words[0].lessonTitle === lesson.title) {
+      navigation.replace("Word", {
+        words,
+        lessonId: lesson._id,
+        lessonNumber: lesson.lessonNumber,
+      });
+    } else {
+      dispatch(getWords(lesson.title));
+    }
   };
 
   const handleQuiz = async () => {
@@ -93,20 +94,6 @@ const LessonDetailsScreen = ({
       setIsErrorClearPressed(false);
     };
   }, [isTakeQuizPressed, isQuizFetching, quizFetchingError, quiz, navigation]);
-
-  useEffect(() => {
-    if (isContinuePressed || isStartPressed) {
-      if (words && words.length > 0 && words[0].lessonTitle === lesson.title) {
-        navigation.replace("Word", {
-          words,
-          lessonId: lesson._id,
-          lessonNumber: lesson.lessonNumber,
-        });
-      } else {
-        dispatch(getWords(lesson.title));
-      }
-    }
-  }, [isContinuePressed, isStartPressed, words]);
 
   const handleClearError = () => {
     dispatch(clearQuizErrors());
