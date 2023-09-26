@@ -5,6 +5,7 @@ import Question from "../../components/Question";
 import FinishMessage from "../shared/FinishMessage";
 import { useSelector, useDispatch } from "react-redux";
 import { assessLevel } from "../../features/level-assessment/levelAssessmentThunks";
+import { useCountdown } from "../../hooks/useCountdown";
 
 const LevelAssessmentScreen = ({ navigation }) => {
   const dispatch = useDispatch();
@@ -15,13 +16,12 @@ const LevelAssessmentScreen = ({ navigation }) => {
   const [isQuizCompleted, setIsQuizCompleted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [remainingTime, setRemainingTime] = useState(600); // 10 minutes
 
-  useEffect(() => {
-    if (isQuizCompleted) {
-      dispatch(assessLevel(userAnswers));
-    }
-  }, [isQuizCompleted]);
+  const handleQuizComplete = () => {
+    setIsQuizCompleted(true);
+    dispatch(assessLevel(userAnswers));
+  };
+
   const handleResult = () => {
     navigation.replace("LevelAssessmentResult");
   };
@@ -39,26 +39,14 @@ const LevelAssessmentScreen = ({ navigation }) => {
     }
 
     if (currentQuestion === questions.length - 1) {
-      setIsQuizCompleted(true);
+      handleQuizComplete();
     } else {
       setCurrentQuestion((prevQuestion) => prevQuestion + 1);
       setSelectedAnswer(null);
     }
   };
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setRemainingTime((prevTime) => prevTime - 1);
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    if (remainingTime === 0) {
-      setIsQuizCompleted(true);
-    }
-  }, [remainingTime]);
+  const remainingTime = useCountdown(600, handleQuizComplete); // 10 miniutes
 
   return (
     <View style={styles.container}>
