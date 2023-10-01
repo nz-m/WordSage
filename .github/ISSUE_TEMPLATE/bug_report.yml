@@ -1,0 +1,73 @@
+name: 🐞Bug Report🐞
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for taking the time to fill out this bug report! Your feedback is valuable in helping us improve the app. Please provide as much detail as possible to help us diagnose and address the issue.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more information?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Please describe what happened and what you expected to happen. If applicable, please upload screenshots.
+      placeholder: Detailed description of the issue and expected behavior.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      multiple: false
+      options:
+        - Expo
+        - React Native
+        - Android
+        - iOS
+        - Other
+      placeholder: Select the environment where the issue occurred
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Reproduction Steps
+      description: Please provide step-by-step instructions to reproduce the bug.
+      placeholder: Detailed steps to reproduce the issue
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Browsers
+      multiple: true
+      options:
+        - Expo Go
+        - Safari (iOS)
+        - Chrome (Android)
+        - Other
+      placeholder: Select relevant browsers
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: If applicable, please copy and paste any relevant log output here.
+      render: shell
+    validations:
+      required: false
