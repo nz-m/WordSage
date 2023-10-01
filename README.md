@@ -2,13 +2,11 @@
   <h1>WordSage 📚📱</h1>
 </div>
 
-
 WordSage is a personalized English vocabulary learning app built with React Native and NestJS, designed to help users enhance their vocabulary in an engaging and effective way. The application covers over 1500 words, including their meanings, synonyms, antonyms, and example sentences. It also offers interactive quizzes to reinforce learning and track progress over time.
-
 
 ## 🚀 Features
 
-- ✨ **Personalized Learning:**  WordSage customizes the learning experience based on each user's skill level and progress, ensuring efficient learning.
+- ✨ **Personalized Learning:** WordSage customizes the learning experience based on each user's skill level and progress, ensuring efficient learning.
 - 📘 **Vast Vocabulary:** Access a comprehensive database of words, including their meanings, synonyms, antonyms, and example sentences with voice pronunciations.
 - 🧠 **Interactive Quizzes:** Engage in quizzes that are interactive, reinforcing your learning and allowing you to track your progress over time.
 - 👤 **User Profiles:** Create user profiles to monitor your learning journey.
@@ -39,6 +37,7 @@ WordSage is a personalized English vocabulary learning app built with React Nati
    ```bash
    git clone https://github.com/nz-m/WordSage.git
 
+   ```
 
 2. **Install dependencies:**
 
@@ -54,26 +53,29 @@ npm install
    In the `frontend` directory, locate the `baseUrl.js` file in the `constants` folder and change the value of the `API_BASE_URL` variable to the URL of the backend server.
 
 5. **Start the backend server:**
+
 ```bash
 npm start
 ```
->Access `http://127.0.0.1:4000/docs` to view the API documentation.
-6. **Start the admin panel**
+
+> Access `http://127.0.0.1:4000/docs` to view the API documentation. 6. **Start the admin panel**
+
 ```bash
 npm start
 ```
+
 7. **Access the admin panel at `http://127.0.0.1:5173/` and add learning contents:**
-> Note: You will find instructions on how to add content in the admin panel itself. The learning 
-> contents are stored in the `backend` directory in the `resources` folder with appropriate file names.
+
+   > Note: You will find instructions on how to add content in the admin panel itself. The learning
+   > contents are stored in the `backend` directory in the `resources` folder with appropriate file names.
 
 8. **Start the app (frontend):**
+
 ```bash
 npm start
 ```
+
 Scan the QR code using the Expo Go app to run the app on your mobile device.
-
-
-
 
 ## 📷 Screenshots
 
@@ -104,19 +106,9 @@ Scan the QR code using the Expo Go app to run the app on your mobile device.
   <img src="screenshots/Admin-panel.png" alt="Admin Panel">
   <img src="screenshots/Manage-questions.png" alt="Manage Questions">
 
-
-
-
-
-
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to submit a Pull Request.
-
-## 🧑‍💻 Authors
-
-- [Neaz Mahmud](https://github.com/nz-m)
-- [Hasibul Hasan Nirob](https://github.com/hasibulhasannirob)
+Contributions are welcome. See [CONTRIBUTING.md](https://github.com/nz-m/WordSage/blob/main/CONTRIBUTING.md) for more details.
 
 
 ## 📬 Feedback
@@ -126,5 +118,3 @@ If you have any feedback, please reach out to me at [neaz6160@gmail.com](mailto:
 ## 📄 License
 
 This project is licensed under the [MIT License.](https://github.com/nz-m/WordSage/blob/main/LICENSE)
-
-
